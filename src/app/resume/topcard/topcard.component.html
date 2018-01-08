@@ -1,13 +1,40 @@
 <div id="header"></div>
 
-<div id="profil">
+<div id="profil" *ngIf="info">
     <div class="photoContainer">
         <div class="photo"></div>
     </div>
 
     <div class="informations">
-        <div class="name">{{ name }}</div>
-        <div class="position">{{ position }} at {{ company }}</div>
-        <div class="location">{{ location }}</div>
+        <h1 class="name">{{ info.name }}</h1>
+        <div class="position">{{ info.job }} at {{ info.company }}</div>
+        <div class="location">{{ info.location }}</div>
     </div>
+</div>
+
+<div id="contact" class="container" >
+    <h1>Me contacter</h1>
+    <ul>
+        <li>
+            <span class="fa fa-map-marker"></span>
+            {{ info.location }}
+        </li>
+        <li>
+            <span class="fa fa-envelope-o"></span>
+            <a href="mailto:#" target="_blank">{{ info.email }}</a>
+        </li>
+        <li>
+            <span class="fa fa-linkedin-square"></span>
+            <a href="https://www.{{ info.linkedin }}" target="_blank">{{ info.linkedin }}</a>
+        </li>
+        <li>
+            <span class="fa fa-github"></span>
+            <a href="https://{{ info.github }}" target="_blank">{{ info.github }}</a>
+        </li>
+    </ul>
+</div>
+
+<div id="about" class="container">
+    <h1>À propos de moi</h1>
+    <p>{{ info.about }}</p>
 </div>

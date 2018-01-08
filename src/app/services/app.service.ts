@@ -1,9 +1,14 @@
 import { Injectable } from '@angular/core';
+import { Http } from '@angular/http';
+import { Resume } from '../model/resume.model';
 
 @Injectable()
 export class AppService {
-  readonly data = './../../assets/fr.data.json';
+  private readonly resume = './../../../assets/data/fr.resume.json';
 
-  constructor() { }
+  constructor(private http: Http) {}
 
+  getResume() {
+    return this.http.get(this.resume);
+  }
 }

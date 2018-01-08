@@ -1,0 +1,171 @@
+{  
+	"info":{  
+	   "name":"Dimitri Buhon",
+	   "job":"Ingénieur Logiciels",
+	   "company": "Neos-SDI",
+	   "location":"Région parisienne, France",
+	   "email":"dimitri-buhon@orange.fr",
+	   "linkedin":"linkedin.com/in/dbuhon",
+	   "github":"github.com/dimitri75",
+	   "about":[  
+		  "Passionné par l'informatique et curieux, je suis généralement interessé par ce qui a trait aux nouvelles technologies. J'aime apprendre, travailler en équipe et fais toujours preuve d'application dans mon travail."
+	   ]
+	},
+	"abilities":[  
+	   {  
+		  "title":"undefined",
+		  "skills":[  
+			 {  
+				"tech":"C#",
+				"detail":"Blabla",
+				"level":85
+			 },
+			 {  
+				"tech":"C/C++",
+				"detail":"(Programmation Sys. Linux, C++11, STL, binding V8)",
+				"level":70
+			 },
+			 {  
+				"tech":"JavaScript/TypeScript",
+				"detail":"(NodeJS, Express, plugin C++)",
+				"level":90
+			 },
+			 {  
+				"tech":"Java SE",
+				"detail":"(Swing, JavaFx, JUnit)",
+				"level":100
+			 },
+			 {  
+				"tech":"Java EE",
+				"detail":"(Tomcat, Glassfish, JPA, JAXB, Hibernate)",
+				"level":75
+			 }
+		  ]
+	   },
+	   {  
+		  "title":"Web (front)",
+		  "skills":[  
+			 {  
+				"tech":"HTML5 & CSS3",
+				"detail":"(Scss, Mustache, EJS)",
+				"level":90
+			 },
+			 {  
+				"tech":"JavaScript/TypeScript",
+				"detail":"(ECMAScript 5 & 6, React, Redux)",
+				"level":80
+			 }
+		  ]
+	   },
+	   {  
+		  "title":"Mobile et embarqué",
+		  "skills":[  
+			 {  
+				"tech":"Java Android",
+				"detail":"(4/5/6/7)",
+				"level":70
+			 },
+			 {  
+				"tech":"Notions en Objective-C"
+			 }
+		  ]
+	   }
+	],
+	"career":[  
+	   {  
+		  "company":"Neos",
+		  "status":"Ingénieur d'études",
+		  "date":"2016 - Aujourd'hui",
+		  "logo":"logo-neos.png",
+		  "quote":"Neos est une entreprise française spé",
+		  "description":[  
+			 "blabla"
+		  ]
+	   },
+	   {  
+		  "company":"VINCI Construction France",
+		  "status":"Ingénieur en recherche et développement logiciels",
+		  "date":"2017 - 1 an",
+		  "logo":"logo-vcf.png",
+		  "quote":"vcffhazffaz hoiazf ",
+		  "description":[  
+			  "blabla"
+		  ]
+	   }
+	],
+	"projects":[  
+	   {  
+		  "title":"romeo et juliette",
+		  "detail":"projet ia",
+		  "tags":[  
+			 "java"
+		  ],
+		  "quote":"Bla bla bla",
+		  "description":[  
+			 "azeazeazeazeaze"
+		  ],
+		  "links":[  
+			 {  
+				"type":"github",
+				"href":"https://github.com/dimitri75/",
+				"value":"github.com/dimitri75"
+			 }
+		  ]
+	   },
+	   {  
+		  "title":"Tim burton",
+		  "detail":"Hebergement d'images",
+		  "tags":[  
+			 "php",
+			 "html"
+		  ],
+		  "quote":"azazrazraz",
+		  "description":[  
+			 "aozejazeaze",
+			 "azonaz azjeio azjioe jazej"
+		  ],
+		  "links":[  
+			 {  
+				"type":"github",
+				"href":"https://github.com/dimitri75/",
+				"value":"github.com/dimitri75/"
+			 }
+		  ]
+	   }
+	],
+	"education":[  
+	   {  
+		  "school":"ESGI",
+		  "diploma":"Master Architecture logicielle",
+		  "date":"2014 - 2016",
+		  "detail":"Titre niveau I d'expert en ingénierie de l’informatique et des systèmes d’information",
+		  "quote":"La spécialisation en Architecture des logiciels est une formation d'expert sur les méthodes de conception et de réalisation de solutions logicielles répondant aux besoins complexes des entreprises, tous secteurs confondus (finance, industrie, SSII, éditeurs de logiciels…).",
+		  "link":{  
+			 "href":"http://www.esgi.fr/ecole-informatique/programmes/master-informatique-programmation.html",
+			 "value":"Informations sur la formation"
+		  }
+	   },
+	   {  
+		  "school":"ESGI",
+		  "diploma":"Bachelor Architecture logicielle",
+		  "date":"2011 - 2014",
+		  "detail":"Titre niveau II de chef de projet logiciel et réseaux",
+		  "quote":"Le Cycle Bachelor en informatique de l'ESGI spécialisé en Architecture des Logiciels permet aux étudiants d'acquérir des compétences opérationnelles au travers de nombreux projets pédagogiques, tout en acquérant des compétences d'architecture logicielle (langages, modélisation UML, BDD).",
+		  "link":{  
+			 "href":"http://www.esgi.fr/ecole-informatique/programmes/bachelor-informatique-programmation.html",
+			 "value":"Informations sur la formation"
+		  }
+	   }
+	],
+	"languages":[  
+	   {  
+		  "lang":"Anglais",
+		  "level":"professionnel",
+		  "certification":"(TOEIC)"
+	   },
+	   {  
+		  "lang":"Français",
+		  "level":"langue maternelle"
+	   }
+	]
+ }

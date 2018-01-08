@@ -1,4 +1,6 @@
 import { Component, OnInit, trigger, state, style, transition, animate } from '@angular/core';
+import { AppService } from '../services/app.service';
+import { Resume } from '../model/resume.model';
 
 @Component({
   selector: 'app-resume',
@@ -13,10 +15,12 @@ import { Component, OnInit, trigger, state, style, transition, animate } from '@
   ]
 })
 export class ResumeComponent implements OnInit {
+  resume: Resume;
   state: string;
 
-  constructor() { }
+  constructor(private appService: AppService) { }
 
   ngOnInit() {
+    this.appService.getResume().subscribe(response => this.resume = response.json());
   }
 }
