@@ -10,8 +10,9 @@ import { EducationComponent } from './resume/education/education.component';
 import { ProjectsComponent } from './resume/projects/projects.component';
 import { SkillsComponent } from './resume/skills/skills.component';
 import { CareerComponent } from './resume/career/career.component';
+import { LanguagesComponent } from './resume/languages/languages.component';
+import { RatingComponent } from './rating/rating.component';
 import { AppService } from './services/app.service';
-
 
 @NgModule({
   declarations: [
@@ -22,6 +23,8 @@ import { AppService } from './services/app.service';
     ProjectsComponent,
     EducationComponent,
     CareerComponent,
+    LanguagesComponent,
+    RatingComponent,
   ],
   imports: [
     BrowserModule,

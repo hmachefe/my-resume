@@ -1,0 +1,11 @@
+.ability {
+    margin-bottom: 20px;
+
+    app-rating {
+        margin: 5px 0 5px 10px;
+    }
+}
+
+.ability:last-child {
+    margin-bottom: 0;
+}

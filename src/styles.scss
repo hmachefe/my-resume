@@ -11,10 +11,14 @@ html, body {
         color: $red;
         margin: 0;
         padding: 10px 0;
-        font-weight: bold;
+        font-weight: normal;
     }
 
     h1 {
+        font-size: 26px;
+    }
+    
+    h2 {
         font-size: 22px;
     }
 

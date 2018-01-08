@@ -1,3 +1,6 @@
-<p>
-  skills works!
-</p>
+<h1>Compétences</h1>
+
+<div *ngFor="let ability of abilities" class="ability">
+    <h3 *ngIf="ability.title">{{ ability.title }}</h3>
+    <app-rating *ngFor="let skill of ability.skills" [skill]="skill"></app-rating>
+</div>

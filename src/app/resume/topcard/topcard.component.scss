@@ -2,10 +2,10 @@
 
 :host {
     min-height: 200px;
-    background-color: $red !important;
+    background-color: $red;
     color: white;
     
-    h1, a {
+    h1, h2, a {
         color: white;
     }
 }
@@ -20,6 +20,8 @@
 #profil {
     position: relative;
     top: -64px;
+    color: black;
+    // filter: drop-shadow(1px 1px 50px);
 
     .photo {
         height: 128px;
@@ -30,10 +32,15 @@
         background-color: white;
         background-image: url('./../../../assets/images/dimitri.png');
         background-size: cover;
-        filter: drop-shadow(1px 1px 50px);
+        transition-duration: 2s;
+    }
+
+    .photo:hover {
+        transform: scale(1.5) rotate(360deg);
     }
 
     .informations {
+        color: white;
         margin-top: 10px;
         text-align: center;
 
@@ -47,7 +54,7 @@
         }
     
         .location {
-            opacity: 0.7;
+            opacity: 0.8;
         }
     }
 }
@@ -59,7 +66,7 @@
 .container {
     padding: 0 25px 25px 25px;
 
-    h1 {
+    h1, h2 {
         padding: 0 0 10px 0;
     }
 }

@@ -13,30 +13,30 @@
 	},
 	"abilities":[  
 	   {  
-		  "title":"undefined",
+		  "title":"",
 		  "skills":[  
 			 {  
-				"tech":"C#",
+				"techno":"C#",
 				"detail":"Blabla",
 				"level":85
 			 },
 			 {  
-				"tech":"C/C++",
+				"techno":"C/C++",
 				"detail":"(Programmation Sys. Linux, C++11, STL, binding V8)",
 				"level":70
 			 },
 			 {  
-				"tech":"JavaScript/TypeScript",
+				"techno":"JavaScript/TypeScript",
 				"detail":"(NodeJS, Express, plugin C++)",
 				"level":90
 			 },
 			 {  
-				"tech":"Java SE",
+				"techno":"Java SE",
 				"detail":"(Swing, JavaFx, JUnit)",
 				"level":100
 			 },
 			 {  
-				"tech":"Java EE",
+				"techno":"Java EE",
 				"detail":"(Tomcat, Glassfish, JPA, JAXB, Hibernate)",
 				"level":75
 			 }
@@ -46,12 +46,12 @@
 		  "title":"Web (front)",
 		  "skills":[  
 			 {  
-				"tech":"HTML5 & CSS3",
+				"techno":"HTML5 & CSS3",
 				"detail":"(Scss, Mustache, EJS)",
 				"level":90
 			 },
 			 {  
-				"tech":"JavaScript/TypeScript",
+				"techno":"JavaScript/TypeScript",
 				"detail":"(ECMAScript 5 & 6, React, Redux)",
 				"level":80
 			 }
@@ -61,12 +61,12 @@
 		  "title":"Mobile et embarqué",
 		  "skills":[  
 			 {  
-				"tech":"Java Android",
+				"techno":"Java Android",
 				"detail":"(4/5/6/7)",
 				"level":70
 			 },
 			 {  
-				"tech":"Notions en Objective-C"
+				"techno":"Notions en Objective-C"
 			 }
 		  ]
 	   }

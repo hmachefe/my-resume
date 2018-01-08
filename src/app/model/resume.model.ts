@@ -10,7 +10,7 @@ export interface Info {
 }
 
 export interface Skill {
-    tech: string;
+    techno: string;
     detail: string;
     level: number;
 }

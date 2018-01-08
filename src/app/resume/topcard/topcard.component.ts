@@ -7,6 +7,7 @@ import { AppService } from '../../services/app.service';
   templateUrl: './topcard.component.html',
   styleUrls: ['./topcard.component.scss']
 })
+
 export class TopcardComponent {
   @Input() info: Info;
 }

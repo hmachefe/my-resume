@@ -6,6 +6,7 @@ import { Ability } from '../../model/resume.model';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss']
 })
+
 export class SkillsComponent {
   @Input() abilities: Ability[];
 }
