@@ -15,8 +15,8 @@ import { Resume } from '../model/resume.model';
   ]
 })
 export class ResumeComponent implements OnInit {
-  resume: Resume;
-  state: string;
+  private resume: Resume;
+  private state: string;
 
   constructor(private appService: AppService) { }
 

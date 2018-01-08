@@ -1,9 +1,11 @@
+@import '../../../variables.scss';
+
 :host {
     min-height: 200px;
-    background-color: #ff5555 !important;
+    background-color: $red !important;
     color: white;
     
-    a {
+    h1, a {
         color: white;
     }
 }
