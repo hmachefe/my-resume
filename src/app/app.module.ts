@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
+import { MatButtonModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { ResumeComponent } from './resume/resume.component';
@@ -12,7 +13,10 @@ import { SkillsComponent } from './resume/skills/skills.component';
 import { CareerComponent } from './resume/career/career.component';
 import { LanguagesComponent } from './resume/languages/languages.component';
 import { RatingComponent } from './rating/rating.component';
+
 import { AppService } from './services/app.service';
+import { PresentationComponent } from './presentation/presentation.component';
+import { LabelComponent } from './label/label.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +29,8 @@ import { AppService } from './services/app.service';
     CareerComponent,
     LanguagesComponent,
     RatingComponent,
+    PresentationComponent,
+    LabelComponent,
   ],
   imports: [
     BrowserModule,

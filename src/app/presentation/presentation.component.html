@@ -1,0 +1,15 @@
+<div class="container" [ngClass]="{'noLogo': presentation.logo == null}">
+    <div class="title">
+        <img *ngIf="presentation.logo" class="logo" [src]="'./../../assets/logos/' + presentation.logo" (error)="removeLogo()"/>
+        <app-label [title]="presentation.title" [subtitle]="presentation.subtitle"></app-label>
+    </div>
+    <div class="tags">
+        <div *ngIf="presentation.date" class="date">{{ presentation.date }}</div>
+    </div>
+</div>
+
+<div *ngIf="presentation.detail" class="detail">{{ presentation.detail }}</div>
+
+<div *ngIf="presentation.description" class="description">
+    <p *ngFor="let paragraphe of presentation.description">{{ paragraphe }}</p>
+</div>

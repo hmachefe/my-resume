@@ -22,22 +22,22 @@
 			 },
 			 {  
 				"techno":"C/C++",
-				"detail":"(Programmation Sys. Linux, C++11, STL, binding V8)",
+				"detail":"Programmation Sys. Linux, C++11, STL, binding V8",
 				"level":70
 			 },
 			 {  
 				"techno":"JavaScript/TypeScript",
-				"detail":"(NodeJS, Express, plugin C++)",
+				"detail":"NodeJS, Express, plugin C++",
 				"level":90
 			 },
 			 {  
 				"techno":"Java SE",
-				"detail":"(Swing, JavaFx, JUnit)",
+				"detail":"Swing, JavaFx, JUnit",
 				"level":100
 			 },
 			 {  
 				"techno":"Java EE",
-				"detail":"(Tomcat, Glassfish, JPA, JAXB, Hibernate)",
+				"detail":"Tomcat, Glassfish, JPA, JAXB, Hibernate",
 				"level":75
 			 }
 		  ]
@@ -47,12 +47,12 @@
 		  "skills":[  
 			 {  
 				"techno":"HTML5 & CSS3",
-				"detail":"(Scss, Mustache, EJS)",
+				"detail":"Scss, Mustache, EJS",
 				"level":90
 			 },
 			 {  
 				"techno":"JavaScript/TypeScript",
-				"detail":"(ECMAScript 5 & 6, React, Redux)",
+				"detail":"ECMAScript 5 & 6, React, Redux",
 				"level":80
 			 }
 		  ]
@@ -62,7 +62,7 @@
 		  "skills":[  
 			 {  
 				"techno":"Java Android",
-				"detail":"(4/5/6/7)",
+				"detail":"4/5/6/7",
 				"level":70
 			 },
 			 {  
@@ -71,22 +71,23 @@
 		  ]
 	   }
 	],
-	"career":[  
+	"career": [
 	   {  
-		  "company":"Neos",
+		  "company":"Neos-SDI",
 		  "status":"Ingénieur d'études",
 		  "date":"2016 - Aujourd'hui",
-		  "logo":"logo-neos.png",
-		  "quote":"Neos est une entreprise française spé",
+		  "logo":"neos.png",
+		  "quote":"Créée en 2001, Neos-SDI est un cabinet de conseil et d’ingénierie, spécialisé sur les technologies Microsoft et de son Écosystème.",
 		  "description":[  
-			 "blabla"
+			"Réalisation d’une application C# de gestion dédiée à la finance. \nProgrammation back-end en C# avec Entity Framework, base de données SQL.", 
+			"Client AngularJS / TypeScript. Tests unitaires (Fixture, Mock data, TDD). Travail en mode clean code en suivant les best practices de développement."
 		  ]
 	   },
 	   {  
 		  "company":"VINCI Construction France",
 		  "status":"Ingénieur en recherche et développement logiciels",
 		  "date":"2017 - 1 an",
-		  "logo":"logo-vcf.png",
+		  "logo":"vcf.png",
 		  "quote":"vcffhazffaz hoiazf ",
 		  "description":[  
 			  "blabla"
@@ -161,7 +162,7 @@
 	   {  
 		  "lang":"Anglais",
 		  "level":"professionnel",
-		  "certification":"(TOEIC)"
+		  "certification":"TOEIC"
 	   },
 	   {  
 		  "lang":"Français",

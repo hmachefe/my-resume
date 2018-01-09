@@ -6,19 +6,10 @@
     margin-left: 10px;
 }
 
-.skill {
-    display: inline-block;
-    width: 460px;
-
-    .detail {
-        opacity: 0.6;
-    }
-}
-
 .rating {
     display: flex;
     float: right;
-    width: 180px;
+    min-width: 180px;
 
     .star {
         width: 11px;

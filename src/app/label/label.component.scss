@@ -1,0 +1,13 @@
+.label {
+    display: inline-block;
+    max-width: 450px;
+
+    .title {
+        white-space: nowrap;
+    }
+
+    .subtitle {
+        color: darkgrey;
+        white-space: nowrap;
+    }
+}
