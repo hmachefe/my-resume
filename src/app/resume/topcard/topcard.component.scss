@@ -21,7 +21,6 @@
     position: relative;
     top: -64px;
     color: black;
-    // filter: drop-shadow(1px 1px 50px);
 
     .photo {
         height: 128px;
@@ -36,7 +35,7 @@
     }
 
     .photo:hover {
-        transform: scale(1.5) rotate(360deg);
+        transform: scale(1.5) translateY(-20px);
     }
 
     .informations {
@@ -47,10 +46,6 @@
         .name {
             margin: 0;
             padding: 0;
-        }
-    
-        .position {
-            opacity: 0.9;
         }
     
         .location {

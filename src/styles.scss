@@ -16,7 +16,7 @@ html, body {
     }
 
     h1 {
-        font-size: 26px;
+        font-size: 28px;
     }
     
     h2 {
@@ -43,8 +43,13 @@ html, body {
     }
 
     a {
+        transition-duration: 200ms;
         text-decoration: none;
         color: black;
+    }
+
+    a:hover {
+        opacity: 0.7;
     }
 
     .fa {

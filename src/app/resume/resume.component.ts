@@ -6,14 +6,8 @@ import { Resume } from '../model/resume.model';
   selector: 'app-resume',
   templateUrl: './resume.component.html',
   styleUrls: ['./resume.component.scss'],
-  animations: [
-    trigger('anim', [
-        state('on', style({
-        })),
-        transition('* => *', animate('1s ease-in')),
-    ]),
-  ]
 })
+
 export class ResumeComponent implements OnInit {
   private resume: Resume;
   private state: string;

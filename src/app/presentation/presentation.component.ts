@@ -9,10 +9,6 @@ import { NgZone } from '@angular/core/src/zone/ng_zone';
 
 export class PresentationComponent {
   @Input() presentation: Presentation;
-
-  removeLogo() {
-    this.presentation.logo = null;
-  }
 }
 
 export class Presentation {
