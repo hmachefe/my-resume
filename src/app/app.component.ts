@@ -12,7 +12,7 @@ export class AppComponent {
   @ViewChild('root') root: any;
 
   moveBackground(event: MouseEvent) {
-    this.root.nativeElement.style.backgroundPositionX = (event.x / 10).toString() + 'px';
-    this.root.nativeElement.style.backgroundPositionY = (event.y / 10).toString() + 'px';
+    this.root.nativeElement.style.backgroundPositionX = (event.x / 20).toString() + 'px';
+    this.root.nativeElement.style.backgroundPositionY = (event.y / 20).toString() + 'px';
   }
 }

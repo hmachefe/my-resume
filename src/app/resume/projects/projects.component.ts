@@ -6,6 +6,7 @@ import { Project } from '../../model/resume.model';
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss']
 })
+
 export class ProjectsComponent {
   @Input() projects: Project[];
 }

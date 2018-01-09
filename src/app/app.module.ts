@@ -3,6 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { MatButtonModule } from '@angular/material';
+import { SharedModule } from './shared/shared.module';
 
 import { AppComponent } from './app.component';
 import { ResumeComponent } from './resume/resume.component';
@@ -12,30 +13,19 @@ import { ProjectsComponent } from './resume/projects/projects.component';
 import { SkillsComponent } from './resume/skills/skills.component';
 import { CareerComponent } from './resume/career/career.component';
 import { LanguagesComponent } from './resume/languages/languages.component';
-import { RatingComponent } from './rating/rating.component';
 
 import { AppService } from './services/app.service';
-import { PresentationComponent } from './presentation/presentation.component';
-import { LabelComponent } from './label/label.component';
+import { ResumeModule } from './resume/resume.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ResumeComponent,
-    TopcardComponent,
-    SkillsComponent,
-    ProjectsComponent,
-    EducationComponent,
-    CareerComponent,
-    LanguagesComponent,
-    RatingComponent,
-    PresentationComponent,
-    LabelComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    HttpModule
+    HttpModule,
+    ResumeModule,
   ],
   providers: [AppService],
   bootstrap: [AppComponent]
