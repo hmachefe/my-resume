@@ -51,12 +51,14 @@ export interface Education {
     detail: string;
     quote: string;
     link: Link;
+    logo: string;
 }
 
 export interface Language {
     lang: string;
     level: string;
     certification: string;
+    flag: string;
 }
 
 export interface Resume {

@@ -5,6 +5,7 @@
     </div>
     <div class="tags">
         <div *ngIf="presentation.date" class="tag date">{{ presentation.date }}</div>
+        <div *ngFor="let tag of presentation.tags" class="tag">{{ tag }}</div>
     </div>
 </div>
 

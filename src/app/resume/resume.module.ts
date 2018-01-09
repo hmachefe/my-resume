@@ -8,6 +8,7 @@ import { EducationComponent } from './education/education.component';
 import { LanguagesComponent } from './languages/languages.component';
 import { ResumeComponent } from './resume.component';
 import { SharedModule } from '../shared/shared.module';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { SharedModule } from '../shared/shared.module';
     ProjectsComponent,
     EducationComponent,
     LanguagesComponent,
+    HobbiesComponent,
   ],
   exports: [
     ResumeComponent,

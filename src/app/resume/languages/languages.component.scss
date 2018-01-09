@@ -1,0 +1,36 @@
+.flags {
+    display: flex;
+    margin: 10px 0 0 0;
+
+    .flag {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin-right: 100px;
+        
+        img {
+            width: 50px;
+            height: 30px;
+            margin: 5px 0 0 0;
+            transition-duration: 200ms;
+            filter: grayscale(1);
+        }
+
+        img:hover {
+            filter: none;
+        }
+
+        .lang {
+            font-weight: bold;
+            white-space: nowrap;
+            text-align: center;
+            padding-left: 5px;
+        }
+    }
+
+    .level, .certification {
+        color: darkgrey;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+}

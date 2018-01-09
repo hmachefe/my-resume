@@ -144,7 +144,8 @@
 		  "link":{  
 			 "href":"http://www.esgi.fr/ecole-informatique/programmes/master-informatique-programmation.html",
 			 "value":"Informations sur la formation"
-		  }
+		  },
+		  "logo": "esgi.png"
 	   },
 	   {  
 		  "school":"ESGI",
@@ -155,18 +156,21 @@
 		  "link":{  
 			 "href":"http://www.esgi.fr/ecole-informatique/programmes/bachelor-informatique-programmation.html",
 			 "value":"Informations sur la formation"
-		  }
+		  },
+		  "logo": "esgi.png"
 	   }
 	],
-	"languages":[  
-	   {  
-		  "lang":"Anglais",
-		  "level":"professionnel",
-		  "certification":"TOEIC"
-	   },
-	   {  
-		  "lang":"Français",
-		  "level":"langue maternelle"
-	   }
+	"languages":[
+		{  
+			"lang":"Français",
+			"level":"Langue maternelle",
+			"flag": "fr.svg"
+		},
+		{  
+			"lang":"Anglais",
+			"level":"Professionnel",
+			"certification":"TOEIC",
+			"flag": "uk.svg"
+		}
 	]
  }

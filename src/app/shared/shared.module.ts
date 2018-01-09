@@ -11,7 +11,7 @@ import { RatingComponent } from './rating/rating.component';
   declarations: [
     LabelComponent,
     PresentationComponent,
-    RatingComponent
+    RatingComponent,
   ],
   exports: [
     LabelComponent,
