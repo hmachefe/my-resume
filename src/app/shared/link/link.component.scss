@@ -1,0 +1,50 @@
+@import './../../../variables.scss';
+
+a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 6px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    transition-duration: 200ms;
+    color: grey;
+    opacity: 1;
+}
+
+a:hover {
+    border: 1px solid darkgrey;
+}
+
+a.external {
+    .fa {
+        height: 10px;
+    }
+    padding: 2px 2px;
+    color: indianred;
+    border: 1px solid transparent;
+}
+
+a.external:hover {
+    font-weight: bold;
+}
+
+a:before {
+    content: "";
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+a.github:before {
+    background: url("./../../../assets/icons/github.svg") center center / contain no-repeat;
+}
+
+a.npm:before {
+    background: url("./../../../assets/icons/npm.svg") center center / contain no-repeat;
+}
+
+a.external:before {
+    display: none;
+}

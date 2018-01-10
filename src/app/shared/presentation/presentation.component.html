@@ -14,3 +14,7 @@
 <div *ngIf="presentation.description" class="description">
     <p *ngFor="let paragraphe of presentation.description">{{ paragraphe }}</p>
 </div>
+
+<div *ngIf="presentation.links" class="links">
+    <app-link *ngFor="let link of presentation.links" [link]="link"></app-link>
+</div>

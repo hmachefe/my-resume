@@ -143,7 +143,8 @@
 		  "quote":"La spécialisation en Architecture des logiciels est une formation d'expert sur les méthodes de conception et de réalisation de solutions logicielles répondant aux besoins complexes des entreprises, tous secteurs confondus (finance, industrie, SSII, éditeurs de logiciels…).",
 		  "link":{  
 			 "href":"http://www.esgi.fr/ecole-informatique/programmes/master-informatique-programmation.html",
-			 "value":"Informations sur la formation"
+			 "value":"Informations sur la formation",
+			 "type": "external"
 		  },
 		  "logo": "esgi.png"
 	   },
@@ -155,7 +156,8 @@
 		  "quote":"Le Cycle Bachelor en informatique de l'ESGI spécialisé en Architecture des Logiciels permet aux étudiants d'acquérir des compétences opérationnelles au travers de nombreux projets pédagogiques, tout en acquérant des compétences d'architecture logicielle (langages, modélisation UML, BDD).",
 		  "link":{  
 			 "href":"http://www.esgi.fr/ecole-informatique/programmes/bachelor-informatique-programmation.html",
-			 "value":"Informations sur la formation"
+			 "value":"Informations sur la formation",
+			 "type": "external"
 		  },
 		  "logo": "esgi.png"
 	   }

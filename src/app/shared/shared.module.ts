@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LabelComponent } from './label/label.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { RatingComponent } from './rating/rating.component';
+import { LinkComponent } from './link/link.component';
 
 @NgModule({
   imports: [
@@ -12,6 +13,7 @@ import { RatingComponent } from './rating/rating.component';
     LabelComponent,
     PresentationComponent,
     RatingComponent,
+    LinkComponent,
   ],
   exports: [
     LabelComponent,

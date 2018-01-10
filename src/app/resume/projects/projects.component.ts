@@ -18,6 +18,7 @@ export class ProjectsComponent {
     presentation.detail = project.quote;
     presentation.description = project.description;
     presentation.tags = project.tags;
+    presentation.links = project.links;
     return presentation;
   }
 }

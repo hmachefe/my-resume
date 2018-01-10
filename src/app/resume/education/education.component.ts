@@ -19,6 +19,7 @@ export class EducationComponent {
     presentation.description = [formation.quote];
     presentation.date = formation.date;
     presentation.logo = formation.logo;
+    presentation.links = [formation.link];
     return presentation;
   }
 }
