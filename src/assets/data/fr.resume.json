@@ -17,7 +17,7 @@
 		  "skills":[  
 			 {  
 				"techno":"C#",
-				"detail":"Blabla",
+				"detail":".NET Framework",
 				"level":85
 			 },
 			 {  
@@ -44,15 +44,20 @@
 	   },
 	   {  
 		  "title":"Web (front)",
-		  "skills":[  
+		  "skills":[
+			  {
+				  "techno": "Angular",
+				  "detail": "AngularJS/Angular",
+				  "level": 90
+			  },
 			 {  
 				"techno":"HTML5 & CSS3",
-				"detail":"Scss, Mustache, EJS",
+				"detail":"SASS",
 				"level":90
 			 },
 			 {  
 				"techno":"JavaScript/TypeScript",
-				"detail":"ECMAScript 5 & 6, React, Redux",
+				"detail":"ECMAScript 5 & 6",
 				"level":80
 			 }
 		  ]
@@ -77,21 +82,49 @@
 		  "status":"Ingénieur d'études",
 		  "date":"2016 - Aujourd'hui",
 		  "logo":"neos.png",
-		  "quote":"Créée en 2001, Neos-SDI est un cabinet de conseil et d’ingénierie, spécialisé sur les technologies Microsoft et de son Écosystème.",
-		  "description":[  
-			"Réalisation d’une application C# de gestion dédiée à la finance. \nProgrammation back-end en C# avec Entity Framework, base de données SQL.", 
-			"Client AngularJS / TypeScript. Tests unitaires (Fixture, Mock data, TDD). Travail en mode clean code en suivant les best practices de développement."
-		  ]
+		  "quote": "Créée en 2001, Neos-SDI est un cabinet de conseil et d’ingénierie, spécialisé sur les technologies Microsoft et de son Écosystème. Présent sur Paris, Lyon, Dijon, Toulouse, Seattle (USA), Neos-SDI dispose de plus de 18 certifications ainsi que des mentions Cloud Productivity et Cloud Platform."
 	   },
 	   {  
 		  "company":"VINCI Construction France",
 		  "status":"Ingénieur en recherche et développement logiciels",
-		  "date":"2017 - 1 an",
+		  "date":"2017 - 2018",
 		  "logo":"vcf.png",
-		  "quote":"vcffhazffaz hoiazf ",
-		  "description":[  
-			  "blabla"
+		  "quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, met au service de ses clients publics et privés, son excellence opérationnelle, ses savoir-faire d’entreprise générale et d’ensemblier, les ressources de ses 400 implantations réparties sur tout le territoire et le professionnalisme de ses 20 000 collaborateurs pour concevoir, financer, réaliser et exploiter tout projet de construction.",
+		  "description":[
+			  "Recherche et développement sur les lunettes de réalité mixte Microsoft Hololens. Développement d’une application de rénovation de banches en réalité mixte avec Unity en C#.",
+			  "Réalisation d’une application Angular, electron utilisée sur deux écrans tactiles géants. L’application sert de vitrine aux différents chantiers réalisés par Vinci Construction et est présentée lors des différents évènements et salons.",
+			  "Développement et maintenance d’applications web et mobiles (Angular, Xamarin iOS, C#, ElasticSearch) liées au suivi et au respect des règles de sécurité, à l’environnement et à la qualité sur les chantiers.",
+			  "Développement de l’outil de gestion des objectifs commerciaux et organisationnels de Vinci Construction France (Angular, C#, Dapper).",
+			  "Développement d'un outil de saisie de notes au travers d'un journal sur les chantiers (Angular, C#, CQRS)."
 		  ]
+	   },
+	   {  
+		  "company":"Ardian",
+		  "status":"Ingénieur logiciels",
+		  "date":"2016 - 2017",
+		  "logo":"ardian.png",
+		  "quote":"Ardian est une société d'investissement privé indépendante qui gère et/ou conseille 65 milliards de dollars d'actifs en Europe, en Amérique du Nord et en Asie.",
+		  "description": [
+			"Réalisation d’une application C# de gestion dédiée à la finance. Programmation back-end en C# avec Entity Framework, base de données SQL. Client AngularJS / TypeScript. Tests unitaires (Fixture, Mock data, TDD). Travail en mode clean code en suivant les best practices de développement."
+			]
+	   },
+	   {  
+			"company":"AUSY",
+			"status":"Développeur Java",
+			"date":"2015 - 2016",
+			"logo":"ausy.png",
+			"quote": "AUSY, groupe français fondé en 1989, est l'un des principaux leaders européens du Conseil et de l'ingénierie en Hautes-Technologies. En 2016, AUSY a réalisé un chiffre d'affaires de 460,5M€ et emploie plus de 5300 collaborateurs sur plus de cinquante sites, avec une forte présence en Europe, aux États-Unis et en Asie.",
+			"description": [
+			]
+	   },
+	   {  
+			"company":"Institut du Cerveau et de la Moelle épinière (ICM)",
+			"status":"Consultant SharePoint",
+			"date":"2014 - 2015",
+			"logo":"icm.png",
+			"quote": "L’Institut du Cerveau et de la Moelle épinière (ICM) est un centre de recherche de dimension internationale, sans équivalent dans le monde, innovant dans sa conception comme dans son organisation. En réunissant en un même lieu malades, médecins et chercheurs, l’objectif est de permettre la mise au point rapide de traitements pour les lésions du système nerveux afin de les appliquer aux patients dans les meilleurs délais. Venus de tous les horizons et de tous les pays, les meilleurs scientifiques y développent les recherches les plus à la pointe dans ce domaine.",
+			"description": [
+			]
 	   }
 	],
 	"projects":[  
@@ -134,7 +167,20 @@
 		  ]
 	   }
 	],
-	"education":[  
+	"education":[
+		{
+			"school":"UQAC",
+			"diploma":"Maîtrise en informatique",
+			"date":"2015 - 2016",
+			"detail":"Maître ès sciences",
+			"quote": "Le programme de Maîtrise en informatique vise à développer chez l'étudiant des compétences avancées dans des secteurs de pointe de l'informatique. En plus de permettre l'acquisition de connaissances de haut niveau, le programme de maîtrise cherche à développer chez ce dernier ses capacités d'analyse et de synthèse.",
+			"link":{  
+			   "href":"http://programmes.uqac.ca/3037",
+			   "value":"Informations sur la formation",
+			   "type": "external"
+			},
+			"logo": "uqac.png"
+		},
 	   {  
 		  "school":"ESGI",
 		  "diploma":"Master Architecture logicielle",
