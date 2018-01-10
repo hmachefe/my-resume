@@ -1,3 +1,20 @@
+$desktop-width: 1120px;
+$desktop-height: 800px;
+$desktop-media: "(min-width: #{$desktop-width}) and (min-height: #{$desktop-height})";
+$mobile-media: "(max-width: #{$desktop-width}) and (min-width: #{$desktop-height})";
+
+@mixin desktop {
+  @media #{$desktop-media} {
+    @content;
+  }
+}
+
+@mixin mobile {
+    @media #{$mobile-media} {
+        @content;
+    }
+}
+
 $red: #ff5555;
 $dark: #2C2B2F;
 $light: #e8e8e8;

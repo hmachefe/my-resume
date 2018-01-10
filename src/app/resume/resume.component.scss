@@ -8,7 +8,6 @@
 .top {
     background-color: $red;
     margin: 20px 0;
-    transition-duration: 200ms;
 }
 
 .page {
@@ -20,4 +19,17 @@
 
 .top:hover, .page:hover {
     box-shadow: 0 0 10px black;
+}
+
+@include desktop {
+    :host {
+        position: relative;
+        left: 180px;
+    }
+
+    app-topcard {
+        width: 350px;
+        position: fixed;
+        margin-left: -360px !important;
+    }
 }
