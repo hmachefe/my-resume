@@ -6,10 +6,17 @@
     margin-left: 10px;
 }
 
+:host:hover {
+    .rating .star {
+        box-shadow: 0 0 1px black;
+    }
+}
+
 .rating {
     display: flex;
     float: right;
     min-width: 180px;
+    transition-duration: 200ms;
 
     .star {
         width: 11px;
