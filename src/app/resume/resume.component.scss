@@ -5,9 +5,10 @@
     flex-direction: column;
 }
 
-.top {
+app-topcard {
     background-color: $red;
     margin: 20px 0;
+    transition-duration: 200ms;
 }
 
 .page {
@@ -17,7 +18,7 @@
     transition-duration: 200ms;
 }
 
-.top:hover, .page:hover {
+app-topcard:hover, .page:hover {
     box-shadow: 0 0 10px black;
 }
 
