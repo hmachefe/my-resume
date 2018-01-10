@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, state } from '@angular/core';
 import { AppService } from './services/app.service';
 import { ViewChild } from '@angular/core';
+import { ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,10 +10,21 @@ import { ViewChild } from '@angular/core';
 })
 
 export class AppComponent {
-  @ViewChild('root') root: any;
+  @ViewChild('root') root: ElementRef;
+  @ViewChild('container') container: ElementRef;
 
   moveBackground(event: MouseEvent) {
-    this.root.nativeElement.style.backgroundPositionX = (event.x / 20).toString() + 'px';
-    this.root.nativeElement.style.backgroundPositionY = (event.y / 20).toString() + 'px';
+    this.moveRootBackground(event);
+    this.moveContainerBackground(event);
+  }
+
+  moveRootBackground(event: MouseEvent) {
+    this.root.nativeElement.style.backgroundPositionX = - (event.x / 20).toString() + 'px';
+    this.root.nativeElement.style.backgroundPositionY = - (event.y / 20).toString() + 'px';
+  }
+
+  moveContainerBackground(event: MouseEvent) {
+    this.container.nativeElement.style.backgroundPositionX = - (event.x / 40).toString() + 'px';
+    this.container.nativeElement.style.backgroundPositionY = - (event.y / 40).toString() + 'px';
   }
 }
