@@ -1,7 +1,7 @@
-$desktop-width: 1120px;
-$desktop-height: 800px;
+$desktop-width: 800px;
+$desktop-height: 600px;
 $desktop-media: "(min-width: #{$desktop-width}) and (min-height: #{$desktop-height})";
-$mobile-media: "(max-width: #{$desktop-width}) and (min-width: #{$desktop-height})";
+$mobile-media: "(max-width: #{$desktop-width}) and (max-height: #{$desktop-height})";
 
 @mixin desktop {
   @media #{$desktop-media} {
