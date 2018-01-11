@@ -7,7 +7,7 @@ import { Skill } from '../../model/resume.model';
   styleUrls: ['./rating.component.scss']
 })
 export class RatingComponent {
-  private readonly max = 10;
+  private readonly max = 5;
   private stars: boolean[];
 
   private _skill: Skill;

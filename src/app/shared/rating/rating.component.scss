@@ -12,11 +12,16 @@
     }
 }
 
+app-label {
+    max-width: 500px;
+}
+
 .rating {
     display: flex;
     float: right;
-    min-width: 180px;
+    min-width: 90px;
     transition-duration: 200ms;
+    justify-content: flex-end;
 
     .star {
         width: 11px;
