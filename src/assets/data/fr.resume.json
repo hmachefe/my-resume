@@ -1,260 +1,241 @@
-{  
-	"info":{  
-	   "name":"Dimitri Buhon",
-	   "job":"Ingénieur Logiciels",
-	   "company": "Neos-SDI",
-	   "location":"Région parisienne, France",
-	   "email":"dimitri-buhon@orange.fr",
-	   "linkedin":"linkedin.com/in/dbuhon",
-	   "github":"github.com/dimitri75",
-	   "about":[  
-		  "Passionné par l'informatique et curieux, je suis généralement interessé par ce qui a trait aux nouvelles technologies. J'aime apprendre, travailler en équipe et fais toujours preuve d'application dans mon travail."
-	   ]
+{
+	"info": {
+		"name": "Dimitri Buhon",
+		"job": "Ingénieur Logiciels",
+		"company": "Neos-SDI",
+		"location": "Région parisienne, France",
+		"email": "dimitri-buhon@orange.fr",
+		"linkedin": "linkedin.com/in/dbuhon",
+		"github": "github.com/dbuhon",
+		"about": [
+			"Passionné par l'informatique et curieux, je suis généralement interessé par ce qui a trait aux nouvelles technologies. J'aime apprendre, travailler en équipe et fais toujours preuve d'application dans mon travail."
+		]
 	},
-	"abilities":[  
-	   {  
-		  "title":"",
-		  "skills":[  
-			 {  
-				"techno":"C#",
-				"detail":".NET Framework, Mono",
-				"level":80
-			 },
-			 {  
-				"techno":"Java",
-				"detail":"JavaFx, Swing, Maven",
-				"level":80
-			 },
-			 {  
-				"techno":"C++",
-				"detail":"Algorithmique, QT",
-				"level":60
-			 },
-			 {  
-				"techno":"JavaScript / TypeScript",
-				"detail":"NodeJS, Express",
-				"level":90
-			 },
-			 {  
-				"techno":"Unity",
-				"detail":"Hololens",
-				"level": 50
-			 },
-			 {  
-				"techno":"SQL",
-				"level": 80
-			 }
-		  ]
-	   },
-	   {  
-		  "title":"Web (front)",
-		  "skills":[
-			{
-				  "techno": "AngularJS",
-				  "level": 70
-			  },
-			  {
-				  "techno": "Angular",
-				  "detail": "2/4/5",
-				  "level": 100
-			  },
-			 {  
-				"techno":"HTML5 & CSS3",
-				"detail":"SASS",
-				"level":100
-			 },
-			 {  
-				"techno":"JavaScript / TypeScript",
-				"detail":"ECMAScript 5 & 6",
-				"level":80
-			 }
-		  ]
-	   },
-	   {  
-		  "title":"Mobile et embarqué",
-		  "skills":[  
-			 {  
-				"techno":"Java Android",
-				"detail":"4/5/6/7",
-				"level":70
-			 },
-			 {  
-				"techno": "Xamarin",
-				"detail": "Natif iOS",
-				"level": 60
-			 }
-		  ]
-	   },
-	   {  
-		  "title":"Gestion de versions",
-		  "skills":[  
-			 {  
-				"techno":"Git",
-				"level":100
-			 },
-			 {  
-				"techno": "TFS",
-				"level": 80
-			 },
-			 {  
-				"techno": "SVN",
-				"level": 60
-			 }
-		  ]
-	   }
+	"abilities": [
+		{
+			"title": "",
+			"skills": [
+				{
+					"techno": "C#",
+					"detail": ".NET Framework, Mono",
+					"level": 80
+				},
+				{
+					"techno": "Java",
+					"detail": "JavaFx, Swing, Maven",
+					"level": 80
+				},
+				{
+					"techno": "C++",
+					"detail": "Algorithmique, QT",
+					"level": 60
+				},
+				{
+					"techno": "JavaScript / TypeScript",
+					"detail": "NodeJS, Express",
+					"level": 90
+				},
+				{
+					"techno": "Unity",
+					"detail": "Hololens",
+					"level": 50
+				},
+				{
+					"techno": "SQL",
+					"level": 80
+				}
+			]
+		},
+		{
+			"title": "Web (front)",
+			"skills": [
+				{
+					"techno": "AngularJS",
+					"level": 70
+				},
+				{
+					"techno": "Angular",
+					"detail": "2/4/5",
+					"level": 100
+				},
+				{
+					"techno": "HTML5 & CSS3",
+					"detail": "SASS",
+					"level": 100
+				},
+				{
+					"techno": "JavaScript / TypeScript",
+					"detail": "ECMAScript 5 & 6",
+					"level": 80
+				}
+			]
+		},
+		{
+			"title": "Mobile et embarqué",
+			"skills": [
+				{
+					"techno": "Java Android",
+					"detail": "4/5/6/7",
+					"level": 70
+				},
+				{
+					"techno": "Xamarin",
+					"detail": "Natif iOS",
+					"level": 60
+				}
+			]
+		},
+		{
+			"title": "Gestion de versions",
+			"skills": [
+				{
+					"techno": "Git",
+					"level": 100
+				},
+				{
+					"techno": "TFS",
+					"level": 80
+				},
+				{
+					"techno": "SVN",
+					"level": 60
+				}
+			]
+		}
 	],
 	"career": [
-	   {  
-		  "company":"Neos-SDI",
+		{
+			"company": "Neos-SDI",
 			"location": "Paris, France",
-		  "status":"Ingénieur d'études",
-		  "date":"2016 - Aujourd'hui",
-		  "logo":"neos.png",
-		  "quote": "Créée en 2001, Neos-SDI est un cabinet de conseil et d’ingénierie, spécialisé sur les technologies Microsoft et de son Écosystème. Présent sur Paris, Lyon, Dijon, Toulouse, Seattle (USA), Neos-SDI dispose de plus de 18 certifications ainsi que des mentions Cloud Productivity et Cloud Platform."
-	   },
-	   {  
-		  "company":"VINCI Construction France",
+			"status": "Ingénieur d'études",
+			"date": "2016 - Aujourd'hui",
+			"logo": "neos.png",
+			"quote": "Créée en 2001, Neos-SDI est un cabinet de conseil et d’ingénierie, spécialisé sur les technologies Microsoft et de son Écosystème. Présent sur Paris, Lyon, Dijon, Toulouse, Seattle (USA), Neos-SDI dispose de plus de 18 certifications ainsi que des mentions Cloud Productivity et Cloud Platform."
+		},
+		{
+			"company": "VINCI Construction France",
 			"location": "Paris, France",
-		  "status":"Ingénieur en recherche et développement logiciels",
-		  "date":"2017 - 2018",
-		  "logo":"vcf.png",
-		  "quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, met au service de ses clients publics et privés, son excellence opérationnelle, ses savoir-faire d’entreprise générale et d’ensemblier, les ressources de ses implantations réparties sur tout le territoire et le professionnalisme de ses collaborateurs pour concevoir, financer, réaliser et exploiter tout projet de construction.",
-		  "description":[
-			  "Recherche et développement sur les lunettes de réalité mixte <strong>Microsoft Hololens</strong>.<br/>Développement d’une application de rénovation de banches en réalité mixte avec <strong>Unity</strong> en <strong>C#</strong>.",
-			  "Réalisation d’une application <strong>Angular 4</strong>, <strong>Electron</strong> utilisée sur deux écrans tactiles géants. L’application sert de vitrine aux différents chantiers réalisés par Vinci Construction et est présentée lors des différents évènements et salons.",
-			  "Développement et maintenance d’applications web et mobiles <strong>(Angular, Xamarin iOS, C#, ElasticSearch)</strong> liées au suivi et au respect des règles de sécurité, à l’environnement et à la qualité sur les chantiers.",
-			  "Développement de l’outil de gestion des objectifs commerciaux et organisationnels de Vinci Construction France <strong>(Angular, C#, Dapper)</strong>.",
-			  "Développement d'un outil de saisie de notes au travers d'un journal sur les chantiers <strong>(Angular, C#, CQRS)</strong>."
-		  ]
-	   },
-	   {  
-		  "company":"Ardian",
-			"location": "Paris, France",
-		  "status":"Ingénieur logiciels",
-		  "date":"2016 - 2017",
-		  "logo":"ardian.png",
-		  "quote":"Ardian est une société d'investissement privé indépendante qui gère et/ou conseille 65 milliards de dollars d'actifs en Europe, en Amérique du Nord et en Asie.",
-		  "description": [
-			"Réalisation d’une application de gestion dédiée à la finance.<br/>Programmation back-end en <strong>C#</strong> avec <strong>Entity Framework</strong>, base de données <strong>SQL</strong>.<br/>Client <strong>AngularJS / TypeScript</strong>.<br/>Tests unitaires <strong>(Fixture, Mock data, TDD)</strong>.<br/>Travail en mode clean code en suivant les best practices de développement."
+			"status": "Ingénieur en recherche et développement logiciels",
+			"date": "2017 - 2018",
+			"logo": "vcf.png",
+			"quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, met au service de ses clients publics et privés, son excellence opérationnelle, ses savoir-faire d’entreprise générale et d’ensemblier, les ressources de ses implantations réparties sur tout le territoire et le professionnalisme de ses collaborateurs pour concevoir, financer, réaliser et exploiter tout projet de construction.",
+			"description": [
+				"Recherche et développement sur les lunettes de réalité mixte <strong>Microsoft Hololens</strong>.<br/>Développement d’une application de rénovation de banches en réalité mixte avec <strong>Unity</strong> en <strong>C#</strong>.",
+				"Réalisation d’une application <strong>Angular 4</strong>, <strong>Electron</strong> utilisée sur deux écrans tactiles géants. L’application sert de vitrine aux différents chantiers réalisés par Vinci Construction et est présentée lors des différents évènements et salons.",
+				"Développement et maintenance d’applications web et mobiles <strong>(Angular, Xamarin iOS, C#, ElasticSearch)</strong> liées au suivi et au respect des règles de sécurité, à l’environnement et à la qualité sur les chantiers.",
+				"Développement de l’outil de gestion des objectifs commerciaux et organisationnels de Vinci Construction France <strong>(Angular, C#, Dapper)</strong>.",
+				"Développement d'un outil de saisie de notes au travers d'un journal sur les chantiers <strong>(Angular, C#, CQRS)</strong>."
 			]
-	   },
-	   {  
-			"company":"AUSY",
+		},
+		{
+			"company": "Ardian",
+			"location": "Paris, France",
+			"status": "Ingénieur logiciels",
+			"date": "2016 - 2017",
+			"logo": "ardian.png",
+			"quote": "Ardian est une société d'investissement privé indépendante qui gère et/ou conseille 65 milliards de dollars d'actifs en Europe, en Amérique du Nord et en Asie.",
+			"description": [
+				"Réalisation d’une application de gestion dédiée à la finance.<br/>Programmation back-end en <strong>C#</strong> avec <strong>Entity Framework</strong>, base de données <strong>SQL</strong>.<br/>Client <strong>AngularJS / TypeScript</strong>.<br/>Tests unitaires <strong>(Fixture, Mock data, TDD)</strong>.<br/>Travail en mode clean code en suivant les best practices de développement."
+			]
+		},
+		{
+			"company": "AUSY",
 			"location": "Sèvres, France",
-			"status":"Développeur Java",
-			"date":"2015 - 2016",
-			"logo":"ausy.png",
+			"status": "Développeur Java",
+			"date": "2015 - 2016",
+			"logo": "ausy.png",
 			"quote": "AUSY, groupe français fondé en 1989, est l'un des principaux leaders européens du Conseil et de l'ingénierie en Hautes-Technologies.",
 			"description": [
 				"Évolution et maintenance applicative de projets <strong>Java</strong>.<br/>Réalisation d'un projet <strong>Maven</strong> avec <strong>Sculptor Generator</strong>.<br/>Écriture de tests fonctionnels et unitaires <strong>Selenium, JBeheave, JUnit (TDD, BDD)</strong>.",
 				"Mise en place d'un serveur d'intégration continue sous <strong>Linux Red Hat</strong>.<br/>Configuration et installation des différents outils sur le serveur <strong>(Tomcat, Jenkins, SonarQube, OpenLDAP, Git, MySQL, Nexus, Maven)</strong>.<br/>Configuration de <strong>Jenkins</strong>.<br/>Rédaction de documentation technique.",
 				"Réalisation d'un projet de gestion et complétion de PDF en <strong>Java</strong>, utilisant <strong>iText</strong>."
 			]
-	   },
-	   {  
-			"company":"Institut du Cerveau et de la Moelle épinière",
+		},
+		{
+			"company": "Institut du Cerveau et de la Moelle épinière",
 			"location": "Paris, France",
-			"status":"Consultant SharePoint",
-			"date":"2014 - 2015",
-			"logo":"icm.png",
+			"status": "Consultant SharePoint",
+			"date": "2014 - 2015",
+			"logo": "icm.png",
 			"quote": "L’Institut du Cerveau et de la Moelle épinière (ICM) est un centre de recherche de dimension internationale, sans équivalent dans le monde, innovant dans sa conception comme dans son organisation. En réunissant en un même lieu malades, médecins et chercheurs, l’objectif est de permettre la mise au point rapide de traitements pour les lésions du système nerveux afin de les appliquer aux patients dans les meilleurs délais.",
 			"description": [
 				"Développement de l’Intranet sous <strong>SharePoint 2013</strong>.<br/>Prise en charge du projet et collecte du besoin.<br/>Création de sites et de leurs composants, gestion des droits et fonctionnalités.<br/>Rédaction de documentation technique et formation donnée aux utilisateurs."
 			]
-	   }
+		}
 	],
-	"projects":[  
-	   {  
-		  "title":"Roméo et Juliette",
-		  "detail":"Projet d'intelligence artificielle",
-		  "tags":[  
-			 "Java", "Algorithmique"
-		  ],
-		  "quote": "Mise en scène deux personnages animés (Roméo et Juliette) dans un labyrinthe. Les deux personnages doivent se retrouver dans un environnement qui sera selon le scénario, entièrement, partiellement ou nullement observable.",
-		  "description":[  
-			"Réalisé en <strong>Java</strong>, <strong>JavaFx</strong>, implémentation de plusieurs algorithmes de recherche :<br/> - Parcours en largeur <strong>BFS</strong> (breadth first search), <strong>BFS multi-directionnel</strong><br/> - Parcours en profondeur <strong>DFS</strong> (depth first search),<br/> - Algorithme de <strong>Dijkstra</strong>, <strong>A*</strong"
-		  ],
-		  "links":[  
-			 {  
-				"type":"github",
-				"href":"https://github.com/dimitri75/",
-				"value":"github.com/dimitri75"
-			 }
-		  ]
-	   },
-	   {  
-		  "title":"Tim burton",
-		  "detail":"Hebergement d'images",
-		  "tags":[  
-			 "php",
-			 "html"
-		  ],
-		  "quote":"azazrazraz",
-		  "description":[  
-			 "aozejazeaze",
-			 "azonaz azjeio azjioe jazej"
-		  ],
-		  "links":[  
-			 {  
-				"type":"github",
-				"href":"https://github.com/dimitri75/",
-				"value":"github.com/dimitri75/"
-			 }
-		  ]
-	   }
-	],
-	"education":[
+	"projects": [
 		{
-			"school":"UQAC",
-			"diploma":"Maîtrise en informatique",
-			"date":"2015 - 2016",
-			"detail":"Maître ès sciences",
+			"title": "Roméo et Juliette",
+			"detail": "Projet d'intelligence artificielle",
+			"tags": [
+				"Java",
+				"Algorithmique"
+			],
+			"quote": "Mise en scène deux personnages animés (Roméo et Juliette) dans un labyrinthe. Les deux personnages doivent se retrouver dans un environnement qui sera selon le scénario, entièrement, partiellement ou nullement observable.",
+			"description": [
+				"Réalisé en <strong>Java</strong>, <strong>JavaFx</strong>, implémentation de plusieurs algorithmes de recherche :<br/> - Parcours en largeur <strong>BFS</strong> (breadth first search), <strong>BFS multi-directionnel</strong><br/> - Parcours en profondeur <strong>DFS</strong> (depth first search),<br/> - Algorithme de <strong>Dijkstra</strong>, <strong>A*</strong"
+			],
+			"links": [
+				{
+					"type": "github",
+					"href": "https://github.com/dbuhon/RomeoEtJuliette",
+					"value": "github.com/dbuhon"
+				}
+			]
+		}
+	],
+	"education": [
+		{
+			"school": "UQAC",
+			"diploma": "Maîtrise en informatique",
+			"date": "2015 - 2016",
+			"detail": "Maître ès sciences",
 			"quote": "Le programme de Maîtrise en informatique vise à développer chez l'étudiant des compétences avancées dans des secteurs de pointe de l'informatique. En plus de permettre l'acquisition de connaissances de haut niveau, le programme de maîtrise cherche à développer chez ce dernier ses capacités d'analyse et de synthèse.",
-			"link":{  
-			   "href":"http://programmes.uqac.ca/3037",
-			   "value":"Informations sur la formation",
-			   "type": "external"
+			"link": {
+				"href": "http://programmes.uqac.ca/3037",
+				"value": "Informations sur la formation",
+				"type": "external"
 			},
 			"logo": "uqac.png"
 		},
-	   {  
-		  "school":"ESGI",
-		  "diploma":"Master Architecture logicielle",
-		  "date":"2014 - 2016",
-		  "detail":"Titre niveau I d'expert en ingénierie de l’informatique et des systèmes d’information",
-		  "quote":"La spécialisation en Architecture des logiciels est une formation d'expert sur les méthodes de conception et de réalisation de solutions logicielles répondant aux besoins complexes des entreprises, tous secteurs confondus (finance, industrie, SSII, éditeurs de logiciels…).",
-		  "link":{  
-			 "href":"http://www.esgi.fr/ecole-informatique/programmes/master-informatique-programmation.html",
-			 "value":"Informations sur la formation",
-			 "type": "external"
-		  },
-		  "logo": "esgi.png"
-	   },
-	   {  
-		  "school":"ESGI",
-		  "diploma":"Bachelor Architecture logicielle",
-		  "date":"2011 - 2014",
-		  "detail":"Titre niveau II de chef de projet logiciel et réseaux",
-		  "quote":"Le Cycle Bachelor en informatique de l'ESGI spécialisé en Architecture des Logiciels permet aux étudiants d'acquérir des compétences opérationnelles au travers de nombreux projets pédagogiques, tout en acquérant des compétences d'architecture logicielle (langages, modélisation UML, BDD).",
-		  "link":{  
-			 "href":"http://www.esgi.fr/ecole-informatique/programmes/bachelor-informatique-programmation.html",
-			 "value":"Informations sur la formation",
-			 "type": "external"
-		  },
-		  "logo": "esgi.png"
-	   }
+		{
+			"school": "ESGI",
+			"diploma": "Master Architecture logicielle",
+			"date": "2014 - 2016",
+			"detail": "Titre niveau I d'expert en ingénierie de l’informatique et des systèmes d’information",
+			"quote": "La spécialisation en Architecture des logiciels est une formation d'expert sur les méthodes de conception et de réalisation de solutions logicielles répondant aux besoins complexes des entreprises, tous secteurs confondus (finance, industrie, SSII, éditeurs de logiciels…).",
+			"link": {
+				"href": "http://www.esgi.fr/ecole-informatique/programmes/master-informatique-programmation.html",
+				"value": "Informations sur la formation",
+				"type": "external"
+			},
+			"logo": "esgi.png"
+		},
+		{
+			"school": "ESGI",
+			"diploma": "Bachelor Architecture logicielle",
+			"date": "2011 - 2014",
+			"detail": "Titre niveau II de chef de projet logiciel et réseaux",
+			"quote": "Le Cycle Bachelor en informatique de l'ESGI spécialisé en Architecture des Logiciels permet aux étudiants d'acquérir des compétences opérationnelles au travers de nombreux projets pédagogiques, tout en acquérant des compétences d'architecture logicielle (langages, modélisation UML, BDD).",
+			"link": {
+				"href": "http://www.esgi.fr/ecole-informatique/programmes/bachelor-informatique-programmation.html",
+				"value": "Informations sur la formation",
+				"type": "external"
+			},
+			"logo": "esgi.png"
+		}
 	],
-	"languages":[
-		{  
-			"lang":"Français",
-			"level":"Langue maternelle",
+	"languages": [
+		{
+			"lang": "Français",
+			"level": "Langue maternelle",
 			"flag": "fr.svg"
 		},
-		{  
-			"lang":"Anglais",
-			"level":"Professionnel",
-			"certification":"TOEIC",
+		{
+			"lang": "Anglais",
+			"level": "Professionnel",
+			"certification": "TOEIC",
 			"flag": "uk.svg"
 		}
 	]
- }
+}
