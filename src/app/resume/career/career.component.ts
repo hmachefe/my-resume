@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Career } from '../../model/resume.model';
-import { Presentation } from '../../shared/presentation/presentation.component';
+import { Career } from './../../model/resume.model';
+import { Presentation } from './../../shared/presentation/presentation.component';
 
 @Component({
   selector: 'app-career',

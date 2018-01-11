@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Project } from '../../model/resume.model';
-import { Presentation } from '../../shared/presentation/presentation.component';
+import { Project } from './../../model/resume.model';
+import { Presentation } from './../../shared/presentation/presentation.component';
 
 @Component({
   selector: 'app-projects',

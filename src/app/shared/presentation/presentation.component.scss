@@ -16,10 +16,18 @@
         align-items: center;
             
         .logo {
-            width: 50px;
-            height: 30px;
-            object-fit: contain;
-            object-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 50px;
+            max-height: 30px;
+            
+            img {
+                max-width: 50px;
+                max-height: 30px;
+                object-fit: contain;
+                object-position: center;
+            }
         }
         
         app-label {
@@ -33,9 +41,12 @@
 
     .tags {
         display: inline-flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        min-width: 205px;
 
         .tag {
-            margin-left: 5px;
+            margin: 1px 5px 1px 0;
             padding: 4px;
             border-radius: 3px;
             background-color: $red;
@@ -58,6 +69,10 @@
 .container.noLogo {
     margin-left: 20px;
     height: auto;
+
+    .logo, .logo img {
+        display: none !important;
+    }
 }
 
 .detail {

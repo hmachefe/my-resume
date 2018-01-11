@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Link } from '../../model/resume.model';
+import { Link } from './../../model/resume.model';
 
 @Component({
   selector: 'app-link',

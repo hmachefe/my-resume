@@ -118,7 +118,7 @@
 		  "status":"Ingénieur en recherche et développement logiciels",
 		  "date":"2017 - 2018",
 		  "logo":"vcf.png",
-		  "quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, met au service de ses clients publics et privés, son excellence opérationnelle, ses savoir-faire d’entreprise générale et d’ensemblier, les ressources de ses 400 implantations réparties sur tout le territoire et le professionnalisme de ses 20 000 collaborateurs pour concevoir, financer, réaliser et exploiter tout projet de construction.",
+		  "quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, met au service de ses clients publics et privés, son excellence opérationnelle, ses savoir-faire d’entreprise générale et d’ensemblier, les ressources de ses implantations réparties sur tout le territoire et le professionnalisme de ses collaborateurs pour concevoir, financer, réaliser et exploiter tout projet de construction.",
 		  "description":[
 			  "Recherche et développement sur les lunettes de réalité mixte <strong>Microsoft Hololens</strong>.<br/>Développement d’une application de rénovation de banches en réalité mixte avec <strong>Unity</strong> en <strong>C#</strong>.",
 			  "Réalisation d’une application <strong>Angular 4</strong>, <strong>Electron</strong> utilisée sur deux écrans tactiles géants. L’application sert de vitrine aux différents chantiers réalisés par Vinci Construction et est présentée lors des différents évènements et salons.",
@@ -144,7 +144,7 @@
 			"status":"Développeur Java",
 			"date":"2015 - 2016",
 			"logo":"ausy.png",
-			"quote": "AUSY, groupe français fondé en 1989, est l'un des principaux leaders européens du Conseil et de l'ingénierie en Hautes-Technologies. En 2016, AUSY a réalisé un chiffre d'affaires de 460,5M€ et emploie plus de 5300 collaborateurs sur plus de cinquante sites, avec une forte présence en Europe, aux États-Unis et en Asie.",
+			"quote": "AUSY, groupe français fondé en 1989, est l'un des principaux leaders européens du Conseil et de l'ingénierie en Hautes-Technologies.",
 			"description": [
 				"Évolution et maintenance applicative de projets <strong>Java</strong>.<br/>Réalisation d'un projet <strong>Maven</strong> avec <strong>Sculptor Generator</strong>.<br/>Écriture de tests fonctionnels et unitaires <strong>Selenium, JBeheave, JUnit (TDD, BDD)</strong>.",
 				"Mise en place d'un serveur d'intégration continue sous <strong>Linux Red Hat</strong>.<br/>Configuration et installation des différents outils sur le serveur <strong>(Tomcat, Jenkins, SonarQube, OpenLDAP, Git, MySQL, Nexus, Maven)</strong>.<br/>Configuration de <strong>Jenkins</strong>.<br/>Rédaction de documentation technique.",
@@ -157,7 +157,7 @@
 			"status":"Consultant SharePoint",
 			"date":"2014 - 2015",
 			"logo":"icm.png",
-			"quote": "L’Institut du Cerveau et de la Moelle épinière (ICM) est un centre de recherche de dimension internationale, sans équivalent dans le monde, innovant dans sa conception comme dans son organisation. En réunissant en un même lieu malades, médecins et chercheurs, l’objectif est de permettre la mise au point rapide de traitements pour les lésions du système nerveux afin de les appliquer aux patients dans les meilleurs délais. Venus de tous les horizons et de tous les pays, les meilleurs scientifiques y développent les recherches les plus à la pointe dans ce domaine.",
+			"quote": "L’Institut du Cerveau et de la Moelle épinière (ICM) est un centre de recherche de dimension internationale, sans équivalent dans le monde, innovant dans sa conception comme dans son organisation. En réunissant en un même lieu malades, médecins et chercheurs, l’objectif est de permettre la mise au point rapide de traitements pour les lésions du système nerveux afin de les appliquer aux patients dans les meilleurs délais.",
 			"description": [
 				"Développement de l’Intranet sous <strong>SharePoint 2013</strong>.<br/>Prise en charge du projet et collecte du besoin.<br/>Création de sites et de leurs composants, gestion des droits et fonctionnalités.<br/>Rédaction de documentation technique et formation donnée aux utilisateurs."
 			]

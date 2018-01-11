@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Ability } from '../../model/resume.model';
+import { Ability } from './../../model/resume.model';
 
 @Component({
   selector: 'app-skills',

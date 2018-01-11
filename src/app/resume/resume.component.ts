@@ -1,6 +1,6 @@
 import { Component, OnInit, trigger, state, style, transition, animate } from '@angular/core';
-import { AppService } from '../services/app.service';
-import { Resume } from '../model/resume.model';
+import { AppService } from './../services/app.service';
+import { Resume } from './../model/resume.model';
 
 @Component({
   selector: 'app-resume',
@@ -9,7 +9,7 @@ import { Resume } from '../model/resume.model';
 })
 
 export class ResumeComponent implements OnInit {
-  private resume: Resume;
+  resume: Resume;
   private state: string;
 
   constructor(private appService: AppService) { }

@@ -1,4 +1,4 @@
-@import '../../../variables.scss';
+@import './../../../variables.scss';
 
 :host {
     min-height: 200px;
@@ -12,13 +12,12 @@
     .container {
         background-image: url('./../../../assets/images/particules.png');
     }
-}
 
-#header {
-    height: 128px;
-    background-color: black;
-    background-image: url('./../../../assets/images/header.png');
-    background-size: cover;
+    .header {
+        height: 128px;
+        background-image: url('./../../../assets/images/header.jpg');
+        background-size: cover;
+    }
 }
 
 #profil {

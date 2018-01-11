@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Skill } from '../../model/resume.model';
+import { Skill } from './../../model/resume.model';
 
 @Component({
   selector: 'app-rating',
@@ -8,7 +8,7 @@ import { Skill } from '../../model/resume.model';
 })
 export class RatingComponent {
   private readonly max = 5;
-  private stars: boolean[];
+  stars: boolean[];
 
   private _skill: Skill;
   get skill() { return this._skill; }

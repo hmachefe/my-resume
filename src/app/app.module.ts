@@ -16,6 +16,7 @@ import { LanguagesComponent } from './resume/languages/languages.component';
 
 import { AppService } from './services/app.service';
 import { ResumeModule } from './resume/resume.module';
+import { APP_BASE_HREF, LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,11 @@ import { ResumeModule } from './resume/resume.module';
     HttpModule,
     ResumeModule,
   ],
-  providers: [AppService],
+  providers: [
+    AppService,
+    { provide: APP_BASE_HREF, useValue: '/' },
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

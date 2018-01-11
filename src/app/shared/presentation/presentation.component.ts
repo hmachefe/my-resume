@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { NgZone } from '@angular/core/src/zone/ng_zone';
-import { Link } from '../../model/resume.model';
+import { Link } from './../../model/resume.model';
 
 @Component({
   selector: 'app-presentation',
