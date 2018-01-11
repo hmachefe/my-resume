@@ -22,6 +22,7 @@ export interface Ability {
 
 export interface Career {
     company: string;
+    location: string;
     status: string;
     date: string;
     logo: string;

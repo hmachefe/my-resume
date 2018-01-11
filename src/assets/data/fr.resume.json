@@ -17,46 +17,54 @@
 		  "skills":[  
 			 {  
 				"techno":"C#",
-				"detail":".NET Framework",
-				"level":85
+				"detail":".NET Framework, Mono",
+				"level":80
 			 },
 			 {  
-				"techno":"C/C++",
-				"detail":"Programmation Sys. Linux, C++11, STL, binding V8",
-				"level":70
+				"techno":"Java",
+				"detail":"JavaFx, Swing, Maven",
+				"level":80
 			 },
 			 {  
-				"techno":"JavaScript/TypeScript",
-				"detail":"NodeJS, Express, plugin C++",
+				"techno":"C++",
+				"detail":"Algorithmique, QT",
+				"level":60
+			 },
+			 {  
+				"techno":"JavaScript / TypeScript",
+				"detail":"NodeJS, Express",
 				"level":90
 			 },
 			 {  
-				"techno":"Java SE",
-				"detail":"Swing, JavaFx, JUnit",
-				"level":100
+				"techno":"Unity",
+				"detail":"Hololens",
+				"level": 50
 			 },
 			 {  
-				"techno":"Java EE",
-				"detail":"Tomcat, Glassfish, JPA, JAXB, Hibernate",
-				"level":75
+				"techno":"SQL",
+				"level": 80
 			 }
 		  ]
 	   },
 	   {  
 		  "title":"Web (front)",
 		  "skills":[
+			{
+				  "techno": "AngularJS",
+				  "level": 70
+			  },
 			  {
 				  "techno": "Angular",
-				  "detail": "AngularJS/Angular",
-				  "level": 90
+				  "detail": "2/4/5",
+				  "level": 100
 			  },
 			 {  
 				"techno":"HTML5 & CSS3",
 				"detail":"SASS",
-				"level":90
+				"level":100
 			 },
 			 {  
-				"techno":"JavaScript/TypeScript",
+				"techno":"JavaScript / TypeScript",
 				"detail":"ECMAScript 5 & 6",
 				"level":80
 			 }
@@ -71,7 +79,26 @@
 				"level":70
 			 },
 			 {  
-				"techno":"Notions en Objective-C"
+				"techno": "Xamarin",
+				"detail": "Natif iOS",
+				"level": 60
+			 }
+		  ]
+	   },
+	   {  
+		  "title":"Gestion de versions",
+		  "skills":[  
+			 {  
+				"techno":"Git",
+				"level":100
+			 },
+			 {  
+				"techno": "TFS",
+				"level": 80
+			 },
+			 {  
+				"techno": "SVN",
+				"level": 60
 			 }
 		  ]
 	   }
@@ -79,6 +106,7 @@
 	"career": [
 	   {  
 		  "company":"Neos-SDI",
+			"location": "Paris, France",
 		  "status":"Ingénieur d'études",
 		  "date":"2016 - Aujourd'hui",
 		  "logo":"neos.png",
@@ -86,57 +114,65 @@
 	   },
 	   {  
 		  "company":"VINCI Construction France",
+			"location": "Paris, France",
 		  "status":"Ingénieur en recherche et développement logiciels",
 		  "date":"2017 - 2018",
 		  "logo":"vcf.png",
 		  "quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, met au service de ses clients publics et privés, son excellence opérationnelle, ses savoir-faire d’entreprise générale et d’ensemblier, les ressources de ses 400 implantations réparties sur tout le territoire et le professionnalisme de ses 20 000 collaborateurs pour concevoir, financer, réaliser et exploiter tout projet de construction.",
 		  "description":[
-			  "Recherche et développement sur les lunettes de réalité mixte Microsoft Hololens. Développement d’une application de rénovation de banches en réalité mixte avec Unity en C#.",
-			  "Réalisation d’une application Angular, electron utilisée sur deux écrans tactiles géants. L’application sert de vitrine aux différents chantiers réalisés par Vinci Construction et est présentée lors des différents évènements et salons.",
-			  "Développement et maintenance d’applications web et mobiles (Angular, Xamarin iOS, C#, ElasticSearch) liées au suivi et au respect des règles de sécurité, à l’environnement et à la qualité sur les chantiers.",
-			  "Développement de l’outil de gestion des objectifs commerciaux et organisationnels de Vinci Construction France (Angular, C#, Dapper).",
-			  "Développement d'un outil de saisie de notes au travers d'un journal sur les chantiers (Angular, C#, CQRS)."
+			  "Recherche et développement sur les lunettes de réalité mixte <strong>Microsoft Hololens</strong>.<br/>Développement d’une application de rénovation de banches en réalité mixte avec <strong>Unity</strong> en <strong>C#</strong>.",
+			  "Réalisation d’une application <strong>Angular 4</strong>, <strong>Electron</strong> utilisée sur deux écrans tactiles géants. L’application sert de vitrine aux différents chantiers réalisés par Vinci Construction et est présentée lors des différents évènements et salons.",
+			  "Développement et maintenance d’applications web et mobiles <strong>(Angular, Xamarin iOS, C#, ElasticSearch)</strong> liées au suivi et au respect des règles de sécurité, à l’environnement et à la qualité sur les chantiers.",
+			  "Développement de l’outil de gestion des objectifs commerciaux et organisationnels de Vinci Construction France <strong>(Angular, C#, Dapper)</strong>.",
+			  "Développement d'un outil de saisie de notes au travers d'un journal sur les chantiers <strong>(Angular, C#, CQRS)</strong>."
 		  ]
 	   },
 	   {  
 		  "company":"Ardian",
+			"location": "Paris, France",
 		  "status":"Ingénieur logiciels",
 		  "date":"2016 - 2017",
 		  "logo":"ardian.png",
 		  "quote":"Ardian est une société d'investissement privé indépendante qui gère et/ou conseille 65 milliards de dollars d'actifs en Europe, en Amérique du Nord et en Asie.",
 		  "description": [
-			"Réalisation d’une application C# de gestion dédiée à la finance. Programmation back-end en C# avec Entity Framework, base de données SQL. Client AngularJS / TypeScript. Tests unitaires (Fixture, Mock data, TDD). Travail en mode clean code en suivant les best practices de développement."
+			"Réalisation d’une application de gestion dédiée à la finance.<br/>Programmation back-end en <strong>C#</strong> avec <strong>Entity Framework</strong>, base de données <strong>SQL</strong>.<br/>Client <strong>AngularJS / TypeScript</strong>.<br/>Tests unitaires <strong>(Fixture, Mock data, TDD)</strong>.<br/>Travail en mode clean code en suivant les best practices de développement."
 			]
 	   },
 	   {  
 			"company":"AUSY",
+			"location": "Sèvres, France",
 			"status":"Développeur Java",
 			"date":"2015 - 2016",
 			"logo":"ausy.png",
 			"quote": "AUSY, groupe français fondé en 1989, est l'un des principaux leaders européens du Conseil et de l'ingénierie en Hautes-Technologies. En 2016, AUSY a réalisé un chiffre d'affaires de 460,5M€ et emploie plus de 5300 collaborateurs sur plus de cinquante sites, avec une forte présence en Europe, aux États-Unis et en Asie.",
 			"description": [
+				"Évolution et maintenance applicative de projets <strong>Java</strong>.<br/>Réalisation d'un projet <strong>Maven</strong> avec <strong>Sculptor Generator</strong>.<br/>Écriture de tests fonctionnels et unitaires <strong>Selenium, JBeheave, JUnit (TDD, BDD)</strong>.",
+				"Mise en place d'un serveur d'intégration continue sous <strong>Linux Red Hat</strong>.<br/>Configuration et installation des différents outils sur le serveur <strong>(Tomcat, Jenkins, SonarQube, OpenLDAP, Git, MySQL, Nexus, Maven)</strong>.<br/>Configuration de <strong>Jenkins</strong>.<br/>Rédaction de documentation technique.",
+				"Réalisation d'un projet de gestion et complétion de PDF en <strong>Java</strong>, utilisant <strong>iText</strong>."
 			]
 	   },
 	   {  
-			"company":"Institut du Cerveau et de la Moelle épinière (ICM)",
+			"company":"Institut du Cerveau et de la Moelle épinière",
+			"location": "Paris, France",
 			"status":"Consultant SharePoint",
 			"date":"2014 - 2015",
 			"logo":"icm.png",
 			"quote": "L’Institut du Cerveau et de la Moelle épinière (ICM) est un centre de recherche de dimension internationale, sans équivalent dans le monde, innovant dans sa conception comme dans son organisation. En réunissant en un même lieu malades, médecins et chercheurs, l’objectif est de permettre la mise au point rapide de traitements pour les lésions du système nerveux afin de les appliquer aux patients dans les meilleurs délais. Venus de tous les horizons et de tous les pays, les meilleurs scientifiques y développent les recherches les plus à la pointe dans ce domaine.",
 			"description": [
+				"Développement de l’Intranet sous <strong>SharePoint 2013</strong>.<br/>Prise en charge du projet et collecte du besoin.<br/>Création de sites et de leurs composants, gestion des droits et fonctionnalités.<br/>Rédaction de documentation technique et formation donnée aux utilisateurs."
 			]
 	   }
 	],
 	"projects":[  
 	   {  
-		  "title":"romeo et juliette",
-		  "detail":"projet ia",
+		  "title":"Roméo et Juliette",
+		  "detail":"Projet d'intelligence artificielle",
 		  "tags":[  
-			 "java"
+			 "Java", "Algorithmique"
 		  ],
-		  "quote":"Bla bla bla",
+		  "quote": "Mise en scène deux personnages animés (Roméo et Juliette) dans un labyrinthe. Les deux personnages doivent se retrouver dans un environnement qui sera selon le scénario, entièrement, partiellement ou nullement observable.",
 		  "description":[  
-			 "azeazeazeazeaze"
+			"Réalisé en <strong>Java</strong>, <strong>JavaFx</strong>, implémentation de plusieurs algorithmes de recherche :<br/> - Parcours en largeur <strong>BFS</strong> (breadth first search), <strong>BFS multi-directionnel</strong><br/> - Parcours en profondeur <strong>DFS</strong> (depth first search),<br/> - Algorithme de <strong>Dijkstra</strong>, <strong>A*</strong"
 		  ],
 		  "links":[  
 			 {  

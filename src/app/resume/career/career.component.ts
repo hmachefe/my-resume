@@ -19,6 +19,7 @@ export class CareerComponent {
     presentation.logo = job.logo;
     presentation.date = job.date;
     presentation.description = job.description;
+    presentation.tags = [job.location];
     return presentation;
   }
 }
