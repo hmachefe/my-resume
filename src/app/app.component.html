@@ -4,12 +4,8 @@
     </div> -->
 
     <div #container class="container">
-        <kendo-pdf-export #pdf>
-            <app-pdf-template></app-pdf-template>
-        </kendo-pdf-export>
+        <app-pdf-template></app-pdf-template>
     </div>
 </div>
 
-<button kendo-button (click)="pdf.saveAs('invoice.pdf')">
-    Save As PDF...
-</button>
+

@@ -1,19 +1,17 @@
 @import './../../../../variables.scss';
 
-app-skills /deep/ .ability {
-    margin-bottom: 0 !important;
-}
+app-skills /deep/ {
+    .ability {
+        margin-bottom: 0 !important;
+    }
 
-app-skills /deep/ .ability app-rating {
-    margin: 0 0 0 10px !important;
-}
-
-app-skills /deep/ app-rating /deep/ * {
-    font-size: 8px !important;
-}
-
-app-skills /deep/ app-rating /deep/ .rating .star {
-    width: 5px !important;
-    height: 5px !important;
-    border: 0.5px solid $dark !important;
+    app-rating {
+        margin: 0 0 0 10px !important;
+    
+        /deep/ .rating .star {
+            width: 5px !important;
+            height: 5px !important;
+            border: 0.5px solid $dark !important;
+        }
+    }
 }

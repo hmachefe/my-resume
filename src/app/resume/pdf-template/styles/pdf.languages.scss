@@ -1,0 +1,42 @@
+app-languages { 
+    display: block;
+    width: 160px;
+    overflow: hidden;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    /deep/ {
+        h1 {
+            font-weight: bold !important;
+            color: white;
+            font-size: 9px !important;
+            margin-left: -10px !important;
+        }
+
+        .flags {
+            margin: 0 !important;
+            flex-direction: column;
+
+            .language {
+                margin: 10px 0;
+
+                .flag img {
+                    display: none;
+                }
+
+                .lang {
+                    padding: 0 !important;
+                    color: white !important;
+                    font-weight: normal !important;
+                }
+
+                .level, .level * {
+                    color: $light !important;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}

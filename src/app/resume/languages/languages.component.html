@@ -1,7 +1,7 @@
 <h1>Langues</h1>
 
 <div class="flags">
-    <div *ngFor="let lang of languages">
+    <div *ngFor="let lang of languages" class="language">
         <div class="flag">
             <img [src]="'./assets/flags/' + lang.flag"/>
             <span class="lang">{{ lang.lang }}</span>

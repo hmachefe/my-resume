@@ -10,11 +10,13 @@ import { ResumeComponent } from './resume.component';
 import { SharedModule } from './../shared/shared.module';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { PdfTemplateComponent } from './pdf-template/pdf-template.component';
+import { PDFExportModule } from '@progress/kendo-angular-pdf-export';
 
 @NgModule({
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    PDFExportModule,
   ],
   declarations: [
     ResumeComponent,

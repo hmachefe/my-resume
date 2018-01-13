@@ -27,29 +27,56 @@
 :host {
     display: flex;
     width: 595px;
-    height: 842px;
+    // height: 842px;
     overflow-y: visible;
     background: white;
     font-family: "DejaVu Sans", "Arial", sans-serif;
 }
 
-* /deep/ * {
-    font-size: 10px !important;
+* /deep/ {
+    * {
+        font-size: 8px !important;
+
+        h1, h2, h3,  h4 {
+            font-weight: bold;
+            margin: 0px !important;
+        }
+
+        h1 {
+            font-size: 14px !important;
+            color: $dark;
+        }
+    }
+
+    app-presentation {
+        padding: 15px 0 5px !important;
+
+        /deep/ {
+            app-label .title {
+                font-size: 12px !important;
+            }
+
+            .tags {
+                min-width: 100px !important;
+            }
+
+            .container {
+                height: 15px;
+            }
+        }
+    }
 }
 
-* /deep/ h1,* /deep/ h2,* /deep/ h3,* /deep/ h4 {
-    font-weight: bold;
-    margin: 0px !important;
+.pdfPage {
+    display: flex;
+    margin-left: 200px;
 }
 
-* /deep/ h1 {
-    font-size: 14px !important;
-    color: $dark;
-}
-
-#pages {
+.pdfPageElements {
     width: 100%;
     margin: 0 25px;
+    float: right;
+    max-width: 350px;
 
     * /deep/ h1 {
         margin-left: -10px !important;

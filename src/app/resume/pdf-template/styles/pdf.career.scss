@@ -2,23 +2,3 @@ app-career {
     display: block;
     margin-top: 10px;
 }
-
-app-career /deep/ app-presentation {
-    padding: 15px 0 5px !important;
-}
-
-app-career /deep/ app-presentation /deep/ app-label * {
-    font-size: 12px !important;
-}
-
-app-career /deep/ app-presentation /deep/ .tags {
-    min-width: auto !important;
-}
-
-app-career /deep/ app-presentation /deep/ .container {
-    height: 15px;
-}
-
-app-career /deep/ app-presentation /deep/ .description * {
-    font-size: 8px !important;
-}

@@ -4,30 +4,45 @@ app-topcard {
     height: 838px;
     margin: 2px;
     border-radius: 5px;
-}
+    position: absolute;
+    left: 0;
+    top: 0;
 
-app-topcard /deep/ #profil .photo {
-    background-image: url('./../../../assets/images/me.grey.png') !important;
-}
+    /deep/ {
+        #profil {
+            .photo {
+                background-image: url('./../../../assets/images/me.grey.png') !important;
+            }
+    
+            .photo:hover {
+                transform: none !important;
+            }
+        }
+    
+        .container {
+            position: relative;
+            padding: 20px;
+            top: -20px;
+            height: 100%;
 
-app-topcard /deep/ #profil .photo:hover {
-    transform: none !important;
-}
+            .sections {
+                h2 {
+                    font-size: 9px !important;
+                    margin-left: -10px !important;
+                }
 
-app-topcard /deep/ .container {
-    position: relative;
-    padding: 20px;
-    top: -20px;
-}
+                .section {
+                    padding: 0;
+                }
 
-app-topcard /deep/ .section {
-    padding: 0;
-}
-
-app-topcard /deep/ .header {
-    border-radius: 5px 5px 0 0;
-}
-
-app-topcard /deep/ #about {
-    margin-top: 55px;
+                #about {
+                    margin-top: 55px;
+                }
+            }
+        }
+    
+        .header {
+            border-radius: 5px 5px 0 0;
+        }
+    }
 }
