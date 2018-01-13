@@ -1,6 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Info } from './../../model/resume.model';
-import { AppService } from './../../services/app.service';
 
 @Component({
   selector: 'app-topcard',
@@ -10,4 +9,9 @@ import { AppService } from './../../services/app.service';
 
 export class TopcardComponent {
   @Input() info: Info;
+  @Output() downloadPDF = new EventEmitter<void>();
+
+  download() {
+    this.downloadPDF.emit();
+  }
 }

@@ -9,7 +9,7 @@ import { LanguagesComponent } from './languages/languages.component';
 import { ResumeComponent } from './resume.component';
 import { SharedModule } from './../shared/shared.module';
 import { HobbiesComponent } from './hobbies/hobbies.component';
-import { PdfTemplateComponent } from './pdf-template/pdf-template.component';
+import { PDFTemplateComponent } from './pdf-template/pdf-template.component';
 import { PDFExportModule } from '@progress/kendo-angular-pdf-export';
 
 @NgModule({
@@ -27,11 +27,11 @@ import { PDFExportModule } from '@progress/kendo-angular-pdf-export';
     EducationComponent,
     LanguagesComponent,
     HobbiesComponent,
-    PdfTemplateComponent,
+    PDFTemplateComponent,
   ],
   exports: [
     ResumeComponent,
-    PdfTemplateComponent
+    PDFTemplateComponent
   ]
 })
 

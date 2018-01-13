@@ -11,4 +11,8 @@ export class AppService {
   getResume() {
     return this.http.get(this.resume);
   }
+
+  downloadResumePDF() {
+
+  }
 }

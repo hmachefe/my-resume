@@ -14,5 +14,7 @@ app-resume {
 }
 
 app-pdf-template {
-    margin: auto;
+    position: absolute;
+    left: -1000%;
+    z-index: -1000;
 }

@@ -1,11 +1,9 @@
 <div #root class="root" (mousemove)="moveBackground($event)">
-    <!-- <div #container class="container">
-        <app-resume></app-resume>
-    </div> -->
-
     <div #container class="container">
-        <app-pdf-template></app-pdf-template>
+        <app-resume (downloadPDF)="downloadPDF()"></app-resume>
     </div>
 </div>
+
+<app-pdf-template #pdf></app-pdf-template>
 
 
