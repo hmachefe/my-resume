@@ -6,7 +6,9 @@
         <app-label [title]="presentation.title" [subtitle]="presentation.subtitle"></app-label>
     </div>
     <div class="tags">
-        <div *ngFor="let tag of presentation.tags" class="tag">{{ tag }}</div>
+        <div *ngFor="let tag of presentation.tags">
+            <div *ngIf="tag" class="tag">{{ tag }}</div>
+        </div>
         <div *ngIf="presentation.date" class="tag date">{{ presentation.date }}</div>
     </div>
 </div>

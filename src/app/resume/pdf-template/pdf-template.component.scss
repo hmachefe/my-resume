@@ -1,3 +1,5 @@
+@import './../../../variables.scss';
+
 @font-face {
     font-family: "DejaVu Sans";
     src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans.ttf") format("truetype");
@@ -26,18 +28,32 @@
     display: flex;
     width: 595px;
     height: 842px;
-    overflow: hidden;
+    overflow-y: visible;
     background: white;
     font-family: "DejaVu Sans", "Arial", sans-serif;
 }
 
 * /deep/ * {
-    font-size: 10px;
+    font-size: 10px !important;
 }
 
 * /deep/ h1,* /deep/ h2,* /deep/ h3,* /deep/ h4 {
     font-weight: bold;
     margin: 0px !important;
+}
+
+* /deep/ h1 {
+    font-size: 14px !important;
+    color: $dark;
+}
+
+#pages {
+    width: 100%;
+    margin: 0 25px;
+
+    * /deep/ h1 {
+        margin-left: -10px !important;
+    }
 }
 
 @import './styles/pdf.topcard.scss';

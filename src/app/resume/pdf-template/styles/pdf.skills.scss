@@ -1,10 +1,5 @@
 @import './../../../../variables.scss';
 
-app-skills {
-    width: 100%;
-    margin: 0 25px;
-}
-
 app-skills /deep/ .ability {
     margin-bottom: 0 !important;
 }

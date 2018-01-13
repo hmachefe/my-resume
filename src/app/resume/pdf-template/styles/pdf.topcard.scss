@@ -6,6 +6,14 @@ app-topcard {
     border-radius: 5px;
 }
 
+app-topcard /deep/ #profil .photo {
+    background-image: url('./../../../assets/images/me.grey.png') !important;
+}
+
+app-topcard /deep/ #profil .photo:hover {
+    transform: none !important;
+}
+
 app-topcard /deep/ .container {
     position: relative;
     padding: 20px;
