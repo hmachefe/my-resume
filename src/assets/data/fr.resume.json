@@ -31,11 +31,6 @@
 					"level": 60
 				},
 				{
-					"techno": "JavaScript / TypeScript",
-					"detail": "NodeJS, Express",
-					"level": 90
-				},
-				{
 					"techno": "Unity",
 					"detail": "Hololens",
 					"level": 50
@@ -66,7 +61,7 @@
 				{
 					"techno": "JavaScript / TypeScript",
 					"detail": "ECMAScript 5 & 6",
-					"level": 80
+					"level": 100
 				}
 			]
 		},
