@@ -1,4 +1,12 @@
 app-projects {
     display: block;
     margin-top: 10px;
+
+    /deep/ {
+        app-link /deep/ {
+            a:before {
+                content: none !important;
+            }
+        }
+    }
 }

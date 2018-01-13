@@ -1,5 +1,5 @@
-$desktop-width: 800px;
-$desktop-height: 600px;
+$desktop-width: 1024px;
+$desktop-height: 768px;
 $desktop-media: "(min-width: #{$desktop-width}) and (min-height: #{$desktop-height})";
 $mobile-media: "(max-width: #{$desktop-width}) and (max-height: #{$desktop-height})";
 
