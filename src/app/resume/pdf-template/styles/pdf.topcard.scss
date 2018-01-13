@@ -9,14 +9,19 @@ app-topcard {
     top: 0;
 
     /deep/ {
+        .header {
+            height: 100px !important;
+            border-radius: 5px 5px 0 0;
+        }
+
         #profil {
-            // top: -100px !important;
+            top: -50px !important;
             
             .photo {
                 background-image: url('./../../../assets/images/me.grey.png') !important;
-                // width: 90px !important;
-                // height: 90px !important;
-                // border: 2px solid white !important;
+                width: 100px !important;
+                height: 100px !important;
+                border: 2px solid white !important;
             }
     
             .photo:hover {
@@ -48,10 +53,6 @@ app-topcard {
                     display: none;
                 }
             }
-        }
-    
-        .header {
-            border-radius: 5px 5px 0 0;
         }
     }
 }

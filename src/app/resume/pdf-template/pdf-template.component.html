@@ -5,6 +5,8 @@
             <app-languages *ngIf="resume" [languages]="resume.languages" class="page"></app-languages>
         </ng-template>
         
+        <!-- <ng-container *ngTemplateOutlet="template"></ng-container> -->
+
         <div class="pdfPageElements">
             <app-skills *ngIf="resume" [abilities]="resume.abilities" class="page"></app-skills>
             <app-career *ngIf="resume" [jobs]="resume.career" class="page"></app-career>
