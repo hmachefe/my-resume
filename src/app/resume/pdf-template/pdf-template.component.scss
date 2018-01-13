@@ -57,7 +57,8 @@
             }
 
             .tags {
-                min-width: 100px !important;
+                min-width: auto !important;
+                flex-wrap: unset !important;
             }
 
             .container {

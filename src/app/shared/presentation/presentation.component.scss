@@ -43,13 +43,13 @@
         display: inline-flex;
         justify-content: flex-end;
         flex-wrap: wrap;
-        min-width: 205px;
+        min-width: 225px;
 
         .tag {
             margin: 1px 5px 1px 0;
             padding: 4px;
             border-radius: 3px;
-            background-color: $red;
+            background-color: $main;
             font-size: 16px;
             color: white;
             white-space: nowrap;
