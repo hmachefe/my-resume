@@ -59,6 +59,11 @@
             .tags {
                 min-width: auto !important;
                 flex-wrap: unset !important;
+
+                .tag, .link {
+                    margin: 1px 2px 1px 0 !important;
+                    opacity: 0.9;
+                }
             }
 
             .container {

@@ -18,6 +18,7 @@ export class EducationComponent {
     presentation.detail = formation.detail;
     presentation.description = [formation.quote];
     presentation.date = formation.date;
+    presentation.tags = [formation.location];
     presentation.logo = formation.logo;
     presentation.links = [formation.link];
     return presentation;

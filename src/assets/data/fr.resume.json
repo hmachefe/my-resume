@@ -3,7 +3,7 @@
 		"name": "Dimitri Buhon",
 		"job": "Ingénieur Logiciels",
 		"company": "Neos-SDI",
-		"location": "Région parisienne, France",
+		"location": "Paris, France",
 		"email": "dimitri-buhon@orange.fr",
 		"linkedin": "linkedin.com/in/dbuhon",
 		"github": "github.com/dbuhon",
@@ -228,6 +228,7 @@
 	"education": [
 		{
 			"school": "UQAC",
+			"location": "Canada",
 			"diploma": "Maîtrise en informatique",
 			"date": "2015 - 2016",
 			"detail": "Maître ès sciences",
@@ -241,6 +242,7 @@
 		},
 		{
 			"school": "ESGI",
+			"location": "France",
 			"diploma": "Master Architecture logicielle",
 			"date": "2014 - 2016",
 			"detail": "Titre niveau I d'expert en ingénierie de l’informatique et des systèmes d’information",
@@ -254,6 +256,7 @@
 		},
 		{
 			"school": "ESGI",
+			"location": "France",
 			"diploma": "Bachelor Architecture logicielle",
 			"date": "2011 - 2014",
 			"detail": "Titre niveau II de chef de projet logiciel et réseaux",
