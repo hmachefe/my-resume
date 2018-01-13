@@ -10,7 +10,6 @@ import { Resume } from './../model/resume.model';
 
 export class ResumeComponent implements OnInit {
   resume: Resume;
-  private state: string;
 
   constructor(private appService: AppService) { }
 

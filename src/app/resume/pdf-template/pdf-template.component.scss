@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "DejaVu Sans";
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DejaVu Sans";
+    font-weight: bold;
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DejaVu Sans";
+    font-style: italic;
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DejaVu Sans";
+    font-weight: bold;
+    font-style: italic;
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf") format("truetype");
+}
+
+:host {
+    display: flex;
+    width: 595px;
+    height: 842px;
+    overflow: hidden;
+    background: white;
+    font-family: "DejaVu Sans", "Arial", sans-serif;
+}
+
+* /deep/ * {
+    font-size: 10px;
+}
+
+* /deep/ h1,* /deep/ h2,* /deep/ h3,* /deep/ h4 {
+    font-weight: bold;
+    margin: 0px !important;
+}
+
+@import './styles/pdf.topcard.scss';
+@import './styles/pdf.skills.scss';
+@import './styles/pdf.career.scss';
+@import './styles/pdf.projects.scss';
+@import './styles/pdf.education.scss';
+@import './styles/pdf.hobbies.scss';
+@import './styles/pdf.languages.scss';

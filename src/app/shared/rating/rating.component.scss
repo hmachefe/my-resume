@@ -12,6 +12,12 @@
     }
 }
 
+.ratingContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 app-label {
     max-width: 500px;
 }

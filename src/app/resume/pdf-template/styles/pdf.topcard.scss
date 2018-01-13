@@ -1,0 +1,25 @@
+app-topcard {
+    display: block;
+    width: 200px;
+    height: 838px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+app-topcard /deep/ .container {
+    position: relative;
+    padding: 20px;
+    top: -20px;
+}
+
+app-topcard /deep/ .section {
+    padding: 0;
+}
+
+app-topcard /deep/ .header {
+    border-radius: 5px 5px 0 0;
+}
+
+app-topcard /deep/ #about {
+    margin-top: 55px;
+}

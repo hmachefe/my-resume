@@ -1,5 +1,15 @@
 <div #root class="root" (mousemove)="moveBackground($event)">
-    <div #container class="container">
+    <!-- <div #container class="container">
         <app-resume></app-resume>
+    </div> -->
+
+    <div #container class="container">
+        <kendo-pdf-export #pdf>
+            <app-pdf-template></app-pdf-template>
+        </kendo-pdf-export>
     </div>
 </div>
+
+<button kendo-button (click)="pdf.saveAs('invoice.pdf')">
+    Save As PDF...
+</button>

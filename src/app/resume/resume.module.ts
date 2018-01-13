@@ -9,6 +9,7 @@ import { LanguagesComponent } from './languages/languages.component';
 import { ResumeComponent } from './resume.component';
 import { SharedModule } from './../shared/shared.module';
 import { HobbiesComponent } from './hobbies/hobbies.component';
+import { PdfTemplateComponent } from './pdf-template/pdf-template.component';
 
 @NgModule({
   imports: [
@@ -24,9 +25,11 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
     EducationComponent,
     LanguagesComponent,
     HobbiesComponent,
+    PdfTemplateComponent,
   ],
   exports: [
     ResumeComponent,
+    PdfTemplateComponent
   ]
 })
 
