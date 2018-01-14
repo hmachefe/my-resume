@@ -1,6 +1,7 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, ViewChild } from '@angular/core';
 import { AppService } from './../services/app.service';
 import { Resume } from './../model/resume.model';
+import { PDFTemplateComponent } from './pdf-template/pdf-template.component';
 
 @Component({
   selector: 'app-resume',
@@ -9,7 +10,7 @@ import { Resume } from './../model/resume.model';
 })
 
 export class ResumeComponent implements OnInit {
-  @Output() downloadPDF = new EventEmitter<void>();
+  @ViewChild('pdf') PDFTemplate: PDFTemplateComponent;
   resume: Resume;
 
   constructor(private appService: AppService) { }
@@ -18,7 +19,7 @@ export class ResumeComponent implements OnInit {
     this.appService.getResume().subscribe(response => this.resume = response.json());
   }
 
-  download() {
-    this.downloadPDF.emit();
+  downloadPDF() {
+    this.PDFTemplate.exportPDF();
   }
 }

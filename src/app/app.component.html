@@ -1,9 +1,6 @@
 <div #root class="root" (mousemove)="moveBackground($event)">
     <div #container class="container">
-        <app-resume (downloadPDF)="downloadPDF()"></app-resume>
+        <app-resume></app-resume>
     </div>
+    <div id="copyright">© Copyright - Dimitri Buhon</div>
 </div>
-
-<app-pdf-template #pdf></app-pdf-template>
-
-

@@ -27,7 +27,6 @@
 :host {
     display: flex;
     width: 595px;
-    // height: 842px;
     overflow-y: visible;
     background: white;
     font-family: "DejaVu Sans", "Arial", sans-serif;
@@ -71,6 +70,11 @@
             }
         }
     }
+}
+
+.singlePage {
+    display: block;
+    min-height: 842px !important;
 }
 
 .pdfPage {

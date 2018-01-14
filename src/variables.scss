@@ -15,6 +15,12 @@ $mobile-media: "(max-width: #{$desktop-width}) and (max-height: #{$desktop-heigh
     }
 }
 
+$dark: #2C2B2F;
+$light: #e8e8e8;
+
+$second: #71C6CD;
+$main: #283036;
+
 // $main: #415065;
 // $second: #e8ae30;
 
@@ -23,9 +29,3 @@ $mobile-media: "(max-width: #{$desktop-width}) and (max-height: #{$desktop-heigh
 
 // $main: #ff5555;
 // $second: steelblue;
-
-$second: #71C6CD;
-$main: #283036;
-
-$dark: #2C2B2F;
-$light: #e8e8e8;

@@ -2,7 +2,6 @@ import { Component, state } from '@angular/core';
 import { AppService } from './services/app.service';
 import { ViewChild } from '@angular/core';
 import { ElementRef } from '@angular/core';
-import { PDFTemplateComponent } from './resume/pdf-template/pdf-template.component';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +12,6 @@ import { PDFTemplateComponent } from './resume/pdf-template/pdf-template.compone
 export class AppComponent {
   @ViewChild('root') root: ElementRef;
   @ViewChild('container') container: ElementRef;
-  @ViewChild('pdf') PDFTemplate: PDFTemplateComponent;
 
   moveBackground(event: MouseEvent) {
     this.moveRootBackground(event);
@@ -28,9 +26,5 @@ export class AppComponent {
   moveContainerBackground(event: MouseEvent) {
     this.container.nativeElement.style.backgroundPositionX = - (event.x / 40).toString() + 'px';
     this.container.nativeElement.style.backgroundPositionY = - (event.y / 40).toString() + 'px';
-  }
-
-  downloadPDF() {
-    this.PDFTemplate.exportPDF();
   }
 }
