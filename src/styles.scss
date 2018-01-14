@@ -70,4 +70,24 @@ html, body {
         object-fit: cover;
         object-position: center;
     }
+
+    button {
+        border: none;
+        padding: 5px 25px;
+        border-radius: 3px;
+        color: white;
+        background: $second;
+        box-shadow: 0 0 1px $second;
+        font-size: 14px;
+        cursor: pointer;
+        transition-duration: 200ms;
+    }
+
+    button:hover {
+        box-shadow: 0 0 10px black;
+    }
+
+    button:focus {
+        outline: none;
+    }
 }
