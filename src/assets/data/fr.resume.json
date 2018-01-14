@@ -38,6 +38,10 @@
 				{
 					"techno": "SQL",
 					"level": 80
+				},
+				{
+					"techno": "Écriture de tests",
+					"level": 80
 				}
 			]
 		},
