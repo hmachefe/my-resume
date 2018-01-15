@@ -19,7 +19,11 @@ export class ResumeComponent implements OnInit {
     this.appService.getResume().subscribe(response => this.resume = response.json());
   }
 
-  downloadPDF() {
+  generatePDF() {
     this.PDFTemplate.exportPDF();
+  }
+
+  getLocalPDF() {
+    this.appService.getLocalResumePDF();
   }
 }
