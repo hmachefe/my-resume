@@ -18,7 +18,8 @@ import { LinkComponent } from './link/link.component';
   exports: [
     LabelComponent,
     PresentationComponent,
-    RatingComponent
+    RatingComponent,
+    LinkComponent
   ],
 })
 export class SharedModule { }

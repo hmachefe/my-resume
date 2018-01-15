@@ -1,7 +1,5 @@
-import { Component, state } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 import { AppService } from './services/app.service';
-import { ViewChild } from '@angular/core';
-import { ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-root',

@@ -2,8 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
-import { MatButtonModule } from '@angular/material';
-import { PDFExportModule } from '@progress/kendo-angular-pdf-export';
 import { SharedModule } from './shared/shared.module';
 import { ResumeModule } from './resume/resume.module';
 
@@ -26,7 +24,6 @@ import { AppService } from './services/app.service';
     BrowserModule,
     BrowserAnimationsModule,
     HttpModule,
-    PDFExportModule,
     SharedModule,
     ResumeModule,
   ],

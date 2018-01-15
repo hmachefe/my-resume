@@ -1,14 +1,13 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { AppService } from './../../services/app.service';
 import { Resume } from './../../model/resume.model';
-import { AfterViewInit, AfterContentInit } from '@angular/core/src/metadata/lifecycle_hooks';
 
 @Component({
   selector: 'app-pdf-template',
   templateUrl: './pdf-template.component.html',
   styleUrls: ['./pdf-template.component.scss'],
 })
-export class PDFTemplateComponent implements OnInit, AfterViewInit {
+export class PDFTemplateComponent implements OnInit {
   @ViewChild('pdf') pdfExport;
   resume: Resume;
 
@@ -22,11 +21,8 @@ export class PDFTemplateComponent implements OnInit, AfterViewInit {
     });
   }
 
-  ngAfterViewInit() {
-  }
-
   exportPDF() {
-    this.pdfExport.saveAs('dimitri-buhon-cv.pdf')
+    this.pdfExport.saveAs('dimitri-buhon-cv.pdf');
   }
 
   private reduceResume(resume: Resume) {
