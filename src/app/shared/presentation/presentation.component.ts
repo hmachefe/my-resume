@@ -1,5 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { NgZone } from '@angular/core/src/zone/ng_zone';
+import { Component, Input } from '@angular/core';
 import { Link } from './../../model/resume.model';
 
 @Component({

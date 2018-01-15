@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { AppService } from './../services/app.service';
 import { Resume } from './../model/resume.model';
 import { PDFTemplateComponent } from './pdf-template/pdf-template.component';
