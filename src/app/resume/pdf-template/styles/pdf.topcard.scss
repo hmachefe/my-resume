@@ -10,7 +10,7 @@ app-topcard {
 
     /deep/ {
         .header {
-            height: 100px !important;
+            height: 80px !important;
             border-radius: 5px 5px 0 0;
         }
 
@@ -19,8 +19,8 @@ app-topcard {
             
             .photo {
                 background-image: url('./../../../assets/images/me.grey.png') !important;
-                width: 100px !important;
-                height: 100px !important;
+                width: 80px !important;
+                height: 80px !important;
                 border: 2px solid white !important;
             }
     
@@ -32,7 +32,7 @@ app-topcard {
         .container {
             position: relative;
             padding: 20px;
-            top: -20px;
+            top: -10px;
             height: 100%;
 
             .sections {
