@@ -109,15 +109,15 @@
 			"status": "Ingénieur d'études",
 			"date": "2016 - Aujourd'hui",
 			"logo": "neos.png",
-			"quote": "Créée en 2001, Neos-SDI est un cabinet de conseil et d’ingénierie, spécialisé sur les technologies Microsoft et de son Écosystème. Présent sur Paris, Lyon, Dijon, Toulouse, Seattle (USA), Neos-SDI dispose de plus de 18 certifications ainsi que des mentions Cloud Productivity et Cloud Platform."
+			"quote": "Créée en 2001, Neos-SDI est un cabinet de conseil et d’ingénierie, spécialisé sur les technologies Microsoft et son Écosystème."
 		},
 		{
 			"company": "VINCI Construction France",
 			"location": "Paris, France",
-			"status": "Ingénieur en recherche et développement logiciels",
+			"status": "Ingénieur logiciels",
 			"date": "2017 - 2018",
 			"logo": "vcf.png",
-			"quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, met au service de ses clients publics et privés, son excellence opérationnelle, ses savoir-faire d’entreprise générale et d’ensemblier, les ressources de ses implantations réparties sur tout le territoire et le professionnalisme de ses collaborateurs pour concevoir, financer, réaliser et exploiter tout projet de construction.",
+			"quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, réunit un ensemble unique de compétences dans les domaines du bâtiment, du génie civil, de l'hydraulique et des métiers de spécialités.",
 			"description": [
 				"Recherche et développement sur les lunettes de réalité mixte <strong>Microsoft Hololens</strong>.<br/>Développement d’une application de rénovation de banches en réalité mixte avec <strong>Unity</strong> en <strong>C#</strong>.",
 				"Réalisation d’une application <strong>Angular 4</strong>, <strong>Electron</strong> utilisée sur deux écrans tactiles géants. L’application sert de vitrine aux différents chantiers réalisés par Vinci Construction et est présentée lors des différents évènements et salons.",

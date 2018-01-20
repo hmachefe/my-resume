@@ -1,4 +1,4 @@
-<app-topcard (downloadPDF)="getLocalPDF()" *ngIf="resume" [info]="resume.info"></app-topcard>
+<app-topcard (downloadPDF)="downloadPDF()" *ngIf="resume" [info]="resume.info"></app-topcard>
 <app-skills *ngIf="resume" [abilities]="resume.abilities" class="page"></app-skills>
 <app-career *ngIf="resume" [jobs]="resume.career" class="page"></app-career>
 <app-education *ngIf="resume" [education]="resume.education" class="page"></app-education>
