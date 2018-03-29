@@ -1,19 +1,18 @@
 @import './../variables.scss';
 
-.root {
-    display: block;
-    background: url('./../assets/images/stardust.png');
-}
-
 .container {
     display: block;
-    background: url('./../assets/images/particules.png');
+    background: url('./../assets/images/stardust.png');
+    background-attachment: fixed;
 }
 
 app-resume {
     margin: auto;
     width: 700px;
-    z-index: 1;
+
+    /deep/ * {
+        z-index: 1;
+    }
 }
 
 #copyright {

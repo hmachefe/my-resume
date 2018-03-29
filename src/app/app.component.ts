@@ -8,21 +8,4 @@ import { AppService } from './services/app.service';
 })
 
 export class AppComponent {
-  @ViewChild('root') root: ElementRef;
-  @ViewChild('container') container: ElementRef;
-
-  moveBackground(event: MouseEvent) {
-    this.moveRootBackground(event);
-    this.moveContainerBackground(event);
-  }
-
-  moveRootBackground(event: MouseEvent) {
-    this.root.nativeElement.style.backgroundPositionX = - (event.x / 40).toString() + 'px';
-    this.root.nativeElement.style.backgroundPositionY = - (event.y / 40).toString() + 'px';
-  }
-
-  moveContainerBackground(event: MouseEvent) {
-    this.container.nativeElement.style.backgroundPositionX = - (event.x / 80).toString() + 'px';
-    this.container.nativeElement.style.backgroundPositionY = - (event.y / 80).toString() + 'px';
-  }
 }
