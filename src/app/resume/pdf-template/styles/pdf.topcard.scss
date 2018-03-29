@@ -19,6 +19,9 @@ app-topcard {
             
             .photo {
                 background-image: url('./../../../assets/images/me.grey.png') !important;
+                background-repeat: no-repeat;
+                background-position: 5px 10px !important;
+                background-size: 70px 70px !important;
                 width: 80px !important;
                 height: 80px !important;
                 border: 2px solid white !important;

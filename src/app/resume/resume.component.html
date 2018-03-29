@@ -6,4 +6,4 @@
 <app-languages *ngIf="resume" [languages]="resume.languages" class="page"></app-languages>
 <!-- <app-hobbies *ngIf="resume" class="page"></app-hobbies> -->
 
-<app-pdf-template #pdf></app-pdf-template>
+<app-pdf-template ng-if="!environment.production" #pdf></app-pdf-template>
