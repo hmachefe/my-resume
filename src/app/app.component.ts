@@ -17,12 +17,12 @@ export class AppComponent {
   }
 
   moveRootBackground(event: MouseEvent) {
-    this.root.nativeElement.style.backgroundPositionX = - (event.x / 20).toString() + 'px';
-    this.root.nativeElement.style.backgroundPositionY = - (event.y / 20).toString() + 'px';
+    this.root.nativeElement.style.backgroundPositionX = - (event.x / 40).toString() + 'px';
+    this.root.nativeElement.style.backgroundPositionY = - (event.y / 40).toString() + 'px';
   }
 
   moveContainerBackground(event: MouseEvent) {
-    this.container.nativeElement.style.backgroundPositionX = - (event.x / 40).toString() + 'px';
-    this.container.nativeElement.style.backgroundPositionY = - (event.y / 40).toString() + 'px';
+    this.container.nativeElement.style.backgroundPositionX = - (event.x / 80).toString() + 'px';
+    this.container.nativeElement.style.backgroundPositionY = - (event.y / 80).toString() + 'px';
   }
 }

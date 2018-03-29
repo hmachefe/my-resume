@@ -4,6 +4,7 @@ import { LabelComponent } from './label/label.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { RatingComponent } from './rating/rating.component';
 import { LinkComponent } from './link/link.component';
+import { ParticlesComponent } from './particles/particles.component';
 
 @NgModule({
   imports: [
@@ -14,12 +15,14 @@ import { LinkComponent } from './link/link.component';
     PresentationComponent,
     RatingComponent,
     LinkComponent,
+    ParticlesComponent,
   ],
   exports: [
     LabelComponent,
     PresentationComponent,
     RatingComponent,
-    LinkComponent
+    LinkComponent,
+    ParticlesComponent,
   ],
 })
 export class SharedModule { }
