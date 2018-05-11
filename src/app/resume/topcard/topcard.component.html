@@ -25,6 +25,10 @@
                     <span class="fa fa-envelope-o"></span>
                     <a href="mailto:{{ info.email }}">{{ info.email }}</a>
                 </li>
+                <li *ngIf="info.portfolio">
+                    <span class="fa fa-bookmark"></span>
+                    <a href="https://{{info.portfolio}}" target="_blank">buhon.fr</a>
+                </li>
                 <li>
                     <span class="fa fa-linkedin-square"></span>
                     <a href="https://www.{{ info.linkedin }}" target="_blank">{{ info.linkedin }}</a>

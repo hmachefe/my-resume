@@ -17,7 +17,10 @@ export class ResumeComponent implements OnInit {
   constructor(private appService: AppService) { }
 
   ngOnInit() {
-    this.appService.getResume().subscribe(response => this.resume = response.json());
+    this.appService.getResume().subscribe(response => {
+      this.resume = response.json();
+      this.formatResumeData(this.resume);
+    });
   }
 
   downloadPDF() {
@@ -34,5 +37,13 @@ export class ResumeComponent implements OnInit {
 
   getLocalPDF() {
     this.appService.getLocalResumePDF();
+  }
+
+  private formatResumeData(resume: Resume) {
+    this.removePortfolio(resume);
+  }
+
+  private removePortfolio(resume: Resume) {
+    resume.info.portfolio = null;
   }
 }

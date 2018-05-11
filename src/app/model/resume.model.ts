@@ -7,6 +7,7 @@ export interface Info {
     linkedin: string;
     github: string;
     about: string[];
+    portfolio: string;
 }
 
 export interface Skill {

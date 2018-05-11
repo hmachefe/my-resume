@@ -16,7 +16,7 @@ export class PDFTemplateComponent implements OnInit {
   ngOnInit() {
     this.appService.getResume().subscribe(response => {
       const resume = response.json();
-      this.reduceResume(resume);
+      this.formatResumeData(resume);
       this.resume = resume;
     });
   }
@@ -25,11 +25,11 @@ export class PDFTemplateComponent implements OnInit {
     this.pdfExport.saveAs('dimitri-buhon-cv.pdf');
   }
 
-  private reduceResume(resume: Resume) {
-    this.reduceCareer(resume);
+  private formatResumeData(resume: Resume) {
+    this.formatCareerData(resume);
   }
 
-  private reduceCareer(resume: Resume) {
+  private formatCareerData(resume: Resume) {
     resume.career = resume.career.filter(career => career.description && career.description.length > 0);
     resume.career.length = 3;
 
