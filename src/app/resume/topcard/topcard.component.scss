@@ -1,81 +1,83 @@
 @import './../../../variables.scss';
 
 :host {
-    min-height: 200px;
-    background-color: $main;
+  min-height: 200px;
+  background-color: $main;
+  color: white;
+
+  h1,
+  h2,
+  a {
     color: white;
-    
-    h1, h2, a {
-        color: white;
-    }
+  }
 
-    .container {
-        // background-image: url('./../../../assets/images/particules.png');
-    }
+  .container {
+    // background-image: url('./../../../assets/images/particules.png');
+  }
 
-    .header {
-        height: 128px;
-        // background-image: url('./../../../assets/images/pink_dust.png');
-        background-color: $second;
-    }
+  .header {
+    height: 128px;
+    // background-image: url('./../../../assets/images/pink_dust.png');
+    background-color: $second;
+  }
 }
 
 #profil {
-    position: relative;
-    top: -64px;
-    color: black;
+  position: relative;
+  top: -64px;
+  color: black;
 
-    .photo {
-        height: 128px;
-        width: 128px;
-        margin: auto;
-        border: 3px solid white;
-        border-radius: 100%;
-        background-color: white;
-        background-image: url('./../../../assets/images/me.png');
-        background-size: cover;
-        background-color: $third;
-        transition-duration: 2s;
+  .photo {
+    height: 128px;
+    width: 128px;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 100%;
+    background-color: white;
+    background-image: url('./../../../assets/images/cat.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: $third;
+    transition-duration: 2s;
+  }
+
+  .photo:hover {
+    transform: scale(1.5) translateY(-20px);
+  }
+
+  .informations {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+
+    .name {
+      margin: 0;
+      padding: 0;
     }
 
-    .photo:hover {
-        transform: scale(1.5) translateY(-20px);
+    .location {
+      opacity: 0.8;
     }
-
-    .informations {
-        color: white;
-        margin-top: 10px;
-        text-align: center;
-
-        .name {
-            margin: 0;
-            padding: 0;
-        }
-    
-        .location {
-            opacity: 0.8;
-        }
-    }
+  }
 }
 
 #about {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .section {
-    padding: 10px 50px 30px;
+  padding: 10px 50px 30px;
 
-    h1, h2 {
-        padding: 0 0 20px 0;
-    }
-
-
+  h1,
+  h2 {
+    padding: 0 0 20px 0;
+  }
 }
 
 .section:last-child {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .buttons {
-    text-align: center;
+  text-align: center;
 }

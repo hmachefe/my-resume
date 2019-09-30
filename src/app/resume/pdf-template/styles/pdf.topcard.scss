@@ -1,61 +1,62 @@
 app-topcard {
-    display: block;
-    width: 200px;
-    height: 838px;
-    margin: 2px;
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-    top: 0;
+  display: block;
+  width: 200px;
+  height: 838px;
+  margin: 2px;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
 
-    /deep/ {
-        .header {
-            height: 80px !important;
-            border-radius: 5px 5px 0 0;
-        }
-
-        #profil {
-            top: -50px !important;
-            
-            .photo {
-                background-image: url('./../../../assets/images/me.grey.png') !important;
-                background-repeat: no-repeat;
-                background-position: 5px 10px !important;
-                background-size: 70px 70px !important;
-                width: 80px !important;
-                height: 80px !important;
-                border: 2px solid white !important;
-            }
-    
-            .photo:hover {
-                transform: none !important;
-            }
-        }
-    
-        .container {
-            position: relative;
-            padding: 20px;
-            top: -10px;
-            height: 100%;
-
-            .sections {
-                h2 {
-                    font-size: 9px !important;
-                    margin-left: -10px !important;
-                }
-
-                .section {
-                    padding: 0;
-                }
-
-                #about {
-                    margin-top: 55px;
-                }
-
-                .buttons, .buttons * {
-                    display: none;
-                }
-            }
-        }
+  /deep/ {
+    .header {
+      height: 80px !important;
+      border-radius: 5px 5px 0 0;
     }
+
+    #profil {
+      top: -50px !important;
+
+      .photo {
+        background-image: url('./../../../assets/images/cat.jpg') !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 80px !important;
+        height: 80px !important;
+        border: 2px solid white !important;
+      }
+
+      .photo:hover {
+        transform: none !important;
+      }
+    }
+
+    .container {
+      position: relative;
+      padding: 20px;
+      top: -10px;
+      height: 100%;
+
+      .sections {
+        h2 {
+          font-size: 9px !important;
+          margin-left: -10px !important;
+        }
+
+        .section {
+          padding: 0;
+        }
+
+        #about {
+          margin-top: 55px;
+        }
+
+        .buttons,
+        .buttons * {
+          display: none;
+        }
+      }
+    }
+  }
 }

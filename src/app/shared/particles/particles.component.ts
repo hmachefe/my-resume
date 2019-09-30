@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 declare var particlesJS: any;
 
@@ -8,7 +8,7 @@ declare var particlesJS: any;
   styleUrls: ['./particles.component.scss']
 })
 export class ParticlesComponent implements OnInit {
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     particlesJS.load('particles-js', 'assets/data/particles.json');

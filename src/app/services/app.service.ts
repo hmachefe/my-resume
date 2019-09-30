@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Http, ResponseContentType } from '@angular/http';
-import { Resume } from './../model/resume.model';
 import * as FileSaver from 'file-saver';
 
 @Injectable()
@@ -15,10 +14,9 @@ export class AppService {
   }
 
   getLocalResumePDF() {
-    const pdf = this.http.get(this.resumePDF, { responseType: ResponseContentType.Blob })
-      .subscribe(response => {
-        const blob = new Blob([response.blob()], { type: 'application/pdf' });
-        FileSaver.saveAs(blob, 'dimitri-buhon-cv.pdf');
+    const pdf = this.http.get(this.resumePDF, { responseType: ResponseContentType.Blob }).subscribe(response => {
+      const blob = new Blob([response.blob()], { type: 'application/pdf' });
+      FileSaver.saveAs(blob, 'dimitri-buhon-cv.pdf');
     });
   }
 }
