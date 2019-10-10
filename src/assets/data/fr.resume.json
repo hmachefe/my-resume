@@ -1,4 +1,14 @@
 {
+  "global": {
+    "contact_me": "Me contacter",
+    "about_me": "À propos de moi",
+    "export_pdf": "CV au format PDF",
+    "skills": "Compétences",
+    "career": "Expérience professionnelle",
+    "education": "Formation",
+    "personal_projects": "Projects personnels",
+    "languages": "Langues"
+  },
   "info": {
     "name": "Dimitri Buhon",
     "job": "Lead technique web",
@@ -167,7 +177,7 @@
     {
       "company": "Institut du Cerveau et de la Moelle épinière",
       "location": "Paris, France",
-      "status": "Consultant SharePoint",
+      "status": "Développeur",
       "date": "2014 - 2015",
       "logo": "icm.png",
       "quote": "L’Institut du Cerveau et de la Moelle épinière (ICM) est un centre de recherche de dimension internationale, sans équivalent dans le monde, innovant dans sa conception comme dans son organisation. En réunissant en un même lieu malades, médecins et chercheurs, l’objectif est de permettre la mise au point rapide de traitements pour les lésions du système nerveux afin de les appliquer aux patients dans les meilleurs délais.",

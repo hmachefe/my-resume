@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Career } from './../../model/resume.model';
+import { Career, Global } from './../../model/resume.model';
 import { Presentation } from './../../shared/presentation/presentation.component';
 
 @Component({
@@ -7,8 +7,8 @@ import { Presentation } from './../../shared/presentation/presentation.component
   templateUrl: './career.component.html',
   styleUrls: ['./career.component.scss']
 })
-
 export class CareerComponent {
+  @Input() global: Global;
   @Input() jobs: Career[];
 
   getPresentation(job: Career) {

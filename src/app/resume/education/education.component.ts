@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Education } from './../../model/resume.model';
+import { Education, Global } from './../../model/resume.model';
 import { Presentation } from './../../shared/presentation/presentation.component';
 
 @Component({
@@ -7,8 +7,8 @@ import { Presentation } from './../../shared/presentation/presentation.component
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.scss']
 })
-
 export class EducationComponent {
+  @Input() global: Global;
   @Input() education: Education[];
 
   getPresentation(formation: Education) {

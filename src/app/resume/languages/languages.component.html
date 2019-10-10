@@ -1,14 +1,14 @@
-<h1>Langues</h1>
+<h1>{{ global.languages }}</h1>
 
 <div class="flags">
-    <div *ngFor="let lang of languages" class="language">
-        <div class="flag">
-            <img [src]="'./assets/flags/' + lang.flag"/>
-            <span class="lang">{{ lang.lang }}</span>
-        </div>
-        <div class="level">
-            {{ lang.level }}
-            <span *ngIf="lang.certification" class="certification">({{ lang.certification }})</span>
-        </div>
+  <div *ngFor="let lang of languages" class="language">
+    <div class="flag">
+      <img [src]="'./assets/flags/' + lang.flag" />
+      <span class="lang">{{ lang.lang }}</span>
     </div>
+    <div class="level">
+      {{ lang.level }}
+      <span *ngIf="lang.certification" class="certification">({{ lang.certification }})</span>
+    </div>
+  </div>
 </div>

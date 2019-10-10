@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Project } from './../../model/resume.model';
+import { Project, Global } from './../../model/resume.model';
 import { Presentation } from './../../shared/presentation/presentation.component';
 
 @Component({
@@ -7,8 +7,8 @@ import { Presentation } from './../../shared/presentation/presentation.component
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss']
 })
-
 export class ProjectsComponent {
+  @Input() global: Global;
   @Input() projects: Project[];
 
   getPresentation(project: Project) {

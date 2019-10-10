@@ -1,52 +1,52 @@
 <div class="header"></div>
 
 <div class="container">
-    <div id="profil" *ngIf="info">
-        <div class="photoContainer">
-            <div class="photo"></div>
-        </div>
-
-        <div class="informations">
-            <h1 class="name">{{ info.name }}</h1>
-            <div class="position">{{ info.job }}, {{ info.company }}</div>
-            <div class="location">{{ info.location }}</div>
-        </div>
+  <div id="profil" *ngIf="info">
+    <div class="photoContainer">
+      <div class="photo"></div>
     </div>
 
-    <div class="sections">
-        <div id="contact" class="section" >
-            <h2>Me contacter</h2>
-            <ul>
-                <li>
-                    <span class="fa fa-map-marker"></span>
-                    {{ info.location }}
-                </li>
-                <li>
-                    <span class="fa fa-envelope-o"></span>
-                    <a href="mailto:{{ info.email }}">{{ info.email }}</a>
-                </li>
-                <li *ngIf="info.portfolio">
-                    <span class="fa fa-bookmark"></span>
-                    <a href="https://{{info.portfolio}}" target="_blank">buhon.fr</a>
-                </li>
-                <li>
-                    <span class="fa fa-linkedin-square"></span>
-                    <a href="https://www.{{ info.linkedin }}" target="_blank">{{ info.linkedin }}</a>
-                </li>
-                <li>
-                    <span class="fa fa-github"></span>
-                    <a href="https://{{ info.github }}" target="_blank">{{ info.github }}</a>
-                </li>
-            </ul>
-        </div>
-            
-        <div id="about" class="section">
-            <h2>À propos de moi</h2>
-            <p>{{ info.about }}</p>
-        </div>
-
-        <div class="section buttons">
-            <button (click)="download()">CV au format PDF</button>
-        </div>
+    <div class="informations">
+      <h1 class="name">{{ info.name }}</h1>
+      <div class="position">{{ info.job }}, {{ info.company }}</div>
+      <div class="location">{{ info.location }}</div>
     </div>
+  </div>
+
+  <div class="sections">
+    <div id="contact" class="section">
+      <h2>{{ global.contact_me }}</h2>
+      <ul>
+        <li>
+          <span class="fa fa-map-marker"></span>
+          {{ info.location }}
+        </li>
+        <li>
+          <span class="fa fa-envelope-o"></span>
+          <a href="mailto:{{ info.email }}">{{ info.email }}</a>
+        </li>
+        <li *ngIf="info.portfolio">
+          <span class="fa fa-bookmark"></span>
+          <a href="https://{{ info.portfolio }}" target="_blank">buhon.fr</a>
+        </li>
+        <li>
+          <span class="fa fa-linkedin-square"></span>
+          <a href="https://www.{{ info.linkedin }}" target="_blank">{{ info.linkedin }}</a>
+        </li>
+        <li>
+          <span class="fa fa-github"></span>
+          <a href="https://{{ info.github }}" target="_blank">{{ info.github }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="about" class="section">
+      <h2>{{ global.about_me }}</h2>
+      <p>{{ info.about }}</p>
+    </div>
+
+    <div class="section buttons">
+      <button (click)="download()">{{ global.export_pdf }}</button>
+    </div>
+  </div>
 </div>

@@ -2,10 +2,12 @@ import { Injectable } from '@angular/core';
 import { Http, ResponseContentType } from '@angular/http';
 import * as FileSaver from 'file-saver';
 
+const culture = navigator.language.includes('fr') ? 'fr' : 'en';
+
 @Injectable()
 export class AppService {
-  private readonly resume = './assets/data/fr.resume.json';
-  private readonly resumePDF = './assets/data/fr.resume.pdf';
+  private readonly resume = `./assets/data/${culture}.resume.json`;
+  private readonly resumePDF = `./assets/data/${culture}.resume.pdf`;
 
   constructor(private http: Http) {}
 
