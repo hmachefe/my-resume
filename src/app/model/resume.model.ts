@@ -44,6 +44,7 @@ export interface Project {
   quote: string;
   description: string[];
   links: Link[];
+  tooltip: string;
 }
 
 export interface Education {

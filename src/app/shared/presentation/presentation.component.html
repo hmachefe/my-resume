@@ -1,4 +1,5 @@
-<div class="container" [ngClass]="{'noLogo': presentation.logo == null}">
+<div class="container tooltip" [ngClass]="{'noLogo': presentation.logo == null}">
+    <span class="tooltiptext">{{presentation.tooltip}}</span>
     <div class="title">
         <div class="logo">
             <img *ngIf="presentation.logo" [src]="'./assets/logos/' + presentation.logo"/>

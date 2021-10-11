@@ -45,6 +45,11 @@
       <p>{{ info.about }}</p>
     </div>
 
+    <div class="section">
+      <app-languages [global]="global" [languages]="languages" class="page">
+      </app-languages>
+    </div>
+
     <div class="section buttons">
       <button (click)="download()">{{ global.export_pdf }}</button>
     </div>

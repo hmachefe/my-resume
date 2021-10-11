@@ -10,48 +10,78 @@
     "languages": "Langues"
   },
   "info": {
-    "name": "Dimitri Buhon",
-    "job": "Lead technique web",
-    "company": "LVL Studio",
-    "location": "Montréal, Québec",
-    "email": "dimitri.buhon@gmail.com",
-    "linkedin": "linkedin.com/in/dbuhon",
-    "github": "github.com/dbuhon",
-    "portfolio": "buhon.fr",
+    "name": "Hugo Machefer",
+    "job": "Programmeur web senior",
+    "company": "Difuze",
+    "location": "Canada, Montréal",
+    "email": "hugo.machefer@gmail.com",
+    "linkedin": "linkedin.com/in/hugomachefer/",
+    "github": "https://github.com/hmachefe",
+    "portfolio": "hugo.machefer.free.fr",
     "about": [
       "Passionné par l'informatique et curieux, je suis généralement interessé par ce qui a trait aux nouvelles technologies. J'aime apprendre, travailler en équipe et fais toujours preuve d'application dans mon travail."
     ]
   },
   "abilities": [
     {
-      "title": "",
+      "title": "Languages",
       "skills": [
         {
-          "techno": "C#",
-          "detail": ".NET Framework, Mono",
+          "techno": "JavaScript / TypeScript",
+          "detail": "ECMAScript 5 & 6",
           "level": 100
+        },
+        {
+          "techno": "Php",
+          "detail": "PHP 7 & 5",
+          "level": 80
+        },
+        {
+          "techno": "Python",
+          "detail": "Python 3 & 2",
+          "level": 60
         },
         {
           "techno": "Java",
           "detail": "JavaFx, Swing, Maven",
-          "level": 80
-        },
-        {
-          "techno": "C++",
-          "detail": "Algorithmique, QT",
           "level": 60
         },
         {
-          "techno": "Unity",
-          "detail": "Hololens",
-          "level": 50
+          "techno": "C / C++",
+          "detail": "cross-compilation, QT",
+          "level": 60
         },
         {
-          "techno": "SQL",
+          "techno": "C#",
+          "detail": ".NET Framework, Mono",
+          "level": 40
+        },
+        {
+          "techno": "Html / Css",
+          "detail": "HTML5, CSS3, CSS3D",
+          "level": 100
+        },
+        {
+          "techno": "Webgl",
+          "detail": "Three.js",
+          "level": 60
+        }
+      ]
+    },
+    {
+      "title": "Base de données",
+      "skills": [
+        {
+          "techno": "DynamoDb",
           "level": 80
         },
         {
-          "techno": "Écriture de tests",
+          "techno": "ElasticSearch",
+          "detail": "6",
+          "level": 80
+        },
+        {
+          "techno": "MySql",
           "level": 80
         }
       ]
@@ -65,36 +95,30 @@
         },
         {
           "techno": "Angular",
-          "detail": "2/4/5",
+          "detail": "5/6/9",
           "level": 100
         },
         {
-          "techno": "React",
-          "level": 100
+          "techno": "Vue.js",
+          "level": 80
         },
         {
           "techno": "HTML5 & CSS3",
           "detail": "SASS",
           "level": 100
-        },
-        {
-          "techno": "JavaScript / TypeScript",
-          "detail": "ECMAScript 5 & 6",
-          "level": 100
-        }
-      ]
+        }]
     },
     {
       "title": "Mobile et embarqué",
       "skills": [
         {
           "techno": "Java Android",
-          "detail": "4/5/6/7",
-          "level": 70
+          "detail": "5/6",
+          "level": 60
         },
         {
-          "techno": "Xamarin",
-          "detail": "Natif iOS",
+          "techno": "Ionic",
+          "detail": "formerly Cordova",
           "level": 70
         }
       ]
@@ -104,15 +128,11 @@
       "skills": [
         {
           "techno": "Git",
-          "level": 100
-        },
-        {
-          "techno": "TFS",
           "level": 80
         },
         {
           "techno": "SVN",
-          "level": 80
+          "level": 40
         }
       ]
     }
@@ -289,8 +309,14 @@
     {
       "lang": "Anglais",
       "level": "Professionnel",
-      "certification": "TOEIC",
+      "certification": "TOEF",
       "flag": "uk.svg"
+    },
+    {
+      "lang": "Espagnol",
+      "level": "Débutant",
+      "certification": "Duolingo badges",
+      "flag": "spain.jpg"
     }
   ]
 }

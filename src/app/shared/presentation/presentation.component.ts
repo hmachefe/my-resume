@@ -15,6 +15,7 @@ export class Presentation {
   logo: string;
   title: string;
   subtitle: string;
+  tooltip: string;
   detail: string;
   description: string[];
   date: string;

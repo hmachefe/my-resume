@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Info, Global } from './../../model/resume.model';
+import { Info, Global, Language } from './../../model/resume.model';
 
 @Component({
   selector: 'app-topcard',
@@ -9,6 +9,7 @@ import { Info, Global } from './../../model/resume.model';
 export class TopcardComponent {
   @Input() global: Global;
   @Input() info: Info;
+  @Input() languages: Language[];
   @Output() downloadPDF = new EventEmitter<void>();
 
   download() {

@@ -77,10 +77,31 @@
 
 .detail {
     margin-left: 25px;
-    padding: 10px 0 10px 26px;
+    padding: 0px 0 0px 10px;
     border-left: solid 3px lightgrey;
     opacity: 0.8;
     text-align: justify;
+}
+
+.tooltip {
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: darkgrey;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  right: 37%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 .description {

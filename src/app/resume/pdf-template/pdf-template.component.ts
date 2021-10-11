@@ -22,7 +22,7 @@ export class PDFTemplateComponent implements OnInit {
   }
 
   exportPDF() {
-    this.pdfExport.saveAs('dimitri-buhon-cv.pdf');
+    this.pdfExport.saveAs('hugo-machefer-cv.pdf');
   }
 
   private formatResumeData(resume: Resume) {
