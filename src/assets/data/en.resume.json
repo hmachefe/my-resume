@@ -238,7 +238,48 @@
       "logo": "Logo_Icon_Difuse.png",
       "quote": "difuze is a dynamic fast-growing private company born out of the merger of Technicolor's Montreal-based postproduction, voice-over dubbing and distribution",
       "description": [
-        "Mostly the same role as earlier at LVL Studio just below:",
+        "Mostly the same role as earlier at LVL Studio just below. Reminder:",
+        "<b>Role:</b>",
+        "&nbsp;&nbsp;- Take part of building new software stack required by our client recently named Difuze, formerly Technicolor Montreal. Involved in architecture decisions, contributed to modules development, components creation, including code reviews through <b>gitlab</b>, pro-actively following back-log across <b>Jira</b>, arranging / creating / prioritizing tickets, writing documentation over <b>Confluence</b>.",
+
+        "<b>Context:</b>",
+        "&nbsp;&nbsp;- B2B: www.difuze.com as customer, www.difuzego.com as main product",
+
+        "<b>Purpose:</b>",
+        "&nbsp;&nbsp;- Media Asset Management, screeners (promotional video links), delivery (orders)",
+
+        "<b>Tech areas:</b>",
+        "&nbsp;&nbsp;- Front-end, Back-end, Tasks scheduling (cron jobs), Devops (partially),",
+
+        "<b>Front-end:</b>",
+        "&nbsp;&nbsp;-framework: Angular 2, version 7.2.9, including RxJS (Observables), Angular Material,",
+        "&nbsp;&nbsp;-modules: ngx-translate, fortawesome, ipfy, ipstack, ngx-charts, angulartics2, bitmovin player and ui, bowser, fs-symlink, hammerjs, i18n-iso-countries, merge-ranges, moment, ng2-file-upload, ngx-device-detector, ngx-perfect-scrollbar, lodash.merge, rxjs, rxjs-compat, socket.io-client",
+
+        "<b>Back-end:</b>",
+        "&nbsp;&nbsp;-restful web services: <b>OpenAPI</b>, formerly Swagger",
+        "&nbsp;&nbsp;-architecture: <b>tsoa</b> as TypeScript Oriented Architecture,",
+        "&nbsp;-modules: exceljs, mailcomposer, moment-timezone, mustache, request, restify, socket.io, user-agent, winston, csv-generate, fs-extra, easy-zip, rapid-api sms, git-repo-info, jasmine, aws-sdk",
+        "&nbsp;&nbsp;-asynchronism: Promise, async/await,",
+
+        "<b>Package management:</b>",
+        "- WebPack, node.js, yarn (npm superset),",
+
+        "<b>Database, search engines:</b>",
+        "- new stack: DynamoDb, ElasticSearch,",
+        "- legacy stack: MySqlWorkbench, stored procedures,",
+
+        "<b>AWS DevOps:</b>",
+        "- ElasticBeanStalk, EC2 (LoadBalancer), Lambda, CloudWatch, IAM (groups, user, role), aws-cli",
+
+        "<b>Languages:</b>",
+        "- TypeScript, JavaScript, ES2015, HTML 5, SCSS,",
+
+        "<b>Operating System:</b>",
+        "- Ubuntu 18.04 (Linux), Windows 7, Mac OS X (Sierra)",
+
+        "<b>Ide:</b>",
+        "- WebStorm, VS Code, vim / vi",
+  
         "our B2B customer <Difuze inc> purchased corporate contract signed with LVL Studio and hired resources as a consequence, internalizing developments, then becoming part of Difuze payroll",
         "* but extending and enhancing <b>DevOps</b> skills: AWS. Very familiar with S3, EC2, ASG, IAM Linux 1 & 2, ElasticSearch, ElasticBeanStalk, ECR Docker, CloudFormation, CloudFront, Lambdas (and layers), SNS, Step functions, AWS Secrets Manager, etc",
         "* Multi-media skills: very familiar with AWS <b>Media2Cloud</b> solution (transcoding with Mediaconvert, mediaInfo, DRM) + bitmovin picture in picture, frame-accuracy",
