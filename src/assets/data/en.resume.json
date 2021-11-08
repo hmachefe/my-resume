@@ -249,10 +249,10 @@
         "&nbsp;&nbsp;- Media Asset Management, screeners (promotional video links), delivery (orders)",
 
         "<b>Tech areas:</b>",
-        "&nbsp;&nbsp;- Front-end, Back-end, Tasks scheduling (cron jobs), Devops (partially),",
+        "&nbsp;&nbsp;- Front-end, Back-end, Tasks scheduling (cron jobs), Devops (mostly),",
 
         "<b>Front-end:</b>",
-        "&nbsp;&nbsp;-framework: Angular 2, version 9, including RxJS (Observables), Angular Material,",
+        "&nbsp;&nbsp;-framework: Angular 2, version 9 mostly (version 10 partly), including RxJS (Observables), Angular Material,",
         "&nbsp;&nbsp;-modules: ngx-translate, fortawesome, ipfy, ipstack, ngx-charts, angulartics2, bitmovin player and ui, bowser, fs-symlink, hammerjs, i18n-iso-countries, merge-ranges, moment, ng2-file-upload, ngx-device-detector, ngx-perfect-scrollbar, lodash.merge, rxjs, rxjs-compat, socket.io-client",
 
         "<b>Back-end:</b>",
@@ -279,7 +279,7 @@
 
         "<b>Ide:</b>",
         "- WebStorm, VS Code, vim / vi",
-  
+
         "* but extending and enhancing <b>DevOps</b> skills: AWS. Very familiar with S3, EC2, ASG, IAM Linux 1 & 2, ElasticSearch, ElasticBeanStalk, ECR Docker, CloudFormation, CloudFront, Lambdas (and layers), SNS, Step functions, AWS Secrets Manager, etc",
         "* Multi-media skills: very familiar with AWS <b>Media2Cloud</b> solution (transcoding with Mediaconvert, mediaInfo, DRM) + bitmovin picture in picture, frame-accuracy",
         "* More responsibilities: technically driving another web project involving Azure text to speech API, remaining main tech referee for <b>5 developers</b>",
