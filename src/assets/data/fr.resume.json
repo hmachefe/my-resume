@@ -1,26 +1,24 @@
 {
   "global": {
-    "contact_me": "Me contacter",
-    "about_me": "À propos de moi",
-    "export_pdf": "CV au format PDF",
-    "skills": "Compétences",
-    "career": "Expérience professionnelle",
-    "education": "Formation",
-    "personal_projects": "Projects personnels",
-    "languages": "Langues"
+    "contact_me": "Contact me",
+    "about_me": "About me",
+    "export_pdf": "Export to PDF",
+    "skills": "Skills",
+    "career": "Career",
+    "education": "Education",
+    "personal_projects": "Certifications",
+    "languages": "Languages"
   },
   "info": {
     "name": "Hugo Machefer",
-    "job": "Programmeur web senior",
-    "company": "Difuze",
+    "job": "Tech lead, senior full stack dev",
+    "company": "",
     "location": "Canada, Montréal",
     "email": "hugo.machefer@gmail.com",
     "linkedin": "linkedin.com/in/hugomachefer/",
     "github": "https://github.com/hmachefe",
     "portfolio": "hugo.machefer.free.fr",
-    "about": [
-      "Passionné par l'informatique et curieux, je suis généralement interessé par ce qui a trait aux nouvelles technologies. J'aime apprendre, travailler en équipe et fais toujours preuve d'application dans mon travail."
-    ]
+    "about": ["I like to learn, teach, co-work on R&D projects, but stick to production's target"]
   },
   "abilities": [
     {
@@ -32,9 +30,19 @@
           "level": 100
         },
         {
+          "techno": "Html / Css",
+          "detail": "HTML5, CSS3, CSS3D",
+          "level": 100
+        },
+        {
           "techno": "Php",
           "detail": "PHP 7 & 5",
           "level": 80
+        },
+        {
+          "techno": "C#",
+          "detail": ".NET Framework, Mono",
+          "level": 50
         },
         {
           "techno": "Python",
@@ -44,279 +52,591 @@
         {
           "techno": "Java",
           "detail": "JavaFx, Swing, Maven",
-          "level": 60
+          "level": 40
         },
         {
           "techno": "C / C++",
           "detail": "cross-compilation, QT",
+          "level": 40
+        }
+      ]
+    },
+    {
+      "title": "Front-end (web)",
+      "skills": [
+        {
+          "techno": "Angular",
+          "detail": "7/9/10",
+          "level": 80
+        },
+        {
+          "techno": "Jquery",
+          "detail": "Javascript, css",
+          "level": 80
+        },
+        {
+          "techno": "RxJS",
+          "detail": "Observables",
           "level": 60
         },
         {
-          "techno": "C#",
-          "detail": ".NET Framework, Mono",
+          "techno": "Scss",
+          "detail": "also Sass",
+          "level": 60
+        },
+        {
+          "techno": "VueJS",
+          "detail": "also Backbone, and AngularJS",
+          "level": 60
+        },
+        {
+          "techno": "Bootstrap",
           "level": 40
         },
         {
-          "techno": "Html / Css",
-          "detail": "HTML5, CSS3, CSS3D",
-          "level": 100
+          "techno": "ThreeJS",
+          "detail": "WebGL",
+          "level": 20
+        }
+      ]
+    },
+    {
+      "title": "Back-end (web)",
+      "skills": [
+        {
+          "techno": "OpenAPI",
+          "detail": "formerly swagger, tsoa",
+          "level": 80
         },
         {
-          "techno": "Webgl",
-          "detail": "Three.js",
+          "techno": "Yii",
+          "detail": "PHP",
+          "level": 60
+        },
+        {
+          "techno": "Express",
+          "detail": "nodejs",
+          "level": 40
+        }
+      ]
+    },
+    {
+      "title": "Database",
+      "skills": [
+        {
+          "techno": "ElasticSearch",
+          "detail": "AWS console, CLI, SDK",
+          "level": 80
+        },
+        {
+          "techno": "DynamoDB",
+          "detail": "AWS console, CLI, SDK",
+          "level": 80
+        },
+        {
+          "techno": "RDS",
+          "detail": "MySql",
           "level": 60
         }
       ]
     },
     {
-      "title": "Base de données",
-      "skills": [
-        {
-          "techno": "DynamoDb",
-          "level": 80
-        },
-        {
-          "techno": "ElasticSearch",
-          "detail": "6",
-          "level": 80
-        },
-        {
-          "techno": "MySql",
-          "level": 80
-        }
-      ]
-    },
-    {
-      "title": "Web (front)",
-      "skills": [
-        {
-          "techno": "AngularJS",
-          "level": 70
-        },
-        {
-          "techno": "Angular",
-          "detail": "5/6/9",
-          "level": 100
-        },
-        {
-          "techno": "Vue.js",
-          "level": 80
-        },
-        {
-          "techno": "HTML5 & CSS3",
-          "detail": "SASS",
-          "level": 100
-        }]
-    },
-    {
-      "title": "Mobile et embarqué",
+      "title": "Mobile",
       "skills": [
         {
           "techno": "Java Android",
-          "detail": "5/6",
+          "detail": "Dalvik",
           "level": 60
         },
         {
           "techno": "Ionic",
-          "detail": "formerly Cordova",
-          "level": 70
+          "detail": "formerly Apache Cordova",
+          "level": 40
+        },
+        {
+          "techno": "Xcode",
+          "detail": "Objective C",
+          "level": 20
         }
       ]
     },
     {
-      "title": "Gestion de versions",
+      "title": "Version control systems",
       "skills": [
         {
           "techno": "Git",
+          "detail": "gitlab, github",
           "level": 80
         },
         {
           "techno": "SVN",
           "level": 40
+        },
+        {
+          "techno": "Synergy",
+          "level": 20
+        }
+      ]
+    },
+    {
+      "title": "Operating System",
+      "skills": [
+        {
+          "techno": "Linux",
+          "detail": "Ubuntu 20",
+          "level": 80
+        },
+        {
+          "techno": "Windows",
+          "detail": "10",
+          "level": 60
+        },
+        {
+          "techno": "MacOS X",
+          "detail": "El Capitan 10.11.2",
+          "level": 40
+        }
+      ]
+    },
+    {
+      "title": "Agility",
+      "skills": [
+        {
+          "techno": "Jira",
+          "detail": "backlogs, sprint",
+          "level": 80
+        },
+        {
+          "techno": "Confluence",
+          "detail": "wiki",
+          "level": 80
+        },
+        {
+          "techno": "Scrum (master)",
+          "detail": "daily, grooming, planning, review, retro",
+          "level": 60
+        }
+      ]
+    },
+    {
+      "title": "Devops",
+      "skills": [
+        {
+          "techno": "AWS",
+          "detail": "EC2, IAM, ECR, EB, CloudFront, CloudFormation, S3, Dynamo, ElasticSearch, Lambdas +layers, Secrets Manager, MediaConvert, Step functions",
+          "level": 80
         }
       ]
     }
   ],
   "career": [
     {
+      "company": "Difuze",
+      "location": "Montreal, Québec",
+      "status": "Tech lead",
+      "date": "2019 - 2021",
+      "logo": "Logo_Icon_Difuse.png",
+      "quote": "difuze is a dynamic fast-growing private company born out of the merger of Technicolor's Montreal-based postproduction, voice-over dubbing and distribution",
+      "description": [
+        "Mostly the same role as earlier at LVL Studio just below. Reminder:",
+        "<b>Role:</b>",
+        "&nbsp;&nbsp;- Consolidating our software stack required by Difuze, formerly Technicolor Montreal. Involved in architecture decisions, contributed to modules development, components creation, including code reviews through <b>gitlab</b>, pro-actively following back-log across <b>Jira</b>, arranging / creating / prioritizing tickets, writing documentation over <b>Confluence</b>.",
+
+        "<b>Context:</b>",
+        "&nbsp;&nbsp;- B2B: www.difuze.com as customer, www.difuzego.com as main product",
+
+        "<b>Purpose:</b>",
+        "&nbsp;&nbsp;- Media Asset Management, screeners (promotional video links), delivery (orders)",
+
+        "<b>Tech areas:</b>",
+        "&nbsp;&nbsp;- Front-end, Back-end, Tasks scheduling (cron jobs), Devops (mostly),",
+
+        "<b>Front-end:</b>",
+        "&nbsp;&nbsp;-framework: Angular 2, version 9 mostly (version 10 partly), including RxJS (Observables), Angular Material,",
+        "&nbsp;&nbsp;-modules: ngx-translate, fortawesome, ipfy, ipstack, ngx-charts, angulartics2, bitmovin player and ui, bowser, fs-symlink, hammerjs, i18n-iso-countries, merge-ranges, moment, ng2-file-upload, ngx-device-detector, ngx-perfect-scrollbar, lodash.merge, rxjs, rxjs-compat, socket.io-client",
+
+        "<b>Back-end:</b>",
+        "&nbsp;&nbsp;-restful web services: <b>OpenAPI</b>, formerly Swagger",
+        "&nbsp;&nbsp;-architecture: <b>tsoa</b> as TypeScript Oriented Architecture,",
+        "&nbsp;-modules: exceljs, mailcomposer, moment-timezone, mustache, request, restify, socket.io, user-agent, winston, csv-generate, fs-extra, easy-zip, rapid-api sms, git-repo-info, jasmine, aws-sdk",
+        "&nbsp;&nbsp;-asynchronism: Promise, async/await,",
+
+        "<b>Package management:</b>",
+        "- WebPack, node.js, yarn (npm superset),",
+
+        "<b>Database, search engines:</b>",
+        "- new stack: DynamoDb, ElasticSearch,",
+        "- legacy stack: MySqlWorkbench, stored procedures,",
+
+        "<b>AWS DevOps:</b>",
+        "- ElasticBeanStalk, EC2 (LoadBalancer), Lambda, CloudWatch, IAM (groups, user, role), aws-cli",
+
+        "<b>Languages:</b>",
+        "- TypeScript, JavaScript, ES2015, HTML 5, SCSS,",
+
+        "<b>Operating System:</b>",
+        "- Ubuntu 20 (Linux), Windows 10, Mac OS X (Sierra)",
+
+        "<b>Ide:</b>",
+        "- WebStorm, VS Code, vim / vi",
+
+        "* but extending and enhancing <b>DevOps</b> skills: AWS. Very familiar with S3, EC2, ASG, IAM Linux 1 & 2, ElasticSearch, ElasticBeanStalk, ECR Docker, CloudFormation, CloudFront, Lambdas (and layers), SNS, Step functions, AWS Secrets Manager, etc",
+        "* Multi-media skills: very familiar with AWS <b>Media2Cloud</b> solution (transcoding with Mediaconvert, mediaInfo, DRM) + bitmovin picture in picture, frame-accuracy",
+        "* More responsibilities: technically driving another web project involving Azure text to speech API, remaining main tech referee for <b>5 developers</b>",
+
+        "our B2B customer <Difuze inc> purchased corporate contract signed with LVL Studio and hired resources as a consequence, internalizing developments, then becoming part of Difuze payroll"
+      ]
+    },
+    {
       "company": "LVL Studio",
-      "location": "Montréal, Québec",
-      "status": "Lead technique web",
-      "date": "2018 - Aujourd'hui",
+      "location": "Montreal, Québec",
+      "status": "Full stack key player",
+      "date": "2017 - 2019",
       "logo": "lvl.png",
-      "quote": "LVL Studio conçoit et développe des vitrines média intelligentes pour l’industrie du divertissement à l’aide de sa Plateforme E2™.",
+      "quote": "LVL designs, builds and operates media technology solutions for the global media and entertainment market.",
       "description": [
-        "Création d'un Storefront Manager en <strong>React</strong> avec <strong>Typescript</strong>.<br/>L'outil permet de générer des configurations qui gèrent la mise en forme et le contenu d'applications de diffusion de contenu audio et vidéo.",
-        "Développement d'un framework web en <strong>Typescript</strong> et d'une application de VOD."
+        "<b>Role:</b>",
+        "&nbsp;&nbsp;- Take part of building new software stack required by our client recently named Difuze, formerly Technicolor Montreal. Involved in architecture decisions, contributed to modules development, components creation, including code reviews through <b>gitlab</b>, pro-actively following back-log across <b>Jira</b>, arranging / creating / prioritizing tickets, writing documentation over <b>Confluence</b>.",
+
+        "<b>Context:</b>",
+        "&nbsp;&nbsp;- B2B: www.difuze.com as customer, www.difuzego.com as main product",
+
+        "<b>Purpose:</b>",
+        "&nbsp;&nbsp;- Media Asset Management, screeners (promotional video links), delivery (orders)",
+
+        "<b>Tech areas:</b>",
+        "&nbsp;&nbsp;- Front-end, Back-end, Tasks scheduling (cron jobs), Devops (partially),",
+
+        "<b>Front-end:</b>",
+        "&nbsp;&nbsp;-framework: Angular 2, version 7.2.9, including RxJS (Observables), Angular Material,",
+        "&nbsp;&nbsp;-modules: ngx-translate, fortawesome, ipfy, ipstack, ngx-charts, angulartics2, bitmovin player and ui, bowser, fs-symlink, hammerjs, i18n-iso-countries, merge-ranges, moment, ng2-file-upload, ngx-device-detector, ngx-perfect-scrollbar, lodash.merge, rxjs, rxjs-compat, socket.io-client",
+
+        "<b>Back-end:</b>",
+        "&nbsp;&nbsp;-restful web services: <b>OpenAPI</b>, formerly Swagger",
+        "&nbsp;&nbsp;-architecture: <b>tsoa</b> as TypeScript Oriented Architecture,",
+        "&nbsp;-modules: exceljs, mailcomposer, moment-timezone, mustache, request, restify, socket.io, user-agent, winston, csv-generate, fs-extra, easy-zip, rapid-api sms, git-repo-info, jasmine, aws-sdk",
+        "&nbsp;&nbsp;-asynchronism: Promise, async/await,",
+
+        "<b>Package management:</b>",
+        "- WebPack, node.js, yarn (npm superset),",
+
+        "<b>Database, search engines:</b>",
+        "- new stack: DynamoDb, ElasticSearch,",
+        "- legacy stack: MySqlWorkbench, stored procedures,",
+
+        "<b>AWS DevOps:</b>",
+        "- ElasticBeanStalk, EC2 (LoadBalancer), Lambda, CloudWatch, IAM (groups, user, role), aws-cli",
+
+        "<b>Languages:</b>",
+        "- TypeScript, JavaScript, ES2015, HTML 5, SCSS,",
+
+        "<b>Operating System:</b>",
+        "- Ubuntu 18.04 (Linux), Windows 7, Mac OS X (Sierra)",
+
+        "<b>Ide:</b>",
+        "- WebStorm, VS Code, vim / vi",
+
+        "I also actively participated in maintaining the old stack, legacy, developed in PHP, based on YII framework, layered on MySql as RDS database. Tiny developments in C#."
       ]
     },
     {
-      "company": "VINCI Construction France (Neos-SDI)",
+      "company": "Alayacare",
+      "location": "Montreal, Québec",
+      "status": "Full stack coder",
+      "date": "2017 - 2017",
+      "logo": "1604698174555.jpeg",
+      "quote": "AlayaCare is a start-up that delivers an end-to-end home health care software platform and hardware ecosystem",
+      "description": [
+        "<b>General Context</b>: deployment of web features for companies employing nurses,"
+        ,"<b>Subject</b>: front / back-end developments of new medical functionalities (internet site),"
+        ,"<b>Responsibilities</b>: Front-end and Back-end programmer,"
+
+        ,"<b>Front-end</b>:"
+        ,"• Creation of pure VUE.js components (without JQuery) :"
+        ,"&nbsp;&nbsp;&nbsp;&nbsp;o usage of super-agent library for AJAX requests,"
+        ,"&nbsp;&nbsp;&nbsp;&nbsp;o usage of moment.js library for date formatting,"
+        ,"&nbsp;&nbsp;&nbsp;&nbsp;o usage of simple-vue-validator plugin,"
+        ,"&nbsp;&nbsp;&nbsp;&nbsp;o usage of LESS for better CSS experience,"
+        ,"• Creation of a new time-entry component tailored on jquery.timeentry plugin (out of VUE.js),"
+
+        ,"<b>Back-end</b>:"
+        ,"• Developments in PHP 5 based on YII Framework, including Carbon extension,"
+        ,"• Developments in PYTHON of micro-services accessible via REST Api, based on SqlAlchemy,"
+        ,"• Writing PHP unitary tests, PYTHON unitary tests,"
+        ,"• Update of Rest APIs documentation via APIARY,"
+        ,"<b>Mobile</b>:"
+        ,"• Intensive code review for Android,"
+
+        ,"<b>Process / Agility</b>:"
+        ,"• 3 weeks sprint: standups, sprint demos, sprints retros, grooming sessions,"
+        ,"• Backlogs, tickets managed by Jira,"
+        ,"• Documentation managed by Confluence,"
+
+        ,"<b>Virtualization:</b>"
+        ,"• each micro-service and other software \"brick\" is wrapped within a docker instance"
+
+      ]
+    },
+    {
+      "company": "Canal+, Newscorp, Cisco",
       "location": "Paris, France",
-      "status": "Ingénieur logiciels",
-      "date": "2017 - 2018",
-      "logo": "vcf.png",
-      "quote": "VINCI Construction France, filiale du Groupe VINCI et leader français du BTP, réunit un ensemble unique de compétences dans les domaines du bâtiment, du génie civil, de l'hydraulique et des métiers de spécialités.",
+      "date": "1999 - 2016",
+      "logo": "France_Flag_Map.svg.png",
+      "quote": "Web engineer for embedded systems, digital TV set-to-box",
       "description": [
-        "Recherche et développement sur les lunettes de réalité mixte <strong>Microsoft Hololens</strong>.<br/>Développement d’une application de rénovation de banches en réalité mixte avec <strong>Unity</strong> en <strong>C#</strong>.",
-        "Réalisation d’une application <strong>Angular 4</strong>, <strong>Electron</strong> utilisée sur deux écrans tactiles géants. L’application sert de vitrine aux différents chantiers réalisés par Vinci Construction et est présentée lors des différents évènements et salons.",
-        "Développement et maintenance d’applications web et mobiles <strong>(Angular, Xamarin iOS, C#, ElasticSearch)</strong> liées au suivi et au respect des règles de sécurité, à l’environnement et à la qualité sur les chantiers.",
-        "Développement de l’outil de gestion des objectifs commerciaux et organisationnels de Vinci Construction France <strong>(Angular, C#, Dapper)</strong>.",
-        "Développement d'un outil de saisie de notes au travers d'un journal sur les chantiers <strong>(Angular, C#, CQRS)</strong>."
-      ]
-    },
-    {
-      "company": "Ardian (Neos-SDI)",
-      "location": "Paris, France",
-      "status": "Ingénieur logiciels",
-      "date": "2016 - 2017",
-      "logo": "ardian.png",
-      "quote": "Ardian est une société d'investissement privé indépendante qui gère et/ou conseille 65 milliards de dollars d'actifs en Europe, en Amérique du Nord et en Asie.",
-      "description": [
-        "Réalisation d’une application de gestion dédiée à la finance.<br/>Programmation back-end en <strong>C#</strong> avec <strong>Entity Framework</strong>, base de données <strong>SQL</strong>.<br/>Client <strong>AngularJS / TypeScript</strong>.<br/>Tests unitaires <strong>(Fixture, Mock data, TDD)</strong>.<br/>Travail en mode clean code en suivant les best practices de développement.",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "company": "AUSY",
-      "location": "Sèvres, France",
-      "status": "Développeur Java",
-      "date": "2015 - 2016",
-      "logo": "ausy.png",
-      "quote": "AUSY, groupe français fondé en 1989, est l'un des principaux leaders européens du Conseil et de l'ingénierie en Hautes-Technologies.",
-      "description": [
-        "Évolution et maintenance applicative de projets <strong>Java</strong>.<br/>Réalisation d'un projet <strong>Maven</strong> avec <strong>Sculptor Generator</strong>.<br/>Écriture de tests fonctionnels et unitaires <strong>Selenium, JBeheave, JUnit (TDD, BDD)</strong>.",
-        "Mise en place d'un serveur d'intégration continue sous <strong>Linux Red Hat</strong>.<br/>Configuration et installation des différents outils sur le serveur <strong>(Tomcat, Jenkins, SonarQube, OpenLDAP, Git, MySQL, Nexus, Maven)</strong>.<br/>Configuration de <strong>Jenkins</strong>.<br/>Rédaction de documentation technique.",
-        "Réalisation d'un projet de gestion et complétion de PDF en <strong>Java</strong>, utilisant <strong>iText</strong>."
-      ]
-    },
-    {
-      "company": "Institut du Cerveau et de la Moelle épinière",
-      "location": "Paris, France",
-      "status": "Développeur",
-      "date": "2014 - 2015",
-      "logo": "icm.png",
-      "quote": "L’Institut du Cerveau et de la Moelle épinière (ICM) est un centre de recherche de dimension internationale, sans équivalent dans le monde, innovant dans sa conception comme dans son organisation. En réunissant en un même lieu malades, médecins et chercheurs, l’objectif est de permettre la mise au point rapide de traitements pour les lésions du système nerveux afin de les appliquer aux patients dans les meilleurs délais.",
-      "description": [
-        "Développement de l’Intranet sous <strong>SharePoint 2013</strong>.<br/>Prise en charge du projet et collecte du besoin.<br/>Création de sites et de leurs composants, gestion des droits et fonctionnalités.<br/>Rédaction de documentation technique et formation donnée aux utilisateurs."
+        "complete detailed description here => <a href='https://www.linkedin.com/in/hugomachefer'><font color='blue'>https://www.linkedin.com/in/hugomachefer</font></a>"
       ]
     }
   ],
   "projects": [
     {
-      "title": "Labyrinthe",
-      "detail": "Projet d'intelligence artificielle",
-      "tags": ["Java", "JavaFx", "Algorithmique"],
-      "quote": "Mise en scène deux personnages animés (Roméo et Juliette) dans un labyrinthe. Les deux personnages doivent se retrouver dans un environnement qui sera selon le scénario, entièrement, partiellement ou nullement observable.",
-      "description": [
-        "Réalisé en <strong>Java</strong>, <strong>JavaFx</strong>, implémentation de plusieurs algorithmes de recherche :<br/> - Parcours en largeur <strong>BFS</strong> (breadth first search), <strong>BFS multi-directionnel</strong><br/> - Parcours en profondeur <strong>DFS</strong> (depth first search),<br/> - Algorithme de <strong>Dijkstra</strong>, <strong>A*</strong"
-      ],
-      "links": [
-        {
-          "type": "github",
-          "href": "https://github.com/dbuhon/RomeoEtJuliette",
-          "value": "github.com/dbuhon"
-        }
+      "title": "Terraform for beginners",
+      "tags": ["Terraform", "IAC", "Hashicorp", "kodekloud"],
+      "quote": "https://kodekloud.com/courses/terraform-for-beginners/",
+      "tooltip": [
+        "December 2021"
       ]
     },
     {
-      "title": "Sudoku",
-      "detail": "Générateur et résolveur de sudokus",
-      "tags": ["C#", "WPF", "Algorithmique"],
-      "quote": "Utilitaire de création et résolution de sudokus.",
-      "description": [
-        "Réalisation en <strong>C#</strong> d'un utilitaire de génération, validation et résolution de fichiers de Sudokus de  différente taille (9*9, 16*16, ...).<br/> Implémentation d'un algorithme de <strong>backtracking</strong>."
-      ],
-      "links": [
-        {
-          "type": "github",
-          "href": "https://github.com/dbuhon/sudoku-solver",
-          "value": "github.com/dbuhon"
-        }
+      "title": "The Traits of Successful Salespeople",
+      "tags": ["LinkedIn", "Training", "Sales"],
+      "quote": "https://www.linkedin.com/learning/certificates/b30e0647c8682dccb4f0a284cfdc73a78976f0bae5b003d0280e0a78aae7a467?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BfuOTl6L9TWC%2Fy0aUQ3O0wA%3D%3D",
+      "tooltip": [
+        "October 2022"
       ]
     },
     {
-      "title": "Radius",
-      "detail": "Java Online File Explorer",
-      "tags": ["Java", "Java EE", "MongoDB"],
-      "quote": "Explorateur et hébergeur de fichiers en ligne.",
-      "description": [
-        "Plateforme d'hébergement de fichiers en ligne réalisée en <strong>Java EE</strong>.<br/> L'application permet de publier des fichiers et de les organiser dans une arborescence.<br/>Fonctionne avec un système de comptes.<br/>Front réalisé en <strong>HTML5, CSS3, JavaScript, JQuery</strong>."
-      ],
-      "links": [
-        {
-          "type": "github",
-          "href": "https://github.com/dbuhon/JavaOnlineFileExplorer",
-          "value": "github.com/dbuhon"
-        }
+      "title": "Git Real",
+      "tags": ["Git"],
+      "quote": "https://www.codeschool.com/courses/git-real",
+      "tooltip": [
+        "Completion Badge (score 16000/16000)"
+      ]
+    },
+    {
+      "title": "Assembling Sass",
+      "tags": ["Html", "Css"],
+      "quote": "https://www.codeschool.com/courses/assembling-sass",
+      "tooltip": [
+        "Score: 11500/11500"
+      ]
+    },
+    {
+      "title": "CSS Cross-Country",
+      "tags": ["Html", "Css"],
+      "quote": "https://www.codeschool.com/courses/css-cross-country",
+      "tooltip": [
+        "Score 10675/10750"
+      ]
+    },
+    {
+      "title": "JavaScript Best Practices",
+      "tags": ["Javascript"],
+      "quote": "https://www.codeschool.com/courses/javascript-best-practices",
+      "tooltip": [
+        "Score 22750/22750"
+      ]
+    },
+    {
+      "title": "Journey Into Mobile",
+      "tags": ["Html", "Css", "responsive"],
+      "quote": "https://www.codeschool.com/courses/journey-into-mobile",
+      "tooltip": [
+        "Score 7240/7250"
+      ]
+    },
+    {
+      "title": "Blasting Off With Bootstrap",
+      "tags": ["Css", "responsive"],
+      "quote": "https://www.codeschool.com/courses/blasting-off-with-bootstrap",
+      "tooltip": [
+        "Score 10420/10750"
+      ]
+    },
+    {
+      "title": "The Sequel to SQL",
+      "tags": ["Rds", "Sqlite3"],
+      "quote": "http://campus.codeschool.com/courses/the-sequel-to-sql/level/5/wrap-up",
+      "tooltip": [
+        "Score 9300/9500"
+      ]
+    },
+    {
+      "title": "Try SQL",
+      "tags": ["Rds", "MySql"],
+      "quote": "https://www.codeschool.com/courses/try-sql",
+      "tooltip": [
+        "scoring 12000/12000"
+      ]
+    },
+    {
+      "title": "Breaking the Ice With Regular Expressions",
+      "tags": ["RegExp"],
+      "quote": "https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions",
+      "tooltip": [
+        "Score: 9000/9000"
+      ]
+    },
+    {
+      "title": "Building Blocks of Express.js",
+      "tags": ["nodejs"],
+      "quote": "https://www.codeschool.com/courses/building-blocks-of-express-js",
+      "tooltip": [
+        "Score:  7500/7500"
+      ]
+    },
+    {
+      "title": "Flying Through Python",
+      "tags": ["py"],
+      "quote": "https://www.codeschool.com/courses/flying-through-python",
+      "tooltip": [
+        "Score: 9240/9250"
+      ]
+    },
+    {
+      "title": "JavaScript Road Trip Part 3",
+      "tags": ["nodejs"],
+      "quote": "https://www.codeschool.com/courses/javascript-road-trip-part-3",
+      "tooltip": [
+        "Level 3, May 2016"
+      ]
+    },
+    {
+      "title": "Real Time Web with Node.js",
+      "tags": ["nodejs"],
+      "quote": "https://www.codeschool.com/courses/real-time-web-with-node-js",
+      "tooltip": [
+        "Score: 10750/10750"
+      ]
+    },
+    {
+      "title": "Staying Sharp With AngularJS",
+      "tags": ["nodejs"],
+      "quote": "https://www.codeschool.com/courses/staying-sharp-with-angular-js",
+      "tooltip": [
+        "Score: 9210/9250"
+      ]
+    },
+    {
+      "title": "Try Python",
+      "tags": ["py"],
+      "quote": "https://www.codeschool.com/courses/try-python",
+      "tooltip": [
+        "Score: 5140 / 5250"
+      ]
+    },
+    {
+      "title": "Close Encounters with PHP",
+      "tags": ["Php"],
+      "quote": "https://www.codeschool.com/courses/close-encounters-with-php",
+      "tooltip": [
+        "April 2017"
+      ]
+    },
+    {
+      "title": "Try PHP",
+      "tags": ["Php"],
+      "quote": "https://www.codeschool.com/courses/try-php",
+      "tooltip": [
+        "Badge completed, score: 4750 / 4750"
+      ]
+    },
+    {
+      "title": "Up and Running with jQuery UI",
+      "tags": ["Html", "JS", "Css"],
+      "quote": "https://www.lynda.com/jQuery-tutorials/Up-Running-jQuery-UI/186963-2.html?utm_source=linkedin&utm_medium=sharing&utm_campaign=certificate",
+      "tooltip": [
+        "December 2016"
+      ]
+    },    
+    {
+      "title": "jQuery: The Return Flight",
+      "tags": ["dom, css"],
+      "quote": "https://www.codeschool.com/courses/jquery-the-return-flight",
+      "tooltip": [
+        "May 2016"
+      ]
+    },
+    {
+      "title": "Try jQuery",
+      "tags": ["dom, css"],
+      "quote": "https://www.codeschool.com/courses/try-jquery",
+      "tooltip": [
+        "April 2016"
+      ]
+    },
+    {
+      "title": "ES2015: The Shape of JavaScript to Come",
+      "tags": ["Javascript"],
+      "quote": "https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come",
+      "tooltip": [
+        "January 2016"
+      ]
+    },
+    {
+      "title": "Try Git",
+      "tags": ["Git"],
+      "quote": "https://www.codeschool.com/courses/try-git",
+      "tooltip": [
+        "November 2015"
+      ]
+    },
+    {
+      "title": "shaping-up-with-angular-js",
+      "tags": ["Javascript"],
+      "quote": "https://www.codeschool.com/courses/shaping-up-with-angular-js",
+      "tooltip": [
+        "Scoring: 6350/6750"
+      ]
+    },
+    {
+      "title": "jQuery Mobile Essential Training",
+      "tags": ["Javascript"],
+      "quote": "https://www.lynda.com/jQuery-Mobile-tutorials/jQuery-Mobile-Essential-Training/167067-2.html?utm_source=linkedin&utm_medium=sharing&utm_campaign=certificate",
+      "tooltip": [
+        "January 2017"
       ]
     }
   ],
   "education": [
     {
-      "school": "UQAC",
-      "location": "Québec",
-      "diploma": "Maîtrise en informatique",
-      "date": "2015 - 2016",
-      "detail": "Maître ès sciences",
-      "quote": "Le programme de Maîtrise en informatique vise à développer chez l'étudiant des compétences avancées dans des secteurs de pointe de l'informatique. En plus de permettre l'acquisition de connaissances de haut niveau, le programme de maîtrise cherche à développer chez ce dernier ses capacités d'analyse et de synthèse.",
+      "school": "École supérieure d'électronique de l'Ouest",
+      "location": "Angers (France)",
+      "diploma": "Engineer's degree",
+      "detail": "",
+      "quote": "",
+      "date": "1992 - 1998",
       "link": {
-        "href": "http://programmes.uqac.ca/3037",
-        "value": "Informations sur la formation",
+        "href": "https://eseo.fr/en/",
+        "value": "More information",
         "type": "external"
       },
-      "logo": "uqac.png"
-    },
-    {
-      "school": "ESGI",
-      "location": "France",
-      "diploma": "Master Architecture logicielle",
-      "date": "2014 - 2016",
-      "detail": "Titre niveau I d'expert en ingénierie de l’informatique et des systèmes d’information",
-      "quote": "La spécialisation en Architecture des logiciels est une formation d'expert sur les méthodes de conception et de réalisation de solutions logicielles répondant aux besoins complexes des entreprises, tous secteurs confondus (finance, industrie, SSII, éditeurs de logiciels…).",
-      "link": {
-        "href": "http://www.esgi.fr/ecole-informatique/programmes/master-informatique-programmation.html",
-        "value": "Informations sur la formation",
-        "type": "external"
-      },
-      "logo": "esgi.png"
-    },
-    {
-      "school": "ESGI",
-      "location": "France",
-      "diploma": "Bachelor Architecture logicielle",
-      "date": "2011 - 2014",
-      "detail": "Titre niveau II de chef de projet logiciel et réseaux",
-      "quote": "Le Cycle Bachelor en informatique de l'ESGI spécialisé en Architecture des Logiciels permet aux étudiants d'acquérir des compétences opérationnelles au travers de nombreux projets pédagogiques, tout en acquérant des compétences d'architecture logicielle (langages, modélisation UML, BDD).",
-      "link": {
-        "href": "http://www.esgi.fr/ecole-informatique/programmes/bachelor-informatique-programmation.html",
-        "value": "Informations sur la formation",
-        "type": "external"
-      },
-      "logo": "esgi.png"
+      "logo": "eseo.jpg"
     }
   ],
   "languages": [
     {
-      "lang": "Français",
-      "level": "Langue maternelle",
+      "lang": "French",
+      "level": "Native language",
       "flag": "fr.svg"
     },
     {
-      "lang": "Anglais",
-      "level": "Professionnel",
-      "certification": "TOEF",
+      "lang": "English",
+      "level": "Secondary language",
+      "certification": "TOEFL",
       "flag": "uk.svg"
     },
     {
-      "lang": "Espagnol",
-      "level": "Débutant",
+      "lang": "Spanish",
+      "level": "Beginner",
       "certification": "Duolingo badges",
       "flag": "spain.jpg"
+    },
+    {
+      "lang": "German",
+      "level": "Educational",
+      "certification": "Academic level",
+      "flag": "germany.svg"
     }
   ]
 }

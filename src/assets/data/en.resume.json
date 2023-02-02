@@ -390,11 +390,19 @@
   ],
   "projects": [
     {
-      "title": "Close Encounters with PHP",
-      "tags": ["Php"],
-      "quote": "https://www.codeschool.com/courses/close-encounters-with-php",
+      "title": "Terraform for beginners",
+      "tags": ["Terraform", "IAC", "Hashicorp", "kodekloud"],
+      "quote": "https://kodekloud.com/courses/terraform-for-beginners/",
       "tooltip": [
-        "April 2017"
+        "December 2021"
+      ]
+    },
+    {
+      "title": "The Traits of Successful Salespeople",
+      "tags": ["LinkedIn", "Training", "Sales"],
+      "quote": "https://www.linkedin.com/learning/certificates/b30e0647c8682dccb4f0a284cfdc73a78976f0bae5b003d0280e0a78aae7a467?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BfuOTl6L9TWC%2Fy0aUQ3O0wA%3D%3D",
+      "tooltip": [
+        "October 2022"
       ]
     },
     {
@@ -403,22 +411,6 @@
       "quote": "https://www.codeschool.com/courses/git-real",
       "tooltip": [
         "Completion Badge (score 16000/16000)"
-      ]
-    },
-    {
-      "title": "Try PHP",
-      "tags": ["Php"],
-      "quote": "https://www.codeschool.com/courses/try-php",
-      "tooltip": [
-        "Badge completed, score: 4750 / 4750"
-      ]
-    },
-    {
-      "title": "Up and Running with jQuery UI",
-      "tags": ["Html", "JS", "Css"],
-      "quote": "https://www.lynda.com/jQuery-tutorials/Up-Running-jQuery-UI/186963-2.html?utm_source=linkedin&utm_medium=sharing&utm_campaign=certificate",
-      "tooltip": [
-        "December 2016"
       ]
     },
     {
@@ -534,6 +526,30 @@
       ]
     },
     {
+      "title": "Close Encounters with PHP",
+      "tags": ["Php"],
+      "quote": "https://www.codeschool.com/courses/close-encounters-with-php",
+      "tooltip": [
+        "April 2017"
+      ]
+    },
+    {
+      "title": "Try PHP",
+      "tags": ["Php"],
+      "quote": "https://www.codeschool.com/courses/try-php",
+      "tooltip": [
+        "Badge completed, score: 4750 / 4750"
+      ]
+    },
+    {
+      "title": "Up and Running with jQuery UI",
+      "tags": ["Html", "JS", "Css"],
+      "quote": "https://www.lynda.com/jQuery-tutorials/Up-Running-jQuery-UI/186963-2.html?utm_source=linkedin&utm_medium=sharing&utm_campaign=certificate",
+      "tooltip": [
+        "December 2016"
+      ]
+    },    
+    {
       "title": "jQuery: The Return Flight",
       "tags": ["dom, css"],
       "quote": "https://www.codeschool.com/courses/jquery-the-return-flight",
@@ -615,6 +631,12 @@
       "level": "Beginner",
       "certification": "Duolingo badges",
       "flag": "spain.jpg"
+    },
+    {
+      "lang": "German",
+      "level": "Educational",
+      "certification": "Academic level",
+      "flag": "germany.svg"
     }
   ]
 }
