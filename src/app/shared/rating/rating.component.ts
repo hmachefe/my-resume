@@ -8,7 +8,7 @@ import { Skill } from './../../model/resume.model';
 })
 export class RatingComponent {
   private readonly max = 5;
-  stars: boolean[];
+  stars: ('full' | 'half' | 'empty')[];  // Modify the array to accept 'half' values
 
   private _skill: Skill;
   get skill() { return this._skill; }
@@ -19,16 +19,21 @@ export class RatingComponent {
   }
 
   private initStars(numberOfStars: number) {
-    this.stars = [];
-    for (let i = 0; i < numberOfStars; ++i) {
-      this.stars.push(false);
-    }
+    this.stars = Array(numberOfStars).fill('empty');  // Initialize with 'empty'
   }
 
   private setPercent(percent: number) {
-    const value = Math.round(percent * this.max / 100);
-    for (let i = 0; i < this.stars.length; ++i) {
-      this.stars[i] = value > i ? true : false;
-    }
+    const fullStars = Math.floor(percent / 20);  // Number of fully filled circles
+    const halfStar = percent % 20 >= 10;  // Determine if there should be a half-filled circle
+
+    this.stars = this.stars.map((_, index) => {
+      if (index < fullStars) {
+        return 'full';
+      } else if (index === fullStars && halfStar) {
+        return 'half';
+      } else {
+        return 'empty';
+      }
+    });
   }
 }

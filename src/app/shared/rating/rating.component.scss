@@ -1,44 +1,39 @@
 @import './../../../variables.scss';
 
-:host {
-    display: block;
-    border-bottom: 1px solid $light;
-    margin-left: 10px;
-}
-
-:host:hover {
-    .rating .star {
-        box-shadow: 0 0 1px black;
-    }
-}
-
 .ratingContainer {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 app-label {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .rating {
-    display: flex;
-    float: right;
-    min-width: 90px;
-    transition-duration: 200ms;
-    justify-content: flex-end;
+  display: flex;
+  min-width: 90px;
+  justify-content: flex-end;
+  transition-duration: 200ms;
 
-    .star {
-        width: 11px;
-        height: 11px;
-        margin: 2px;
-        border: 1.5px solid $dark;
-        border-radius: 100%;
-        display: inline-block;
-    }
+  .star {
+      width: 15px;  // Adjust the size as needed
+      height: 15px;
+      margin: 3px;
+      border-radius: 50%;
+      border: 1.5px solid $dark;
+      display: inline-block;
 
-    .star.full {
-        background-color: $dark;
-    }
+      &.empty {
+          background-color: transparent;
+      }
+
+      &.full {
+          background-color: $dark;
+      }
+
+      &.half {
+          background: linear-gradient(to right, $dark 50%, transparent 50%);
+      }
+  }
 }

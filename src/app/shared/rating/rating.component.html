@@ -1,6 +1,9 @@
 <div *ngIf="stars" class="ratingContainer">
   <app-label [title]="skill.techno" [subtitle]="skill.detail"></app-label>
   <div class="rating">
-    <span *ngFor="let star of stars" class="star" [ngClass]="{'full': star}"></span>
+    <span *ngFor="let star of stars"
+          class="star"
+          [ngClass]="{'full': star === 'full', 'half': star === 'half', 'empty': star === 'empty'}">
+    </span>
   </div>
 </div>

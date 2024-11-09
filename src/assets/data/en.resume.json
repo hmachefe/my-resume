@@ -27,12 +27,12 @@
         {
           "techno": "JavaScript / TypeScript",
           "detail": "ECMAScript 5 & 6",
-          "level": 100
+          "level": 90
         },
         {
           "techno": "Html / Css",
           "detail": "HTML5, CSS3, CSS3D",
-          "level": 100
+          "level": 90
         },
         {
           "techno": "Php",
@@ -40,13 +40,13 @@
           "level": 80
         },
         {
-          "techno": "C#",
-          "detail": ".NET Framework, Mono",
-          "level": 50
-        },
-        {
           "techno": "Python",
           "detail": "Python 3 & 2",
+          "level": 70
+        },
+        {
+          "techno": "C#",
+          "detail": ".NET Framework, Mono",
           "level": 60
         },
         {
@@ -65,60 +65,86 @@
       "title": "Front-end (web)",
       "skills": [
         {
-          "techno": "Angular",
-          "detail": "7/9/10",
+          "techno": "Angular 7/9/10/14",
+          "detail": "Modern front-end framework",
+          "level": 90
+        },
+        {
+          "techno": "React",
+          "detail": "Modern JavaScript UI library",
+          "level": 70
+        },
+        {
+          "techno": "jQuery",
+          "detail": "JavaScript DOM manipulation",
           "level": 80
         },
         {
-          "techno": "Jquery",
-          "detail": "Javascript, css",
-          "level": 80
+          "techno": "RxJS / Observables",
+          "detail": "Reactive programming library",
+          "level": 70
         },
         {
-          "techno": "RxJS",
-          "detail": "Observables",
-          "level": 60
-        },
-        {
-          "techno": "Scss",
-          "detail": "also Sass",
-          "level": 60
-        },
-        {
-          "techno": "VueJS",
-          "detail": "also Backbone, and AngularJS",
-          "level": 60
+          "techno": "SCSS / SASS",
+          "detail": "CSS preprocessor",
+          "level": 70
         },
         {
           "techno": "Bootstrap",
+          "detail": "Responsive, mobile-first CSS",
+          "level": 60
+        },
+        {
+          "techno": "Backbone",
+          "detail": "Progressive JavaScript framework",
+          "level": 50
+        },
+        {
+          "techno": "VueJS",
+          "detail": "Progressive JavaScript framework",
           "level": 40
         },
         {
           "techno": "ThreeJS",
-          "detail": "WebGL",
-          "level": 20
+          "detail": "3D graphics with WebGL",
+          "level": 30
         }
       ]
     },
     {
-      "title": "Back-end (web)",
+      "title": "Back-end",
       "skills": [
         {
-          "techno": "OpenAPI",
-          "detail": "formerly swagger, tsoa",
-          "level": 80
-        },
-        {
-          "techno": "Yii",
-          "detail": "PHP",
-          "level": 60
+          "techno": "OpenAPI / Swagger",
+          "detail": "API specification with TSOA",
+          "level": 90
         },
         {
           "techno": "Express",
-          "detail": "nodejs",
-          "level": 40
+          "detail": "Node.js framework",
+          "level": 70
+        },
+        {
+          "techno": "Microservices",
+          "detail": "Python-based services",
+          "level": 60
+        },
+        {
+          "techno": "Yii",
+          "detail": "PHP framework",
+          "level": 60
+        },
+        {
+          "techno": "Django",
+          "detail": "Python web framework for fast development, MVT architecture",
+          "level": 30
+        },
+        {
+          "techno": "Elixir",
+          "detail": "Functional programming, fault-tolerant, scalable, real-time support",
+          "level": 30
         }
-      ]
+    ]
     },
     {
       "title": "Database",
@@ -135,7 +161,7 @@
         },
         {
           "techno": "RDS",
-          "detail": "MySql",
+          "detail": "MySql, Microsfoft SQL Server, PostGreSQL",
           "level": 60
         }
       ]
@@ -156,7 +182,7 @@
         {
           "techno": "Xcode",
           "detail": "Objective C",
-          "level": 20
+          "level": 30
         }
       ]
     },
@@ -183,7 +209,7 @@
       "skills": [
         {
           "techno": "Linux",
-          "detail": "Ubuntu 20",
+          "detail": "Ubuntu 22",
           "level": 80
         },
         {
@@ -212,19 +238,84 @@
           "level": 80
         },
         {
-          "techno": "Scrum (master)",
+          "techno": "Scrum <i>master</i>",
           "detail": "daily, grooming, planning, review, retro",
           "level": 60
         }
       ]
     },
     {
-      "title": "Devops",
+      "title": "Devops AWS",
       "skills": [
         {
-          "techno": "AWS",
-          "detail": "EC2, IAM, ECR, EB, CloudFront, CloudFormation, S3, Dynamo, ElasticSearch, Lambdas +layers, Secrets Manager, MediaConvert, Step functions",
+          "techno": "EC2",
+          "detail": "Elastic Cloud Computing",
+          "level": 100
+        },
+        {
+          "techno": "IAM",
+          "detail": "Identity and Access Management",
           "level": 80
+        },
+        {
+          "techno": "ECR",
+          "detail": "Elastic Container Registry",
+          "level": 60
+        },
+        {
+          "techno": "CloudFront",
+          "detail": "Content Delivery Network",
+          "level": 80
+        },
+        {
+          "techno": "CloudFormation",
+          "detail": "Infrastructure as Code",
+          "level": 40
+        },
+        {
+          "techno": "S3",
+          "detail": "Simple Storage Service",
+          "level": 80
+        },
+        {
+          "techno": "DynamoDB",
+          "detail": "NoSQL Database Service",
+          "level": 80
+        },
+        {
+          "techno": "ElasticSearch",
+          "detail": "Search and Analytics Engine",
+          "level": 60
+        },
+        {
+          "techno": "Lambdas",
+          "detail": "Serverless Compute Functions",
+          "level": 60
+        },
+        {
+          "techno": "Secrets Manager",
+          "detail": "Secure Secrets Storage",
+          "level": 60
+        },
+        {
+          "techno": "MediaConvert",
+          "detail": "Media File Conversion",
+          "level": 60
+        },
+        {
+          "techno": "Step Functions",
+          "detail": "Serverless Orchestration",
+          "level": 60
+        }
+      ]
+    },
+    {
+      "title": "Devops Azure",
+      "skills": [
+        {
+          "techno": "Azure AI Speech",
+          "detail": "Text To Speech Service",
+          "level": 100
         }
       ]
     }
@@ -548,7 +639,7 @@
       "tooltip": [
         "December 2016"
       ]
-    },    
+    },
     {
       "title": "jQuery: The Return Flight",
       "tags": ["dom, css"],

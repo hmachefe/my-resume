@@ -40,14 +40,14 @@
           "level": 80
         },
         {
-          "techno": "C#",
-          "detail": ".NET Framework, Mono",
-          "level": 50
-        },
-        {
           "techno": "Python",
           "detail": "Python 3 & 2",
           "level": 60
+        },
+        {
+          "techno": "C#",
+          "detail": ".NET Framework, Mono",
+          "level": 50
         },
         {
           "techno": "Java",
@@ -66,7 +66,7 @@
       "skills": [
         {
           "techno": "Angular",
-          "detail": "7/9/10",
+          "detail": "7/9/10/14",
           "level": 80
         },
         {
@@ -548,7 +548,7 @@
       "tooltip": [
         "December 2016"
       ]
-    },    
+    },
     {
       "title": "jQuery: The Return Flight",
       "tags": ["dom, css"],
