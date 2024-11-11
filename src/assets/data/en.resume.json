@@ -17,7 +17,7 @@
     "email": "hugo.machefer@gmail.com",
     "linkedin": "linkedin.com/in/hugomachefer/",
     "github": "https://github.com/hmachefe",
-    "portfolio": "hugo.machefer.free.fr",
+    "portfolio": "hugo-machefer.com",
     "about": ["I like to learn, teach, co-work on R&D projects, but stick to production's target"]
   },
   "abilities": [
@@ -157,12 +157,12 @@
         {
           "techno": "DynamoDB",
           "detail": "AWS console, CLI, SDK",
-          "level": 80
+          "level": 90
         },
         {
           "techno": "RDS",
           "detail": "MySql, Microsfoft SQL Server, PostGreSQL",
-          "level": 60
+          "level": 70
         }
       ]
     },
@@ -225,6 +225,121 @@
       ]
     },
     {
+      "title": "AWS Cloud",
+      "skills": [
+        {
+          "techno": "EC2",
+          "detail": "Elastic Cloud Computing",
+          "level": 90
+        },
+        {
+          "techno": "Elastic Beanstalk",
+          "detail": "Application Deployment Service",
+          "level": 70
+        },
+        {
+          "techno": "IAM",
+          "detail": "Identity and Access Management",
+          "level": 80
+        },
+        {
+          "techno": "ECR",
+          "detail": "Elastic Container Registry",
+          "level": 70
+        },
+        {
+          "techno": "CloudFront",
+          "detail": "Content Delivery Network",
+          "level": 80
+        },
+        {
+          "techno": "S3",
+          "detail": "Simple Storage Service",
+          "level": 90
+        },
+        {
+          "techno": "Lambdas",
+          "detail": "Serverless Compute Functions",
+          "level": 90
+        },
+        {
+          "techno": "Secrets Manager",
+          "detail": "Secure Secrets Storage",
+          "level": 90
+        },
+        {
+          "techno": "MediaConvert",
+          "detail": "Media File Conversion",
+          "level": 80
+        },
+        {
+          "techno": "Step Functions",
+          "detail": "Serverless Orchestration",
+          "level": 70
+        },
+        {
+          "techno": "CloudWatch",
+          "detail": "AWS Monitoring and Observability Service",
+          "level": 80
+        },
+        {
+          "techno": "Fargate",
+          "detail": "Elastic Container Service",
+          "level": 20
+        }
+      ]
+    },
+    {
+      "title": "Azure Cloud",
+      "skills": [
+        {
+          "techno": "Azure AI Speech",
+          "detail": "Text To Speech Service",
+          "level": 40
+        }
+      ]
+    },
+    {
+      "title": "Devops",
+      "skills": [
+        {
+          "techno": "CloudFormation",
+          "detail": "AWS Infrastructure as Code Service",
+          "level": 50
+        },
+        {
+          "techno": "Terraform",
+          "detail": "Infrastructure as Code Tool for Multi-Cloud Environments",
+          "level": 80
+        },
+        {
+          "techno": "Kubernetes",
+          "detail": "Container Orchestration Platform for Automated Deployment, etc",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "title": "Video players",
+      "skills": [
+        {
+          "techno": "Bitmovin",
+          "detail": "Adaptive Streaming HTML5 Player with SDK",
+          "level": 90
+        },
+        {
+          "techno": "Accurate Player (Codemill)",
+          "detail": "Frame accurate video player for media workflows",
+          "level": 90
+        },
+        {
+          "techno": "Video.js",
+          "detail": "web video player built from the ground up for an HTML5 world",
+          "level": 70
+        }
+      ]
+    },
+    {
       "title": "Agility",
       "skills": [
         {
@@ -241,81 +356,6 @@
           "techno": "Scrum <i>master</i>",
           "detail": "daily, grooming, planning, review, retro",
           "level": 60
-        }
-      ]
-    },
-    {
-      "title": "Devops AWS",
-      "skills": [
-        {
-          "techno": "EC2",
-          "detail": "Elastic Cloud Computing",
-          "level": 100
-        },
-        {
-          "techno": "IAM",
-          "detail": "Identity and Access Management",
-          "level": 80
-        },
-        {
-          "techno": "ECR",
-          "detail": "Elastic Container Registry",
-          "level": 60
-        },
-        {
-          "techno": "CloudFront",
-          "detail": "Content Delivery Network",
-          "level": 80
-        },
-        {
-          "techno": "CloudFormation",
-          "detail": "Infrastructure as Code",
-          "level": 40
-        },
-        {
-          "techno": "S3",
-          "detail": "Simple Storage Service",
-          "level": 80
-        },
-        {
-          "techno": "DynamoDB",
-          "detail": "NoSQL Database Service",
-          "level": 80
-        },
-        {
-          "techno": "ElasticSearch",
-          "detail": "Search and Analytics Engine",
-          "level": 60
-        },
-        {
-          "techno": "Lambdas",
-          "detail": "Serverless Compute Functions",
-          "level": 60
-        },
-        {
-          "techno": "Secrets Manager",
-          "detail": "Secure Secrets Storage",
-          "level": 60
-        },
-        {
-          "techno": "MediaConvert",
-          "detail": "Media File Conversion",
-          "level": 60
-        },
-        {
-          "techno": "Step Functions",
-          "detail": "Serverless Orchestration",
-          "level": 60
-        }
-      ]
-    },
-    {
-      "title": "Devops Azure",
-      "skills": [
-        {
-          "techno": "Azure AI Speech",
-          "detail": "Text To Speech Service",
-          "level": 100
         }
       ]
     }

@@ -18,7 +18,7 @@ export class AppService {
   getLocalResumePDF() {
     const pdf = this.http.get(this.resumePDF, { responseType: ResponseContentType.Blob }).subscribe(response => {
       const blob = new Blob([response.blob()], { type: 'application/pdf' });
-      FileSaver.saveAs(blob, 'dimitri-buhon-cv.pdf');
+      FileSaver.saveAs(blob, 'hugo-machefer-cv.pdf');
     });
   }
 }
