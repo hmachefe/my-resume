@@ -119,6 +119,14 @@
           "detail": "API specification with TSOA",
           "level": 90
         },
+    {
+      "title": "Back-end",
+      "skills": [
+        {
+          "techno": "OpenAPI / Swagger",
+          "detail": "API specification with TSOA",
+          "level": 90
+        },
         {
           "techno": "Express",
           "detail": "Node.js framework",
