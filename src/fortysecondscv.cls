@@ -194,9 +194,15 @@
 \newcommand*{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand*{\cvphone}[1]{\renewcommand{\cvphone}{#1}}
 \newcommand*{\cvmail}[1]{\renewcommand{\cvmail}{\href{mailto:#1}{#1}}}
-\newcommand*{\cvkey}[2]{\renewcommand{\cvkey}{%
-	\href{http://orcid.org/#2}{#1}%
-}}
+
+\newcommand*{\cvlinkedin}[2]{%
+    \renewcommand{\cvlinkedin}{\href{https://www.linkedin.com/in/#2}{#1}}
+}
+
+\newcommand*{\cvgithub}[2]{%
+    \renewcommand{\cvgithub}{\href{https://github.com/hmachefe}{#1}}
+}
+
 
 % TODO find a cleaner solution for consistent spacing
 \newcommand{\nameandjob}{%
@@ -244,14 +250,15 @@
 % table with personal information on top sidebar on first page
 \newcommand{\personaltable}{%
 	\begin{personal}[0.6em]
-		\circleicon{\faInfo}     & \cvbirthday \\
-		\circleicon{\faEnvelope} & \cvaddress \\
-		\circleicon{\faPhone}    & \cvphone \\
-				\circleicon{\faAt}       & \cvmail \\
-
-		\circleicon{\faKey}      & \cvkey
+		\circleicon{\faInfo}      & \cvbirthday \\
+		\circleicon{\faEnvelope}  & \cvaddress \\
+		\circleicon{\faPhone}     & \cvphone \\
+    \circleicon{\faAt}        & \cvmail \\
+		\circleicon{\faLinkedin}  & \cvlinkedin \\
+    \circleicon{\faGithub}    & \cvgithub
 	\end{personal}
 }
+
 
 % icon style for personal information
 \newcommand*\circleicon[1]{%
