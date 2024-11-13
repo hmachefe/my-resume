@@ -111,11 +111,7 @@
 
 % pictures, icons and drawings
 \RequirePackage{ifxetex}
-\ifxetex
-	\RequirePackage{fontawesome5}
-\else
-	\RequirePackage{fontawesome}
-\fi
+\RequirePackage{fontawesome5}
 \RequirePackage{tikz}
 \usetikzlibrary{arrows, backgrounds}
 
@@ -190,7 +186,6 @@
 \newcommand*{\cvprofilepic}[1]{\renewcommand{\cvprofilepic}{#1}}
 \newcommand*{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand*{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
-\newcommand*{\cvbirthday}[1]{\renewcommand{\cvbirthday}{#1}}
 \newcommand*{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand*{\cvphone}[1]{\renewcommand{\cvphone}{#1}}
 \newcommand*{\cvmail}[1]{\renewcommand{\cvmail}{\href{mailto:#1}{#1}}}
@@ -250,12 +245,11 @@
 % table with personal information on top sidebar on first page
 \newcommand{\personaltable}{%
 	\begin{personal}[0.6em]
-		\circleicon{\faInfo}      & \cvbirthday \\
-		\circleicon{\faEnvelope}  & \cvaddress \\
 		\circleicon{\faPhone}     & \cvphone \\
     \circleicon{\faAt}        & \cvmail \\
 		\circleicon{\faLinkedin}  & \cvlinkedin \\
-    \circleicon{\faGithub}    & \cvgithub
+    \circleicon{\faGithub}    & \cvgithub \\
+    \circleicon{\faEnvelope}  & \cvaddress
 	\end{personal}
 }
 
