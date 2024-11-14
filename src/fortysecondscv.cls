@@ -655,8 +655,10 @@
 % cv list environment --> table, left aligned, width=textwidth
 % tabular starred version adds space to make table as wide as \textwidth here
 \newenvironment{cvtable}%
-	{\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}}%
-	{\end{tabular*}}
+    {\begin{tabular}{p{0.09\textwidth} p{0.88\textwidth}}}%
+    {\end{tabular}}
+
+
 
 % | <keyword>      <one-line description>            |
 % use parbox if text needs to use multiple lines
@@ -669,15 +671,15 @@
 % or, if description is empty:
 % | <date>         <title>       \hfill  <location>  |
 \newcommand{\cvitem}[4]{%
-	\parbox[t]{0.17\textwidth}{\raggedright #1} &%
-	\parbox[t]{0.81\textwidth}{%
-		\if\relax\detokenize{#4}\relax%
-			\parbox[t]{\linewidth-\widthof{#3}-1em}{\raggedright #2}%
-  		\hfill {\footnotesize#3}%
-		\else%
-			\textbf{#2} \hfill {\footnotesize#3} \\ #4\vspace{\parsep}%
-		\fi%
-	}\\
+    \parbox[t]{0.09\textwidth}{\raggedright \strut #1} &% Set date column width
+    \parbox[t]{0.88\textwidth}{% Increase main content width to use up extra space
+        \textbf{#2} \hfill {\footnotesize#3} \\ #4\vspace{\parsep}%
+    }\\
 }
+
+
+
+
+
 
 % EOF - fortysecondscv.cls

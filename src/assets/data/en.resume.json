@@ -373,7 +373,7 @@
       "company": "Difuze",
       "location": "Montreal, Québec",
       "status": "Tech lead",
-      "date": "2019 - 2021",
+      "date": "2019 - ongoing",
       "logo": "Logo_Icon_Difuse.png",
       "quote": "difuze is a dynamic fast-growing private company born out of the merger of Technicolor's Montreal-based postproduction, voice-over dubbing and distribution",
       "description": [
@@ -421,7 +421,7 @@
 
         "* but extending and enhancing <b>DevOps</b> skills: AWS. Very familiar with S3, EC2, ASG, IAM Linux 1 & 2, ElasticSearch, ElasticBeanStalk, ECR Docker, CloudFormation, CloudFront, Lambdas (and layers), SNS, Step functions, AWS Secrets Manager, etc",
         "* Multi-media skills: very familiar with AWS <b>Media2Cloud</b> solution (transcoding with Mediaconvert, mediaInfo, DRM) + bitmovin picture in picture, frame-accuracy",
-        "* More responsibilities: technically driving another web project involving Azure text to speech API, remaining main tech referee for <b>5 developers</b>",
+        "* More responsibilities: technically driving another web project involving Azure text to speech API, remaining main tech referee for <b>3 developers</b> and one QA",
 
         "our B2B customer <Difuze inc> purchased corporate contract signed with LVL Studio and hired resources as a consequence, internalizing developments, then becoming part of Difuze payroll"
       ]
