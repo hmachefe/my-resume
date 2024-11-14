@@ -43,6 +43,7 @@
 \definecolor{cvsidecolor}{HTML}{E7E7E7}
 \definecolor{cvsectioncolor}{HTML}{0E5484}
 \definecolor{cvsubsectioncolor}{HTML}{4D4D4D}
+\definecolor{jobtitlecolor}{HTML}{0E5484} % Define the color for the job title
 % set default values
 \colorlet{maincolor}{cvblue}
 \colorlet{sidecolor}{cvsidecolor}
@@ -676,6 +677,15 @@
         \textbf{#2} \hfill {\footnotesize#3} \\ #4\vspace{\parsep}%
     }\\
 }
+
+
+\newcommand{\cvitemRight}[4]{%
+    \parbox[t]{0.09\textwidth}{\raggedright \strut \textcolor{gray}{#1}} &% Set date column width and color
+    \parbox[t]{0.88\textwidth}{% Increase main content width to use up extra space
+        {\large \textbf{\textcolor{jobtitlecolor}{#2}}} \hfill {\footnotesize#3} \\ #4\vspace{\parsep}%
+    }\\
+}
+
 
 
 

@@ -139,8 +139,8 @@
 \addtobacksidebar{
 \vspace*{-6mm}  % Adjusts the vertical space, move content up by 10mm
 \chartlabel{AWS Cloud:}\\
-\pointskillNinety{}{EC2}
-\pointskillNinety{}{S3}
+\pointskillNinety{}{EC2, S3}
+\pointskillEighty{}{SES, SNS}
 \pointskillNinety{}{Lambdas (layer)}
 \pointskillNinety{}{Secrets Manager}
 \pointskillEighty{}{IAM}
@@ -167,7 +167,7 @@
 \pointskillSeventy{}{Video.js (open source)}
 
 \chartlabel{Multimedia:}\\
-\pointskillNinety{}{FFMPEG}
+\pointskillNinety{}{FFMPEG, mediainfo}
 \pointskillNinety{}{AWS MediaConvert}
 \pointskillSeventy{}{Hybrik}
 
@@ -234,18 +234,6 @@ With over 26 years of experience in web development for digital TV, media platfo
 %                         TABLE ENTRIES RIGHT COLUMN
 %-------------------------------------------------------------------------------
 \begin{document}
-% \sidebarwidth=0\paperwidth
-% \newgeometry{right=1cm,left=1cm,bottom=0.1cm,top=1cm}
-
-% \vskip30pt
-
-% \begin{center}
-%     {\color{cvblue} \Huge Cover Letter}
-% \end{center}
-% \vskip20pt
-
-% {
-% }
 
 
 \newpage
@@ -256,15 +244,36 @@ With over 26 years of experience in web development for digital TV, media platfo
 
 \cvsection{Working Experience}
 \begin{cvtable}
-    \cvitem{Aug,\\2020\\–\\now}
-    {Full stack developer (and devops) at Difuze}
-    {(Tech lead), Montreal}
+    \cvitemRight{Jan,\\2020\\–\\now}
+    {Full stack developer (+devops) | Tech lead}
+    {difuze, Montreal}
     {
-      \textbf{Role}: Consolidating our software stack required by Difuze, formerly Technicolor Montreal. Involved in architecture decisions, contributed to modules development, components creation, including code reviews through gitlab, pro-actively following back-log across Jira, arranging / creating / prioritizing tickets, writing documentation over Confluence.\\
-      \textbf{Context}: B2B with www.difuzego.com as the main product, handling media asset management, screeners, and delivery.\\
+      \textbf{Role}: Primarily similar to the previous mission at LVL Studio\\      \textbf{Project Descriptions}:
+
+      * \textbf{DifuzeGo.com}: Focused on integrating AWS Step Functions in a workflow context, implementing an Express-based node.js worker ecosystem with intercommunicating process nodes and SQLite. \\
+      ** \textbf{DifuzeVox.com}: Developed for video description (visual impairment) using Azure Text-to-Speech services, FFMPEG processing, and Auphonic APIs for final mix supervision. Utilized TTML for text and metadata handling.\\
+      ** \textbf{AI Detection Project}: Worked on detection of specific mouth symbols (e.g., "pucker" shapes) in films, scene change detection, and burnt-in text detection in video frames using a third-party AI solution. Managed multi-window/browser tab communications and interfacing.\\
+      \textbf{Additional Skills and Responsibilities}: Led another web project involving Azure text-to-speech API, served as the main technical referee for 5 developers, and managed multimedia tasks like AWS Media2Cloud solution (transcoding with Mediaconvert, MediaInfo, DRM) and Bitmovin for picture-in-picture and frame accuracy.\\
+    }
+\end{cvtable}
+
+\begin{cvtable}
+    \cvitemRight{Sept,\\2017\\–\\Jan,\\2020}
+    {Full stack key player}
+    {LVL Studio, Montreal}
+    {
+      \textbf{Role}: Participated in building a new software stack for our client recently named Difuze, formerly Technicolor Montreal. Involved in architecture decisions, contributed to module development, component creation, including code reviews through GitLab, proactively following the backlog across Jira, arranging/creating/prioritizing tickets, and writing documentation over Confluence.\\
+      \textbf{Context}: B2B with www.difuze.com as the customer, www.difuzego.com as the main product.\\
       \textbf{Purpose}: Media Asset Management, screeners (promotional video links), delivery (orders)\\
-      \textbf{Tech Areas}: Expertise in Front-end and Back-end development, tasks scheduling (cron jobs), and primarily DevOps.\\
-      % Continue with the rest of your text
+      \textbf{Tech Areas}: Expertise in Front-end and Back-end development, tasks scheduling (cron jobs), and partially in DevOps.\\
+      \textbf{Front-end}: Worked with frameworks and libraries such as Angular 2 (version 7.2.9), RxJS (Observables), Angular Material. Modules including ngx-translate, fortawesome, ipfy, ipstack, ngx-charts, angulartics2, bitmovin player and UI, bowser, fs-symlink, hammerjs, i18n-iso-countries, merge-ranges, moment, ng2-file-upload, ngx-device-detector, ngx-perfect-scrollbar, lodash.merge, rxjs, rxjs-compat, socket.io-client.\\
+      \textbf{Back-end}: RESTful web services with OpenAPI, architecture with TypeScript Oriented Architecture (tsoa), modules like exceljs, mailcomposer, moment-timezone, mustache, request, restify, socket.io, user-agent, winston, csv-generate, fs-extra, easy-zip, rapid-api sms, git-repo-info, jasmine, aws-sdk. Asynchronism with Promise and async/await.\\
+      \textbf{Package Management}: Proficient with WebPack, Node.js, and yarn.\\
+      \textbf{Database and Search Engines}: Managed both new and legacy stacks with technologies like DynamoDb, ElasticSearch, and MySQLWorkbench for stored procedures.\\
+      \textbf{AWS DevOps}: Experience with AWS technologies including ElasticBeanStalk, EC2, Lambda, CloudWatch, IAM, aws-cli.\\
+      \textbf{Operating Systems}: Ubuntu 18.04, Windows 7, Mac OS Sierra.\\
+      \textbf{IDEs}: Efficient with WebStorm, VS Code, and vim / vi.\\
+      \textbf{Additional Responsibilities}: Actively participated in maintaining the old stack developed in PHP, based on the YII framework, layered on MySQL as RDS database. Minor developments in C\#.
     }
 \end{cvtable}
 
@@ -274,80 +283,78 @@ With over 26 years of experience in web development for digital TV, media platfo
 
 
 
-\cvsection{Education}
-\subsection{Postgraduate Studies}
-\begin{cvtable}
-	\cvitem{2013 -- 2016}{\color{cvsectioncolor}Ph.D. in Mechatronics and Robotics Engineering}{\href{www.ejust.edu.eg}{\textbf{E-JUST, Egypt}}}
-		{\textbf{Title}: Development of a Cognitive Human-Robot Interaction System for Dexterous Teleoperation.\\
-		\textbf{Supervisors}: Prof. Said Megahed, Dr. Samy Assal, Prof. Ahmed A. Abouelsoud and Prof. Tsukasa Ogasawara.\\
-		\textbf{Grade: }CGPA: 3.78\\
-		\chartlabel{HRI} \chartlabel{Teleoperation} \chartlabel{Shared Control} \chartlabel{Eye Gaze}}
-
-	\cvitem{2011 -- 2013}{\color{cvsectioncolor}M.Sc. in Mechatronics and Robotics Engineering}{\href{www.ejust.edu.eg}{\textbf{E-JUST, Egypt}}}
-		{\textbf{Title}: Improving Robots Exploration by Heuristic Backtracking in Sensor-based Techniques.\\
-		\textbf{Supervisors}: Dr. M. Abdellatif and Dr. Samy Assal\\
-		\textbf{Grade: }CGPA: 3.5\\
-	\chartlabel{Mobile Robots} \chartlabel{Exploration} \chartlabel{Navigation} \chartlabel{Path Planning}}
-\end{cvtable}
-
-
 
 
 \newpage
 \makebacksidebar
-\cvsection{Teaching Experience}
-\subsection{Postgraduate Courses}
-\begin{cvtable}
-	\cvitem{E-JUST University}{MTR 601: Intelligent Control Systems}{Fall'18, Spring'19}{Fuzzy Logic Control, Neural Network Control, Evolutionary Algorithms and Genetic Programming.}
-	\cvitem{Benha University}{ECE 501: Advanced Embedded Systems}{Fall'16}{Micro-controllers and Microprocessors Applications}
-% 	\cvitem{Benha University}{ECE 447: Robotics Engineering}{Spring'17, Spring'19}{Robot Structure, Kinematics, Dynamic and Control.}
-% 	\cvitem{}{ECE 447: Robotics Engineering}{Spring'17, Spring'19}{Robot Structure, Kinematics, Dynamic and Control.}
-\end{cvtable}
 
-\subsection{Undergradute Courses}
-\begin{cvtable}
-\cvitem{Benha University}{ECE 447: Robotics Engineering}{Spring'17, Spring'19}{Robot Structure, Kinematics, Dynamics and Control.}
-\cvitem{}{ECE 101: Electronics (I)}{Fall'16}{Basic of Electronics: PN Junctions, Diode applications.}
-\cvitem{}{ECE 102: Electronics (II)}{Spring'17}{LEDs, Optocouplers, Photodiodes and applications.}
-\cvitem{}{ECE 204: Electrical and Electronic Measurements}{Fall'16, Fall'18}{PMMC, Avometers, Digital Instruments, Sensor and actuators.}
-\cvitem{ZewailCity University}{SPC 318: System Modeling and Linear Systems}{Fall'18}{Transfer function, State-Space, First and Second Order Systems, Stability Analysis and Root Locus.}
-\cvitem{YouTube}{\href{https://www.youtube.com/playlist?list=PL_rxK_FJ4p0agYcYRZwa9mbMUvnhesZ4v}{\textbf{Introduction to \LaTeX\, in Arabic}}}{Since Dec 8, 2014}{}
-	\end{cvtable}
 
-\cvsection{Academic Supervision}
-\begin{cvtable}
-	\cvitem{2018--2020}{\small Demonstration-Guided Motion Planning for Continuum Robots}{Ph.D.}{}
-	\cvitem{2018--2020}{\small Intelligent Control of Automotive Air-Spring Suspension System.}{Ph.D.}{}
-	\cvitem{2019--2020}{\small Intuitive teloperation of Multi-section Continuum Robots.}{M.Sc.}{}
-	\cvitem{2019--2020}{\small Autonomous Tasks-around-head Assistance for Patients with Movement Disabilities}{M.Sc.}{}
-\end{cvtable}
 
-\cvsection{Honours and Awards}
 \begin{cvtable}
-	\cvitem{May 2018}{Award of Research Excellence (10000 EGP)}{Benha Univ., Egypt}{}
-		\cvitem{Jan 2017}{Award of Research Excellence (4000 EGP)}{Benha Univ., Egypt}{}
-		\cvitem{Sep 2011}{Awarded M.Sc. and Ph.D. Scholarships}{MoHE, Egypt}{}
+    \cvitemRight{Jan,\\2017\\–\\August,\\2017}
+    {Full stack coder}
+    {Alayacare, Montreal}
+    {
+      \textbf{Role}: Development of web features for healthcare applications focusing on front-end and back-end integrations.\\
+      * \textbf{Front-end}: Developed pure VUE.js components and a custom time-entry component, leveraging technologies such as super-agent, moment.js, simple-vue-validator, and LESS for enhanced CSS management. \\
+      * \textbf{Back-end}: Engineered solutions using PHP 5 with YII Framework and PYTHON for RESTful micro-services, including unit testing and API documentation updates via APIARY. \\
+      * \textbf{Mobile and Process Agility}: Performed intensive code reviews for Android and adhered to agile methodologies with three-week sprint cycles, managing tasks through Jira and documentation via Confluence.\\
+      * \textbf{Virtualization}: Utilized Docker for encapsulating micro-services and software components, enhancing deployment efficiency and isolation.\\
+    }
 \end{cvtable}
 
 
-\cvsection{Invited Talks}
+
 \begin{cvtable}
-	\cvitem{Mar 2019}{Entrepreneur Workshop}{E-JUST Univ.}{Gave a two hours lecture on career support and entrepreneurships.}
-		\cvitem{May 2009}{Getting Started in Embedded Systems}{Benha Univ.}{Gave a lecture on getting started in embedded systems.}
-\end{cvtable}
-\section{Review Duties}
-\begin{cvtable}
-	\cvitem{Journals}{Advanced Robotics, Intelligent Service Robots.}{}{}
-	\cvitem{Conferences}{ICRA’17, IROS’18, ICRA’19, ICAR'19.}{}{}
+    \cvitemRight{May,\\2015\\–\\Dec,\\2016}
+    {Front-End Developer}
+    {Abbeal, Canal+, Issy Les Moulineaux}
+    {
+      \textbf{Role}: Development and maintenance of WebApp interfaces for digital TV receivers (STB) across various platforms including TNT, SATELLITE, and IPTV, reaching millions of subscribers.\\
+      * \textbf{Front-End}: Managed with WEBPACK, featuring HTML/JS/CSS execution in a Qt/webkit instance on a Linux system. Utilized ES2015 standards with Babel transpilation, GRUNT build management, and NODE.js.\\
+      * \textbf{Server-Side}: Operated with UWSGI in Python, hosting the WebApp and handling URL routing via the DBUS interface.\\
+      \textbf{Frameworks and Libraries}: Transitioned from BACKBONE to ANGULAR for MVC approaches, used LODASH for data manipulation, EASELJS from CREATEJS suite for canvas operations, and EJS for templating.\\
+      \textbf{Testing and Agile Practices}: Conducted unit testing using MOCHA, SPY, SINON; followed agile methodologies with daily standups, grooming sessions, managed tasks and documentation through JIRA and CONFLUENCE. Sources maintained on GitHub.\\
+      \textbf{Deployment Achievements}: Successfully deployed to 400,000 TNT receivers and expanded to 2 million SAT receivers.\\
+      \textbf{Special Project}: Led the Nightwatch project, a Selenium-centric task-force, to develop UI navigation scenarios, capture and playback network exchanges with REST APIs, managed remotely on AWS EC2 via Docker.\\
+    }
 \end{cvtable}
 
-\cvsection{References}
-\begin{cvtable}
-	\cvitem{Ref. 1}{Prof. XXX CCCC}{EE Univ., Egypt}{xxx[dot]yyy[at]ddd[dot]edu[dot]eg}
-			\cvitem{Ref. 2}{Prof. XXX CCCC}{EE Univ., Egypt}{xxx[dot]yyy[at]ddd[dot]edu[dot]eg}
-	\cvitem{Ref. 3}{Prof. XXX CCCC}{EE Univ., Egypt}{xxx[dot]yyy[at]ddd[dot]edu[dot]eg}
 
+
+\begin{cvtable}
+    \cvitemRight{Dec,\\2014\\–\\Apr,\\2015}
+    {Android + NodeJS Developer for IoT}
+    {Cisco, Paris}
+    {
+      \textbf{Project}: ConnectedLife - Integrated IoT with TV experiences.\\
+      * \textbf{Technologies}: Utilized openHAB for IoT ecosystem management, implementing localization with Bluetooth (iBeacons), WiFi, and RFID. Developed a playlist system for delinearized TV based on user analytics, incorporating dynamic ad insertion.\\
+      * \textbf{Ambilight \& UI}: Created real-time ambilight effects using GStreamer and Philips Hue via Zigbee. Initiated UI/UX in Dart/WebGL, transitioned to HTML/CSS with Cisco’s JUNO.\\
+      * \textbf{Companion Apps}: Crafted apps for wearables and mobiles in Java, enhancing connectivity with WebSocket and Node.js servers.\\
+      * \textbf{Achievements}: Showcased at CES 2015, featured at Mobile World Congress, and won "Best IoT Product" award by CSI Magazine.\\
+    }
 \end{cvtable}
+
+
+
+\begin{cvtable}
+    \cvitemRight{Aug,\\2014\\–\\Dec,\\2014}
+    {HTML5/JS Front-End Developer}
+    {Cisco, Paris}
+    {
+      \textbf{Project}: Development of a WebApp for ZON TV Portugal.\\
+        * Led the design and implementation using Vanilla JS, CSS3, and HTML5, creating a custom UI manager for MVC view arrangement.\\
+        * Developed essential components such as channel lists, channel banners, and EPG grids.\\
+        * Managed continuous integration with Grunt and Jenkins, oversaw agile processes, and maintained project oversight via JIRA.\\
+      \textbf{Outcome}:
+        Delivered a fully functional proof of concept that enhanced STB interaction with backend systems, significantly improving user experience.
+    }
+\end{cvtable}
+
+
+
+
+
 
 \newpage
 \makethirdsidebar
