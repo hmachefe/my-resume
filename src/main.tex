@@ -279,26 +279,36 @@
 
 \begin{cvtable}
     \cvitemRight{Sep,\\2017\\–\\Jan,\\2020}
-    {Full-Stack coder for Media Asset Management}
+    {Full-Stack coder, Media Asset Management}
     {LVL Studio, Montreal}
     {
       \textbf{Role}: Key contributor to a new software stack for Difuze (formerly Technicolor Montreal),
       including architecture decisions, module development, and component creation.
       Engaged in proactive backlog management through Jira and performed code reviews
       via GitLab with comprehensive documentation in Confluence.\\
-      \textbf{Context}: B2B client with www.difuze.com as the customer and www.difuzego.com as the main product.\\
+      \textbf{Context}: B2B client where difuze inc is our main customer and www.difuzego.com stands for the main product.\\
+      \textbf{Project Descriptions:}\\
+         ** \textit{showcase.com}: Old legacy stack based on YII written in PHP, along with scripts in C\# for scheduling tasks like cron jobs\\
+         ** \textit{difuze.com}: New stack based on "modern" AWS features and written in TypeScript.\\
       \textbf{Purpose}: Development of media asset management and delivery solutions, including screeners and video delivery.\\
-      \textbf{Tech Areas}: Front-end, Back-end, DevOps (partial), task scheduling (cron jobs).\\
-      \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, ngx-translate, moment, ng2-file-upload, bitmovin, fs-symlink, hammerjs, and ngx-perfect-scrollbar.\\
-      \textbf{Back-end}: RESTful services with OpenAPI, TypeScript Oriented Architecture (tsoa), and libraries like exceljs, fs-extra, mustache, and socket.io; asynchronous handling with async/await.\\
+      \textbf{Tech Areas}: Front-end, Back-end, DevOps (partial), task scheduling (cron).\\
+      \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, also including various NPM modules like ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, bowser, jsoneditor, lodash, jschardet\\
+      \textbf{Back-end}: RESTful services with OpenAPI, TypeScript Oriented Architecture (tsoa), and NPM imports like exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase; asynchronous handling with async/await.\\
       \textbf{Package Management}: Proficient with WebPack, Node.js, and yarn.\\
       \textbf{Database and Search}: Managed both legacy (MySQL RDS) and new stack (DynamoDb, ElasticSearch).\\
-      \textbf{AWS DevOps}: Experience with ElasticBeanStalk, EC2, S3, small Lambda, CloudWatch, IAM, ECR\\
+      \textbf{AWS DevOps}: Experience with ElasticBeanStalk, EC2, S3, small Lambda, CloudWatch, IAM, ECR. Infra deployment automated with Cloudformation\\
       \textbf{Operating Systems}: Ubuntu 18, Windows 10, MacOS.\\
-      \textbf{Operating Systems and IDEs}: WebStorm, VS Code.\\
-      \textbf{Additional Work}: Maintained legacy PHP/YII stack and MySQL RDS; minor C\# developments.
+      \textbf{IDEs}: WebStorm, VS Code.\\
+      \textbf{Streaming and encryption}:\\
+         ** MPEG/DASH: compression/encoding managed on AWS by Mediaconvert, and encrypted by KeyOS/BuyDRM\\
+         ** HLS: compression/encoding managed on AWS by MacOS, and encrypted using AES-128 algorithm\\
+      compression managed on AWS by Mediaconvert for MPEG/DASH and encrypted by KeyOS/BuyDRM\\
+      \textbf{Additional Work}: Maintained legacy PHP/YII stack and MySQL RDS; minor C\# developments supervised over Mono on Ubuntu\\
+      \textbf{Architecture Note}: Our project was based on a monolithic architecture, without microservices. Same data model shared between UI and API.
     }
 \end{cvtable}
+
+
 
 
 
