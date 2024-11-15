@@ -184,6 +184,8 @@
 \pointskillEighty{}{Linux (Ubuntu 22)}
 \pointskillSeventy{}{Windows (Win 10)}
 \pointskillFifty{}{Mac (El Capitan 10.11.2)}
+\pointskillSixty{}{Tizen (Samsung TV)}
+\pointskillFifty{}{WebOS (LG TV)}
 
 \chartlabel{IDE}\\
 \pointskillEighty{}{Webstorm (Jetbrains)}
@@ -196,16 +198,16 @@
 \pointskillEighty{}{Confluence / wiki}
 \pointskillEighty{}{Scrum (grooming, review)}
 
-
-\chartlabel{Scripting}\\
-\pointskillEighty{}{Bash, shell (Linux, Mac)}
-\pointskillSeventy{}{CMD prompt, Powershell}
 }
 
 \addtothirdsidebar{
 \vspace*{-9mm}  % Adjusts the vertical space, move content up by 10mm
 
-  \chartlabel{Streaming, encryption}\\
+  \chartlabel{Scripting}\\
+  \pointskillEighty{}{Bash, shell (Linux, Mac)}
+  \pointskillSeventy{}{CMD prompt, Powershell}
+
+  \chartlabel{Streaming, DRM encryption}\\
   \pointskillEighty{}{MPEG/DASH, Widevine}
   \pointskillEighty{}{HLS, AES-128}
 
@@ -220,31 +222,37 @@
   \pointskillSixty{}{OpenAI API}
 
 	\profilesection{Languages}
+  \vspace{-1mm} % Adjust the negative space as needed
 	\barskill{}{\textbf{French} (Mother Tongue)}{100}
-	\barskill{}{\textbf{English} (TOEFL)}{95}
+	\barskill{}{\textbf{English} (TOEFL)}{92}
 	\barskill{}{\textbf{German} (Educational, 2 years)}{35}
 	\barskill{}{\textbf{Spanish} (Beginner, Duolingo)}{25}
 
 	\profilesection{Honors \& awards}
+    \vspace{-1mm} % Adjust the negative space as needed
 		\skill{\faAward}{NDS CEO Award · Jan 2006}
 		\skill{\faAward}{CSI Awards 2014}
 
   \profilesection{Teaching, Talks }
+    \vspace{-1mm} % Adjust the negative space as needed
 		\skill{\faChalkboardTeacher}{HTML5 coach (India, Israel, UK, US)}
     \skill{\faChalkboardTeacher}{Cross-cultural trainer, TMC}
 		\skill{\faChalkboardTeacher}{ WebRTC (Intl dev conference, Berlin)}
 
-\vspace{-3mm} % Adjust the negative space as needed
+  \vspace{-3mm} % Adjust the negative space as needed
 	\profilesection{Education}
+    \vspace{-1mm} % Adjust the negative space as needed
 		\skill{\faLaptop}{Engineer's degree (ESEO) 1998}
 
 	\profilesection{Interests}
+    \vspace{-1mm} % Adjust the negative space as needed
 		\skill{\faUnity}{WebGl/VR/AR, streaming, AI}
 		\skill{\faGlobe}{International geopolitics (+ cinema)}
 		\skill{\faSwimmer}{Swimming, Basket-ball, Cycling}
 
 
 	\profilesection{Short Bio}
+  \vspace{-1mm} % Adjust the negative space as needed
 	\aboutme{
     With 26+ years in web development, I have led multiple projects across digital TV and media platforms, enhancing our software stack with agile practices and technologies like AWS, Angular, Vue.js, React, PHP, Python, HTML5, and AI
     }\\
@@ -268,51 +276,47 @@
     {Full stack developer (+devops) | Tech lead}
     {difuze, Montreal}
     {
-      \textbf{Role}: Primarily similar to the previous mission at LVL Studio\\      \textbf{Project Descriptions}:
-
-      * \textbf{DifuzeGo.com}: Focused on integrating AWS Step Functions in a workflow context, implementing an Express-based node.js worker ecosystem with intercommunicating process nodes and SQLite. \\
-      ** \textbf{DifuzeVox.com}: Developed for video description (visual impairment) using Azure Text-to-Speech services, FFMPEG processing, and Auphonic APIs for final mix supervision. Utilized TTML for text and metadata handling.\\
-      ** \textbf{AI Detection Project}: Worked on detection of specific mouth symbols (e.g., "pucker" shapes) in films, scene change detection, and burnt-in text detection in video frames using a third-party AI solution. Managed multi-window/browser tab communications and interfacing.\\
-      \textbf{Additional Skills and Responsibilities}: Led another web project involving Azure text-to-speech API, served as the main technical referee for 5 developers, and managed multimedia tasks like AWS Media2Cloud solution (transcoding with Mediaconvert, MediaInfo, DRM) and Bitmovin for picture-in-picture and frame accuracy.\\
-    }
+      \textbf{Role}: Primarily similar to the previous mission at LVL Studio\\
+      \textbf{Project Descriptions}:\\
+        \noindent\hspace*{1mm}*\textbf{difuzego.com:} Enhanced the initial solution with a file publishing (upload) module
+        ingested in a workflow system based on AWS Step Functions,
+        producing streamable proxies through Mediaconvert and/or Mac-type EC2s.
+        This workflow solution was further expanded to include an on-prem \textit{workers}
+        ecosystem, implemented with an Express Node.js environment featuring
+        intercommunicating child process nodes and SQLite.
+        Additionally led the project's streaming and encryption tasks,
+        including MPEG/DASH compression/encoding on AWS by Mediaconvert (at the beginning but replaced by Hybrik in the end) and encrypted by KeyOS/BuyDRM;
+        including HLS compression/encoding performed on AWS EC2 MacOS (at the beginning but replaced by local FFMPEG processing), encrypted using the AES-128 algorithm.
+        Bitmovin and Accurate Player (CodeMill) at stake as main HTML5 video players in this project.\\
+        \noindent\hspace*{1mm}*\textbf{difuzevox.com}: Developed for video description aiding visual impairment, this project leverages Azure Text-to-Speech, local FFMPEG, MediaInfo, and remote Auphonic APIs for mix supervision. It uses TTML to generate voices, with Video.js as the primary HTML5 multimedia renderer. Iac under Terraform supervision. I acted as the technical referee for 3 devs and 1 QA.
+          \\
+        \noindent\hspace*{1mm}*\textbf{AI Detection Project}: Focused on the detection of specific mouth symbols (e.g., "pucker" shapes) in video frames, scene change detection, and burnt-in text detection using a 3rd-party AI solution. Managed multi-window/browser tab communications via postMessage() and interfacing.
+    \textbf{CI/CD}: I participated in a small project deployed using Kubernetes.
+  }
 \end{cvtable}
+
 
 \begin{cvtable}
     \cvitemRight{Sep,\\2017\\–\\Jan,\\2020}
     {Full-Stack coder, Media Asset Management}
     {LVL Studio, Montreal}
     {
-      \textbf{Role}: Key contributor to a new software stack for Difuze (formerly Technicolor Montreal),
-      including architecture decisions, module development, and component creation.
-      Engaged in proactive backlog management through Jira and performed code reviews
-      via GitLab with comprehensive documentation in Confluence.\\
-      \textbf{Context}: B2B client where difuze inc is our main customer and www.difuzego.com stands for the main product.\\
+      \textbf{Role}: Key contributor to Difuze's new software stack, responsible for architecture decisions, module development, and component creation. Managed backlog proactively using Jira and conducted code reviews via GitLab with detailed documentation in Confluence.\\
+      \textbf{Context}: In a B2B environment with Difuze Inc. as our primary client, focused on enhancing difuzego.com, our main product.\\
       \textbf{Project Descriptions:}\\
-         ** \textit{showcase.com}: Old legacy stack based on YII written in PHP, along with scripts in C\# for scheduling tasks like cron jobs\\
-         ** \textit{difuze.com}: New stack based on "modern" AWS features and written in TypeScript.\\
-      \textbf{Purpose}: Development of media asset management and delivery solutions, including screeners and video delivery.\\
-      \textbf{Tech Areas}: Front-end, Back-end, DevOps (partial), task scheduling (cron).\\
+         ** \noindent\hspace*{1mm}\textbf{showcase.com}: Old legacy stack based on YII written in PHP, along with scripts in C\# for scheduling tasks like cron jobs\\
+         ** \noindent\hspace*{1mm}\textbf{difuzego.com}: New stack based on \textit{modern} AWS features written in TS.\\
+      \textbf{Purpose}: Development based on a Media Asset Management (MAM) system accessed through HTTPS requests using SOAP protocol, enabling content display in catalog form, with the ability to share films as screeners, preceding deliveries (orders).\\
       \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, also including various NPM modules like ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, bowser, jsoneditor, lodash, jschardet\\
-      \textbf{Back-end}: RESTful services with OpenAPI, TypeScript Oriented Architecture (tsoa), and NPM imports like exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase; asynchronous handling with async/await.\\
+      \textbf{Back-end}: RESTful services with OpenAPI, TypeScript Oriented Architecture (tsoa), and NPM imports like exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase; async/await.\\
       \textbf{Package Management}: Proficient with WebPack, Node.js, and yarn.\\
       \textbf{Database and Search}: Managed both legacy (MySQL RDS) and new stack (DynamoDb, ElasticSearch).\\
       \textbf{AWS DevOps}: Experience with ElasticBeanStalk, EC2, S3, small Lambda, CloudWatch, IAM, ECR. Infra deployment automated with Cloudformation\\
-      \textbf{Operating Systems}: Ubuntu 18, Windows 10, MacOS.\\
-      \textbf{IDEs}: WebStorm, VS Code.\\
-      \textbf{Streaming and encryption}:\\
-         ** MPEG/DASH: compression/encoding managed on AWS by Mediaconvert, and encrypted by KeyOS/BuyDRM\\
-         ** HLS: compression/encoding managed on AWS by MacOS, and encrypted using AES-128 algorithm\\
-      compression managed on AWS by Mediaconvert for MPEG/DASH and encrypted by KeyOS/BuyDRM\\
       \textbf{Additional Work}: Maintained legacy PHP/YII stack and MySQL RDS; minor C\# developments supervised over Mono on Ubuntu\\
-      \textbf{Architecture Note}: Our project was based on a monolithic architecture, without microservices. Same data model shared between UI and API.
+      \textbf{Architecture}: Monolithic, no µservices. Shared data model UI \& API\\
+      \textbf{CI/CD}: pipelines over gitlab including linter, unitary tests, builder, deployer
     }
 \end{cvtable}
-
-
-
-
-
-
 
 
 
