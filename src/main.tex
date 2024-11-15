@@ -270,6 +270,7 @@
 
 \makefrontsidebar
 
+\vspace*{-2.9em} % Adjust the value as needed
 \cvsection{Working Experience}
 \begin{cvtable}
     \cvitemRight{Jan,\\2020\\–\\now}
@@ -277,21 +278,23 @@
     {difuze, Montreal}
     {
       \textbf{Role}: Primarily similar to the previous mission at LVL Studio\\
-      \textbf{Project Descriptions}:\\
-        \noindent\hspace*{1mm}*\textbf{difuzego.com:} Enhanced the initial solution with a file publishing (upload) module
+        \noindent\hspace*{1mm}*\textbf{difuzego.com:} Enhanced the initial solution.
+        Migration to Angular 14.
+        I introduced the MFA authenticator.
+        Part of our data was moved from ElasticSearch into Postgre, whose model became knex-compliant.
+        Also a file publishing (upload) module has been implemented,
         ingested in a workflow system based on AWS Step Functions,
-        producing streamable proxies through Mediaconvert and/or Mac-type EC2s.
+        producing streamable proxies through compression.
         This workflow solution was further expanded to include an on-prem \textit{workers}
-        ecosystem, implemented with an Express Node.js environment featuring
-        intercommunicating child process nodes and SQLite.
-        Additionally led the project's streaming and encryption tasks,
-        including MPEG/DASH compression/encoding on AWS by Mediaconvert (at the beginning but replaced by Hybrik in the end) and encrypted by KeyOS/BuyDRM;
-        including HLS compression/encoding performed on AWS EC2 MacOS (at the beginning but replaced by local FFMPEG processing), encrypted using the AES-128 algorithm.
-        Bitmovin and Accurate Player (CodeMill) at stake as main HTML5 video players in this project.\\
-        \noindent\hspace*{1mm}*\textbf{difuzevox.com}: Developed for video description aiding visual impairment, this project leverages Azure Text-to-Speech, local FFMPEG, MediaInfo, and remote Auphonic APIs for mix supervision. It uses TTML to generate voices, with Video.js as the primary HTML5 multimedia renderer. Iac under Terraform supervision. I acted as the technical referee for 3 devs and 1 QA.
-          \\
-        \noindent\hspace*{1mm}*\textbf{AI Detection Project}: Focused on the detection of specific mouth symbols (e.g., "pucker" shapes) in video frames, scene change detection, and burnt-in text detection using a 3rd-party AI solution. Managed multi-window/browser tab communications via postMessage() and interfacing.
-    \textbf{CI/CD}: I participated in a small project deployed using Kubernetes.
+        ecosystem, Express/Node.js-centric featuring nodes child process intercommunication and SQLite.
+        Additionally, I contributed to the project's streaming and encryption tasks,
+        including MPEG/DASH encoding on AWS by Mediaconvert (at start but replaced later by Hybrik) and encrypted by KeyOS/BuyDRM;
+        including HLS encoding performed on AWS EC2 MacOS (at start but replaced later by local FFMPEG processing), encrypted using the AES-128 algorithm.
+        In this project, Postgres is used, and µsoft SQL Server over tedious; HTML5 video players are Bitmovin and Accurate \\
+        \noindent\hspace*{1mm}*\textbf{difuzevox.com}: For the video description project aiding visual impairment, I managed the integration of Azure Text-to-Speech, local FFMPEG, and MediaInfo with Auphonic APIs. We used TTML for voice generation and Video.js for multimedia rendering, all under Terraform management. I supervised three developers and one QA, focusing on enhancing media accessibility.\\
+        \noindent\hspace*{1mm}*\textbf{AI Detection Project}: Focused on the detection of specific mouth symbols (e.g., "pucker" shapes) in video frames, scene change detection, and burnt-in text detection using a 3rd-party AI solution. Managed multi-window/browser tab communications via postMessage() and interfacing.\\
+    \textbf{CI/CD}: I participated in a small project deployed using Kubernetes.\\
+    \textbf {npm modules}: axios, knex, objection, pg, qrcode, node-ec2-metadata, nodemon, speakeasy, srt2vtt, unirest, uuid-validate, git-repo-info, jest-preset-angular, jest-spec-reporter, mysql-json, puppeteer, hash-wasm, ngx-device-detector, videojs-playlist, videojs-wavesurfer, fast-diff, ngx-virtual-scroller, angular2-text-mask, js-levenshtein, http-proxy, elementtree, chalk, bcrypt...
   }
 \end{cvtable}
 
@@ -301,14 +304,12 @@
     {Full-Stack coder, Media Asset Management}
     {LVL Studio, Montreal}
     {
-      \textbf{Role}: Key contributor to Difuze's new software stack, responsible for architecture decisions, module development, and component creation. Managed backlog proactively using Jira and conducted code reviews via GitLab with detailed documentation in Confluence.\\
-      \textbf{Context}: In a B2B environment with Difuze Inc. as our primary client, focused on enhancing difuzego.com, our main product.\\
-      \textbf{Project Descriptions:}\\
+      \textbf{Role}: As a key contributor to Difuze’s new software stack, I was responsible for architectural decisions, module development, and component creation. I proactively managed the backlog using Jira, conducted code reviews via GitLab, and maintained detailed documentation in Confluence. In a B2B environment with Difuze Inc. as our primary client, my focus was on enhancing difuzego.com, our main product.\\
          ** \noindent\hspace*{1mm}\textbf{showcase.com}: Old legacy stack based on YII written in PHP, along with scripts in C\# for scheduling tasks like cron jobs\\
          ** \noindent\hspace*{1mm}\textbf{difuzego.com}: New stack based on \textit{modern} AWS features written in TS.\\
       \textbf{Purpose}: Development based on a Media Asset Management (MAM) system accessed through HTTPS requests using SOAP protocol, enabling content display in catalog form, with the ability to share films as screeners, preceding deliveries (orders).\\
-      \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, also including various NPM modules like ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, bowser, jsoneditor, lodash, jschardet\\
-      \textbf{Back-end}: RESTful services with OpenAPI, TypeScript Oriented Architecture (tsoa), and NPM imports like exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase; async/await.\\
+      \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, also including various NPM modules like ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, bowser, jsoneditor, lodash, jschardet...\\
+      \textbf{Back-end}: RESTful services with OpenAPI, TypeScript Oriented Architecture (tsoa), and NPM imports like exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase, aws-sdk ...; async/await.\\
       \textbf{Package Management}: Proficient with WebPack, Node.js, and yarn.\\
       \textbf{Database and Search}: Managed both legacy (MySQL RDS) and new stack (DynamoDb, ElasticSearch).\\
       \textbf{AWS DevOps}: Experience with ElasticBeanStalk, EC2, S3, small Lambda, CloudWatch, IAM, ECR. Infra deployment automated with Cloudformation\\

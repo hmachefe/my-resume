@@ -684,8 +684,8 @@
 
 
 \newcommand{\cvitemRight}[4]{%
-    \parbox[t]{0.09\textwidth}{\raggedright \strut \textcolor{gray}{#1}} &% Set date column width and color
-    \parbox[t]{0.88\textwidth}{% Increase main content width to use up extra space
+    \parbox[t]{0.0\textwidth}{\raggedright \strut \textcolor{gray}{#1}} &% Set date column width and color
+    \parbox[t]{0.90\textwidth}{% Increase main content width to use up extra space
         {\large \textbf{\textcolor{jobtitlecolor}{#2}}} \hfill {\footnotesize#3} \\ #4\vspace{\parsep}%
     }\\
 }
