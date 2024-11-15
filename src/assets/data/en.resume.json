@@ -499,7 +499,7 @@
         {
           "techno": "ChatGPT 4.0",
           "detail": "AI language model for natural language processing",
-          "level": 80
+          "level": 90
         },
         {
           "techno": "OpenAI API",
@@ -511,112 +511,79 @@
   ],
   "career": [
     {
-      "company": "Difuze",
-      "location": "Montreal, Québec",
-      "status": "Tech lead",
-      "date": "2019 - ongoing",
-      "logo": "Logo_Icon_Difuse.png",
-      "quote": "difuze is a dynamic fast-growing private company born out of the merger of Technicolor's Montreal-based postproduction, voice-over dubbing and distribution",
-      "description": [
-        "Mostly the same role as earlier at LVL Studio just below. Reminder:",
-        "<b>Role:</b>",
-        "&nbsp;&nbsp;- Consolidating our software stack required by Difuze, formerly Technicolor Montreal. Involved in architecture decisions, contributed to modules development, components creation, including code reviews through <b>gitlab</b>, pro-actively following back-log across <b>Jira</b>, arranging / creating / prioritizing tickets, writing documentation over <b>Confluence</b>.",
+          "company": "Difuze",
+          "location": "Montreal, Québec",
+          "status": "Tech lead",
+          "date": "2020 - ongoing",
+          "logo": "Logo_Icon_Difuse.png",
+          "quote": "Difuze is a fast-growing company born from the merger of Technicolor's Montreal-based postproduction, voice-over dubbing, and distribution.",
+          "description": [
+            "<b>Role:</b>",
+            "&nbsp;&nbsp;- Primarily similar to my previous mission at LVL Studio, with several key projects:",
+            "&nbsp;&nbsp;• <b>difuzego.com:</b> Enhanced the initial solution, migration to Angular 14, introduced MFA authenticator, Part of our data was moved from ElasticSearch to PostgreSQL with Knex-compliant model. Implemented a file publishing module integrated into a workflow system using AWS Step Functions, producing streamable proxies through compression.",
+            "&nbsp;&nbsp;• <b>On-prem workers ecosystem:</b> Expanded the solution to include an on-prem workers ecosystem based on Express/Node.js, involving child process intercommunication and SQLite.",
+            "&nbsp;&nbsp;• <b>Streaming and Encryption:</b> Contributed to MPEG/DASH encoding on AWS using Mediaconvert (later replaced by Hybrik) and encrypted by KeyOS/BuyDRM. Also contributed to HLS encoding on AWS EC2 (MacOS initially, later replaced by local FFMPEG processing), encrypted with AES-128.",
+            "&nbsp;&nbsp;• <b>difuzevox.com:</b> Managed the integration of Azure Text-to-Speech, local FFMPEG, MediaInfo, and Auphonic APIs with TTML for voice generation. Oversaw three developers and one QA for multimedia rendering using Video.js, all managed via Terraform.",
+            "&nbsp;&nbsp;• <b>AI Detection Project:</b> Focused on detecting specific mouth symbols (e.g., pucker shapes), scene changes, and burnt-in text detection in video frames using a 3rd-party AI solution. Managed multi-window/browser tab communications via postMessage() and interfacing.",
+            "&nbsp;&nbsp;• <b>CI/CD:</b> Participated in a small project deployed using Kubernetes.",
 
-        "<b>Context:</b>",
-        "&nbsp;&nbsp;- B2B: www.difuze.com as customer, www.difuzego.com as main product",
-
-        "<b>Purpose:</b>",
-        "&nbsp;&nbsp;- Media Asset Management, screeners (promotional video links), delivery (orders)",
-
-        "<b>Tech areas:</b>",
-        "&nbsp;&nbsp;- Front-end, Back-end, Tasks scheduling (cron jobs), Devops (mostly),",
-
-        "<b>Front-end:</b>",
-        "&nbsp;&nbsp;-framework: Angular 2, version 9 mostly (version 10 partly), including RxJS (Observables), Angular Material,",
-        "&nbsp;&nbsp;-modules: ngx-translate, fortawesome, ipfy, ipstack, ngx-charts, angulartics2, bitmovin player and ui, bowser, fs-symlink, hammerjs, i18n-iso-countries, merge-ranges, moment, ng2-file-upload, ngx-device-detector, ngx-perfect-scrollbar, lodash.merge, rxjs, rxjs-compat, socket.io-client",
-
-        "<b>Back-end:</b>",
-        "&nbsp;&nbsp;-restful web services: <b>OpenAPI</b>, formerly Swagger",
-        "&nbsp;&nbsp;-architecture: <b>tsoa</b> as TypeScript Oriented Architecture,",
-        "&nbsp;-modules: exceljs, mailcomposer, moment-timezone, mustache, request, restify, socket.io, user-agent, winston, csv-generate, fs-extra, easy-zip, rapid-api sms, git-repo-info, jasmine, aws-sdk",
-        "&nbsp;&nbsp;-asynchronism: Promise, async/await,",
-
-        "<b>Package management:</b>",
-        "- WebPack, node.js, yarn (npm superset),",
-
-        "<b>Database, search engines:</b>",
-        "- new stack: DynamoDb, ElasticSearch,",
-        "- legacy stack: MySqlWorkbench, stored procedures,",
-
-        "<b>AWS DevOps:</b>",
-        "- ElasticBeanStalk, EC2 (LoadBalancer), Lambda, CloudWatch, IAM (groups, user, role), aws-cli",
-
-        "<b>Languages:</b>",
-        "- TypeScript, JavaScript, ES2015, HTML 5, SCSS,",
-
-        "<b>Operating System:</b>",
-        "- Ubuntu 20 (Linux), Windows 10, Mac OS X (Sierra)",
-
-        "<b>Ide:</b>",
-        "- WebStorm, VS Code, vim / vi",
-
-        "* but extending and enhancing <b>DevOps</b> skills: AWS. Very familiar with S3, EC2, ASG, IAM Linux 1 & 2, ElasticSearch, ElasticBeanStalk, ECR Docker, CloudFormation, CloudFront, Lambdas (and layers), SNS, Step functions, AWS Secrets Manager, etc",
-        "* Multi-media skills: very familiar with AWS <b>Media2Cloud</b> solution (transcoding with Mediaconvert, mediaInfo, DRM) + bitmovin picture in picture, frame-accuracy",
-        "* More responsibilities: technically driving another web project involving Azure text to speech API, remaining main tech referee for <b>3 developers</b> and one QA",
-
-        "our B2B customer <Difuze inc> purchased corporate contract signed with LVL Studio and hired resources as a consequence, internalizing developments, then becoming part of Difuze payroll"
-      ]
+            "<b>Technologies:</b>",
+            "&nbsp;&nbsp;• <b>Back-end:</b> Postgres, SQL Server, Knex, Objection, Express, AWS (Step Functions, Lambda, S3, EC2, MediaConvert, Hybrik), FFMPEG, KeyOS/BuyDRM, AES-128, HLS, MPEG/DASH, Azure Text-to-Speech",
+            "&nbsp;&nbsp;• <b>Front-end:</b> Angular 14, HTML5 video players (Bitmovin, Accurate), RxJS, Angular Material",
+            "&nbsp;&nbsp;• <b>CI/CD:</b> Kubernetes, Terraform, Docker",
+            "&nbsp;&nbsp;• <b>NPM Modules:</b> axios, knex, objection, pg, qrcode, speakeasy, srt2vtt, unirest, uuid-validate, jest, mysql-json, puppeteer, ngx-device-detector, videojs-playlist, videojs-wavesurfer, ngx-virtual-scroller, angular2-text-mask, js-levenshtein, http-proxy, elementtree, chalk, bcrypt..."
+          ]
     },
     {
       "company": "LVL Studio",
       "location": "Montreal, Québec",
-      "status": "Full stack key player",
-      "date": "2017 - 2019",
+      "status": "Full-Stack coder, MAM",
+      "date": "2017 - 2020",
       "logo": "lvl.png",
       "quote": "LVL designs, builds and operates media technology solutions for the global media and entertainment market.",
       "description": [
         "<b>Role:</b>",
-        "&nbsp;&nbsp;- Take part of building new software stack required by our client recently named Difuze, formerly Technicolor Montreal. Involved in architecture decisions, contributed to modules development, components creation, including code reviews through <b>gitlab</b>, pro-actively following back-log across <b>Jira</b>, arranging / creating / prioritizing tickets, writing documentation over <b>Confluence</b>.",
+        "&nbsp;&nbsp;- Key contributor to Difuze’s new software stack, responsible for architectural decisions, module development, and component creation. Managed backlog via <b>Jira</b>, conducted code reviews on <b>GitLab</b>, and maintained documentation in <b>Confluence</b>.",
+        "&nbsp;&nbsp;• <b>difuzego.com:</b> Enhanced the stack using modern AWS features, migration to TypeScript, and integration of advanced tools.",
+        "&nbsp;&nbsp;• <b>showcase.com:</b> Worked with legacy stack based on PHP YII and C# for task scheduling and cron jobs.",
 
         "<b>Context:</b>",
-        "&nbsp;&nbsp;- B2B: www.difuze.com as customer, www.difuzego.com as main product",
+        "&nbsp;&nbsp;- B2B: Difuze Inc. as a primary client, with <b>difuzego.com</b> as the main product.",
 
         "<b>Purpose:</b>",
-        "&nbsp;&nbsp;- Media Asset Management, screeners (promotional video links), delivery (orders)",
+        "&nbsp;&nbsp;- Media Asset Management system accessed via HTTPS requests using SOAP protocol. Allows content display in catalog form and enables sharing promotional screeners via email before delivery.",
 
         "<b>Tech areas:</b>",
-        "&nbsp;&nbsp;- Front-end, Back-end, Tasks scheduling (cron jobs), Devops (partially),",
+        "&nbsp;&nbsp;• Front-end, Back-end, Task Scheduling (cron jobs), DevOps (partially).",
 
         "<b>Front-end:</b>",
-        "&nbsp;&nbsp;-framework: Angular 2, version 7.2.9, including RxJS (Observables), Angular Material,",
-        "&nbsp;&nbsp;-modules: ngx-translate, fortawesome, ipfy, ipstack, ngx-charts, angulartics2, bitmovin player and ui, bowser, fs-symlink, hammerjs, i18n-iso-countries, merge-ranges, moment, ng2-file-upload, ngx-device-detector, ngx-perfect-scrollbar, lodash.merge, rxjs, rxjs-compat, socket.io-client",
+        "&nbsp;&nbsp;• Framework: Angular 2 (v7.2.9), RxJS, Angular Material.",
+        "&nbsp;&nbsp;• NPM Modules: ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, bowser, jsoneditor, lodash, jschardet...",
 
         "<b>Back-end:</b>",
-        "&nbsp;&nbsp;-restful web services: <b>OpenAPI</b>, formerly Swagger",
-        "&nbsp;&nbsp;-architecture: <b>tsoa</b> as TypeScript Oriented Architecture,",
-        "&nbsp;-modules: exceljs, mailcomposer, moment-timezone, mustache, request, restify, socket.io, user-agent, winston, csv-generate, fs-extra, easy-zip, rapid-api sms, git-repo-info, jasmine, aws-sdk",
-        "&nbsp;&nbsp;-asynchronism: Promise, async/await,",
+        "&nbsp;&nbsp;• RESTful services: <b>OpenAPI</b>, TypeScript Oriented Architecture (<b>tsoa</b>).",
+        "&nbsp;&nbsp;• NPM Modules: exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase, aws-sdk, etc.",
+        "&nbsp;&nbsp;• Asynchronism: Promise, async/await.",
 
         "<b>Package management:</b>",
-        "- WebPack, node.js, yarn (npm superset),",
+        "&nbsp;&nbsp;• Proficient in WebPack, Node.js, and yarn.",
 
-        "<b>Database, search engines:</b>",
-        "- new stack: DynamoDb, ElasticSearch,",
-        "- legacy stack: MySqlWorkbench, stored procedures,",
+        "<b>Database and Search:</b>",
+        "&nbsp;&nbsp;• Managed both legacy stack (MySQL RDS) and new stack (DynamoDB, ElasticSearch).",
 
         "<b>AWS DevOps:</b>",
-        "- ElasticBeanStalk, EC2 (LoadBalancer), Lambda, CloudWatch, IAM (groups, user, role), aws-cli",
+        "&nbsp;&nbsp;• Experience with ElasticBeanStalk, EC2, S3, Lambda, CloudWatch, IAM, ECR.",
+        "&nbsp;&nbsp;• Automated infrastructure deployment with CloudFormation.",
 
-        "<b>Languages:</b>",
-        "- TypeScript, JavaScript, ES2015, HTML 5, SCSS,",
+        "<b>Additional Work:</b>",
+        "&nbsp;&nbsp;• Maintained legacy PHP/YII stack and MySQL RDS.",
+        "&nbsp;&nbsp;• Minor C# developments supervised over Mono on Ubuntu.",
 
-        "<b>Operating System:</b>",
-        "- Ubuntu 18.04 (Linux), Windows 7, Mac OS X (Sierra)",
+        "<b>Architecture:</b>",
+        "&nbsp;&nbsp;• Monolithic architecture, no microservices, shared data model UI & API.",
 
-        "<b>Ide:</b>",
-        "- WebStorm, VS Code, vim / vi",
-
-        "I also actively participated in maintaining the old stack, legacy, developed in PHP, based on YII framework, layered on MySql as RDS database. Tiny developments in C#."
+        "<b>CI/CD:</b>",
+        "&nbsp;&nbsp;• CI/CD pipelines over <b>GitLab</b> including linter, unit tests, builder, and deployer."
       ]
     },
     {
@@ -660,7 +627,7 @@
     {
       "company": "Canal+, Newscorp, Cisco",
       "location": "Paris, France",
-      "date": "1999 - 2016",
+      "date": "1998 - 2016",
       "logo": "France_Flag_Map.svg.png",
       "quote": "Web engineer for embedded systems, digital TV set-to-box",
       "description": [

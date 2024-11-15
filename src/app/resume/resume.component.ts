@@ -24,11 +24,17 @@ export class ResumeComponent implements OnInit {
   }
 
   downloadPDF() {
-    if (environment.production) {
-      this.getLocalPDF();
-    } else {
-      this.generatePDF();
-    }
+    // if (environment.production) {
+    //   this.getLocalPDF();
+    // } else {
+    //   this.generatePDF();
+    // }
+    const link = document.createElement('a');
+    link.href = 'assets/hugo_machefer_CV.pdf';
+    link.download = 'Hugo_Machefer_CV.pdf';  // This is the filename that users will see
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   generatePDF() {

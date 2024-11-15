@@ -27,12 +27,12 @@
         {
           "techno": "JavaScript / TypeScript",
           "detail": "ECMAScript 5 & 6",
-          "level": 100
+          "level": 90
         },
         {
           "techno": "Html / Css",
           "detail": "HTML5, CSS3, CSS3D",
-          "level": 100
+          "level": 90
         },
         {
           "techno": "Php",
@@ -42,17 +42,22 @@
         {
           "techno": "Python",
           "detail": "Python 3 & 2",
-          "level": 60
+          "level": 70
         },
         {
           "techno": "C#",
           "detail": ".NET Framework, Mono",
-          "level": 50
+          "level": 60
         },
         {
           "techno": "Java",
           "detail": "JavaFx, Swing, Maven",
-          "level": 40
+          "level": 50
+        },
+        {
+          "techno": "MATLAB",
+          "detail": "software environment for scientists",
+          "level": 50
         },
         {
           "techno": "C / C++",
@@ -65,78 +70,269 @@
       "title": "Front-end (web)",
       "skills": [
         {
-          "techno": "Angular",
-          "detail": "7/9/10/14",
+          "techno": "Angular 7/9/10/14",
+          "detail": "Modern front-end framework",
+          "level": 90
+        },
+        {
+          "techno": "React",
+          "detail": "Modern JavaScript UI library",
+          "level": 70
+        },
+        {
+          "techno": "jQuery",
+          "detail": "JavaScript DOM manipulation",
           "level": 80
         },
         {
-          "techno": "Jquery",
-          "detail": "Javascript, css",
-          "level": 80
+          "techno": "RxJS / Observables",
+          "detail": "Reactive programming library",
+          "level": 70
         },
         {
-          "techno": "RxJS",
-          "detail": "Observables",
-          "level": 60
+          "techno": "SCSS / SASS",
+          "detail": "CSS preprocessor",
+          "level": 70
         },
         {
-          "techno": "Scss",
-          "detail": "also Sass",
+          "techno": "Bootstrap",
+          "detail": "Responsive, mobile-first CSS",
+          "level": 70
+        },
+        {
+          "techno": "Backbone",
+          "detail": "Progressive JavaScript framework",
           "level": 60
         },
         {
           "techno": "VueJS",
-          "detail": "also Backbone, and AngularJS",
-          "level": 60
-        },
-        {
-          "techno": "Bootstrap",
-          "level": 40
+          "detail": "Progressive JavaScript framework",
+          "level": 50
         },
         {
           "techno": "ThreeJS",
-          "detail": "WebGL",
-          "level": 20
+          "detail": "3D graphics with WebGL",
+          "level": 40
+        },
+        {
+          "techno": "Latex",
+          "detail": "Typesetting",
+          "level": 30
         }
       ]
     },
     {
-      "title": "Back-end (web)",
+      "title": "Back-end",
       "skills": [
         {
-          "techno": "OpenAPI",
-          "detail": "formerly swagger, tsoa",
-          "level": 80
-        },
-        {
-          "techno": "Yii",
-          "detail": "PHP",
-          "level": 60
+          "techno": "OpenAPI / Swagger",
+          "detail": "API specification with TSOA",
+          "level": 90
         },
         {
           "techno": "Express",
-          "detail": "nodejs",
-          "level": 40
+          "detail": "Node.js framework",
+          "level": 70
+        },
+        {
+          "techno": "Microservices",
+          "detail": "Python-based services",
+          "level": 60
+        },
+        {
+          "techno": "Yii",
+          "detail": "PHP framework",
+          "level": 60
+        },
+        {
+          "techno": "Knex/objection",
+          "detail": "SQL query builder and ORM for Node",
+          "level": 60
+        },
+        {
+          "techno": "Django",
+          "detail": "Python web framework for fast development, MVT architecture",
+          "level": 30
+        },
+        {
+          "techno": "Elixir",
+          "detail": "Functional programming, fault-tolerant, scalable, real-time support",
+          "level": 30
         }
-      ]
+    ]
     },
     {
       "title": "Database",
       "skills": [
         {
+          "techno": "DynamoDB / (MongoDB)",
+          "detail": "",
+          "level": 90
+        },
+        {
           "techno": "ElasticSearch",
-          "detail": "AWS console, CLI, SDK",
+          "detail": "",
           "level": 80
         },
         {
-          "techno": "DynamoDB",
-          "detail": "AWS console, CLI, SDK",
+          "techno": "PostGres, Sqlite, MySql",
+          "detail": "",
+          "level": 70
+        },
+        {
+          "techno": "MySQLWorkbench, DBeaver",
+          "detail": "",
+          "level": 70
+        },
+        {
+          "techno": "Microsoft SQL Server",
+          "detail": "",
+          "level": 40
+        }
+      ]
+    },
+    {
+      "title": "AWS Cloud",
+      "skills": [
+        {
+          "techno": "EC2",
+          "detail": "Elastic Cloud Computing",
+          "level": 90
+        },
+        {
+          "techno": "Elastic Beanstalk",
+          "detail": "Application Deployment Service",
+          "level": 70
+        },
+        {
+          "techno": "IAM",
+          "detail": "Identity and Access Management",
           "level": 80
         },
         {
-          "techno": "RDS",
-          "detail": "MySql",
+          "techno": "ECR",
+          "detail": "Elastic Container Registry",
+          "level": 70
+        },
+        {
+          "techno": "CloudFront",
+          "detail": "Content Delivery Network",
+          "level": 80
+        },
+        {
+          "techno": "S3",
+          "detail": "Simple Storage Service",
+          "level": 90
+        },
+        {
+          "techno": "Lambdas",
+          "detail": "Serverless Compute Functions",
+          "level": 90
+        },
+        {
+          "techno": "Secrets Manager",
+          "detail": "Secure Secrets Storage",
+          "level": 90
+        },
+        {
+          "techno": "MediaConvert",
+          "detail": "Media File Conversion",
+          "level": 80
+        },
+        {
+          "techno": "Step Functions",
+          "detail": "Serverless Orchestration",
+          "level": 70
+        },
+        {
+          "techno": "SES",
+          "detail": "AWS Simple Email Service ",
+          "level": 80
+        },
+        {
+          "techno": "SNS",
+          "detail": "AWS Simple Notification Service",
+          "level": 80
+        },
+        {
+          "techno": "CloudWatch",
+          "detail": "AWS monitoring service with logs",
+          "level": 80
+        },
+        {
+          "techno": "Fargate",
+          "detail": "Elastic Container Service",
+          "level": 20
+        }
+      ]
+    },
+    {
+      "title": "Azure Cloud",
+      "skills": [
+        {
+          "techno": "Azure AI Speech",
+          "detail": "Text To Speech Service",
+          "level": 40
+        }
+      ]
+    },
+    {
+      "title": "Devops",
+      "skills": [
+        {
+          "techno": "Terraform",
+          "detail": "Infrastructure as Code Tool for Multi-Cloud Environments",
+          "level": 80
+        },
+        {
+          "techno": "Kubernetes",
+          "detail": "Container Orchestration Platform for Automated Deployment",
           "level": 60
+        },
+        {
+          "techno": "CloudFormation",
+          "detail": "AWS Infrastructure as Code Service",
+          "level": 50
+        }
+      ]
+    },
+    {
+      "title": "HTML5 Video players",
+      "skills": [
+        {
+          "techno": "Bitmovin",
+          "detail": "Adaptive Streaming HTML5 Player with SDK",
+          "level": 90
+        },
+        {
+          "techno": "Accurate Player (Codemill)",
+          "detail": "Frame accurate video player for media workflows",
+          "level": 90
+        },
+        {
+          "techno": "Video.js",
+          "detail": "web video player built from the ground up for an HTML5 world",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "title": "Multimedia",
+      "skills": [
+        {
+          "techno": "Mediainfo, FFMPEG (fprobe)",
+          "detail": "",
+          "level": 90
+        },
+        {
+          "techno": "AWS MediaConvert",
+          "detail": "",
+          "level": 90
+        },
+        {
+          "techno": "Hybrik (Dolby)",
+          "detail": "",
+          "level": 70
         }
       ]
     },
@@ -156,7 +352,7 @@
         {
           "techno": "Xcode",
           "detail": "Objective C",
-          "level": 20
+          "level": 30
         }
       ]
     },
@@ -179,22 +375,51 @@
       ]
     },
     {
-      "title": "Operating System",
+      "title": "Operating Systems",
       "skills": [
         {
           "techno": "Linux",
-          "detail": "Ubuntu 20",
+          "detail": "Ubuntu 22",
           "level": 80
         },
         {
           "techno": "Windows",
-          "detail": "10",
-          "level": 60
+          "detail": "Win 10",
+          "level": 70
         },
         {
           "techno": "MacOS X",
           "detail": "El Capitan 10.11.2",
+          "level": 60
+        },
+        {
+          "techno": "Tizen",
+          "detail": "Samsung TV",
+          "level": 70
+        },
+        {
+          "techno": "WebOS",
+          "detail": "LG TV",
           "level": 40
+        }
+      ]
+    },
+      {
+        "title": "IDE",
+        "skills": [{
+          "techno": "WebStorm (JetBrains)",
+          "detail": "Professional IDE for developers, various plugins",
+          "level": 80
+        },
+        {
+          "techno": "Visual Studio Code",
+          "detail": "Lightweight code editor with extensive extensions",
+          "level": 80
+        },
+        {
+          "techno": "Vim/Vi",
+          "detail": "Highly configurable text editor, efficient keyboard shortcuts",
+          "level": 70
         }
       ]
     },
@@ -212,131 +437,153 @@
           "level": 80
         },
         {
-          "techno": "Scrum (master)",
+          "techno": "Scrum <i>master</i>",
           "detail": "daily, grooming, planning, review, retro",
           "level": 60
         }
       ]
     },
     {
-      "title": "Devops",
+      "title": "Scripting",
       "skills": [
         {
-          "techno": "AWS",
-          "detail": "EC2, IAM, ECR, EB, CloudFront, CloudFormation, S3, Dynamo, ElasticSearch, Lambdas +layers, Secrets Manager, MediaConvert, Step functions",
+          "techno": "Bash, Shell (Linux, Mac)",
+          "detail": "Command-line scripting for automating tasks",
           "level": 80
+        },
+        {
+          "techno": "CMD Prompt, PowerShell",
+          "detail": "Windows-based scripting, DOS cmmands",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "title": "Streaming, DRM Encryption",
+      "skills": [
+        {
+          "techno": "MPEG/DASH, Widevine",
+          "detail": "Adaptive streaming with Widevine DRM",
+          "level": 80
+        },
+        {
+          "techno": "HLS, AES-128",
+          "detail": "HLS streaming with AES-128 for secure delivery",
+          "level": 80
+        }
+      ]
+    },
+    {
+      "title": "Instant Messaging",
+      "skills": [
+        {
+          "techno": "Teams, Slack",
+          "detail": "Collaboration tools for real-time communication",
+          "level": 80
+        }
+      ]
+    },
+    {
+      "title": "UX / UI",
+      "skills": [
+        {
+          "techno": "Figma, Miro",
+          "detail": "Design and collaboration tools for UI/UX   wireframing",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "title": "AI",
+      "skills": [
+        {
+          "techno": "ChatGPT 4.0",
+          "detail": "AI language model for natural language processing",
+          "level": 90
+        },
+        {
+          "techno": "OpenAI API",
+          "detail": "API for integrating OpenAI's GPT models into applications",
+          "level": 60
         }
       ]
     }
   ],
   "career": [
     {
-      "company": "Difuze",
-      "location": "Montreal, Québec",
-      "status": "Tech lead",
-      "date": "2020 - ongoing",
-      "logo": "Logo_Icon_Difuse.png",
-      "quote": "difuze is a dynamic fast-growing private company born out of the merger of Technicolor's Montreal-based postproduction, voice-over dubbing and distribution",
-      "description": [
-        "Mostly the same role as earlier at LVL Studio just below. Reminder:",
-        "<b>Role:</b>",
-        "&nbsp;&nbsp;- Consolidating our software stack required by Difuze, formerly Technicolor Montreal. Involved in architecture decisions, contributed to modules development, components creation, including code reviews through <b>gitlab</b>, pro-actively following back-log across <b>Jira</b>, arranging / creating / prioritizing tickets, writing documentation over <b>Confluence</b>.",
+          "company": "Difuze",
+          "location": "Montreal, Québec",
+          "status": "Tech lead",
+          "date": "2020 - ongoing",
+          "logo": "Logo_Icon_Difuse.png",
+          "quote": "Difuze is a fast-growing company born from the merger of Technicolor's Montreal-based postproduction, voice-over dubbing, and distribution.",
+          "description": [
+            "<b>Role:</b>",
+            "&nbsp;&nbsp;- Primarily similar to my previous mission at LVL Studio, with several key projects:",
+            "&nbsp;&nbsp;• <b>difuzego.com:</b> Enhanced the initial solution, migration to Angular 14, introduced MFA authenticator, Part of our data was moved from ElasticSearch to PostgreSQL with Knex-compliant model. Implemented a file publishing module integrated into a workflow system using AWS Step Functions, producing streamable proxies through compression.",
+            "&nbsp;&nbsp;• <b>On-prem workers ecosystem:</b> Expanded the solution to include an on-prem workers ecosystem based on Express/Node.js, involving child process intercommunication and SQLite.",
+            "&nbsp;&nbsp;• <b>Streaming and Encryption:</b> Contributed to MPEG/DASH encoding on AWS using Mediaconvert (later replaced by Hybrik) and encrypted by KeyOS/BuyDRM. Also contributed to HLS encoding on AWS EC2 (MacOS initially, later replaced by local FFMPEG processing), encrypted with AES-128.",
+            "&nbsp;&nbsp;• <b>difuzevox.com:</b> Managed the integration of Azure Text-to-Speech, local FFMPEG, MediaInfo, and Auphonic APIs with TTML for voice generation. Oversaw three developers and one QA for multimedia rendering using Video.js, all managed via Terraform.",
+            "&nbsp;&nbsp;• <b>AI Detection Project:</b> Focused on detecting specific mouth symbols (e.g., pucker shapes), scene changes, and burnt-in text detection in video frames using a 3rd-party AI solution. Managed multi-window/browser tab communications via postMessage() and interfacing.",
+            "&nbsp;&nbsp;• <b>CI/CD:</b> Participated in a small project deployed using Kubernetes.",
 
-        "<b>Context:</b>",
-        "&nbsp;&nbsp;- B2B: www.difuze.com as customer, www.difuzego.com as main product",
-
-        "<b>Purpose:</b>",
-        "&nbsp;&nbsp;- Media Asset Management, screeners (promotional video links), delivery (orders)",
-
-        "<b>Tech areas:</b>",
-        "&nbsp;&nbsp;- Front-end, Back-end, Tasks scheduling (cron jobs), Devops (mostly),",
-
-        "<b>Front-end:</b>",
-        "&nbsp;&nbsp;-framework: Angular 2, version 9 mostly (version 10 partly), including RxJS (Observables), Angular Material,",
-        "&nbsp;&nbsp;-modules: ngx-translate, fortawesome, ipfy, ipstack, ngx-charts, angulartics2, bitmovin player and ui, bowser, fs-symlink, hammerjs, i18n-iso-countries, merge-ranges, moment, ng2-file-upload, ngx-device-detector, ngx-perfect-scrollbar, lodash.merge, rxjs, rxjs-compat, socket.io-client",
-
-        "<b>Back-end:</b>",
-        "&nbsp;&nbsp;-restful web services: <b>OpenAPI</b>, formerly Swagger",
-        "&nbsp;&nbsp;-architecture: <b>tsoa</b> as TypeScript Oriented Architecture,",
-        "&nbsp;-modules: exceljs, mailcomposer, moment-timezone, mustache, request, restify, socket.io, user-agent, winston, csv-generate, fs-extra, easy-zip, rapid-api sms, git-repo-info, jasmine, aws-sdk",
-        "&nbsp;&nbsp;-asynchronism: Promise, async/await,",
-
-        "<b>Package management:</b>",
-        "- WebPack, node.js, yarn (npm superset),",
-
-        "<b>Database, search engines:</b>",
-        "- new stack: DynamoDb, ElasticSearch,",
-        "- legacy stack: MySqlWorkbench, stored procedures,",
-
-        "<b>AWS DevOps:</b>",
-        "- ElasticBeanStalk, EC2 (LoadBalancer), Lambda, CloudWatch, IAM (groups, user, role), aws-cli",
-
-        "<b>Languages:</b>",
-        "- TypeScript, JavaScript, ES2015, HTML 5, SCSS,",
-
-        "<b>Operating System:</b>",
-        "- Ubuntu 20 (Linux), Windows 10, Mac OS X (Sierra)",
-
-        "<b>Ide:</b>",
-        "- WebStorm, VS Code, vim / vi",
-
-        "* but extending and enhancing <b>DevOps</b> skills: AWS. Very familiar with S3, EC2, ASG, IAM Linux 1 & 2, ElasticSearch, ElasticBeanStalk, ECR Docker, CloudFormation, CloudFront, Lambdas (and layers), SNS, Step functions, AWS Secrets Manager, etc",
-        "* Multi-media skills: very familiar with AWS <b>Media2Cloud</b> solution (transcoding with Mediaconvert, mediaInfo, DRM) + bitmovin picture in picture, frame-accuracy",
-        "* More responsibilities: technically driving another web project involving Azure text to speech API, remaining main tech referee for <b>5 developers</b>",
-
-        "our B2B customer <Difuze inc> purchased corporate contract signed with LVL Studio and hired resources as a consequence, internalizing developments, then becoming part of Difuze payroll"
-      ]
+            "<b>Technologies:</b>",
+            "&nbsp;&nbsp;• <b>Back-end:</b> Postgres, SQL Server, Knex, Objection, Express, AWS (Step Functions, Lambda, S3, EC2, MediaConvert, Hybrik), FFMPEG, KeyOS/BuyDRM, AES-128, HLS, MPEG/DASH, Azure Text-to-Speech",
+            "&nbsp;&nbsp;• <b>Front-end:</b> Angular 14, HTML5 video players (Bitmovin, Accurate), RxJS, Angular Material",
+            "&nbsp;&nbsp;• <b>CI/CD:</b> Kubernetes, Terraform, Docker",
+            "&nbsp;&nbsp;• <b>NPM Modules:</b> axios, knex, objection, pg, qrcode, speakeasy, srt2vtt, unirest, uuid-validate, jest, mysql-json, puppeteer, ngx-device-detector, videojs-playlist, videojs-wavesurfer, ngx-virtual-scroller, angular2-text-mask, js-levenshtein, http-proxy, elementtree, chalk, bcrypt..."
+          ]
     },
     {
       "company": "LVL Studio",
       "location": "Montreal, Québec",
-      "status": "Full stack key player",
+      "status": "Full-Stack coder, MAM",
       "date": "2017 - 2020",
       "logo": "lvl.png",
       "quote": "LVL designs, builds and operates media technology solutions for the global media and entertainment market.",
       "description": [
         "<b>Role:</b>",
-        "&nbsp;&nbsp;- Take part of building new software stack required by our client recently named Difuze, formerly Technicolor Montreal. Involved in architecture decisions, contributed to modules development, components creation, including code reviews through <b>gitlab</b>, pro-actively following back-log across <b>Jira</b>, arranging / creating / prioritizing tickets, writing documentation over <b>Confluence</b>.",
+        "&nbsp;&nbsp;- Key contributor to Difuze’s new software stack, responsible for architectural decisions, module development, and component creation. Managed backlog via <b>Jira</b>, conducted code reviews on <b>GitLab</b>, and maintained documentation in <b>Confluence</b>.",
+        "&nbsp;&nbsp;• <b>difuzego.com:</b> Enhanced the stack using modern AWS features, migration to TypeScript, and integration of advanced tools.",
+        "&nbsp;&nbsp;• <b>showcase.com:</b> Worked with legacy stack based on PHP YII and C# for task scheduling and cron jobs.",
 
         "<b>Context:</b>",
-        "&nbsp;&nbsp;- B2B: www.difuze.com as customer, www.difuzego.com as main product",
+        "&nbsp;&nbsp;- B2B: Difuze Inc. as a primary client, with <b>difuzego.com</b> as the main product.",
 
         "<b>Purpose:</b>",
-        "&nbsp;&nbsp;- Media Asset Management, screeners (promotional video links), delivery (orders)",
+        "&nbsp;&nbsp;- Media Asset Management system accessed via HTTPS requests using SOAP protocol. Allows content display in catalog form and enables sharing promotional screeners via email before delivery.",
 
         "<b>Tech areas:</b>",
-        "&nbsp;&nbsp;- Front-end, Back-end, Tasks scheduling (cron jobs), Devops (partially),",
+        "&nbsp;&nbsp;• Front-end, Back-end, Task Scheduling (cron jobs), DevOps (partially).",
 
         "<b>Front-end:</b>",
-        "&nbsp;&nbsp;-framework: Angular 2, version 7.2.9, including RxJS (Observables), Angular Material,",
-        "&nbsp;&nbsp;-modules: ngx-translate, fortawesome, ipfy, ipstack, ngx-charts, angulartics2, bitmovin player and ui, bowser, fs-symlink, hammerjs, i18n-iso-countries, merge-ranges, moment, ng2-file-upload, ngx-device-detector, ngx-perfect-scrollbar, lodash.merge, rxjs, rxjs-compat, socket.io-client",
+        "&nbsp;&nbsp;• Framework: Angular 2 (v7.2.9), RxJS, Angular Material.",
+        "&nbsp;&nbsp;• NPM Modules: ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, bowser, jsoneditor, lodash, jschardet...",
 
         "<b>Back-end:</b>",
-        "&nbsp;&nbsp;-restful web services: <b>OpenAPI</b>, formerly Swagger",
-        "&nbsp;&nbsp;-architecture: <b>tsoa</b> as TypeScript Oriented Architecture,",
-        "&nbsp;-modules: exceljs, mailcomposer, moment-timezone, mustache, request, restify, socket.io, user-agent, winston, csv-generate, fs-extra, easy-zip, rapid-api sms, git-repo-info, jasmine, aws-sdk",
-        "&nbsp;&nbsp;-asynchronism: Promise, async/await,",
+        "&nbsp;&nbsp;• RESTful services: <b>OpenAPI</b>, TypeScript Oriented Architecture (<b>tsoa</b>).",
+        "&nbsp;&nbsp;• Modules: exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase, aws-sdk, etc.",
+        "&nbsp;&nbsp;• Asynchronism: Promise, async/await.",
 
         "<b>Package management:</b>",
-        "- WebPack, node.js, yarn (npm superset),",
+        "&nbsp;&nbsp;• Proficient in WebPack, Node.js, and yarn.",
 
-        "<b>Database, search engines:</b>",
-        "- new stack: DynamoDb, ElasticSearch,",
-        "- legacy stack: MySqlWorkbench, stored procedures,",
+        "<b>Database and Search:</b>",
+        "&nbsp;&nbsp;• Managed both legacy stack (MySQL RDS) and new stack (DynamoDB, ElasticSearch).",
 
         "<b>AWS DevOps:</b>",
-        "- ElasticBeanStalk, EC2 (LoadBalancer), Lambda, CloudWatch, IAM (groups, user, role), aws-cli",
+        "&nbsp;&nbsp;• Experience with ElasticBeanStalk, EC2, S3, Lambda, CloudWatch, IAM, ECR.",
+        "&nbsp;&nbsp;• Automated infrastructure deployment with CloudFormation.",
 
-        "<b>Languages:</b>",
-        "- TypeScript, JavaScript, ES2015, HTML 5, SCSS,",
+        "<b>Additional Work:</b>",
+        "&nbsp;&nbsp;• Maintained legacy PHP/YII stack and MySQL RDS.",
+        "&nbsp;&nbsp;• Minor C# developments supervised over Mono on Ubuntu.",
 
-        "<b>Operating System:</b>",
-        "- Ubuntu 18.04 (Linux), Windows 7, Mac OS X (Sierra)",
+        "<b>Architecture:</b>",
+        "&nbsp;&nbsp;• Monolithic architecture, no microservices, shared data model UI & API.",
 
-        "<b>Ide:</b>",
-        "- WebStorm, VS Code, vim / vi",
-
-        "I also actively participated in maintaining the old stack, legacy, developed in PHP, based on YII framework, layered on MySql as RDS database. Tiny developments in C#."
+        "<b>CI/CD:</b>",
+        "&nbsp;&nbsp;• CI/CD pipelines over <b>GitLab</b> including linter, unit tests, builder, and deployer."
       ]
     },
     {
