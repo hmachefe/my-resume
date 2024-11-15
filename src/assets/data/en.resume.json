@@ -52,7 +52,12 @@
         {
           "techno": "Java",
           "detail": "JavaFx, Swing, Maven",
-          "level": 40
+          "level": 50
+        },
+        {
+          "techno": "MATLAB",
+          "detail": "software environment for scientists",
+          "level": 50
         },
         {
           "techno": "C / C++",
@@ -92,33 +97,30 @@
         {
           "techno": "Bootstrap",
           "detail": "Responsive, mobile-first CSS",
-          "level": 60
+          "level": 70
         },
         {
           "techno": "Backbone",
           "detail": "Progressive JavaScript framework",
-          "level": 50
+          "level": 60
         },
         {
           "techno": "VueJS",
           "detail": "Progressive JavaScript framework",
-          "level": 40
+          "level": 50
         },
         {
           "techno": "ThreeJS",
           "detail": "3D graphics with WebGL",
+          "level": 40
+        },
+        {
+          "techno": "Latex",
+          "detail": "Typesetting",
           "level": 30
         }
       ]
     },
-    {
-      "title": "Back-end",
-      "skills": [
-        {
-          "techno": "OpenAPI / Swagger",
-          "detail": "API specification with TSOA",
-          "level": 90
-        },
     {
       "title": "Back-end",
       "skills": [
@@ -143,6 +145,11 @@
           "level": 60
         },
         {
+          "techno": "Knex/objection",
+          "detail": "SQL query builder and ORM for Node",
+          "level": 60
+        },
+        {
           "techno": "Django",
           "detail": "Python web framework for fast development, MVT architecture",
           "level": 30
@@ -158,76 +165,28 @@
       "title": "Database",
       "skills": [
         {
-          "techno": "ElasticSearch",
-          "detail": "AWS console, CLI, SDK",
-          "level": 80
-        },
-        {
-          "techno": "DynamoDB",
-          "detail": "AWS console, CLI, SDK",
+          "techno": "DynamoDB / (MongoDB)",
+          "detail": "",
           "level": 90
         },
         {
-          "techno": "RDS",
-          "detail": "MySql, Microsfoft SQL Server, PostGreSQL",
+          "techno": "ElasticSearch",
+          "detail": "",
+          "level": 80
+        },
+        {
+          "techno": "PostGres, Sqlite, MySql",
+          "detail": "",
           "level": 70
-        }
-      ]
-    },
-    {
-      "title": "Mobile",
-      "skills": [
-        {
-          "techno": "Java Android",
-          "detail": "Dalvik",
-          "level": 60
         },
         {
-          "techno": "Ionic",
-          "detail": "formerly Apache Cordova",
-          "level": 40
+          "techno": "MySQLWorkbench, DBeaver",
+          "detail": "",
+          "level": 70
         },
         {
-          "techno": "Xcode",
-          "detail": "Objective C",
-          "level": 30
-        }
-      ]
-    },
-    {
-      "title": "Version control systems",
-      "skills": [
-        {
-          "techno": "Git",
-          "detail": "gitlab, github",
-          "level": 80
-        },
-        {
-          "techno": "SVN",
-          "level": 40
-        },
-        {
-          "techno": "Synergy",
-          "level": 20
-        }
-      ]
-    },
-    {
-      "title": "Operating System",
-      "skills": [
-        {
-          "techno": "Linux",
-          "detail": "Ubuntu 22",
-          "level": 80
-        },
-        {
-          "techno": "Windows",
-          "detail": "10",
-          "level": 60
-        },
-        {
-          "techno": "MacOS X",
-          "detail": "El Capitan 10.11.2",
+          "techno": "Microsoft SQL Server",
+          "detail": "",
           "level": 40
         }
       ]
@@ -286,8 +245,18 @@
           "level": 70
         },
         {
+          "techno": "SES",
+          "detail": "AWS Simple Email Service ",
+          "level": 80
+        },
+        {
+          "techno": "SNS",
+          "detail": "AWS Simple Notification Service",
+          "level": 80
+        },
+        {
           "techno": "CloudWatch",
-          "detail": "AWS Monitoring and Observability Service",
+          "detail": "AWS monitoring service with logs",
           "level": 80
         },
         {
@@ -311,24 +280,24 @@
       "title": "Devops",
       "skills": [
         {
-          "techno": "CloudFormation",
-          "detail": "AWS Infrastructure as Code Service",
-          "level": 50
-        },
-        {
           "techno": "Terraform",
           "detail": "Infrastructure as Code Tool for Multi-Cloud Environments",
           "level": 80
         },
         {
           "techno": "Kubernetes",
-          "detail": "Container Orchestration Platform for Automated Deployment, etc",
-          "level": 70
+          "detail": "Container Orchestration Platform for Automated Deployment",
+          "level": 60
+        },
+        {
+          "techno": "CloudFormation",
+          "detail": "AWS Infrastructure as Code Service",
+          "level": 50
         }
       ]
     },
     {
-      "title": "Video players",
+      "title": "HTML5 Video players",
       "skills": [
         {
           "techno": "Bitmovin",
@@ -343,6 +312,113 @@
         {
           "techno": "Video.js",
           "detail": "web video player built from the ground up for an HTML5 world",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "title": "Multimedia",
+      "skills": [
+        {
+          "techno": "Mediainfo, FFMPEG (fprobe)",
+          "detail": "",
+          "level": 90
+        },
+        {
+          "techno": "AWS MediaConvert",
+          "detail": "",
+          "level": 90
+        },
+        {
+          "techno": "Hybrik (Dolby)",
+          "detail": "",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "title": "Mobile",
+      "skills": [
+        {
+          "techno": "Java Android",
+          "detail": "Dalvik",
+          "level": 60
+        },
+        {
+          "techno": "Ionic",
+          "detail": "formerly Apache Cordova",
+          "level": 40
+        },
+        {
+          "techno": "Xcode",
+          "detail": "Objective C",
+          "level": 30
+        }
+      ]
+    },
+    {
+      "title": "Version control systems",
+      "skills": [
+        {
+          "techno": "Git",
+          "detail": "gitlab, github",
+          "level": 80
+        },
+        {
+          "techno": "SVN",
+          "level": 40
+        },
+        {
+          "techno": "Synergy",
+          "level": 20
+        }
+      ]
+    },
+    {
+      "title": "Operating Systems",
+      "skills": [
+        {
+          "techno": "Linux",
+          "detail": "Ubuntu 22",
+          "level": 80
+        },
+        {
+          "techno": "Windows",
+          "detail": "Win 10",
+          "level": 70
+        },
+        {
+          "techno": "MacOS X",
+          "detail": "El Capitan 10.11.2",
+          "level": 60
+        },
+        {
+          "techno": "Tizen",
+          "detail": "Samsung TV",
+          "level": 70
+        },
+        {
+          "techno": "WebOS",
+          "detail": "LG TV",
+          "level": 40
+        }
+      ]
+    },
+      {
+        "title": "IDE",
+        "skills": [{
+          "techno": "WebStorm (JetBrains)",
+          "detail": "Professional IDE for developers, various plugins",
+          "level": 80
+        },
+        {
+          "techno": "Visual Studio Code",
+          "detail": "Lightweight code editor with extensive extensions",
+          "level": 80
+        },
+        {
+          "techno": "Vim/Vi",
+          "detail": "Highly configurable text editor, efficient keyboard shortcuts",
           "level": 70
         }
       ]
@@ -363,6 +439,71 @@
         {
           "techno": "Scrum <i>master</i>",
           "detail": "daily, grooming, planning, review, retro",
+          "level": 60
+        }
+      ]
+    },
+    {
+      "title": "Scripting",
+      "skills": [
+        {
+          "techno": "Bash, Shell (Linux, Mac)",
+          "detail": "Command-line scripting for automating tasks",
+          "level": 80
+        },
+        {
+          "techno": "CMD Prompt, PowerShell",
+          "detail": "Windows-based scripting, DOS cmmands",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "title": "Streaming, DRM Encryption",
+      "skills": [
+        {
+          "techno": "MPEG/DASH, Widevine",
+          "detail": "Adaptive streaming with Widevine DRM",
+          "level": 80
+        },
+        {
+          "techno": "HLS, AES-128",
+          "detail": "HLS streaming with AES-128 for secure delivery",
+          "level": 80
+        }
+      ]
+    },
+    {
+      "title": "Instant Messaging",
+      "skills": [
+        {
+          "techno": "Teams, Slack",
+          "detail": "Collaboration tools for real-time communication",
+          "level": 80
+        }
+      ]
+    },
+    {
+      "title": "UX / UI",
+      "skills": [
+        {
+          "techno": "Figma, Miro",
+          "detail": "Design and collaboration tools for UI/UX   wireframing",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "title": "AI",
+      "skills": [
+        {
+          "techno": "ChatGPT 4.0",
+          "detail": "AI language model for natural language processing",
+          "level": 80
+        },
+        {
+          "techno": "OpenAI API",
+          "detail": "API for integrating OpenAI's GPT models into applications",
           "level": 60
         }
       ]

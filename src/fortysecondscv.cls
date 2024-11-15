@@ -200,13 +200,15 @@
 }
 
 
-% TODO find a cleaner solution for consistent spacing
+% Redefine the nameandjob command to include the spacing adjustment
 \newcommand{\nameandjob}{%
-	{\Huge\color{maincolor}\cvname}\par%
-	\setlength{\parskip}{2ex}
-	{\Large\color{black!80}\cvjobtitle}\par%
-	\setlength{\parskip}{1ex}
+    \vspace*{-0.6em} % Adjust the vertical position of the entire block
+    {\Huge\color{maincolor}\cvname}\par%
+    \setlength{\parskip}{2ex}
+    {\Large\color{black!80}\cvjobtitle}\par%
+    \setlength{\parskip}{1ex}
 }
+
 
 \newcommand{\profileroundedcorners}{%
 	\begin{figure}\centering
@@ -345,6 +347,20 @@
     }%
     \par % End the paragraph cleanly
 }
+
+\newcommand{\pointskillFortyQt}[2]{%
+    \cvicon{#1}~%
+    C++ / C
+    \textcolor{gray}{(QT 5)} % (QT 5) in gray
+    \hfill%
+    \makebox[\diskdisplaywidth][l]{%
+        \textcolor{gray}{\faCircle} % First full disk
+        \textcolor{gray}{\faCircle} % Second full disk
+    }%
+    \par % End the paragraph cleanly
+}
+
+
 
 % Command to draw two full disks and one half disk (50 points)
 \newcommand{\pointskillFifty}[2]{%
@@ -684,7 +700,7 @@
 
 
 \newcommand{\cvitemRight}[4]{%
-    \parbox[t]{0.0\textwidth}{\raggedright \strut \textcolor{gray}{#1}} &% Set date column width and color
+    \parbox[t]{0.06\textwidth}{\raggedright \strut \textcolor{gray}{#1}} &% Set date column width and color
     \parbox[t]{0.90\textwidth}{% Increase main content width to use up extra space
         {\large \textbf{\textcolor{jobtitlecolor}{#2}}} \hfill {\footnotesize#3} \\ #4\vspace{\parsep}%
     }\\
