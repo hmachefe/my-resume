@@ -44,6 +44,7 @@
 \definecolor{cvsectioncolor}{HTML}{0E5484}
 \definecolor{cvsubsectioncolor}{HTML}{4D4D4D}
 \definecolor{jobtitlecolor}{HTML}{0E5484} % Define the color for the job title
+\definecolor{datelinecolor}{HTML}{606060} % Darker gray for date and location
 % set default values
 \colorlet{maincolor}{cvblue}
 \colorlet{sidecolor}{cvsidecolor}
@@ -396,24 +397,24 @@
     \makebox[\diskdisplaywidth][l]{%
         % Draw first full disk with a distinct black border, smaller size
         \begin{tikzpicture}[baseline=-0.75ex]
-            \draw[black, fill=gray, line width=0.1mm] (0,0) circle (0.70ex);
+            \draw[black, fill=gray, line width=0.12mm] (0,0) circle (0.70ex);
             \fill[gray] (0,0) circle (0.67ex); % Slightly smaller fill to create distinct border
         \end{tikzpicture}\hspace{3pt}% Increased horizontal space
         % Draw second full disk with a distinct black border, smaller size
         \begin{tikzpicture}[baseline=-0.75ex]
-            \draw[black, fill=gray, line width=0.1mm] (0,0) circle (0.70ex);
+            \draw[black, fill=gray, line width=0.12mm] (0,0) circle (0.70ex);
             \fill[gray] (0,0) circle (0.67ex); % Slightly smaller fill to create distinct border
         \end{tikzpicture}\hspace{3pt}% Increased horizontal space
         % Draw third full disk with a distinct black border, smaller size
         \begin{tikzpicture}[baseline=-0.75ex]
-            \draw[black, fill=gray, line width=0.1mm] (0,0) circle (0.70ex);
+            \draw[black, fill=gray, line width=0.12mm] (0,0) circle (0.70ex);
             \fill[gray] (0,0) circle (0.67ex); % Slightly smaller fill to create distinct border
         \end{tikzpicture}\hspace{3.5pt}% Increased horizontal space before half disk
         % Draw half disk with a distinct black border, manually adjusted vertical position using raisebox
-        \raisebox{0.10ex}{% Adjusted raisebox for better vertical alignment
+        \raisebox{0.096ex}{% Adjusted raisebox for better vertical alignment
             \begin{tikzpicture}[scale=0.75]
-                \fill[gray] (0,0) arc[start angle=90, end angle=270, radius=0.88ex] -- cycle; % Increased radius for half disk
-                \draw[black, line width=0.1mm] (0,0) arc[start angle=90, end angle=270, radius=0.88ex] -- cycle; % Stroke for half disk
+                \fill[gray] (0,0) arc[start angle=90, end angle=270, radius=0.87ex] -- cycle; % Increased radius for half disk
+                \draw[black, line width=0.1mm] (0,0) arc[start angle=90, end angle=270, radius=0.87ex] -- cycle; % Stroke for half disk
             \end{tikzpicture}
         }%
     }%
@@ -692,7 +693,9 @@
     {\begin{tabular}{p{0.09\textwidth} p{0.88\textwidth}}}%
     {\end{tabular}}
 
-
+\newenvironment{cvtableNew}%
+    {\begin{tabular}{@{}p{\textwidth}@{}}}%
+    {\end{tabular}}
 
 % | <keyword>      <one-line description>            |
 % use parbox if text needs to use multiple lines
@@ -719,7 +722,15 @@
     }\\
 }
 
-
+% Redefine the cvitemRight command to include job title and company on one line and date and location on the next line
+\newcommand{\cvitemRightNew}[5]{%
+    % Job title and company on the first line with larger company name
+    {\large \textbf{\textcolor{jobtitlecolor}{#2}}} \hfill {\normalsize \textbf{#3}} \\
+    % Date and location on the second line with adjusted size and color
+    {\small \textcolor{datelinecolor}{#1}} \hfill {\small \textcolor{datelinecolor}{#5}} \\
+    % Job description with increased font size
+    {\normalsize #4}\vspace{\parsep} % Increase this size as needed
+}
 
 
 
