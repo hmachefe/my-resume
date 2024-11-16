@@ -317,7 +317,7 @@
 \newcommand{\pointskillTwenty}[2]{%
     \cvicon{#1}~#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\faCircle} % One full disk
+        \textcolor{gray}{\footnotesize\faCircle} % One full disk
     }%
     \par % End the paragraph cleanly
 }
@@ -326,7 +326,7 @@
 \newcommand{\pointskillThirty}[2]{%
     \cvicon{#1}~#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\faCircle} % One full disk
+        \textcolor{gray}{\footnotesize\faCircle} % One full disk
         \hspace{-0.20cm} % Adjust horizontal spacing
         \raisebox{-0.15ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
@@ -342,8 +342,8 @@
 \newcommand{\pointskillForty}[2]{%
     \cvicon{#1}~#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\faCircle} % First full disk
-        \textcolor{gray}{\faCircle} % Second full disk
+        \textcolor{gray}{\footnotesize\faCircle} % First full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
     }%
     \par % End the paragraph cleanly
 }
@@ -354,8 +354,8 @@
     \textcolor{gray}{(QT 5)} % (QT 5) in gray
     \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\faCircle} % First full disk
-        \textcolor{gray}{\faCircle} % Second full disk
+        \textcolor{gray}{\footnotesize\faCircle} % First full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
     }%
     \par % End the paragraph cleanly
 }
@@ -366,8 +366,8 @@
 \newcommand{\pointskillFifty}[2]{%
     \cvicon{#1}~#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\faCircle} % First full disk
-        \textcolor{gray}{\faCircle} % Second full disk
+        \textcolor{gray}{\footnotesize\faCircle} % First full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
         \hspace{-0.20cm} % Adjust horizontal spacing
         \raisebox{-0.15ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
@@ -383,9 +383,9 @@
 \newcommand{\pointskillSixty}[2]{%
     \cvicon{#1}~#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\faCircle} % First full disk
-        \textcolor{gray}{\faCircle} % Second full disk
-        \textcolor{gray}{\faCircle} % Third full disk
+        \textcolor{gray}{\footnotesize\faCircle} % First full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Third full disk
     }%
     \par % End the paragraph cleanly
 }
@@ -394,28 +394,41 @@
 \newcommand{\pointskillSeventy}[2]{%
     \cvicon{#1}~#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\faCircle} % First full disk
-        \textcolor{gray}{\faCircle} % Second full disk
-        \textcolor{gray}{\faCircle} % Third full disk
-        \hspace{-0.18cm} % Adjust horizontal spacing
-        \raisebox{-0.05ex}{ % Adjust Y position for half disk
-        \begin{tikzpicture}[scale=0.28]
-          % Draw the half disk
-          \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.5cm] -- cycle;
-        \end{tikzpicture}%
+        % Draw first full disk with a distinct black border, smaller size
+        \begin{tikzpicture}[baseline=-0.75ex]
+            \draw[black, fill=gray, line width=0.1mm] (0,0) circle (0.70ex);
+            \fill[gray] (0,0) circle (0.67ex); % Slightly smaller fill to create distinct border
+        \end{tikzpicture}\hspace{3pt}% Increased horizontal space
+        % Draw second full disk with a distinct black border, smaller size
+        \begin{tikzpicture}[baseline=-0.75ex]
+            \draw[black, fill=gray, line width=0.1mm] (0,0) circle (0.70ex);
+            \fill[gray] (0,0) circle (0.67ex); % Slightly smaller fill to create distinct border
+        \end{tikzpicture}\hspace{3pt}% Increased horizontal space
+        % Draw third full disk with a distinct black border, smaller size
+        \begin{tikzpicture}[baseline=-0.75ex]
+            \draw[black, fill=gray, line width=0.1mm] (0,0) circle (0.70ex);
+            \fill[gray] (0,0) circle (0.67ex); % Slightly smaller fill to create distinct border
+        \end{tikzpicture}\hspace{3.5pt}% Increased horizontal space before half disk
+        % Draw half disk with a distinct black border, manually adjusted vertical position using raisebox
+        \raisebox{0.10ex}{% Adjusted raisebox for better vertical alignment
+            \begin{tikzpicture}[scale=0.75]
+                \fill[gray] (0,0) arc[start angle=90, end angle=270, radius=0.88ex] -- cycle; % Increased radius for half disk
+                \draw[black, line width=0.1mm] (0,0) arc[start angle=90, end angle=270, radius=0.88ex] -- cycle; % Stroke for half disk
+            \end{tikzpicture}
         }%
     }%
     \par % End the paragraph cleanly
 }
 
+
 % Command to draw 4 full disks (80 points)
 \newcommand{\pointskillEighty}[2]{%
     \cvicon{#1}~#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\faCircle} % First full disk
-        \textcolor{gray}{\faCircle} % Second full disk
-        \textcolor{gray}{\faCircle} % Third full disk
-        \textcolor{gray}{\faCircle} % Third full disk
+        \textcolor{gray}{\footnotesize\faCircle} % First full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Third full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Third full disk
     }%
     \par % End the paragraph cleanly
 }
@@ -425,10 +438,10 @@
 \newcommand{\pointskillNinety}[2]{%
     \cvicon{#1}~#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\faCircle} % First full disk
-        \textcolor{gray}{\faCircle} % Second full disk
-        \textcolor{gray}{\faCircle} % Third full disk
-        \textcolor{gray}{\faCircle} % Fourth full disk
+    \textcolor{gray}{\footnotesize\faCircle} % First full disk
+    \textcolor{gray}{\footnotesize\faCircle} % Second full disk
+    \textcolor{gray}{\footnotesize\faCircle} % Third full disk
+    \textcolor{gray}{\footnotesize\faCircle} % Fourth full disk
         \hspace{-0.18cm} % Adjust horizontal spacing
         \raisebox{-0.05ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
@@ -444,11 +457,11 @@
 \newcommand{\pointskillHundred}[2]{%
     \cvicon{#1}~#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\faCircle} % First full disk
-        \textcolor{gray}{\faCircle} % Second full disk
-        \textcolor{gray}{\faCircle} % Third full disk
-        \textcolor{gray}{\faCircle} % Fourth full disk
-        \textcolor{gray}{\faCircle} % Fifth full disk
+        \textcolor{gray}{\footnotesize\faCircle} % First full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Third full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Fourth full disk
+        \textcolor{gray}{\footnotesize\faCircle} % Fifth full disk
     }%
     \par % End the paragraph cleanly
 }
