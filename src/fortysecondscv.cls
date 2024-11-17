@@ -62,8 +62,12 @@
 \newlength\topbottommargin%
 \newlength\leftrightmargin%
 \newlength\sidebartextwidth
+
+\newlength\sidebartextwidthLang
+
 % default values
 \setlength{\sidebarwidth}{0.34\paperwidth}
+\setlength{\sidebartextwidthLang}{0.34\paperwidth}
 \setlength{\topbottommargin}{0.02\paperheight}
 \setlength{\leftrightmargin}{0.008\paperwidth}
 % user overwrites
@@ -84,7 +88,8 @@
 
 % compute "inner" margin of sidebar automatically;
 % must come after \sidebarwidth and \leftrightmargin possibly changed by user
-\setlength{\sidebartextwidth}{\sidebarwidth - 4\leftrightmargin}
+\setlength{\sidebartextwidth}{\sidebarwidth - 2\leftrightmargin}
+\setlength{\sidebartextwidthLang}{\sidebarwidth - 6\leftrightmargin}
 
 % let geometry package perform the changes;
 % must come after loading the base class prevent overwriting
@@ -492,8 +497,17 @@
 }
 
 
-
-
+\newcommand{\barskillLang}[3]{
+    \hspace{0.66em} % Add padding to shift the graph to the right
+    \begin{tikzpicture}[x=\sidebartextwidthLang-5pt, y=0.75ex]
+        \draw[fill, skillbg, rounded corners=0.15em]
+            (0, 0) rectangle (1, 1);
+        \draw[fill, iconcolor!70, rounded corners=0.15em]
+            (0, 0) rectangle (#3/100, 1);
+        \node[above right] at (0, 1) {\cvicon{#1} ~ #2};
+    \end{tikzpicture}
+    \par
+}
 
 % \skill[<indent>]{<icon>}{<description>} creates in sidebar
 % | [indent] [icon]  some longer skill description  |

@@ -226,10 +226,10 @@
 
 	\profilesection{Languages}
   \vspace{-1mm} % Adjust the negative space as needed
-	\barskill{}{\textbf{French} (Mother Tongue)}{100}
-	\barskill{}{\textbf{English} (TOEFL)}{92}
-	\barskill{}{\textbf{German} (Educational, 2 years)}{35}
-	\barskill{}{\textbf{Spanish} (Beginner, Duolingo)}{25}
+	\barskillLang{}{\textbf{French} (Mother Tongue)}{100}
+	\barskillLang{}{\textbf{English} (TOEFL)}{92}
+	\barskillLang{}{\textbf{German} (Educational, 2 years)}{35}
+	\barskillLang{}{\textbf{Spanish} (Beginner, Duolingo)}{25}
 
 	\profilesection{Honors \& awards}
     \vspace{-1mm} % Adjust the negative space as needed
@@ -470,75 +470,100 @@
 \newpage
 \makethirdsidebar
 
-\vspace*{-2em} % Adjust the value as needed
-\begin{cvtable}
-    \cvitemRight{Jan,\\2014\\–\\Jul,\\2014}
-    {BackboneJS + ThreeJS Front-End Developer}
-    {Cisco, Paris (FR)}
+\vspace*{-1em} % Adjust the value as needed
+\begin{cvtableNew}
+  \cvitemRightNew
+    {Jan, 2014 – Jul, 2014} % Date
+    {BackboneJS + ThreeJS Front-End Developer} % Job title
+    {Cisco} % Company
     {
-      \textbf{Project}: HTML5 app for Belgacom on RDK middleware.\\
-      \textbf{Responsibilities}: Developed GPU-accelerated features with CSS3D, WebSockets, AJAX, and Three.JS in BackboneJS; optimized for tablet responsiveness and smooth navigation with Hammer.JS for touch events. Packaged via PhoneGap, effectively optimized for low-end STBs lacking WebGL.\\
-      \textbf{Outcome}: Delivered high-performance POC with HW acceleration.\\
+      \vspace{1pt}
+      \textbf{Project}: HTML5 app for Belgacom on RDK middleware.\par
+      \vspace{4pt}
+      \textbf{Responsibilities}: GPU-accelerated app CSS3D, Three.JS as BackboneJS views; AJAX, websockets, tablets-friendly owing to Hammer.JS. Packaged via PhoneGap.\par
+      \vspace{4pt}
+      \textbf{Outcome}: Delivered high-performance POC with HW acceleration.\par
     }
-\end{cvtable}
+    {Paris (FR)} % Location on the second line, aligned to the right
+\end{cvtableNew}
 
 
 
 
 
 
-\begin{cvtable}
-    \cvitemRight{Mar,\\2013\\–\\Jan,\\2014}
-    {CSS3D + HTML5/JS Front-End Developer}
-    {NDS Technologies, Paris}
+\begin{cvtableNew}
+  \cvitemRightNew
+    {Mar, 2013 – Jan, 2014} % Date
+    {CSS3D + HTML5/JS Front-End Developer} % Job title
+    {NDS Technologies} % Company
     {
-      \textbf{Project}: Advanced HTML5 development for embedded devices in digital TV (smart TVs, HDMI sticks, Raspberry Pi, and tablets).\\
-      \textbf{Responsibilities}:
-          Built features for devices including LG TVs, HDMI sticks, and tablets using HTML, CSS3D, and WebGL, with BackboneJS for MVC and ThreeJS for 3D modeling.
-          Optimized performance via hardware acceleration tests across engines (QT5/Webkit, WebKitNix, Chromium). Managed cross-compilation for platforms like LG TV, Raspberry Pi, and MacOSX.\\
-      \textbf{Outcome}: High-performance solution, attracting Belgacom and Zon TV.\\
+      \vspace{1pt}
+      \textbf{Project}: HTML5 development for smart TVs, HDMI stick, Raspberry Pi, tablets.\par
+      \vspace{4pt}
+      \textbf{Responsibilities}: Built features with HTML, CSS3D, WebGL, BackboneJS, and ThreeJS for 3D modeling. Optimized hardware performance for QT5/WebKit, WebKitNix, and Chromium. Managed cross-compilation for LG TVs, Raspberry Pi, and MacOS.\par
+      \vspace{4pt}
+      \textbf{Outcome}: Delivered high-performance solutions, attracting Belgacom and Zon TV.\par
     }
-\end{cvtable}
+    {Paris (FR)} % Location on the second line, aligned to the right
+\end{cvtableNew}
 
 
 
 
-\begin{cvtable}
-    \cvitemRight{Aug,\\2012\\–\\Feb,\\2013}
-    {AngularJS | BackboneJS Front-End Developer}
-    {Cisco (ex NDS), FR}
+
+\begin{cvtableNew}
+  \cvitemRightNew
+    {Aug, 2012 – Feb, 2013} % Date
+    {AngularJS | BackboneJS Front-End Developer} % Job title
+    {Cisco (ex NDS)} % Company
     {
-      \textbf{Project}: HTML5 software solution for digital TV with patented remote UI, second-screen functionality, and framework benchmarks for payTV.\\
-      \textbf{Responsibilities}:
-          Contributed to a patented HTML5 rendering solution for payTV, showcased at IBC. Assessed frameworks (Angular, Backbone, Spine) for HTML5 EPG on STB, finalizing Backbone. Built MVC architecture for set-top box apps and explored FLASH-to-HTML5 tools like Adobe Edge.\\
-      \textbf{Skills}: HTML5 Development, Framework Evaluation, MVC Architecture, Open-Source Tools (GIT, Jira, Jenkins, Confluence, Adobe Edge).\\
+      \vspace{1pt}
+      \textbf{Project}: HTML5 solution for digital TV with patented remote UI, 2nd-screen features.\par
+      \vspace{4pt}
+      \textbf{Responsibilities}: Developed on a patented HTML5 rendering solution for payTV, showcased @IBC. Evaluated frameworks: Angular, Backbone, Spine, for STB HTML5 EPG. Built MVC architecture for STB apps, assessed Flash-to-Html5 (e.g Adobe Edge).\par
+      \vspace{4pt}
+      \textbf{Skills}: HTML5 Development, Frameworks evaluation, MVC Architecture, Open-Source tools (GIT, Jira, Jenkins, Confluence, Adobe Edge).\par
     }
-\end{cvtable}
+    {Paris (FR)} % Location on the second line, aligned to the right
+\end{cvtableNew}
 
 
-\begin{cvtable}
-    \cvitemRight{Dec,\\2010\\–\\Jul,\\2012}
-    {WebKit / QT Developer (Full Stack)}
-    {NDS Technologies, Paris, France}
+
+\begin{cvtableNew}
+  \cvitemRightNew
+    {Dec, 2010 – Jul, 2012} % Date
+    {WebKit / QT Developer (Full Stack)} % Job title
+    {NDS Technologies} % Company
     {
-      \textbf{Project}: Comprehensive full-stack development for QT / WebKit integration on specialized chipsets, with a focus on performance and compatibility.\\
-      \textbf{Responsibilities}:
-          Cross-compiled QT / WebKit for various chipsets. Created Java-QT bridges for WebView control (QWebView and Android WebView). Automated binary distribution with shell scripting (India, Israel). Packaged HTML5 content as .CRX archives for Cisco France’s app store.\\
-      \textbf{Skills}: Advanced Programming, Efficient Cross-Compiling, Java-QT Integration, Global Distribution Automation, Secure App Packaging\\
+      \vspace{1pt}
+      \textbf{Project}: Full-stack QT / WebKit integration on specialized chipsets, focused on performance and compatibility.\par
+      \vspace{4pt}
+      \textbf{Responsibilities}: Cross-compiled QT/WebKit for various chips, developed Java-QT bridges for \{QWebView, Android WebView\} control. Automated binary distribution via shell (IN, IL), packaged HTML5 content as .CRX archives for corporate app store.\par
+      \vspace{4pt}
+      \textbf{Skills}: X-Compiling, Java-QT Integration, Global Automation, Secure App Packaging.\par
     }
-\end{cvtable}
-\\
-\begin{cvtable}
-    \cvitemRight{Nov,\\2006\\–\\Nov,\\2010}
-    {Web Engine Integration}
-    {Canal+, Paris (FR)}
-    {
-      \textbf{Project}: Integrated NetFront web engine with global team coordination.\\
-      \textbf{Responsibilities}:
-          Led NDS/ACCESS collaboration on STB's middleware integration, managing full-stack development and X-platform porting; supervised internships, POCs, and widget bank for STB-to-iPhone integration.\\
-      \textbf{Skills}: Web Tech, Project Management, X-Dept. communication, C coding\\
-    }
-\end{cvtable}
+    {Paris (FR)} % Location on the second line, aligned to the right
+\end{cvtableNew}
+
+
+\begin{cvtableNew}
+  \cvitemRightNew
+  {Feb, 2002 – Nov, 2010} % Date
+  {Web Engine Integration and Full-Stack Development} % Job title
+  {Canal+} % Company
+  {
+    \textbf{Projects}:
+    - Integrated Opera 6 and NetFront web engines into Canal+ STBs, enabling advanced digital TV functionality.\par
+    \textbf{Responsibilities}:
+    - Led NDS/ACCESS collaboration for STB middleware integration, managing full-stack development, cross-platform porting, and widget banks for STB-to-iPhone integration.\par
+    - Developed Java-Opera and Java-QT bridges for multimedia and custom plugins, enabling seamless integration and multimedia playback.\par
+    - Built frameworks for STB games, modernized HTML standards, and conducted performance optimization for multiple platforms.\par
+    \textbf{Skills}: Web Engine Integration (Opera, NetFront), Middleware Development, Cross-Platform Porting, Plugin Development, Multimedia/Game Integration, Project Management, C/C++ Programming, Cross-Department Collaboration.\par
+  }
+    {Paris (FR)} % Location on the second line, aligned to the right
+\end{cvtableNew}
+
 
 
 
