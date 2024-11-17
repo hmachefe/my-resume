@@ -251,14 +251,18 @@
 
 % table with personal information on top sidebar on first page
 \newcommand{\personaltable}{%
-	\begin{personal}[0.6em]
-		\circleicon{\faPhone}     & \cvphone \\
-    \circleicon{\faAt}        & \cvmail \\
-		\circleicon{\faLinkedin}  & \cvlinkedin \\
-    \circleicon{\faGithub}    & \cvgithub \\
-    \circleicon{\faEnvelope}  & \cvaddress
-	\end{personal}
+    \begin{personal}[0.6em]
+        \begin{tabular}{@{\hspace{5pt}}l@{\hspace{10pt}}l} % Add space before and after the first column
+            \circleicon{\faPhone}     & \cvphone \\
+            \circleicon{\faAt}        & \cvmail \\
+            \circleicon{\faLinkedin}  & \cvlinkedin \\
+            \circleicon{\faGithub}    & \cvgithub \\
+            \circleicon{\faEnvelope}  & \cvaddress
+        \end{tabular}
+    \end{personal}
 }
+
+
 
 
 % icon style for personal information
@@ -386,7 +390,7 @@
         \textcolor{gray}{\scriptsize\faCircle} % Third full disk
         \textcolor{gray}{\scriptsize\faCircle} % Third full disk
         \hspace{-0.17cm} % Adjust horizontal spacing for the half disk
-        \raisebox{-0.08ex}{ % Adjust Y position for half disk
+        \raisebox{-0.11ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
           % Draw the half disk
           \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.40cm] -- cycle;
@@ -418,8 +422,8 @@
     \textcolor{gray}{\scriptsize\faCircle} % First full disk
     \textcolor{gray}{\scriptsize\faCircle} % Second full disk
     \textcolor{gray}{\scriptsize\faCircle} % Third full disk
-        \hspace{-0.17cm} % Adjust horizontal spacing for the half disk
-        \raisebox{-0.08ex}{ % Adjust Y position for half disk
+        \hspace{-0.16cm} % Adjust horizontal spacing for the half disk
+        \raisebox{-0.11 ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
           % Draw the half disk
           \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.40cm] -- cycle;
