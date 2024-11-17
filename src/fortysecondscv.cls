@@ -65,7 +65,7 @@
 % default values
 \setlength{\sidebarwidth}{0.34\paperwidth}
 \setlength{\topbottommargin}{0.02\paperheight}
-\setlength{\leftrightmargin}{0.02\paperwidth}
+\setlength{\leftrightmargin}{0.008\paperwidth}
 % user overwrites
 \DeclareOptionX{sidebarwidth}{\setlength{\sidebarwidth}{#1}}
 \DeclareOptionX{topbottommargin}{\setlength{\topbottommargin}{#1}}
@@ -297,11 +297,13 @@
 
 % Define a fixed width for the disk display area
 \newlength{\diskdisplaywidth}
-\setlength{\diskdisplaywidth}{4em} % Adjust this width as needed
+\setlength{\diskdisplaywidth}{5.1em} % Adjust this width as needed
 
 % Command to draw one half disk (10 points)
 \newcommand{\pointskillTen}[2]{%
-    \cvicon{#1}~#2 \hfill%
+\cvicon{#1}%
+\hspace{-2mm} % Adjust this value as needed to reduce space before the text
+#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
         \hspace{-0.50em} % Shift half disk slightly to the left
         \raisebox{-0.25ex}{ % Adjust Y position for half disk
@@ -316,7 +318,9 @@
 
 % Command to draw one full disk (20 points)
 \newcommand{\pointskillTwenty}[2]{%
-    \cvicon{#1}~#2 \hfill%
+\cvicon{#1}%
+\hspace{-2mm} % Adjust this value as needed to reduce space before the text
+#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
         \textcolor{gray}{\footnotesize\faCircle} % One full disk
     }%
@@ -325,11 +329,13 @@
 
 % Command to draw one full disk and one half disk (30 points)
 \newcommand{\pointskillThirty}[2]{%
-    \cvicon{#1}~#2 \hfill%
+\cvicon{#1}%
+\hspace{-2mm} % Adjust this value as needed to reduce space before the text
+#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
         \textcolor{gray}{\footnotesize\faCircle} % One full disk
-        \hspace{-0.20cm} % Adjust horizontal spacing
-        \raisebox{-0.15ex}{ % Adjust Y position for half disk
+        \hspace{-0.21cm} % Adjust horizontal spacing
+        \raisebox{-0.152ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
           % Draw the half disk
           \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.5cm] -- cycle;
@@ -341,7 +347,9 @@
 
 % Command to draw two full disks (40 points)
 \newcommand{\pointskillForty}[2]{%
-    \cvicon{#1}~#2 \hfill%
+\cvicon{#1}%
+\hspace{-2mm} % Adjust this value as needed to reduce space before the text
+#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
         \textcolor{gray}{\footnotesize\faCircle} % First full disk
         \textcolor{gray}{\footnotesize\faCircle} % Second full disk
@@ -351,6 +359,7 @@
 
 \newcommand{\pointskillFortyQt}[2]{%
     \cvicon{#1}~%
+    \hspace{-3mm}
     C++ / C
     \textcolor{gray}{(QT 5)} % (QT 5) in gray
     \hfill%
@@ -365,12 +374,14 @@
 
 % Command to draw two full disks and one half disk (50 points)
 \newcommand{\pointskillFifty}[2]{%
-    \cvicon{#1}~#2 \hfill%
+\cvicon{#1}%
+\hspace{-2mm} % Adjust this value as needed to reduce space before the text
+#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
         \textcolor{gray}{\footnotesize\faCircle} % First full disk
         \textcolor{gray}{\footnotesize\faCircle} % Second full disk
-        \hspace{-0.20cm} % Adjust horizontal spacing
-        \raisebox{-0.15ex}{ % Adjust Y position for half disk
+        \hspace{-0.21cm} % Adjust horizontal spacing
+        \raisebox{-0.152ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
           % Draw the half disk
           \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.5cm] -- cycle;
@@ -382,7 +393,9 @@
 
 % Command to draw three full disks (60 points)
 \newcommand{\pointskillSixty}[2]{%
-    \cvicon{#1}~#2 \hfill%
+\cvicon{#1}%
+\hspace{-2mm} % Adjust this value as needed to reduce space before the text
+#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
         \textcolor{gray}{\footnotesize\faCircle} % First full disk
         \textcolor{gray}{\footnotesize\faCircle} % Second full disk
@@ -393,7 +406,9 @@
 
 % Command to draw 3 full disks and one half disk (70 points)
 \newcommand{\pointskillSeventy}[2]{%
-    \cvicon{#1}~#2 \hfill%
+\cvicon{#1}%
+\hspace{-2mm} % Adjust this value as needed to reduce space before the text
+#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
         % Draw first full disk with a distinct black border, smaller size
         \begin{tikzpicture}[baseline=-0.75ex]
@@ -424,12 +439,14 @@
 
 % Command to draw 4 full disks (80 points)
 \newcommand{\pointskillEighty}[2]{%
-    \cvicon{#1}~#2 \hfill%
+\cvicon{#1}%
+\hspace{-2mm} % Adjust this value as needed to reduce space before the text
+#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\footnotesize\faCircle} % First full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Third full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Third full disk
+        \textcolor{gray}{\scriptsize\faCircle} % First full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Second full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Third full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Third full disk
     }%
     \par % End the paragraph cleanly
 }
@@ -437,22 +454,26 @@
 
 % Command to draw 4 full disks and one half disk (90 points)
 \newcommand{\pointskillNinety}[2]{%
-    \cvicon{#1}~#2 \hfill%
+    \cvicon{#1}%
+    \hspace{-2mm} % Adjust this value as needed to reduce space before the text
+    #2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-    \textcolor{gray}{\footnotesize\faCircle} % First full disk
-    \textcolor{gray}{\footnotesize\faCircle} % Second full disk
-    \textcolor{gray}{\footnotesize\faCircle} % Third full disk
-    \textcolor{gray}{\footnotesize\faCircle} % Fourth full disk
-        \hspace{-0.18cm} % Adjust horizontal spacing
-        \raisebox{-0.05ex}{ % Adjust Y position for half disk
+    \textcolor{gray}{\scriptsize\faCircle} % First full disk
+    \textcolor{gray}{\scriptsize\faCircle} % Second full disk
+    \textcolor{gray}{\scriptsize\faCircle} % Third full disk
+    \textcolor{gray}{\scriptsize\faCircle} % Fourth full disk
+        \hspace{-0.18cm} % Adjust horizontal spacing for the half disk
+        \raisebox{-0.08ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
           % Draw the half disk
-          \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.5cm] -- cycle;
+          \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.40cm] -- cycle;
         \end{tikzpicture}%
         }%
     }%
     \par % End the paragraph cleanly
 }
+
+
 
 % Command to draw five full disks (100 points)
 \newcommand{\pointskillHundred}[2]{%
@@ -601,7 +622,7 @@
    			rectangle,
    			fill=sidecolor,
    			anchor=north west,
-   			minimum width=\sidebarwidth,
+   			minimum width=6.58cm,
    			minimum height=\paperheight,
 			]{};% (frontsidebar) at (current page.north west){};
 		\end{tikzpicture}
@@ -612,39 +633,39 @@
 % the starred version for absolute values here, b/c we use \pagewidth directly
 % instead of \setlength{\TPHorizModule}{<dimen>}, which seems to be "absolute"
 % as opposed to "relative" - strange but true.
-\newenvironment{sidebar}%
-	{\begin{textblock*}{\sidebartextwidth}(\leftrightmargin, \topbottommargin)}%
-	{\end{textblock*}}
+  \newenvironment{sidebar}%
+    {\begin{textblock*}{\sidebartextwidth}(\leftrightmargin, \topbottommargin)}%
+    {\end{textblock*}}
 
-% provide user interface for easily adding new sections in side bars
-% default: empty sidebar
-\newcommand{\frontsidebar}{}
-\newcommand{\backsidebar}{}
-\newcommand{\thirdsidebar}{}
-\newcommand{\addtofrontsidebar}[1]{\apptocmd{\frontsidebar}{#1}{}{}}
-\newcommand{\addtobacksidebar}[1]{\apptocmd{\backsidebar}{#1}{}{}}
-\newcommand{\addtothirdsidebar}[1]{\apptocmd{\thirdsidebar}{#1}{}{}}
+  % provide user interface for easily adding new sections in side bars
+  % default: empty sidebar
+  \newcommand{\frontsidebar}{}
+  \newcommand{\backsidebar}{}
+  \newcommand{\thirdsidebar}{}
+  \newcommand{\addtofrontsidebar}[1]{\apptocmd{\frontsidebar}{#1}{}{}}
+  \newcommand{\addtobacksidebar}[1]{\apptocmd{\backsidebar}{#1}{}{}}
+  \newcommand{\addtothirdsidebar}[1]{\apptocmd{\thirdsidebar}{#1}{}{}}
 
-\newcommand{\makefrontsidebar}{%
-	\begin{sidebar}
-		% most sidebar commands end with \par; increase space between them
-		\setlength{\parskip}{1ex}
+  \newcommand{\makefrontsidebar}{%
+    \begin{sidebar}
+      % most sidebar commands end with \par; increase space between them
+      \setlength{\parskip}{1ex}
 
-		% insert profile picture
+      % insert profile picture
 
-		\vspace{1ex}
+      \vspace{1ex}
 
-		% name and job
-		\nameandjob
+      % name and job
+      \nameandjob
 
-		% personal information
-		\vspace*{0.5em}
-		\personaltable
+      % personal information
+      \vspace*{0.5em}
+      \personaltable
 
-		% user definitions
-		\frontsidebar
-	\end{sidebar}
-}
+      % user definitions
+      \frontsidebar
+    \end{sidebar}
+  }
 
 \newcommand{\makethirdsidebar}{%
 	\begin{sidebar}
@@ -693,9 +714,6 @@
     {\begin{tabular}{p{0.09\textwidth} p{0.88\textwidth}}}%
     {\end{tabular}}
 
-\newenvironment{cvtableNew}%
-    {\begin{tabular}{@{}p{\textwidth}@{}}}%
-    {\end{tabular}}
 
 % | <keyword>      <one-line description>            |
 % use parbox if text needs to use multiple lines
@@ -722,16 +740,17 @@
     }\\
 }
 
-% Redefine the cvitemRight command to include job title and company on one line and date and location on the next line
-\newcommand{\cvitemRightNew}[5]{%
-    % Job title and company on the first line with larger company name
-    {\large \textbf{\textcolor{jobtitlecolor}{#2}}} \hfill {\normalsize \textbf{#3}} \\
-    % Date and location on the second line with adjusted size and color
-    {\small \textcolor{datelinecolor}{#1}} \hfill {\small \textcolor{datelinecolor}{#5}} \\
-    % Job description with increased font size
-    {\normalsize #4}\vspace{\parsep} % Increase this size as needed
-}
+% Custom environment with adjusted margins and reduced column width
+\newenvironment{cvtableNew}%
+    {\begin{tabular}{@{\hspace{10pt}}p{0.95\textwidth}@{\hspace{20pt}}}}% Adjusted left and right margins
+    {\end{tabular}}
 
+% Redefine cvitemRightNew
+\newcommand{\cvitemRightNew}[5]{%
+    {\large \textbf{\textcolor{jobtitlecolor}{#2}}} \hfill {\normalsize \textbf{#3}} \\
+    {\small \textcolor{datelinecolor}{#1}} \hfill {\small \textcolor{datelinecolor}{#5}} \\
+    {\normalsize #4}\vspace{\parsep}
+}
 
 
 
