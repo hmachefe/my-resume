@@ -84,7 +84,7 @@
 
 % compute "inner" margin of sidebar automatically;
 % must come after \sidebarwidth and \leftrightmargin possibly changed by user
-\setlength{\sidebartextwidth}{\sidebarwidth - 2\leftrightmargin}
+\setlength{\sidebartextwidth}{\sidebarwidth - 4\leftrightmargin}
 
 % let geometry package perform the changes;
 % must come after loading the base class prevent overwriting
@@ -274,7 +274,9 @@
 }
 
 % make sure about me text stays in textbox frame
-\newcommand{\aboutme}[1]{\parbox[b]{\linewidth}{#1}}
+% Make sure about me text stays in textbox frame with padding
+\newcommand{\aboutme}[1]{\parbox[b]{0.95\linewidth}{#1}} % Reduce width to 95%
+
 
 % uniform icon style for all cvskill icons, e.g. flags or fontawesome icons
 \newcommand{\cvicon}[1]{\makebox[1em]{\color{iconcolor} #1}}
@@ -322,7 +324,7 @@
 \hspace{-2mm} % Adjust this value as needed to reduce space before the text
 #2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\footnotesize\faCircle} % One full disk
+        \textcolor{gray}{\scriptsize\faCircle} % One full disk
     }%
     \par % End the paragraph cleanly
 }
@@ -333,12 +335,12 @@
 \hspace{-2mm} % Adjust this value as needed to reduce space before the text
 #2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\footnotesize\faCircle} % One full disk
-        \hspace{-0.21cm} % Adjust horizontal spacing
-        \raisebox{-0.152ex}{ % Adjust Y position for half disk
+    \textcolor{gray}{\scriptsize\faCircle} % Third full disk
+        \hspace{-0.17cm} % Adjust horizontal spacing for the half disk
+        \raisebox{-0.08ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
           % Draw the half disk
-          \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.5cm] -- cycle;
+          \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.40cm] -- cycle;
         \end{tikzpicture}%
         }%
     }%
@@ -351,8 +353,8 @@
 \hspace{-2mm} % Adjust this value as needed to reduce space before the text
 #2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\footnotesize\faCircle} % First full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
+        \textcolor{gray}{\scriptsize\faCircle} % First full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Second full disk
     }%
     \par % End the paragraph cleanly
 }
@@ -364,8 +366,8 @@
     \textcolor{gray}{(QT 5)} % (QT 5) in gray
     \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\footnotesize\faCircle} % First full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
+        \textcolor{gray}{\scriptsize\faCircle} % First full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Second full disk
     }%
     \par % End the paragraph cleanly
 }
@@ -378,13 +380,13 @@
 \hspace{-2mm} % Adjust this value as needed to reduce space before the text
 #2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\footnotesize\faCircle} % First full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
-        \hspace{-0.21cm} % Adjust horizontal spacing
-        \raisebox{-0.152ex}{ % Adjust Y position for half disk
+        \textcolor{gray}{\scriptsize\faCircle} % Third full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Third full disk
+        \hspace{-0.17cm} % Adjust horizontal spacing for the half disk
+        \raisebox{-0.08ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
           % Draw the half disk
-          \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.5cm] -- cycle;
+          \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.40cm] -- cycle;
         \end{tikzpicture}%
         }%
     }%
@@ -397,44 +399,33 @@
 \hspace{-2mm} % Adjust this value as needed to reduce space before the text
 #2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\footnotesize\faCircle} % First full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Third full disk
+        \textcolor{gray}{\scriptsize\faCircle} % First full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Second full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Third full disk
     }%
     \par % End the paragraph cleanly
 }
 
 % Command to draw 3 full disks and one half disk (70 points)
 \newcommand{\pointskillSeventy}[2]{%
-\cvicon{#1}%
-\hspace{-2mm} % Adjust this value as needed to reduce space before the text
-#2 \hfill%
+    \cvicon{#1}%
+    \hspace{-2mm} % Adjust this value as needed to reduce space before the text
+    #2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        % Draw first full disk with a distinct black border, smaller size
-        \begin{tikzpicture}[baseline=-0.75ex]
-            \draw[black, fill=gray, line width=0.12mm] (0,0) circle (0.70ex);
-            \fill[gray] (0,0) circle (0.67ex); % Slightly smaller fill to create distinct border
-        \end{tikzpicture}\hspace{3pt}% Increased horizontal space
-        % Draw second full disk with a distinct black border, smaller size
-        \begin{tikzpicture}[baseline=-0.75ex]
-            \draw[black, fill=gray, line width=0.12mm] (0,0) circle (0.70ex);
-            \fill[gray] (0,0) circle (0.67ex); % Slightly smaller fill to create distinct border
-        \end{tikzpicture}\hspace{3pt}% Increased horizontal space
-        % Draw third full disk with a distinct black border, smaller size
-        \begin{tikzpicture}[baseline=-0.75ex]
-            \draw[black, fill=gray, line width=0.12mm] (0,0) circle (0.70ex);
-            \fill[gray] (0,0) circle (0.67ex); % Slightly smaller fill to create distinct border
-        \end{tikzpicture}\hspace{3.5pt}% Increased horizontal space before half disk
-        % Draw half disk with a distinct black border, manually adjusted vertical position using raisebox
-        \raisebox{0.096ex}{% Adjusted raisebox for better vertical alignment
-            \begin{tikzpicture}[scale=0.75]
-                \fill[gray] (0,0) arc[start angle=90, end angle=270, radius=0.87ex] -- cycle; % Increased radius for half disk
-                \draw[black, line width=0.1mm] (0,0) arc[start angle=90, end angle=270, radius=0.87ex] -- cycle; % Stroke for half disk
-            \end{tikzpicture}
+    \textcolor{gray}{\scriptsize\faCircle} % First full disk
+    \textcolor{gray}{\scriptsize\faCircle} % Second full disk
+    \textcolor{gray}{\scriptsize\faCircle} % Third full disk
+        \hspace{-0.17cm} % Adjust horizontal spacing for the half disk
+        \raisebox{-0.08ex}{ % Adjust Y position for half disk
+        \begin{tikzpicture}[scale=0.28]
+          % Draw the half disk
+          \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.40cm] -- cycle;
+        \end{tikzpicture}%
         }%
     }%
     \par % End the paragraph cleanly
 }
+
 
 
 % Command to draw 4 full disks (80 points)
@@ -479,11 +470,11 @@
 \newcommand{\pointskillHundred}[2]{%
     \cvicon{#1}~#2 \hfill%
     \makebox[\diskdisplaywidth][l]{%
-        \textcolor{gray}{\footnotesize\faCircle} % First full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Second full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Third full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Fourth full disk
-        \textcolor{gray}{\footnotesize\faCircle} % Fifth full disk
+        \textcolor{gray}{\scriptsize\faCircle} % First full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Second full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Third full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Fourth full disk
+        \textcolor{gray}{\scriptsize\faCircle} % Fifth full disk
     }%
     \par % End the paragraph cleanly
 }
@@ -746,11 +737,14 @@
     {\end{tabular}}
 
 % Redefine cvitemRightNew
+% Redefine cvitemRightNew with adjusted vertical spacing
+% Redefine cvitemRightNew with slightly less aggressive negative spacing
 \newcommand{\cvitemRightNew}[5]{%
     {\large \textbf{\textcolor{jobtitlecolor}{#2}}} \hfill {\normalsize \textbf{#3}} \\
-    {\small \textcolor{datelinecolor}{#1}} \hfill {\small \textcolor{datelinecolor}{#5}} \\
+    {\small \textcolor{datelinecolor}{#1}} \hfill {\small \textcolor{datelinecolor}{#5}} \\[-1ex] % Reduced negative space to allow a bit more gap
     {\normalsize #4}\vspace{\parsep}
 }
+
 
 
 

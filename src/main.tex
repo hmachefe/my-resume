@@ -27,6 +27,8 @@
 \usepackage{microtype}
 \usepackage{ragged2e}
 \usepackage{rotating}
+\usepackage{enumitem}
+
 
 % take care of proper font encoding
 \ifxetex
@@ -236,7 +238,7 @@
 
   \profilesection{Teaching, Talks }
     \vspace{-1mm} % Adjust the negative space as needed
-		\skill{\faChalkboardTeacher}{HTML5 coach (India, Israel, UK, US)}
+		\skill{\faChalkboardTeacher}{HTML5 coach (India, Israel, US)}
     \skill{\faChalkboardTeacher}{Cross-cultural trainer, TMC}
 		\skill{\faChalkboardTeacher}{ WebRTC (Intl dev conference, Berlin)}
 
@@ -248,14 +250,14 @@
 	\profilesection{Interests}
     \vspace{-1mm} % Adjust the negative space as needed
 		\skill{\faUnity}{WebGl/VR/AR, streaming, AI}
-		\skill{\faGlobe}{International geopolitics (+ cinema)}
+		\skill{\faGlobe}{International geopolitics}
 		\skill{\faSwimmer}{Swimming, Basket-ball, Cycling}
 
 
 	\profilesection{Short Bio}
   \vspace{-1mm} % Adjust the negative space as needed
 	\aboutme{
-    With 26+ years in web development, I have led multiple projects across digital TV and media platforms, enhancing our software stack with agile practices and technologies like AWS, Angular, Vue.js, React, PHP, Python, HTML5, and AI
+    With 26+ years in web development, I led various projects across digital TV and media platforms, enhancing software stacks with agile practices and technologies like AWS, Angular, Vue.js, React, PHP, Python, HTML5, and AI
     }\\
 
 }
@@ -281,21 +283,24 @@
       {Jan, 2020 – now} % Date
       {Full stack developer (+devops) | Tech lead} % Job title
       {difuze inc} % Company
-      {\vspace{0.4pt}
+      {
+        \vspace{0.1pt} % Added space before "Role"
         \textbf{Role}: Similar to the mission at LVL Studio. Key projects include:\vspace{5pt}
 
-        \noindent\hspace*{1mm}*\textbf{difuzego.com:} Upgraded to Angular 14. Implemented MFA authentication. Helped to migrate data from ElasticSearch to Postgre (Knex-compliant model). Built a file upload module with AWS Step Functions for compressed proxies. Expanded workflow with on-prem Node.js workers (Express) and SQLite. Worked on MPEG/DASH encoding (AWS Mediaconvert, later Hybrik), HLS (AWS EC2 MacOS, later FFMPEG), and AES-128 encryption. Tools: Postgres, SQL Server, Bitmovin, Accurate.\vspace{5pt}
+        \begin{itemize}[itemsep=-1mm, topsep=0pt, leftmargin=10pt]
+          \item \textbf{difuzego.com:} Upgraded to Angular 14. Implemented MFA authentication. Helped to migrate data from ElasticSearch to Postgre (Knex-compliant model). Built a file upload module with AWS Step Functions for compressed proxies. Expanded workflow with on-prem Node.js workers (Express) and SQLite. Worked on MPEG/DASH encoding (AWS Mediaconvert, later Hybrik), HLS (AWS EC2 MacOS, later FFMPEG), and AES-128 encryption. Tools: Postgres, SQL Server, Bitmovin, Accurate.\vspace{5pt}
+          \item \textbf{difuzevox.com:} Integrated Azure Text-to-Speech, FFMPEG, MediaInfo, and Auphonic APIs. Used TTML for voice generation and Video.js for multimedia. Managed Terraform infrastructure. Led a team of 3 developers and 1 QA. Focused on media accessibility.\vspace{5pt}
+          \item \textbf{AI Detection Project:} Developed solutions for detecting mouth shapes ("pucker"), scene changes, and burnt-in text using 3rd-party AI tools. Managed multi-window/browser communication (postMessage).\vspace{5pt}
+        \end{itemize}
 
-        \noindent\hspace*{1mm}*\textbf{difuzevox.com:} Integrated Azure Text-to-Speech, FFMPEG, MediaInfo, and Auphonic APIs. Used TTML for voice generation and Video.js for multimedia. Managed Terraform infrastructure. Led a team of 3 developers and 1 QA. Focused on media accessibility.\vspace{5pt}
-
-        \noindent\hspace*{1mm}*\textbf{AI Detection Project:} Developed solutions for detecting mouth shapes ("pucker"), scene changes, and burnt-in text using 3rd-party AI tools. Managed multi-window/browser communication (postMessage).\vspace{5pt}
-
-        \textbf{CI/CD:} Contributed to Kubernetes-based deployments.\vspace{5pt}
+        \textbf{CI/CD:} Contributed to Kubernetes-based deployments on small on-prems projects.\vspace{5pt}
 
         \textbf{NPM Modules:} axios, knex, pg, qrcode, node-ec2-metadata, speakeasy, srt2vtt, mysql-json, hash-wasm, videojs-wavesurfer, ngx-virtual-scroller, http-proxy, chalk, bcrypt...
       }
       {Montreal} % Location on the second line, aligned to the right
 \end{cvtableNew}
+
+
 
 
 
@@ -307,13 +312,17 @@
     {Full-Stack coder, Media Asset Management} % Job title
     {LVL Studio} % Company (without location here)
       {
+        \vspace{0.1pt} % Add space before "Role"
         \textbf{Role}: As a key contributor to Difuze’s new software stack, I was responsible for architectural decisions, module development, and component creation. I proactively managed the backlog using Jira, conducted code reviews via GitLab, and maintained detailed documentation in Confluence. In a B2B environment with Difuze Inc. as our primary client, my focus was on enhancing difuzego.com, our main product.\vspace{5pt}
 
+        \vspace{0.1pt} % Add space before "Projects"
         \textbf{Projects:}
-        \begin{itemize}
+        \begin{itemize}[itemsep=1mm, topsep=5pt, leftmargin=10pt]
           \item \textbf{showcase.com}: Old legacy stack based on YII written in PHP, along with scripts in C\# for scheduling tasks like cron jobs
           \item \textbf{difuzego.com}: New stack based on \textit{modern} AWS features written in TS.
         \end{itemize}
+
+        \vspace{4pt} % Add space before "Purpose"
         \textbf{Purpose}: Development based on a Media Asset Management system accessed through HTTPS requests using SOAP protocol, enabling content display in catalog form, with the ability to share films as screeners, as promotional links in email, preceding deliveries as orders.\vspace{5pt}
 
         \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, also including various NPM modules like ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, bowser, jsoneditor, lodash, jschardet...\vspace{5pt}
@@ -328,12 +337,13 @@
 
         \textbf{Additional Work}: Maintained legacy PHP/YII stack and MySQL RDS; minor C\# developments supervised over Mono on Ubuntu\vspace{5pt}
 
-        \textbf{Architecture}: Monolithic, no µservices. Shared data model UI \& API\vspace{5pt}
+        \textbf{Architecture}: Monolithic, no microservices. Shared data model UI \& API\vspace{5pt}
 
-        \textbf{CI/CD}: pipelines over gitlab including linter, unitary tests, builder, deployer
+        \textbf{CI/CD}: pipelines over gitlab including linter, unitary tests, builder, ECR deployer
       }
     {Montreal} % Location on the second line, aligned to the right
 \end{cvtableNew}
+
 
 
 
@@ -346,54 +356,80 @@
 
 
 
-\begin{cvtable}
-    \cvitemRight{Jan,\\2017\\–\\June,\\2017}
-    {Full Stack Developer in Healthcare Sector}
-    {AlayaCare, Montreal}
+\begin{cvtableNew}
+  \cvitemRightNew
+    {Jan, 2017 – June, 2017} % Date
+    {Full Stack Developer in Healthcare Sector} % Job title
+    {AlayaCare} % Company
     {
-      \textbf{Role}: Developed web functionalities for healthcare platforms, focusing on both front-end and back-end.\\
-      * \textbf{Front-end}: Created VUE.js components without jQuery, using libraries such as super-agent for AJAX requests, moment.js for date formatting, simple-vue-validator for validation, and LESS for optimized CSS. Built a custom time-entry component based on jquery.timeentry outside of VUE.js.\\
-      * \textbf{Back-end}: Implemented PHP 5 solutions within the YII Framework, integrating the Carbon extension for enhanced date management, along with Python micro-services using SqlAlchemy. Ensured quality with precise unit tests and maintained accurate REST API documentation via APIARY.\\
-      * \textbf{Mobile and Process Agility}: Conducted detailed Android code reviews and operated within a three-week sprint cycle, actively participating in standups, demos, retros, and grooming. Managed tasks and backlogs through Jira, with documentation centralized in Confluence.\\
-      * \textbf{Virtualization}: Deployed each micro-service and software component in Docker containers, facilitating isolated, efficient deployment.\\
+      \vspace{0.1pt} % Add space before "Role"
+      \textbf{Role}: Developed web functionalities for healthcare platforms, focusing on both front-end and back-end.\par
+      \vspace{4pt}
+      \textbf{Front-end:} Created VUE.js components without jQuery, using libraries such as super-agent for AJAX requests, moment.js for date formatting, simple-vue-validator for validation, and LESS for optimized CSS. Creation of a new time-entry component tailored on jquery.timeentry plugin (out of VUE.js).\par
+      \vspace{4pt}
+      \textbf{Back-end:} Implemented PHP 5 solutions within the YII Framework, integrating the Carbon extension for enhanced date management, along with Python micro-services using SqlAlchemy. Ensured quality with precise unit tests and maintained accurate REST API documentation via APIARY.\par
+      \vspace{4pt}
+      \textbf{Mobile and Process Agility:} Conducted detailed Android code reviews and operated within a three-week sprint cycle, actively participating in standups, demos, retros, and grooming. Managed tasks and backlogs through Jira, with documentation centralized in Confluence.\par
+      \vspace{4pt}
+      \textbf{Virtualization:} Deployed each micro-service and software component in Docker containers, facilitating isolated, efficient deployment.\par
     }
-\end{cvtable}
+    {Montreal} % Location on the second line, aligned to the right
+\end{cvtableNew}
 
 
 
 
-\begin{cvtable}
-    \cvitemRight{May,\\2015\\–\\Dec,\\2016}
-    {Front-End Developer in the Digital TV Sector}
-    {Abbeal for Canal+, FR}
+
+
+
+\begin{cvtableNew}
+  \cvitemRightNew
+    {May, 2015 – Dec, 2016} % Date
+    {Front-End Developer in the Digital TV Sector} % Job title
+    {Abbeal for Canal+} % Company
     {
-      \textbf{Role}: Developed and maintained WebApp interfaces for Canal+ digital TV receivers, reaching millions on TNT, SATELLITE, and IPTV.\\
-      * \textbf{Front-End}: Engineered HTML, JavaScript, and CSS solutions, managed by WEBPACK, and executed in a Qt/WebKit instance on a Linux system. Utilized ES2015 standards via Babel, with builds managed by GRUNT and NODE.js.\\
-      * \textbf{Server-Side}: Supported by a Python UWSGI server hosting the WebApp and managing routing through DBUS for system interactions.\\
-      * \textbf{Libraries and Frameworks}: Transitioned from BACKBONE to ANGULAR for enhanced MVC architecture efficiency; utilized LODASH for advanced data manipulation, EASELJS for robust interactive canvas operations, and EJS for sophisticated and efficient templating solutions.\\
-      * \textbf{Agile and Testing}: Conducted unit tests with MOCHA, SPY, and SINON, integrating POSTMAN for API testing. Managed agile sprints, tracking tasks on JIRA and documenting in CONFLUENCE.\\
-      * \textbf{Deployment}: Successfully deployed to 400,000 TNT receivers and subsequently expanded to over 2 million SAT subscribers globally.\\
-      * \textbf{Nightwatch Project}: Led a Selenium-based task for UI navigation testing and REST API simulation, implemented on AWS EC2 with Docker.\\
+      \vspace{-0.4pt} % Add space before "Role"
+      \textbf{Role}: Developed and maintained WebApp interfaces for Canal+ digital TV receivers, reaching millions on TNT, SATELLITE, and IPTV.\par
+      \vspace{4pt}
+      \textbf{Front-End:} Engineered HTML, JS, CSS solutions, managed by Webpack, executed by Qt/WebKit on Linux. Used ES2015 standards via Babel, builds managed by grunt\par
+      \vspace{4pt}
+      \textbf{Server-Side:} Supported by a Python UWSGI server hosting the WebApp and managing routing through DBUS for system interactions.\par
+      \vspace{4pt}
+      \textbf{Libraries and Frameworks:} Transitioned from BACKBONE to ANGULAR for enhanced MVC architecture efficiency; utilized LODASH for advanced data manipulation, EASELJS for robust interactive canvas operations, and EJS for efficient templating solutions.\par
+      \vspace{4pt}
+      \textbf{Agile and Testing:} Conducted MOCHA, SPY, and SINON unit tests and POSTMAN API testing. Managed agile sprints, tracked tasks on Jira, documented in Confluence.\par
+      \vspace{4pt}
+      \textbf{Deployment:} Successfully deployed to 400,000 TNT receivers and subsequently expanded to over 2 million SAT subscribers globally.\par
+      \vspace{4pt}
+      \textbf{Nightwatch Project:} Led a Selenium-based task for UI navigation testing and REST API simulation, implemented on AWS EC2 with Docker.\par
+      \vspace{4pt} % Ensures there is space after the last section before any text that might follow or end of the section.
     }
-\end{cvtable}
+    {Paris (FR)} % Location on the second line, aligned to the right
+\end{cvtableNew}
 
 
 
 
 
 
-\begin{cvtable}
-    \cvitemRight{Dec,\\2014\\–\\Apr,\\2015}
-    {Android + NodeJS Developer for IoT}
-    {Cisco, Paris (FR)}
+\begin{cvtableNew}
+  \cvitemRightNew
+    {Dec, 2014 – Apr, 2015} % Date
+    {Android + NodeJS Developer for IoT} % Job title
+    {Cisco} % Company
     {
-      \textbf{Project}: ConnectedLife - Seamlessly integrated IoT technology into advanced TV experiences for sophisticated home automation systems.\\
-      * \textbf{Technologies}: Leveraged openHAB to orchestrate IoT, using Bluetooth (iBeacons), WiFi triangulation (Cisco MSE/Prime), and RFID (Impinj) for localization. Developed a delinearized TV channel experience with personalized playlists and targeted ad insertion using Cisco analytics.\\
-      * \textbf{Ambilight \& UI}: Designed real-time ambilight effects by processing TV frames with GStreamer to match room lighting (Philips Hue) effectively through Zigbee. Initially developed UI in Dart/WebGL and smoothly transitioned to HTML/CSS using Cisco’s proprietary JUNO framework.\\
-      * \textbf{Companion Apps}: Built companion apps for wearables and Samsung mobiles in Java, ensuring robust, seamless real-time connectivity through WebSocket and high-performance, dedicated Node.js servers.\\
-      * \textbf{Achievements}: Demonstrated at CES 2015, prominently featured at Mobile World Congress, and awarded \textit{Best IoT Product} by CSI Magazine.\\
+      \vspace{1pt} % Add space before "Project"
+      \textbf{Project}: Integrated IoT with advanced TV for home automation.\par
+      \vspace{4pt}
+      \textbf{Technologies}: IoT using openHAB, Bluetooth (iBeacons), WiFi (Cisco MSE/Prime), RFID (Impinj). Enhanced TV channel personalization, ad targeting w/ Cisco analytics. Developed apps for wearables and Samsung mobiles, webSockets, Node.js servers.\par
+      \vspace{4pt}
+      \textbf{Ambilight \& UI}: Developed ambilight effects with GStreamer, matching Philips Hue lighting via Zigbee. Transitioned UI from Dart/WebGL to HTML/CSS on Cisco’s JUNO.\par
+      \vspace{4pt}
+      \textbf{Achievements}: Showcased at CES 2015, featured at Mobile World Congress, awarded \textit{Best IoT Product} by CSI Magazine.\par
+      \vspace{4pt} % Ensures there is space after the last section before any text that might follow or end of the section.
     }
-\end{cvtable}
+    {Paris (FR)} % Location on the second line, aligned to the right
+\end{cvtableNew}
 
 
 
@@ -401,17 +437,26 @@
 
 
 
-\begin{cvtable}
-    \cvitemRight{Aug,\\2014\\–\\Dec,\\2014}
-    {HTML5/JS Front-End Developer}
-    {Cisco, Paris (FR)}
+
+
+\begin{cvtableNew}
+  \cvitemRightNew
+    {Aug, 2014 – Dec, 2014} % Date
+    {HTML5/JS Front-End Developer} % Job title
+    {Cisco} % Company
     {
-      \textbf{Project}: Proof of concept WebApp for ZON TV Portugal.\\
-      * \textbf{Technologies}: Developed using Vanilla JS, CSS3, and HTML5, incorporating the HTML5 video player with a custom UI manager to structure MVC views. Built core components such as the channel list, channel banner, EPG grid.\\
-      * \textbf{Integration and Workflow}: Utilized QT on RDK middleware for optimized STB-to-backend data handling. Employed Grunt (Node) and Jenkins for enhanced continuous integration, efficiently managing tasks through JIRA, and promoting effective teamwork in scrum sessions.\\
-      * \textbf{Outcome}: Successfully delivered a high-performance WebApp that improved user interaction between STB and ZON TV backend, showcased as an effective proof of concept at major industry events.
+      \vspace{1pt} % Add space before "Project"
+      \textbf{Project}: Proof of concept WebApp for ZON TV Portugal.\par
+      \vspace{4pt}
+      \textbf{Technologies}: Vanilla JS, CSS3, HTML5 video player in custom UI manager to structure MVC views. Built core components such as the channel list, channel banner, EPG grid.\par
+      \vspace{4pt}
+      \textbf{Integration and Workflow}: Used QT on RDK middleware for optimized STB-to-backend data handling. Grunt (Node) and Jenkins for continuous integration, managing tasks through JIRA, and promoting effective teamwork in scrum.\par
+      \vspace{4pt}
+      \textbf{Outcome}: Successfully delivered a high-performance WebApp that improved user interaction between STB and ZON TV backend, showcased as an effective POC at major industry events.
     }
-\end{cvtable}
+    {Paris (FR)} % Location on the second line, aligned to the right
+\end{cvtableNew}
+
 
 
 
