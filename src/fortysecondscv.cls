@@ -173,9 +173,7 @@
 \titleformat{\section}%
 	{\color{sectioncolor}\normalfont\bfseries\LARGE}{}{0pt}{}
 
-% grey subsection style for right column
-\titleformat{\subsection}%
-	{\color{subsectioncolor}\normalfont\large}{}{0pt}{}
+
 
 % abuse subsubsection as profilesection in left column
 \newcommand*{\profilesection}[1]{\subsubsection*{#1}}
@@ -745,17 +743,20 @@
     }\\
 }
 
+% grey subsection style for right column
+\titleformat{\subsection}%
+  {\color{blue}\normalfont\fontsize{14pt}{16pt}\selectfont\bfseries}{}{0pt}{}
+
 % Custom environment with adjusted margins and reduced column width
 \newenvironment{cvtableNew}%
     {\begin{tabular}{@{\hspace{10pt}}p{0.95\textwidth}@{\hspace{20pt}}}}% Adjusted left and right margins
     {\end{tabular}}
 
-% Redefine cvitemRightNew
-% Redefine cvitemRightNew with adjusted vertical spacing
+
 % Redefine cvitemRightNew with slightly less aggressive negative spacing
 \newcommand{\cvitemRightNew}[5]{%
-    {\large \textbf{\textcolor{jobtitlecolor}{#2}}} \hfill {\normalsize \textbf{#3}} \\
-    {\small \textcolor{datelinecolor}{#1}} \hfill {\small \textcolor{datelinecolor}{#5}} \\[-1ex] % Reduced negative space to allow a bit more gap
+    {\fontsize{14pt}{16pt}\selectfont \textbf{\textcolor{jobtitlecolor}{#2}}} \hfill {\normalsize \textbf{#3}} \\
+    {\small \textcolor{datelinecolor}{#1}} \hfill {\small \textcolor{datelinecolor}{#5}} \\[-1ex]
     {\normalsize #4}\vspace{\parsep}
 }
 
