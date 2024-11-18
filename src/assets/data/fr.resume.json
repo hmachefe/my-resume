@@ -513,7 +513,7 @@
     {
           "company": "Difuze",
           "location": "Montreal, Québec",
-          "status": "Tech lead",
+          "status": "Tech lead, Full stack | devops",
           "date": "2020 - ongoing",
           "logo": "Logo_Icon_Difuse.png",
           "quote": "Difuze is a fast-growing company born from the merger of Technicolor's Montreal-based postproduction, voice-over dubbing, and distribution.",
@@ -551,7 +551,7 @@
         "&nbsp;&nbsp;- B2B: Difuze Inc. as a primary client, with <b>difuzego.com</b> as the main product.",
 
         "<b>Purpose:</b>",
-        "&nbsp;&nbsp;- Media Asset Management system accessed via HTTPS requests using SOAP protocol. Allows content display in catalog form and enables sharing promotional screeners via email before delivery.",
+        "&nbsp;&nbsp;- Media Asset Management System as MAM accessed via HTTPS requests using SOAP protocol. Allows content display in catalog form and enables sharing promotional screeners via email before delivery.",
 
         "<b>Tech areas:</b>",
         "&nbsp;&nbsp;• Front-end, Back-end, Task Scheduling (cron jobs), DevOps (partially).",
@@ -562,7 +562,7 @@
 
         "<b>Back-end:</b>",
         "&nbsp;&nbsp;• RESTful services: <b>OpenAPI</b>, TypeScript Oriented Architecture (<b>tsoa</b>).",
-        "&nbsp;&nbsp;• Modules: exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase, aws-sdk, etc.",
+        "&nbsp;&nbsp;• NPM Modules: exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase, aws-sdk, etc.",
         "&nbsp;&nbsp;• Asynchronism: Promise, async/await.",
 
         "<b>Package management:</b>",
@@ -589,7 +589,7 @@
     {
       "company": "Alayacare",
       "location": "Montreal, Québec",
-      "status": "Full stack coder",
+      "status": "Fullstack coder in health care",
       "date": "2017 - 2017",
       "logo": "1604698174555.jpeg",
       "quote": "AlayaCare is a start-up that delivers an end-to-end home health care software platform and hardware ecosystem",
@@ -627,7 +627,7 @@
     {
       "company": "Canal+, Newscorp, Cisco",
       "location": "Paris, France",
-      "date": "1999 - 2016",
+      "date": "1998 - 2016",
       "logo": "France_Flag_Map.svg.png",
       "quote": "Web engineer for embedded systems, digital TV set-to-box",
       "description": [
