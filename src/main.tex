@@ -109,13 +109,10 @@
       \pointskillFortyQt{}{C++ / C   (QT 5)}
     \chartlabel{Front-end (web)}\\
       \pointskillNinety{}{Angular (9/10/14)}
-      \pointskillNinety{}{React}
-      \pointskillEighty{}{jQuery}
+      \pointskillSeventy{}{React, jQuery}
       \pointskillSeventy{}{RxJS / Observables}
-      \pointskillSeventy{}{SCSS / SASS}
-      \pointskillSeventy{}{Bootstrap (Responsive)}
-      \pointskillSixty{}{Backbone}
-      \pointskillFifty{}{VueJS}
+      \pointskillSeventy{}{SCSS / SASS, Bootstrap}
+      \pointskillSixty{}{Backbone, VueJS}
       \pointskillForty{}{ThreeJS (3D)}
       \pointskillThirty{}{LaTeX (Typesetting)}
     \chartlabel{Back-end}\\
@@ -132,7 +129,9 @@
       \pointskillSeventy{}{PostGres, Sqlite, MySql}
       \pointskillSeventy{}{MySQLWorkbench, DBeaver}
       \pointskillForty{}{Microsoft SQL Server}
-
+    \chartlabel{Protocol and security}\\
+      \pointskillEighty{}{HTTP / HTTPS / SSL }
+      \pointskillSeventy{}{let's encrypt}
 
 }
 
@@ -168,7 +167,7 @@
 \pointskillSeventy{}{Video.js (open source)}
 
 \chartlabel{Multimedia}\\
-\pointskillNinety{}{FFMPEG, mediainfo}
+\pointskillNinety{}{ffmpeg, mediainfo, fprobe}
 \pointskillNinety{}{AWS MediaConvert}
 \pointskillSeventy{}{Hybrik (Dolby)}
 
@@ -257,7 +256,7 @@
 	\profilesection{Short Bio}
   \vspace{-1mm} % Adjust the negative space as needed
 	\aboutme{
-    With more than 20 years in web development, I led various projects across digital TV and media platforms, enhancing software stacks with agile practices and technologies like AWS, Angular, Vue.js, React, PHP, Python, HTML5, and AI
+    With more than 20 years in web development, I led various projects across digital TV and media platforms, enhancing software stacks with agile practices and technologies like AWS, Angular, Vue.js, React, PHP, Python, HTML5, and AI.
     }\\
 
 }
@@ -289,29 +288,28 @@
         \textbf{Role}: Similar to the mission at LVL Studio. Key projects include:\vspace{5pt}
 
         \begin{itemize}[itemsep=-1mm, topsep=0pt, leftmargin=8pt]
-          \item \textbf{difuzego.com:} Upgraded to Angular 14, implemented MFA authentication, and assisted in migrating ElasticSearch data to PostgreSQL (Knex-compliant models). Built a file upload module using AWS Step Functions for compressed proxies. Enhanced workflows with on-prem Node.js workers (Express) and SQLite. Worked on MPEG/DASH encoding (AWS Mediaconvert, later Hybrik), HLS (AWS EC2 MacOS, later FFMPEG), and AES-128 encryption. Techs: Sqlite, PostGres, Bitmovin, VideoJs, Accurate Player, MPEG/DASH, HLS.\vspace{5pt}
-          \item \textbf{difuzevox.com:} Integrated Azure Text-to-Speech, FFMPEG, MediaInfo, and Auphonic APIs. Used TTML for voice generation and Video.js for multimedia. Managed Terraform infrastructure. Led a team of 3 developers and 1 QA.\vspace{5pt}
-          \item \textbf{AI Detection Project:} Developed solutions for detecting mouth shapes ("pucker"), scene changes, and burnt-in text using 3rd-party AI tools. Managed multi-window/browser communication (postMessage).\vspace{5pt}
+          \item \textbf{difuzego.com:} Angular 14 upgrade, MFA authentication implementation, assisted in migrating ElasticSearch data to PostgreSQL (Knex-compliant models). Built a file upload module using AWS Step Functions for compressed proxies. Enhanced workflows with on-prem Node.js workers (Express) and SQLite. Worked on MPEG/DASH encoding (AWS Mediaconvert, later Hybrik), HLS (AWS EC2 MacOS, later FFMPEG), and AES-128 encryption. Techs: Sqlite, PostGres, Bitmovin, VideoJs, Accurate Player, compression, encryption.\vspace{5pt}
+          \item \textbf{difuzevox.com:} Integrated Azure Text-to-Speech and Auphonic API (mixing), local processing with ffmpeg, mediaInfo. Used ttml to generate voices, Video.js for multimedia. Managed Terraform infra. Led a team of 3 devs + 1 QA.\vspace{5pt}
+          \item \textbf{AI Detection Project:} Developed solutions for detecting mouth shapes ("pucker"), scene changes, and burnt-in text using 3rd-party AI tools. Managed multi-window/browser communication (postMessage API).\vspace{5pt}
         \end{itemize}
 
         \textbf{CI/CD:} Contributed to Kubernetes-based deployments for on-prems projects.\vspace{5pt}
 
-        \textbf{NPM Modules:} axios, knex, pg, qrcode, node-ec2-metadata, speakeasy, srt2vtt, mysql-json, videojs-wavesurfer, ngx-virtual-scroller, http-proxy, chalk, bcrypt...
+        \textbf{NPM Modules:} axios, knex, objection, pg, qrcode, speakeasy, srt2vtt, unirest, uuid-validate, jest, mysql-json, puppeteer, ngx-device-detector, videojs-playlist, videojs-wavesurfer, ngx-virtual-scroller, http-proxy, chalk, bcrypt...
       }
       {Montreal} % Location on the second line, aligned to the right
 
-
-  \vspace{1mm} % Add vertical space after this entry
+      \vspace{1.6mm} % Add vertical space after this entry
 
   \cvitemRightNew
     {Sep, 2017 – Jan, 2020} % Date
     {Full-Stack coder, Media Asset Management} % Job title
     {LVL Studio} % Company (without location here)
       {
-        \vspace{0.1pt} % Add space before "Role"
+        \vspace{0.2pt} % Add space before "Role"
         \fontsize{10.8pt}{12pt}\selectfont % Subtle font increase
         \textbf{Role}: As a key contributor to Difuze’s new software stack, I took part in architectural decisions,
-        module development, component creation. Proactively managed the backlog using Jira, conducted code reviews via GitLab, maintained detailed documentation in Confluence. In a B2B environment with Difuze Inc. as primary client, my focus was on elaborating difuzego.com as main product.\vspace{5pt}
+        module development, component creation. Proactively managed the backlog using Jira, conducted code reviews via GitLab, maintained detailed documentation in Confluence. In a B2B environment with Difuze Inc. as primary client, focused on elaborating difuzego.com as main product.\vspace{5pt}
 
         \vspace{0.1pt} % Add space before "Projects"
         \textbf{Projects:}
@@ -323,21 +321,21 @@
         \vspace{4pt} % Add space before "Purpose"
         \textbf{Purpose}: Development based on a Media Asset Management system accessed through HTTPS requests using SOAP protocol, enabling content display in catalog form, with the ability to share films as screeners, as promotional links in email, preceding deliveries as orders.\vspace{5pt}
 
-        \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, also including various NPM modules like ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, jsoneditor, lodash, jschardet...\vspace{5pt}
+        \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, also including various NPM modules like ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, bowser, jsoneditor, lodash, jschardet, etc\vspace{5pt}
 
-        \textbf{Back-end}: RESTful services with OpenAPI, TypeScript Oriented Architecture (tsoa), and NPM imports like exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase, aws-sdk ...; async/await.\vspace{5pt}
+        \textbf{Back-end}: RESTful services with OpenAPI, TypeScript Oriented Architecture (tsoa), and NPM imports like exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase, aws-sdk, Promise, async/await...\vspace{5pt}
 
-        \textbf{Package Management}: Proficient with WebPack, Node.js, and yarn.\vspace{5pt}
+        \textbf{Package Management}: Proficient with WebPack, Node.js, nvm, and yarn.\vspace{5pt}
 
         \textbf{Database and Search}: Managed both legacy (MySQL RDS) and new stack (DynamoDb, ElasticSearch).\vspace{5pt}
 
-        \textbf{AWS DevOps}: Experience with ElasticBeanStalk, EC2, S3, small Lambda, CloudWatch, IAM, ECR, SES, SNS. Infra deployed with Cloudformation\vspace{5pt}
+        \textbf{AWS DevOps}: Experience with ElasticBeanStalk, EC2, S3, Lambda layers, CloudWatch, IAM, ECR, SES, SNS, VPC. Infra deployed with Cloudformation.\vspace{5pt}
 
-        \textbf{Additional Work}: Maintained legacy PHP/YII stack and MySQL RDS; minor C\# developments supervised over Mono on Ubuntu\vspace{5pt}
+        \textbf{Additional Work}: Maintained legacy PHP/YII stack and MySQL RDS; minor C\# developments supervised over Mono on Ubuntu\.vspace{5pt}
 
-        \textbf{Architecture}: Monolithic, no microservices. Shared data model UI \& API\vspace{5pt}
+        \textbf{Architecture}: Monolithic, no microservice. Data model shared between UI \& API. Common gitlab repository for front-end and back-end.\vspace{5pt}
 
-        \textbf{CI/CD}: pipelines over gitlab including linter, unitary tests, builder, ECR deployer
+        \textbf{CI/CD}: pipelines over gitlab including linter, prettier, unitary tests, builder, ECR deployer, triggering Elastic Beanstalk's back-end environment update
       }
     {Montreal} % Location on the second line, aligned to the right
 \end{cvtableNew}
@@ -401,7 +399,7 @@
     {Paris (FR)} % Location on the second line, aligned to the right
 
 
-    \vspace{1.2mm} % Add vertical space after this entry
+    \vspace{1.18mm} % Add vertical space after this entry
 
   \cvitemRightNew
     {Dec, 2014 – Apr, 2015} % Date
@@ -421,7 +419,7 @@
     }
     {Paris (FR)} % Location on the second line, aligned to the right
 
-    \vspace{1.2mm} % Add vertical space after this entry
+    \vspace{1.16mm} % Add vertical space after this entry
 
     \cvitemRightNew
     {Aug, 2014 – Dec, 2014} % Date
@@ -470,7 +468,7 @@
     }
     {Paris (FR)} % Location on the second line, aligned to the right
 
-  \vspace{1.2mm} % Add vertical space after this entry
+    \vspace{1.57mm} % Add vertical space after this entry
 
   \cvitemRightNew
     {Mar, 2013 – Jan, 2014} % Date
@@ -481,13 +479,13 @@
       \fontsize{10.8pt}{12pt}\selectfont % Subtle font increase
       \textbf{Project}: HTML5 development for smart TVs, HDMI stick, Raspberry Pi, tablets.\par
       \vspace{4pt}
-      \textbf{Responsibilities}: Built features with HTML, CSS3D, WebGL, BackboneJS, and ThreeJS for 3D modeling. Optimized hardware performance for QT5/WebKit, WebKitNix, and Chromium. Managed cross-compilation for LG TVs, Raspberry Pi, and MacOS.\par
+      \textbf{Responsibilities}: Built features with HTML5, CSS3D, WebGL, BackboneJS, ThreeJS (Collada), Tween.js. Optimized HW performance for QT5/WebKit, WebKitNix, Chromium. Cross-compiled web engines and gstreamers to target LG TVs, Raspberry Pi, Cotton Candy, MacOS rendering the same webapp.\par
       \vspace{4pt}
       \textbf{Outcome}: Delivered high-performance solutions attracting Belgacom \& Zon TV.\par
     }
     {Paris (FR)} % Location on the second line, aligned to the right
 
-  \vspace{1.48mm} % Add vertical space after this entry
+    \vspace{1.57mm} % Add vertical space after this entry
 
   \cvitemRightNew
     {Aug, 2012 – Feb, 2013} % Date
@@ -498,13 +496,13 @@
       \fontsize{10.8pt}{12pt}\selectfont % Subtle font increase
       \textbf{Project}: HTML5 solution for digital TV with patented remote UI, 2nd-screen.\par
       \vspace{4pt}
-      \textbf{Responsibilities}: Developed on a patented HTML5 rendering solution for payTV, showcased @IBC. Evaluated frameworks: Angular, Backbone, Spine, for STB HTML5 EPG. Built MVC architecture for STB apps, assessed Flash-to-Html5 (e.g Adobe Edge).\par
+      \textbf{Responsibilities}: Developed on a patented HTML5 rendering solution for payTV, showcased @IBC. Evaluated how new generation of frameworks: Angular, Backbone, Spine, Google key controler behave on STB with benchmarks. Built MVC architecture for STB apps, assessed Flash-to-Html5 (e.g Adobe Edge).\par
       \vspace{4pt}
-      \textbf{Skills}: HTML5 Development, Frameworks evaluation, MVC Architecture, Open-Source tools (GIT, Jira, Jenkins, Confluence, Adobe Edge).\par
+      \textbf{Skills}: HTML5 Development, Frameworks evaluation, MVC Architecture, Open-Source tools (GIT, Jira, Jenkins, Confluence).\par
     }
     {Paris (FR)} % Location on the second line, aligned to the right
 
-  \vspace{1.48mm} % Add vertical space after this entry
+    \vspace{1.57mm} % Add vertical space after this entry
 
   \cvitemRightNew
     {Dec, 2010 – Jul, 2012} % Date
@@ -519,7 +517,7 @@
     }
     {Paris (FR)} % Location on the second line, aligned to the right
 
-  \vspace{1.48mm} % Add vertical space after this entry
+    \vspace{1.57mm} % Add vertical space after this entry
 
   \cvitemRightNew
   {Feb, 2002 – Nov, 2010} % Date
@@ -532,10 +530,11 @@
     - Integrated Opera 6 then NetFront web engines into STBs, enabling advanced digital TV functionality. Cross-Department collaboration, worlwide. \par
     \vspace{4pt}
     \textbf{Responsibilities}:
-    Led NDS/ACCESS collaboration for STB middleware integration,
-    cross-platform porting, widgets bank creation for STB-to-iPhone, Facebook.
+    Led NDS/ACCESS collaboration for STB middleware integration, bindings to file system, memory manager, graphic stack, network interface, ssl,
+    cross-platform porting.
     Developed Java-Opera and Java-QT bridges for custom plugins like Netscape, for seamless integration, multimedia playback.
-    Built frameworks for STB games, modernized HTML standards, conducted performance optimization for multiple platforms.
+    Additionnaly, built frameworks for STB games, modernized HTML standards, conducting performance optimization for multiple platforms.
+    Creation of a bank of widgets, TV-oriented, STB-to-iPhone interaction, social networks (Facebook)
 
     \par
     \vspace{4pt}
@@ -543,7 +542,7 @@
   }
     {Paris (FR)} % Location on the second line, aligned to the right
 
-    \vspace{1.48mm} % Add vertical space after this entry
+    \vspace{1.57mm} % Add vertical space after this entry
 
   \cvitemRightNew
     {Sep, 1999 – Dec, 2001} % Date
@@ -554,11 +553,13 @@
       \fontsize{10.8pt}{12pt}\selectfont % Subtle font increase
       \textbf{Project}: System integration and testing for Canal+ global multimedia platforms.\par
       \vspace{4pt}
-      \textbf{Responsibilities}: Developed test scripts, managed end-to-end HW/SW integration, and provided on-site and remote support for international clients.\par
+      \textbf{Responsibilities}: Developed test scripts, managed end-to-end HW/SW integration, and provided on-site (Sacramento, USA) and remote support for Spain, Netherland, Japan.\par
+      \vspace{4pt}
+      \textbf{Skills}: Digital TV standards: DVB, MHP. Broadcasting: DVB-C, DVB-S, DVB-T.\par
     }
     {Paris (FR)} % Location on the second line, aligned to the right
 
-    \vspace{1.48mm} % Add vertical space after this entry
+    \vspace{1.87mm} % Add vertical space after this entry
 
     \cvitemRightNew
     {Oct, 1998 – Aug, 1999} % Date
@@ -567,11 +568,15 @@
     {
       \vspace{1pt}
       \fontsize{10.8pt}{12pt}\selectfont % Subtle font increase
-      \textbf{Project}: Developed Acoustic Echo Cancellation (AEC) to enhance audio clarity and speakerphone performance in mobile devices. MATLAB, C++\par
-      \vspace{4pt}
-      \textbf{Responsibilities}: Tuned AEC algorithms for echo suppression, noise reduction, and speech quality. Simulated and tested hands-free calls using a Visual C++ executable.\par
+      \textbf{Project}: Spearheaded the development of Acoustic Echo Cancellation (AEC) solutions, enhancing audio clarity and speakerphone functionality in mobile devices, using advanced MATLAB and C++ techniques.\par
+      \vspace{3.6pt}
+      \textbf{Responsibilities}: Tuned AEC algorithms for echo suppression, noise reduction
+      . Simulated and tested hands-free calls using a Visual C++
+      executable.
     }
     {Issy Les Moulineaux (FR)} % Location on the second line, aligned to the right
+
+
 \end{cvtableNew}
 
 

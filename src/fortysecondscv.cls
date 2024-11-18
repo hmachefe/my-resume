@@ -460,8 +460,8 @@
     \textcolor{gray}{\scriptsize\faCircle} % Second full disk
     \textcolor{gray}{\scriptsize\faCircle} % Third full disk
     \textcolor{gray}{\scriptsize\faCircle} % Fourth full disk
-        \hspace{-0.18cm} % Adjust horizontal spacing for the half disk
-        \raisebox{-0.08ex}{ % Adjust Y position for half disk
+        \hspace{-0.19cm} % Adjust horizontal spacing for the half disk
+        \raisebox{-0.12ex}{ % Adjust Y position for half disk
         \begin{tikzpicture}[scale=0.28]
           % Draw the half disk
           \fill[gray] (0,0) arc[start angle=90,end angle=270,radius=0.40cm] -- cycle;
