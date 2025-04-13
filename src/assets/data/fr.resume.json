@@ -18,7 +18,9 @@
     "linkedin": "linkedin.com/in/hugomachefer/",
     "github": "https://github.com/hmachefe",
     "portfolio": "hugo-machefer.com",
-    "about": ["I like to learn, teach, co-work on R&D projects, but stick to production's target"]
+    "about": [
+      "I like to learn, teach, co-work on R&D projects, but stick to production's target"
+    ]
   },
   "abilities": [
     {
@@ -70,13 +72,23 @@
       "title": "Front-end (web)",
       "skills": [
         {
-          "techno": "Angular 7/9/10/14",
+          "techno": "Angular 7 / 9 / 10 / 14 / 17.1",
           "detail": "Modern front-end framework",
           "level": 90
         },
         {
           "techno": "React",
           "detail": "Modern JavaScript UI library",
+          "level": 70
+        },
+        {
+          "techno": "Angular Material UI",
+          "detail": "UI component library built for Angular applications",
+          "level": 80
+        },
+        {
+          "techno": "PrimeNG",
+          "detail": "Open source UI library for Angular",
           "level": 70
         },
         {
@@ -87,7 +99,7 @@
         {
           "techno": "RxJS / Observables",
           "detail": "Reactive programming library",
-          "level": 70
+          "level": 80
         },
         {
           "techno": "SCSS / SASS",
@@ -159,7 +171,7 @@
           "detail": "Functional programming, fault-tolerant, scalable, real-time support",
           "level": 30
         }
-    ]
+      ]
     },
     {
       "title": "Database",
@@ -320,7 +332,7 @@
       "title": "Multimedia",
       "skills": [
         {
-          "techno": "Mediainfo, FFMPEG (fprobe)",
+          "techno": "Mediainfo, FFMPEG (ffprobe)",
           "detail": "",
           "level": 90
         },
@@ -404,15 +416,21 @@
         }
       ]
     },
-      {
-        "title": "IDE",
-        "skills": [{
+    {
+      "title": "IDE",
+      "skills": [
+        {
           "techno": "WebStorm (JetBrains)",
           "detail": "Professional IDE for developers, various plugins",
           "level": 80
         },
         {
           "techno": "Visual Studio Code",
+          "detail": "Lightweight code editor with extensive extensions",
+          "level": 80
+        },
+        {
+          "techno": "Cursor",
           "detail": "Lightweight code editor with extensive extensions",
           "level": 80
         },
@@ -511,28 +529,27 @@
   ],
   "career": [
     {
-          "company": "Difuze",
-          "location": "Montreal, Québec",
-          "status": "Tech lead, Full stack | devops",
-          "date": "2020 - ongoing",
-          "logo": "Logo_Icon_Difuse.png",
-          "quote": "Difuze is a fast-growing company born from the merger of Technicolor's Montreal-based postproduction, voice-over dubbing, and distribution.",
-          "description": [
-            "<b>Role:</b>",
-            "&nbsp;&nbsp;- Primarily similar to my previous mission at LVL Studio, with several key projects:",
-            "&nbsp;&nbsp;• <b>difuzego.com:</b> Enhanced the initial solution, migration to Angular 14, introduced MFA authenticator, Part of our data was moved from ElasticSearch to PostgreSQL with Knex-compliant model. Implemented a file publishing module integrated into a workflow system using AWS Step Functions, producing streamable proxies through compression.",
-            "&nbsp;&nbsp;• <b>On-prem workers ecosystem:</b> Expanded the solution to include an on-prem workers ecosystem based on Express/Node.js, involving child process intercommunication and SQLite.",
-            "&nbsp;&nbsp;• <b>Streaming and Encryption:</b> Contributed to MPEG/DASH encoding on AWS using Mediaconvert (later replaced by Hybrik) and encrypted by KeyOS/BuyDRM. Also contributed to HLS encoding on AWS EC2 (MacOS initially, later replaced by local FFMPEG processing), encrypted with AES-128.",
-            "&nbsp;&nbsp;• <b>difuzevox.com:</b> Managed the integration of Azure Text-to-Speech, local FFMPEG, MediaInfo, and Auphonic APIs with TTML for voice generation. Oversaw three developers and one QA for multimedia rendering using Video.js, all managed via Terraform.",
-            "&nbsp;&nbsp;• <b>AI Detection Project:</b> Focused on detecting specific mouth symbols (e.g., pucker shapes), scene changes, and burnt-in text detection in video frames using a 3rd-party AI solution. Managed multi-window/browser tab communications via postMessage() and interfacing.",
-            "&nbsp;&nbsp;• <b>CI/CD:</b> Participated in a small project deployed using Kubernetes.",
-
-            "<b>Technologies:</b>",
-            "&nbsp;&nbsp;• <b>Back-end:</b> Postgres, SQL Server, Knex, Objection, Express, AWS (Step Functions, Lambda, S3, EC2, MediaConvert, Hybrik), FFMPEG, KeyOS/BuyDRM, AES-128, HLS, MPEG/DASH, Azure Text-to-Speech",
-            "&nbsp;&nbsp;• <b>Front-end:</b> Angular 14, HTML5 video players (Bitmovin, Accurate), RxJS, Angular Material",
-            "&nbsp;&nbsp;• <b>CI/CD:</b> Kubernetes, Terraform, Docker",
-            "&nbsp;&nbsp;• <b>NPM Modules:</b> axios, knex, objection, pg, qrcode, speakeasy, srt2vtt, unirest, uuid-validate, jest, mysql-json, puppeteer, ngx-device-detector, videojs-playlist, videojs-wavesurfer, ngx-virtual-scroller, angular2-text-mask, js-levenshtein, http-proxy, elementtree, chalk, bcrypt..."
-          ]
+      "company": "Difuze",
+      "location": "Montreal, Québec",
+      "status": "Tech lead, Full stack | devops",
+      "date": "2020 - ongoing",
+      "logo": "Logo_Icon_Difuse.png",
+      "quote": "Difuze is a fast-growing company born from the merger of Technicolor's Montreal-based postproduction, voice-over dubbing, and distribution.",
+      "description": [
+        "<b>Role:</b>",
+        "&nbsp;&nbsp;- Primarily similar to my previous mission at LVL Studio, with several key projects:",
+        "&nbsp;&nbsp;• <b>difuzego.com:</b> Enhanced the initial solution, migration to Angular 14, introduced MFA authenticator, Part of our data was moved from ElasticSearch to PostgreSQL with Knex-compliant model. Implemented a file publishing module integrated into a workflow system using AWS Step Functions, producing streamable proxies through compression.",
+        "&nbsp;&nbsp;• <b>On-prem workers ecosystem:</b> Expanded the solution to include an on-prem workers ecosystem based on Express/Node.js, involving child process intercommunication and SQLite.",
+        "&nbsp;&nbsp;• <b>Streaming and Encryption:</b> Contributed to MPEG/DASH encoding on AWS using Mediaconvert (later replaced by Hybrik) and encrypted by KeyOS/BuyDRM. Also contributed to HLS encoding on AWS EC2 (MacOS initially, later replaced by local FFMPEG processing), encrypted with AES-128.",
+        "&nbsp;&nbsp;• <b>difuzevox.com:</b> Managed the integration of Azure Text-to-Speech, local FFMPEG, MediaInfo, and Auphonic APIs with TTML for voice generation. Oversaw three developers and one QA for multimedia rendering using Video.js, all managed via Terraform.",
+        "&nbsp;&nbsp;• <b>AI Detection Project:</b> Focused on detecting specific mouth symbols (e.g., pucker shapes), scene changes, and burnt-in text detection in video frames using a 3rd-party AI solution. Managed multi-window/browser tab communications via postMessage() and interfacing.",
+        "&nbsp;&nbsp;• <b>CI/CD:</b> Participated in a small project deployed using Kubernetes.",
+        "<b>Technologies:</b>",
+        "&nbsp;&nbsp;• <b>Back-end:</b> Postgres, SQL Server, Knex, Objection, Express, AWS (Step Functions, Lambda, S3, EC2, MediaConvert, Hybrik), FFMPEG, KeyOS/BuyDRM, AES-128, HLS, MPEG/DASH, Azure Text-to-Speech",
+        "&nbsp;&nbsp;• <b>Front-end:</b> Angular 14, HTML5 video players (Bitmovin, Accurate), RxJS, Angular Material",
+        "&nbsp;&nbsp;• <b>CI/CD:</b> Kubernetes, Terraform, Docker",
+        "&nbsp;&nbsp;• <b>NPM Modules:</b> axios, knex, objection, pg, qrcode, speakeasy, srt2vtt, unirest, uuid-validate, jest, mysql-json, puppeteer, ngx-device-detector, videojs-playlist, videojs-wavesurfer, ngx-virtual-scroller, angular2-text-mask, js-levenshtein, http-proxy, elementtree, chalk, bcrypt..."
+      ]
     },
     {
       "company": "LVL Studio",
@@ -546,42 +563,31 @@
         "&nbsp;&nbsp;- Key contributor to Difuze’s new software stack, responsible for architectural decisions, module development, and component creation. Managed backlog via <b>Jira</b>, conducted code reviews on <b>GitLab</b>, and maintained documentation in <b>Confluence</b>.",
         "&nbsp;&nbsp;• <b>difuzego.com:</b> Enhanced the stack using modern AWS features, migration to TypeScript, and integration of advanced tools.",
         "&nbsp;&nbsp;• <b>showcase.com:</b> Worked with legacy stack based on PHP YII and C# for task scheduling and cron jobs.",
-
         "<b>Context:</b>",
         "&nbsp;&nbsp;- B2B: Difuze Inc. as a primary client, with <b>difuzego.com</b> as the main product.",
-
         "<b>Purpose:</b>",
         "&nbsp;&nbsp;- Media Asset Management System as MAM accessed via HTTPS requests using SOAP protocol. Allows content display in catalog form and enables sharing promotional screeners via email before delivery.",
-
         "<b>Tech areas:</b>",
         "&nbsp;&nbsp;• Front-end, Back-end, Task Scheduling (cron jobs), DevOps (partially).",
-
         "<b>Front-end:</b>",
         "&nbsp;&nbsp;• Framework: Angular 2 (v7.2.9), RxJS, Angular Material.",
         "&nbsp;&nbsp;• NPM Modules: ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, bowser, jsoneditor, lodash, jschardet...",
-
         "<b>Back-end:</b>",
         "&nbsp;&nbsp;• RESTful services: <b>OpenAPI</b>, TypeScript Oriented Architecture (<b>tsoa</b>).",
         "&nbsp;&nbsp;• NPM Modules: exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase, aws-sdk, etc.",
         "&nbsp;&nbsp;• Asynchronism: Promise, async/await.",
-
         "<b>Package management:</b>",
         "&nbsp;&nbsp;• Proficient in WebPack, Node.js, and yarn.",
-
         "<b>Database and Search:</b>",
         "&nbsp;&nbsp;• Managed both legacy stack (MySQL RDS) and new stack (DynamoDB, ElasticSearch).",
-
         "<b>AWS DevOps:</b>",
         "&nbsp;&nbsp;• Experience with ElasticBeanStalk, EC2, S3, Lambda, CloudWatch, IAM, ECR.",
         "&nbsp;&nbsp;• Automated infrastructure deployment with CloudFormation.",
-
         "<b>Additional Work:</b>",
         "&nbsp;&nbsp;• Maintained legacy PHP/YII stack and MySQL RDS.",
         "&nbsp;&nbsp;• Minor C# developments supervised over Mono on Ubuntu.",
-
         "<b>Architecture:</b>",
         "&nbsp;&nbsp;• Monolithic architecture, no microservices, shared data model UI & API.",
-
         "<b>CI/CD:</b>",
         "&nbsp;&nbsp;• CI/CD pipelines over <b>GitLab</b> including linter, unit tests, builder, and deployer."
       ]
@@ -594,34 +600,29 @@
       "logo": "1604698174555.jpeg",
       "quote": "AlayaCare is a start-up that delivers an end-to-end home health care software platform and hardware ecosystem",
       "description": [
-        "<b>General Context</b>: deployment of web features for companies employing nurses,"
-        ,"<b>Subject</b>: front / back-end developments of new medical functionalities (internet site),"
-        ,"<b>Responsibilities</b>: Front-end and Back-end programmer,"
-
-        ,"<b>Front-end</b>:"
-        ,"• Creation of pure VUE.js components (without JQuery) :"
-        ,"&nbsp;&nbsp;&nbsp;&nbsp;o usage of super-agent library for AJAX requests,"
-        ,"&nbsp;&nbsp;&nbsp;&nbsp;o usage of moment.js library for date formatting,"
-        ,"&nbsp;&nbsp;&nbsp;&nbsp;o usage of simple-vue-validator plugin,"
-        ,"&nbsp;&nbsp;&nbsp;&nbsp;o usage of LESS for better CSS experience,"
-        ,"• Creation of a new time-entry component tailored on jquery.timeentry plugin (out of VUE.js),"
-
-        ,"<b>Back-end</b>:"
-        ,"• Developments in PHP 5 based on YII Framework, including Carbon extension,"
-        ,"• Developments in PYTHON of micro-services accessible via REST Api, based on SqlAlchemy,"
-        ,"• Writing PHP unitary tests, PYTHON unitary tests,"
-        ,"• Update of Rest APIs documentation via APIARY,"
-        ,"<b>Mobile</b>:"
-        ,"• Intensive code review for Android,"
-
-        ,"<b>Process / Agility</b>:"
-        ,"• 3 weeks sprint: standups, sprint demos, sprints retros, grooming sessions,"
-        ,"• Backlogs, tickets managed by Jira,"
-        ,"• Documentation managed by Confluence,"
-
-        ,"<b>Virtualization:</b>"
-        ,"• each micro-service and other software \"brick\" is wrapped within a docker instance"
-
+        "<b>General Context</b>: deployment of web features for companies employing nurses,",
+        "<b>Subject</b>: front / back-end developments of new medical functionalities (internet site),",
+        "<b>Responsibilities</b>: Front-end and Back-end programmer,",
+        "<b>Front-end</b>:",
+        "• Creation of pure VUE.js components (without JQuery) :",
+        "&nbsp;&nbsp;&nbsp;&nbsp;o usage of super-agent library for AJAX requests,",
+        "&nbsp;&nbsp;&nbsp;&nbsp;o usage of moment.js library for date formatting,",
+        "&nbsp;&nbsp;&nbsp;&nbsp;o usage of simple-vue-validator plugin,",
+        "&nbsp;&nbsp;&nbsp;&nbsp;o usage of LESS for better CSS experience,",
+        "• Creation of a new time-entry component tailored on jquery.timeentry plugin (out of VUE.js),",
+        "<b>Back-end</b>:",
+        "• Developments in PHP 5 based on YII Framework, including Carbon extension,",
+        "• Developments in PYTHON of micro-services accessible via REST Api, based on SqlAlchemy,",
+        "• Writing PHP unitary tests, PYTHON unitary tests,",
+        "• Update of Rest APIs documentation via APIARY,",
+        "<b>Mobile</b>:",
+        "• Intensive code review for Android,",
+        "<b>Process / Agility</b>:",
+        "• 3 weeks sprint: standups, sprint demos, sprints retros, grooming sessions,",
+        "• Backlogs, tickets managed by Jira,",
+        "• Documentation managed by Confluence,",
+        "<b>Virtualization:</b>",
+        "• each micro-service and other software \"brick\" is wrapped within a docker instance"
       ]
     },
     {
@@ -638,7 +639,12 @@
   "projects": [
     {
       "title": "Terraform for beginners",
-      "tags": ["Terraform", "IAC", "Hashicorp", "kodekloud"],
+      "tags": [
+        "Terraform",
+        "IAC",
+        "Hashicorp",
+        "kodekloud"
+      ],
       "quote": "https://kodekloud.com/courses/terraform-for-beginners/",
       "tooltip": [
         "December 2021"
@@ -646,7 +652,11 @@
     },
     {
       "title": "The Traits of Successful Salespeople",
-      "tags": ["LinkedIn", "Training", "Sales"],
+      "tags": [
+        "LinkedIn",
+        "Training",
+        "Sales"
+      ],
       "quote": "https://www.linkedin.com/learning/certificates/b30e0647c8682dccb4f0a284cfdc73a78976f0bae5b003d0280e0a78aae7a467?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BfuOTl6L9TWC%2Fy0aUQ3O0wA%3D%3D",
       "tooltip": [
         "October 2022"
@@ -654,7 +664,9 @@
     },
     {
       "title": "Git Real",
-      "tags": ["Git"],
+      "tags": [
+        "Git"
+      ],
       "quote": "https://www.codeschool.com/courses/git-real",
       "tooltip": [
         "Completion Badge (score 16000/16000)"
@@ -662,7 +674,10 @@
     },
     {
       "title": "Assembling Sass",
-      "tags": ["Html", "Css"],
+      "tags": [
+        "Html",
+        "Css"
+      ],
       "quote": "https://www.codeschool.com/courses/assembling-sass",
       "tooltip": [
         "Score: 11500/11500"
@@ -670,7 +685,10 @@
     },
     {
       "title": "CSS Cross-Country",
-      "tags": ["Html", "Css"],
+      "tags": [
+        "Html",
+        "Css"
+      ],
       "quote": "https://www.codeschool.com/courses/css-cross-country",
       "tooltip": [
         "Score 10675/10750"
@@ -678,7 +696,9 @@
     },
     {
       "title": "JavaScript Best Practices",
-      "tags": ["Javascript"],
+      "tags": [
+        "Javascript"
+      ],
       "quote": "https://www.codeschool.com/courses/javascript-best-practices",
       "tooltip": [
         "Score 22750/22750"
@@ -686,7 +706,11 @@
     },
     {
       "title": "Journey Into Mobile",
-      "tags": ["Html", "Css", "responsive"],
+      "tags": [
+        "Html",
+        "Css",
+        "responsive"
+      ],
       "quote": "https://www.codeschool.com/courses/journey-into-mobile",
       "tooltip": [
         "Score 7240/7250"
@@ -694,7 +718,10 @@
     },
     {
       "title": "Blasting Off With Bootstrap",
-      "tags": ["Css", "responsive"],
+      "tags": [
+        "Css",
+        "responsive"
+      ],
       "quote": "https://www.codeschool.com/courses/blasting-off-with-bootstrap",
       "tooltip": [
         "Score 10420/10750"
@@ -702,7 +729,10 @@
     },
     {
       "title": "The Sequel to SQL",
-      "tags": ["Rds", "Sqlite3"],
+      "tags": [
+        "Rds",
+        "Sqlite3"
+      ],
       "quote": "http://campus.codeschool.com/courses/the-sequel-to-sql/level/5/wrap-up",
       "tooltip": [
         "Score 9300/9500"
@@ -710,7 +740,10 @@
     },
     {
       "title": "Try SQL",
-      "tags": ["Rds", "MySql"],
+      "tags": [
+        "Rds",
+        "MySql"
+      ],
       "quote": "https://www.codeschool.com/courses/try-sql",
       "tooltip": [
         "scoring 12000/12000"
@@ -718,7 +751,9 @@
     },
     {
       "title": "Breaking the Ice With Regular Expressions",
-      "tags": ["RegExp"],
+      "tags": [
+        "RegExp"
+      ],
       "quote": "https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions",
       "tooltip": [
         "Score: 9000/9000"
@@ -726,7 +761,9 @@
     },
     {
       "title": "Building Blocks of Express.js",
-      "tags": ["nodejs"],
+      "tags": [
+        "nodejs"
+      ],
       "quote": "https://www.codeschool.com/courses/building-blocks-of-express-js",
       "tooltip": [
         "Score:  7500/7500"
@@ -734,7 +771,9 @@
     },
     {
       "title": "Flying Through Python",
-      "tags": ["py"],
+      "tags": [
+        "py"
+      ],
       "quote": "https://www.codeschool.com/courses/flying-through-python",
       "tooltip": [
         "Score: 9240/9250"
@@ -742,7 +781,9 @@
     },
     {
       "title": "JavaScript Road Trip Part 3",
-      "tags": ["nodejs"],
+      "tags": [
+        "nodejs"
+      ],
       "quote": "https://www.codeschool.com/courses/javascript-road-trip-part-3",
       "tooltip": [
         "Level 3, May 2016"
@@ -750,7 +791,9 @@
     },
     {
       "title": "Real Time Web with Node.js",
-      "tags": ["nodejs"],
+      "tags": [
+        "nodejs"
+      ],
       "quote": "https://www.codeschool.com/courses/real-time-web-with-node-js",
       "tooltip": [
         "Score: 10750/10750"
@@ -758,7 +801,9 @@
     },
     {
       "title": "Staying Sharp With AngularJS",
-      "tags": ["nodejs"],
+      "tags": [
+        "nodejs"
+      ],
       "quote": "https://www.codeschool.com/courses/staying-sharp-with-angular-js",
       "tooltip": [
         "Score: 9210/9250"
@@ -766,7 +811,9 @@
     },
     {
       "title": "Try Python",
-      "tags": ["py"],
+      "tags": [
+        "py"
+      ],
       "quote": "https://www.codeschool.com/courses/try-python",
       "tooltip": [
         "Score: 5140 / 5250"
@@ -774,7 +821,9 @@
     },
     {
       "title": "Close Encounters with PHP",
-      "tags": ["Php"],
+      "tags": [
+        "Php"
+      ],
       "quote": "https://www.codeschool.com/courses/close-encounters-with-php",
       "tooltip": [
         "April 2017"
@@ -782,7 +831,9 @@
     },
     {
       "title": "Try PHP",
-      "tags": ["Php"],
+      "tags": [
+        "Php"
+      ],
       "quote": "https://www.codeschool.com/courses/try-php",
       "tooltip": [
         "Badge completed, score: 4750 / 4750"
@@ -790,7 +841,11 @@
     },
     {
       "title": "Up and Running with jQuery UI",
-      "tags": ["Html", "JS", "Css"],
+      "tags": [
+        "Html",
+        "JS",
+        "Css"
+      ],
       "quote": "https://www.lynda.com/jQuery-tutorials/Up-Running-jQuery-UI/186963-2.html?utm_source=linkedin&utm_medium=sharing&utm_campaign=certificate",
       "tooltip": [
         "December 2016"
@@ -798,7 +853,9 @@
     },
     {
       "title": "jQuery: The Return Flight",
-      "tags": ["dom, css"],
+      "tags": [
+        "dom, css"
+      ],
       "quote": "https://www.codeschool.com/courses/jquery-the-return-flight",
       "tooltip": [
         "May 2016"
@@ -806,7 +863,9 @@
     },
     {
       "title": "Try jQuery",
-      "tags": ["dom, css"],
+      "tags": [
+        "dom, css"
+      ],
       "quote": "https://www.codeschool.com/courses/try-jquery",
       "tooltip": [
         "April 2016"
@@ -814,7 +873,9 @@
     },
     {
       "title": "ES2015: The Shape of JavaScript to Come",
-      "tags": ["Javascript"],
+      "tags": [
+        "Javascript"
+      ],
       "quote": "https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come",
       "tooltip": [
         "January 2016"
@@ -822,7 +883,9 @@
     },
     {
       "title": "Try Git",
-      "tags": ["Git"],
+      "tags": [
+        "Git"
+      ],
       "quote": "https://www.codeschool.com/courses/try-git",
       "tooltip": [
         "November 2015"
@@ -830,7 +893,9 @@
     },
     {
       "title": "shaping-up-with-angular-js",
-      "tags": ["Javascript"],
+      "tags": [
+        "Javascript"
+      ],
       "quote": "https://www.codeschool.com/courses/shaping-up-with-angular-js",
       "tooltip": [
         "Scoring: 6350/6750"
@@ -838,7 +903,9 @@
     },
     {
       "title": "jQuery Mobile Essential Training",
-      "tags": ["Javascript"],
+      "tags": [
+        "Javascript"
+      ],
       "quote": "https://www.lynda.com/jQuery-Mobile-tutorials/jQuery-Mobile-Essential-Training/167067-2.html?utm_source=linkedin&utm_medium=sharing&utm_campaign=certificate",
       "tooltip": [
         "January 2017"
