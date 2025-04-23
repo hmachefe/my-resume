@@ -92,6 +92,11 @@
           "level": 70
         },
         {
+          "techno": "Electron",
+          "detail": "cross-platform desktop apps using web technologies.",
+          "level": 80
+        },
+        {
           "techno": "jQuery",
           "detail": "JavaScript DOM manipulation",
           "level": 80
@@ -143,7 +148,12 @@
         },
         {
           "techno": "Express",
-          "detail": "Node.js framework",
+          "detail": "Web framework for Node.js with middleware support",
+          "level": 80
+        },
+        {
+          "techno": "Asp.net / Entity Framework",
+          "detail": "ORM for .NET with LINQ & migrations",
           "level": 70
         },
         {

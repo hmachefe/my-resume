@@ -92,6 +92,11 @@
           "level": 70
         },
         {
+          "techno": "Electron",
+          "detail": "cross-platform desktop apps using web technologies.",
+          "level": 80
+        },
+        {
           "techno": "jQuery",
           "detail": "JavaScript DOM manipulation",
           "level": 80
@@ -143,7 +148,12 @@
         },
         {
           "techno": "Express",
-          "detail": "Node.js framework",
+          "detail": "Web framework for Node.js with middleware support",
+          "level": 80
+        },
+        {
+          "techno": "Asp.net / Entity Framework",
+          "detail": "ORM for .NET with LINQ & migrations",
           "level": 70
         },
         {
@@ -549,10 +559,30 @@
   ],
   "career": [
     {
+      "company": "Evident Scientific",
+      "location": "Montreal, Québec",
+      "status": "Full-stack dev L3",
+      "date": "2025 - ongoing",
+      "logo": "es.png",
+      "quote": "Evident Scientific leads industrial and life-science imaging with video borescopes and ViSOL™ software for efficient remote inspections.",
+      "description": [
+        "<b>Role:</b>",
+        "&nbsp;&nbsp;• Front-end technologies: HTML, SCSS, TypeScript, Angular 17+, RxJS, primeNg, Electron.",
+        "&nbsp;&nbsp;• Back-end technologies: C#, .NET 8, Entity Framework (SQL), Azure, Azure Blob Storage.",
+        "&nbsp;&nbsp;• Integrate mockups created by UX designers.",
+        "&nbsp;&nbsp;• Propose optimization solutions for UI components",
+        "&nbsp;&nbsp;• Design and develop APIs and microservices as Azure Function App",
+        "&nbsp;&nbsp;• Implement DevOps and CI/CD best practices over gitlab (mono-repo)",
+        "&nbsp;&nbsp;• Contribute to coding requirements in collaboration with other developers",
+        "&nbsp;&nbsp;• Ensure QC of integrated content and its adaptive, X-platform compliance ~ automated testing",
+        "&nbsp;&nbsp;• Provide technical support to team members by resolving complex issues, offering guidance, and sharing best practices"
+      ]
+    },
+    {
       "company": "Difuze",
       "location": "Montreal, Québec",
       "status": "Tech lead, Full stack | devops",
-      "date": "2020 - ongoing",
+      "date": "2020 - 2024",
       "logo": "Logo_Icon_Difuse.png",
       "quote": "Difuze is a fast-growing company born from the merger of Technicolor's Montreal-based postproduction, voice-over dubbing, and distribution.",
       "description": [
