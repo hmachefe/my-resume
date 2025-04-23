@@ -103,7 +103,7 @@
       \pointskillNinety{}{HTML (HTML 5), CSS (3D)}
       \pointskillEighty{}{PHP (v7 et v5)}
       \pointskillSeventy{}{Python (v2 et v3)}
-      \pointskillSixty{}{C\# (.NET, Mono)}
+      \pointskillSeventy{}{C\# (.NET, Entity Framework)}
       \pointskillFifty{}{Java (Fx, Swing, Maven)}
       \pointskillFifty{}{Matlab}
       \pointskillFortyQt{}{C++ / C   (QT 5)}
@@ -115,6 +115,7 @@
       \pointskillSeventy{}{SCSS / SASS, Bootstrap}
       \pointskillSixty{}{Backbone, VueJS}
       \pointskillForty{}{ThreeJS (3D)}
+      \pointskillSeventy{}{Electron}
       \chartlabel{Développement Back-end}\\
       \pointskillNinety{}{OpenAPI/Swagger (TSOA)}
       \pointskillSeventy{}{Express, Node.js}
@@ -132,8 +133,7 @@
     \chartlabel{Protocoles et sécurité}\\
       \pointskillEighty{}{HTTP / HTTPS / SSL}
       \pointskillSeventy{}{Let's Encrypt}
-
-
+      \pointskillSeventy{}{Auth0, Auth 2, GraphQL}
 }
 
 
@@ -198,7 +198,6 @@
 \pointskillEighty{}{Confluence / Wiki}
 \pointskillEighty{}{Scrum (grooming, review)}
 
-
 }
 
 \addtothirdsidebar{
@@ -257,8 +256,6 @@
   Plus de 20 ans d'expérience en développement web, projets en télévision numérique et médias, enrichissant les architectures logicielles avec méthodologies agiles et technologies comme AWS, Angular, Vue.js, React, PHP, Python, HTML5 et IA.
 }\\
 
-
-
 }
 %-------------------------------------------------------------------------------
 %                         TABLE ENTRIES RIGHT COLUMN
@@ -272,12 +269,33 @@
 
 \makefrontsidebar
 
-\vspace*{-3.5em} % Adjust the value as needed
+\vspace*{-3.7em} % Adjust the value as needed
 
 \cvsection{Expérience professionnelle}
 
 
 \begin{cvtableNew}
+
+
+  \cvitemRightNew
+    {Jan, 2024 – now} % Date
+    {Senior Full-stack Developer Level 3} % Job title
+    {Evident Scientific} % Company
+    {
+      \vspace{0.1pt} % Added space before "Role"
+      \fontsize{10.8pt}{12pt}\selectfont % Subtle font increase
+      \textbf{Role}: Application full-stack (cloud et desktop) d’inspections par boroscope\vspace{4pt}
+      \begin{itemize}[itemsep=-1mm, topsep=0pt, leftmargin=8pt]
+        \item Frontend: HTML, SCSS, TypeScript, Angular 17+, RxJS, primeNg, Electron\vspace{5pt}
+        \item Backend: C\#, .NET 8, Entity Framework SQL, Azure Blob Storage\vspace{5pt}
+        \item Design and develop APIs and microservices as Azure Function App\vspace{5pt}
+      \end{itemize}
+    }
+    {Montreal} % Location on the second line, aligned to the right
+
+    \vspace{1.6mm} % Add vertical space after this entry
+
+
   \cvitemRightNew
   {Janvier 2020 – aujourd’hui} % Date
   {Développeur Full Stack (DevOps) | Tech Lead} % Job title
@@ -295,7 +313,7 @@
 
     \textbf{CI/CD :} Déploiements Kubernetes sur site (on-premises).\vspace{5pt}
 
-    \textbf{Modules NPM :} axios, knex, objection, pg, qrcode, speakeasy, srt2vtt, unirest, uuid-validate, jest, mysql-json, puppeteer, ngx-device-detector, videojs-playlist, videojs-wavesurfer, ngx-virtual-scroller, http-proxy, chalk, bcrypt...
+    \textbf{Modules NPM:} axios, knex, objection, pg, qrcode, speakeasy, srt2vtt, videojs...
   }
   {Montréal} % Location
 
@@ -310,7 +328,7 @@
       {
         \vspace{0.2pt} % Add space before "Role"
         \fontsize{10.8pt}{12pt}\selectfont % Subtle font increase
-        \textbf{Rôle}: En tant que contributeur clé à la nouvelle stack logicielle de Difuze, j’ai participé aux décisions architecturales, au développement de modules et à la création de composants. J’ai géré de manière proactive le backlog via Jira, réalisé des revues de code sur GitLab et maintenu une documentation détaillée dans Confluence. Le tout dans un environnement B2B chez Difuze.\vspace{5pt}
+        \textbf{Role}: En tant que contributeur majeur à la nouvelle stack logicielle de Difuze, j’ai participé à définir l’architecture et à développer les modules principaux. J’ai également géré le backlog Jira, réalisé des revues de code sur GitLab et documenté les processus dans Confluence pour la plateforme B2B difuzego.com.\vspace{5pt}
 
         \vspace{0.1pt} % Add space before "Projects"
         \textbf{Projets:}
@@ -322,9 +340,10 @@
         \vspace{4pt} % Add space before "Purpose"
         \textbf{Objectif}: Développement basé sur un système de gestion des ressources médias (MAM), accessible via HTTPS et le protocole SOAP, permettant l’affichage du contenu en catalogue, ainsi que le partage de films en screeners ou liens promotionnels, en amont des livraisons sous forme de commandes.\vspace{5pt}
 
-        \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, ainsi que divers modules NPM tels que ngx-translate, Bitmovin, fs-symlink, HammerJS, ngx-perfect-scrollbar, FontAwesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, Bowser, JSONEditor, Lodash, jschardet, etc.\vspace{5pt}
+        \textbf{Front-end}:  Angular 2 (v7.2.9), RxJS, Angular Material, ainsi que divers modules NPM t.q. ngx-translate, xml2js, ng2-file-upload, moment, socket.io etc\vspace{5pt}
 
-        \textbf{Back-end}: Services RESTful avec OpenAPI, architecture orientée TypeScript (tsoa), et utilisation de modules NPM tels que exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase, aws-sdk, Promise, async/await...\vspace{5pt}
+        \textbf{Back-end}: Services RESTful avec OpenAPI, TypeScript Oriented Architecture (tsoa), imports NPM t.q. exceljs, fs-extra, mustache, winston, user-
+        agent etc\vspace{5pt}
 
         \textbf{Gestion des paquets}: Bonne maîtrise de WebPack, Node.js, nvm et yarn.\vspace{5pt}
 

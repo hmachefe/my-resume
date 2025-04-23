@@ -492,6 +492,26 @@
       ]
     },
     {
+      "title": "Protocol and security",
+      "skills": [
+        {
+          "techno": "HTTP / HTTPS / SSL",
+          "detail": "Secure communication, certificate management",
+          "level": 80
+        },
+        {
+          "techno": "Let's Encrypt",
+          "detail": "Automating issuance and renewal of SSL/TLS certificates",
+          "level": 70
+        },
+        {
+          "techno": "Auth0, OAuth2, GraphQL",
+          "detail": "authentication/authorization flows",
+          "level": 80
+        }
+      ]
+    },
+    {
       "title": "Instant Messaging",
       "skills": [
         {

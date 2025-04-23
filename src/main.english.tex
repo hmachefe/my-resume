@@ -103,18 +103,18 @@
       \pointskillNinety{}{HTML (HTML 5), CSS (3D)}
       \pointskillEighty{}{PHP (v7 et v5)}
       \pointskillSeventy{}{Python (v2 et v3)}
-      \pointskillSixty{}{C\# (.NET, Mono)}
+      \pointskillSeventy{}{C\# (.NET, Entity Framework)}
       \pointskillFifty{}{Java (Fx, Swing, Maven)}
       \pointskillFifty{}{Matlab}
       \pointskillFortyQt{}{C++ / C   (QT 5)}
     \chartlabel{Front-end (web)}\\
-      \pointskillNinety{}{Angular (9/10/14)}
+      \pointskillNinety{}{Angular (9/10/14/17.1)}
       \pointskillSeventy{}{React, jQuery}
       \pointskillSeventy{}{RxJS / Observables}
       \pointskillSeventy{}{SCSS / SASS, Bootstrap}
       \pointskillSixty{}{Backbone, VueJS}
       \pointskillForty{}{ThreeJS (3D)}
-      \pointskillThirty{}{LaTeX (Typesetting)}
+      \pointskillSeventy{}{Electron}
     \chartlabel{Back-end}\\
       \pointskillNinety{}{OpenAPI/Swagger (TSOA)}
       \pointskillSeventy{}{Express, Node.js}
@@ -127,12 +127,12 @@
       \pointskillNinety{}{DynamoDB / (MongoDB)}
       \pointskillEighty{}{ElasticSearch}
       \pointskillSeventy{}{PostGres, Sqlite, MySql}
-      \pointskillSeventy{}{MySQLWorkbench, DBeaver}
+      \pointskillSeventy{}{MySQL Workbench, DBeaver}
       \pointskillForty{}{Microsoft SQL Server}
     \chartlabel{Protocol and security}\\
       \pointskillEighty{}{HTTP / HTTPS / SSL }
       \pointskillSeventy{}{let's encrypt}
-
+      \pointskillSeventy{}{Auth0, Auth 2, GraphQL}
 }
 
 
@@ -167,7 +167,7 @@
 \pointskillSeventy{}{Video.js (open source)}
 
 \chartlabel{Multimedia}\\
-\pointskillNinety{}{ffmpeg, mediainfo, fprobe}
+\pointskillNinety{}{ffmpeg, mediainfo, ffprobe}
 \pointskillNinety{}{AWS MediaConvert}
 \pointskillSeventy{}{Hybrik (Dolby)}
 
@@ -272,12 +272,33 @@
 
 \makefrontsidebar
 
-\vspace*{-3.5em} % Adjust the value as needed
+\vspace*{-3.7em} % Adjust the value as needed
 
 \cvsection{Working Experience}
 
 
 \begin{cvtableNew}
+
+
+  \cvitemRightNew
+    {Jan, 2024 – now} % Date
+    {Senior Full-stack Developer Level 3} % Job title
+    {Evident Scientific} % Company
+    {
+      \vspace{0.1pt} % Added space before "Role"
+      \fontsize{10.8pt}{12pt}\selectfont % Subtle font increase
+      \textbf{Role}: Full-stack borescope's inspection image app (cloud \& desktop)\vspace{4pt}
+      \begin{itemize}[itemsep=-1mm, topsep=0pt, leftmargin=8pt]
+        \item Frontend: HTML, SCSS, TypeScript, Angular 17+, RxJS, primeNg, Electron\vspace{5pt}
+        \item Backend: C\#, .NET 8, Entity Framework SQL, Azure Blob Storage\vspace{5pt}
+        \item Design and develop APIs and microservices as Azure Function App\vspace{5pt}
+      \end{itemize}
+    }
+    {Montreal} % Location on the second line, aligned to the right
+
+    \vspace{1.6mm} % Add vertical space after this entry
+
+
   \cvitemRightNew
       {Jan, 2020 – now} % Date
       {Full stack developer (and devops) | Tech lead} % Job title
@@ -295,11 +316,13 @@
 
         \textbf{CI/CD:} Contributed to Kubernetes-based deployments for on-prems projects.\vspace{5pt}
 
-        \textbf{NPM Modules:} axios, knex, objection, pg, qrcode, speakeasy, srt2vtt, unirest, uuid-validate, jest, mysql-json, puppeteer, ngx-device-detector, videojs-playlist, videojs-wavesurfer, ngx-virtual-scroller, http-proxy, chalk, bcrypt...
+        \textbf{NPM Modules:} axios, knex, objection, pg, qrcode, speakeasy, srt2vtt, videojs...
       }
       {Montreal} % Location on the second line, aligned to the right
 
       \vspace{1.6mm} % Add vertical space after this entry
+
+
 
   \cvitemRightNew
     {Sep, 2017 – Jan, 2020} % Date
@@ -308,8 +331,7 @@
       {
         \vspace{0.2pt} % Add space before "Role"
         \fontsize{10.8pt}{12pt}\selectfont % Subtle font increase
-        \textbf{Role}: As a key contributor to Difuze’s new software stack, I took part in architectural decisions,
-        module development, component creation. Proactively managed the backlog using Jira, conducted code reviews via GitLab, maintained detailed documentation in Confluence. In a B2B environment with Difuze Inc. as primary client, focused on elaborating difuzego.com as main product.\vspace{5pt}
+        \textbf{Role}: As a key contributor to Difuze’s new software stack, I  helped shape the architecture and develop core modules for Difuze’s new stack. I also managed the Jira backlog, reviewed code via GitLab, and documented processes in Confluence for the B2B platform difuzego.com.\vspace{5pt}
 
         \vspace{0.1pt} % Add space before "Projects"
         \textbf{Projects:}
@@ -321,9 +343,10 @@
         \vspace{4pt} % Add space before "Purpose"
         \textbf{Purpose}: Development based on a Media Asset Management system accessed through HTTPS requests using SOAP protocol, enabling content display in catalog form, with the ability to share films as screeners, as promotional links in email, preceding deliveries as orders.\vspace{5pt}
 
-        \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, also including various NPM modules like ngx-translate, bitmovin, fs-symlink, hammerjs, ngx-perfect-scrollbar, fortawesome, xml2js, subtitle-converter, socket.io-client, react-image-file-resizer, ng2-file-upload, moment-timezone, i18n-iso-countries, d3, bowser, jsoneditor, lodash, jschardet, etc\vspace{5pt}
+        \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, also including various NPM modules like ngx-translate, xml2js, ng2-file-upload, moment, socket.io etc\vspace{5pt}
 
-        \textbf{Back-end}: RESTful services with OpenAPI, TypeScript Oriented Architecture (tsoa), and NPM imports like exceljs, fs-extra, mustache, socket.io, winston-console-formatter, winston-cloudwatch, uuid-validate, useragent, restify-cors-middleware, restify-errors, reflect-metadata, mime-types, jsonwebtoken, form-data, camelcase, aws-sdk, Promise, async/await...\vspace{5pt}
+        \textbf{Back-end}: RESTful services with OpenAPI, TypeScript Oriented Architecture (tsoa), NPM imports like exceljs, fs-extra, mustache, winston, user-
+        agent etc\vspace{5pt}
 
         \textbf{Package Management}: Proficient with WebPack, Node.js, nvm, and yarn.\vspace{5pt}
 
@@ -331,7 +354,7 @@
 
         \textbf{AWS DevOps}: Experience with ElasticBeanStalk, EC2, S3, Lambda layers, CloudWatch, IAM, ECR, SES, SNS, VPC. Infra deployed with Cloudformation.\vspace{5pt}
 
-        \textbf{Additional Work}: Maintained legacy PHP/YII stack and MySQL RDS; minor C\# developments supervised over Mono on Ubuntu\.vspace{5pt}
+        \textbf{Additional Work}: Maintained legacy PHP/YII stack and MySQL RDS; minor C\# developments supervised over Mono on Ubuntu.\vspace{5pt}
 
         \textbf{Architecture}: Monolithic, no microservice. Data model shared between UI \& API. Common gitlab repository for front-end and back-end.\vspace{5pt}
 
