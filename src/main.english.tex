@@ -72,7 +72,7 @@
 % your name
 \cvname{\LARGE Hugo MACHEFER}
 % job title/career
-\cvjobtitle{Full Stack Developer  \\   | Devops | Tech Lead }
+\cvjobtitle{Full Stack | Streaming   \\      Devops | Tech Lead }
 
 % phone number
 \cvphone{001 514 659 0718}
@@ -103,6 +103,20 @@
 
   \vspace{-2.2mm}
 
+    \chartlabel{Streaming, DRM encryption}\\
+      \pointskillEighty{}{MPEG/DASH, Widevine}
+      \pointskillEighty{}{HLS, AES-128}
+
+      \chartlabel{HTML5 players}\\
+      \pointskillNinety{}{Bitmovin}
+      \pointskillNinety{}{Accurate Player (Codemill)}
+      \pointskillSeventy{}{Video.js (open source)}
+
+      \chartlabel{Multimedia}\\
+      \pointskillNinety{}{ffmpeg, mediainfo, ffprobe}
+      \pointskillNinety{}{AWS MediaConvert}
+      \pointskillSeventy{}{Hybrik (Dolby)}
+
     \chartlabel{Programmatic languages}\\
       \pointskillNinety{}{TypeScript, JavaScript}
       \pointskillNinety{}{HTML (HTML 5), CSS (3D)}
@@ -128,16 +142,7 @@
       \pointskillSixty{}{Yii (PHP framework)}
       \pointskillSixty{}{Knex (Postgres, SQLite)}
       \pointskillForty{}{Django (Python framework)}
-    \chartlabel{Database}\\
-      \pointskillNinety{}{DynamoDB / (MongoDB)}
-      \pointskillEighty{}{ElasticSearch}
-      \pointskillSeventy{}{PostGres, Sqlite, MySql}
-      \pointskillSeventy{}{MySQL Workbench, DBeaver}
-      \pointskillForty{}{Microsoft SQL Server}
-    \chartlabel{Protocol and security}\\
-      \pointskillEighty{}{HTTP / HTTPS / SSL}
-      \pointskillEighty{}{REST, GraphQL}
-      \pointskillSixty{}{Auth0, Auth 2, JWT}
+
 }
 
 
@@ -146,6 +151,18 @@
 %-------------------------------------------------------------------------------
 \addtobacksidebar{
 \vspace*{-3mm}  % Adjusts the vertical space, move content up by 10mm
+
+\chartlabel{Database}\\
+\pointskillNinety{}{DynamoDB / (MongoDB)}
+\pointskillEighty{}{ElasticSearch}
+\pointskillSeventy{}{PostGres, Sqlite, MySql}
+\pointskillSeventy{}{MySQL Workbench, DBeaver}
+\pointskillForty{}{Microsoft SQL Server}
+\chartlabel{Protocol and security}\\
+\pointskillEighty{}{HTTP / HTTPS / SSL}
+\pointskillEighty{}{REST, GraphQL}
+\pointskillSixty{}{Auth0, Auth 2, JWT}
+
 \chartlabel{AWS Cloud}\\
 \pointskillNinety{}{EC2, S3, CloudWatch}
 \pointskillNinety{}{Lambdas (layer)}
@@ -165,16 +182,6 @@
 \pointskillEighty{}{Terraform (IaC Multi-Cloud)}
 \pointskillSixty{}{Kubernetes (Orchestration)}
 \pointskillFifty{}{CloudFormation (IaC AWS)}
-
-\chartlabel{HTML5 players}\\
-\pointskillNinety{}{Bitmovin}
-\pointskillNinety{}{Accurate Player (Codemill)}
-\pointskillSeventy{}{Video.js (open source)}
-
-\chartlabel{Multimedia}\\
-\pointskillNinety{}{ffmpeg, mediainfo, ffprobe}
-\pointskillNinety{}{AWS MediaConvert}
-\pointskillSeventy{}{Hybrik (Dolby)}
 
 \chartlabel{Mobile Development}\\
 \pointskillSixty{}{Java Android (Dalvik)}
@@ -213,10 +220,6 @@
   \chartlabel{Scripting}\\
   \pointskillEighty{}{Bash, shell (Linux, Mac)}
   \pointskillSeventy{}{CMD prompt, Powershell}
-
-  \chartlabel{Streaming, DRM encryption}\\
-  \pointskillEighty{}{MPEG/DASH, Widevine}
-  \pointskillEighty{}{HLS, AES-128}
 
   \chartlabel{Instant messaging}\\
   \pointskillEighty{}{Teams, Slack}
@@ -296,7 +299,7 @@
       \begin{itemize}[itemsep=-1mm, topsep=0pt, leftmargin=8pt]
         \item Frontend: HTML, SCSS, TypeScript, Angular 17+, RxJS, primeNg, Electron\vspace{5pt}
         \item Backend: C\#, .NET 8, JWT, Entity Framework SQL, Azure Blob Storage\vspace{5pt}
-        \item Design and develop APIs and microservices as Azure Function App\vspace{5pt}
+        \item Design + develop APIs and microservices as Azure Function App, FFMPEG\vspace{5pt}
       \end{itemize}
     }
     {Montreal} % Location on the second line, aligned to the right
@@ -306,7 +309,7 @@
 
   \cvitemRightNew
       {Jan, 2020 – Nov, 2024} % Date
-      {Full stack developer (and devops) | Tech lead} % Job title
+      {Full stack coder, devops | Streaming | Tech Lead} % Job title
       {difuze inc} % Company
       {
         \vspace{0.1pt} % Added space before "Role"
@@ -314,14 +317,14 @@
         \textbf{Role}: Similar to the mission at LVL Studio. Key projects include:\vspace{5pt}
 
         \begin{itemize}[itemsep=-1mm, topsep=0pt, leftmargin=8pt]
-          \item \textbf{difuzego.com:} Angular 14 upgrade, MFA authentication implementation, assisted in migrating ElasticSearch data to PostgreSQL (Knex-compliant models). Built a file upload module using AWS Step Functions for compressed proxies. Enhanced workflows with on-prem Node.js workers (Express) and SQLite. Worked on MPEG/DASH encoding (AWS Mediaconvert, later Hybrik), HLS (AWS EC2 MacOS, later FFMPEG), and AES-128 encryption. Techs: CanvasJS, bandit, Bitmovin, VideoJs, Accurate Player, compression, encryption.\vspace{5pt}
+          \item \textbf{difuzego.com:} MPEG-DASH encoding (AWS MediaConvert→Hybrik), HLS packaging (EC2 macOS→FFmpeg) with AES-128 encryption; integrated Bitmovin, Video.js \& Accurate Player with CanvasJS/Bandit analytics; orchestrated compressed-proxy generation via AWS Step Functions; enhanced on-prem Node.js/Express + SQLite workflows; upgraded to Angular 14 with MFA auth; migrated Elasticsearch → PostgreSQL (Knex-compliant models).\vspace{5pt}
           \item \textbf{difuzevox.com:} Integrated Azure Text-to-Speech and Auphonic API (mixing), local processing with ffmpeg, mediaInfo. Used ttml to generate voices, Video.js for multimedia. Managed Terraform infra. Led a team of 3 devs + 1 QA.\vspace{5pt}
           \item \textbf{AI Detection Project:} Developed solutions for detecting mouth shapes ("pucker"), scene changes, and burnt-in text using 3rd-party AI tools. Managed multi-window/browser communication (postMessage API).\vspace{5pt}
         \end{itemize}
 
         \textbf{CI/CD:} Contributed to Kubernetes-based deployments for on-prems projects.\vspace{5pt}
 
-        \textbf{NPM Modules:} axios, knex, objection, pg, qrcode, speakeasy, srt2vtt, videojs...
+        \textbf{NPM Modules:} videojs, bitmovin, codemill accurate player, srt2vtt, axios...
       }
       {Montreal} % Location on the second line, aligned to the right
 
@@ -331,7 +334,7 @@
 
   \cvitemRightNew
     {Sep, 2017 – Jan, 2020} % Date
-    {Full-Stack coder, Media Asset Management} % Job title
+    {Full-Stack developer, Media Asset Management} % Job title
     {LVL Studio} % Company (without location here)
       {
         \vspace{0.2pt} % Add space before "Role"
