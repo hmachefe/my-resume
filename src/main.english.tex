@@ -132,8 +132,7 @@
       \pointskillEighty{}{RxJS / Observables}
       \pointskillEighty{}{Angular Material / PrimeNG}
       \pointskillSeventy{}{SCSS / SASS, Bootstrap}
-      \pointskillSixty{}{Backbone, VueJS}
-      \pointskillForty{}{ThreeJS (3D)}
+      \pointskillSixty{}{Backbone, VueJS, ThreeJS}
       \pointskillSeventy{}{Electron}
     \chartlabel{Back-end}\\
       \pointskillNinety{}{OpenAPI/Swagger (TSOA)}
@@ -317,8 +316,15 @@
         \textbf{Role}: Similar to the mission at LVL Studio. Key projects include:\vspace{5pt}
 
         \begin{itemize}[itemsep=-1mm, topsep=0pt, leftmargin=8pt]
-          \item \textbf{difuzego.com:} MPEG-DASH encoding (AWS MediaConvert→Hybrik), HLS packaging (EC2 macOS→FFmpeg) with AES-128 encryption; integrated Bitmovin, Video.js \& Accurate Player with CanvasJS/Bandit analytics; orchestrated compressed-proxy generation via AWS Step Functions; enhanced on-prem Node.js/Express + SQLite workflows; upgraded to Angular 14 with MFA auth; migrated Elasticsearch → PostgreSQL (Knex-compliant models).\vspace{5pt}
-          \item \textbf{difuzevox.com:} Integrated Azure Text-to-Speech and Auphonic API (mixing), local processing with ffmpeg, mediaInfo. Used ttml to generate voices, Video.js for multimedia. Managed Terraform infra. Led a team of 3 devs + 1 QA.\vspace{5pt}
+          \item \textbf{difuzego.com:} MPEG-DASH encoding with AWS MediaConvert then Hybrik, HLS packaging on EC2 macOS then FFmpeg,
+          w/ AES-128 encryption; integrated Bitmovin, Video.js \& Accurate Player w/ CanvasJS. Bandit analytics;
+          orchestrated compressed-proxy generation via AWS Step Functions as workflows; workers on-prem Node.js/Express + SQLite;
+          upgraded to Angular 14 + MFA auth; migrated Elasticsearch → PostgreSQL (Knex-compliant models).\vspace{5pt}
+          \item \textbf{difuzevox.com:} Integrated Azure Text-to-Speech API and the Auphonic one for audio mixing,
+          built local processing workflows using FFmpeg + MediaInfo.
+          Used TTML to generate voice files, Video.js for multimedia playback.
+          Managed infrastructure provisioning w/ Terraform,
+          led a team of 3 devs + 1 QA engineer.\vspace{5pt}
           \item \textbf{AI Detection Project:} Developed solutions for detecting mouth shapes ("pucker"), scene changes, and burnt-in text using 3rd-party AI tools. Managed multi-window/browser communication (postMessage API).\vspace{5pt}
         \end{itemize}
 
@@ -349,7 +355,10 @@
         \end{itemize}
 
         \vspace{4pt} % Add space before "Purpose"
-        \textbf{Purpose}: Development based on a Media Asset Management system accessed through HTTPS requests using SOAP protocol, enabling content display in catalog form, with the ability to share films as screeners, as promotional links in email, preceding deliveries as orders.\vspace{5pt}
+        \textbf{Purpose}: Development based on a Media Asset Management system accessed through HTTPS requests using SOAP protocol,
+        enabling film's content display in catalog form,
+        to be shared as promotional links aka screeners by email,
+        embedding HTML5 players with boiler plates, preceding deliveries as orders.\vspace{5pt}
 
         \textbf{Front-end}: Angular 2 (v7.2.9), RxJS, Angular Material, also including various NPM modules like ngx-translate, xml2js, ng2-file-upload, moment, socket.io etc\vspace{5pt}
 
@@ -416,13 +425,13 @@
       \vspace{4pt}
       \textbf{Front-End:} Developed HTML/CSS/JS UIs using ES2015 (Babel, Grunt), bundled with Webpack and rendered via Qt/WebKit on Linux; 10 h of React.\par
       \vspace{4pt}
-      \textbf{Server-Side:} Supported by a Python UWSGI server hosting the WebApp and managing routing through DBUS for system interactions.\par
+      \textbf{Server-Side:} Supported by a Python UWSGI server hosting the WebApp's back-end and managing routing through DBUS for system interactions.\par
       \vspace{4pt}
-      \textbf{Libraries and Frameworks:} Transitioned from BACKBONE to ANGULAR for enhanced MVC architecture; used LODASH for advanced data manipulation, EASELJS for interactive canvas operations, and EJS for templating.\par
+      \textbf{Libraries and Frameworks:} Transitioned from BACKBONE to ANGULAR; used LODASH for advanced data manipulation, EASELJS for interactive canvas operations, EJS for templating, and HTML5 (or proprietorship) multimedia player.\par
       \vspace{4pt}
-      \textbf{Agile and Testing:} Conducted unit tests with Mocha, Spy, and Sinon and API testing with Postman; managed agile sprints, tracked tasks in Jira, and documented outcomes in Confluence.\par
+      \textbf{Agile and Testing:} Conducted unit tests along with TDD with Mocha, Spy, and Sinon and API testing with Postman; managed agile sprints, tracked tasks in Jira, and documented outcomes in Confluence.\par
       \vspace{4pt}
-      \textbf{Deployment:} Successfully deployed to 400,000 TNT receivers and subsequently expanded to over 2 million SAT subscribers globally.\par
+      \textbf{Deployment:} Successfully deployed to digital receivers: 400,000 TNT, and subsequently expanded to over 2 million SAT subscribers globally.\par
       \vspace{4pt}
       \textbf{Nightwatch Project:} Led a Selenium-based task for UI navigation testing and REST API simulation, implemented on AWS EC2 with Docker.\par
       \vspace{4pt} % Ensures there is space after the last section before any text that might follow or end of the section.
